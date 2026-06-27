@@ -1,0 +1,394 @@
+# Priority Intelligence Requirements (PIRs)
+# Political Monitoring Workstream - HOI Agent
+# Classification: TLP:AMBER
+# Last Updated: 2026-06-13
+
+pirs:
+  PIR-1:
+    id: "PIR-1"
+    title: "PKR Johor Stability"
+    focus_area: "Party Stability"
+    priority: "critical"
+    status: "active"
+    
+    key_questions:
+      - "Is PKR Johor facing an organized defection movement?"
+      - "What is the sentiment among grassroots members?"
+      - "Are branch chiefs resigning in coordination?"
+      - "What is the timeline for potential cascade?"
+    
+    entities_tracked:
+      - "PKR Johor"
+      - "Johor branch chiefs"
+      - "PKR Johor state leadership"
+      - "Grassroots members"
+    
+    keywords:
+      - "PKR Johor"
+      - "defection"
+      - "branch chief resign"
+      - "grassroots revolt"
+      - "party crisis"
+      - "leadership dispute"
+    
+    narrative_cluster: "NAR-01"
+    sentiment_threshold: -0.5  # Alert if sentiment drops below
+    velocity_threshold: 100    # Alert if velocity exceeds 100%
+    
+    collection_sources:
+      - "Bernama"
+      - "Malaysiakini"
+      - "NST"
+      - "FMT"
+      - "Daily Express"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-2:
+    id: "PIR-2"
+    title: "BERSAMA Movement"
+    focus_area: "New Party Formation"
+    priority: "critical"
+    status: "active"
+    
+    key_questions:
+      - "What is BERSAMA's actual membership count?"
+      - "What is the recruitment trajectory?"
+      - "Which politicians are joining?"
+      - "What is the electoral strategy?"
+    
+    entities_tracked:
+      - "BERSAMA"
+      - "Parti Bersama"
+      - "BERSAMA leadership"
+      - "BERSAMA members"
+    
+    keywords:
+      - "BERSAMA"
+      - "Parti Bersama"
+      - "third force"
+      - "alternative coalition"
+      - "new party"
+      - "membership"
+    
+    narrative_cluster: "NAR-02"
+    sentiment_threshold: 0.3  # Alert if sentiment exceeds (positive momentum)
+    velocity_threshold: 150    # Alert if velocity exceeds 150%
+    
+    collection_sources:
+      - "Bernama"
+      - "NST"
+      - "FMT"
+      - "Malaysiakini"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-3:
+    id: "PIR-3"
+    title: "Rafizi Faction"
+    focus_area: "Internal Party Dynamics"
+    priority: "high"
+    status: "active"
+    
+    key_questions:
+      - "Is Rafizi challenging PKR leadership?"
+      - "What is INVOKE's role in party reform?"
+      - "Who supports Rafizi's faction?"
+      - "What is the reform agenda?"
+    
+    entities_tracked:
+      - "Rafizi Ramli"
+      - "INVOKE"
+      - "PKR reformists"
+    
+    keywords:
+      - "Rafizi"
+      - "INVOKE"
+      - "party reform"
+      - "leadership challenge"
+      - "PKR faction"
+    
+    narrative_cluster: "NAR-03"
+    sentiment_threshold: -0.3
+    velocity_threshold: 80
+    
+    collection_sources:
+      - "Malaysiakini"
+      - "FMT"
+      - "The Star"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-4:
+    id: "PIR-4"
+    title: "BN Johor Position"
+    focus_area: "Opposition Strategy"
+    priority: "high"
+    status: "active"
+    
+    key_questions:
+      - "How is BN Johor responding to BERSAMA?"
+      - "What is UMNO's Johor strategy?"
+      - "Is BN coordinating with BERSAMA?"
+      - "What is the seat negotiation status?"
+    
+    entities_tracked:
+      - "BN Johor"
+      - "UMNO Johor"
+      - "Johor MB"
+    
+    keywords:
+      - "BN Johor"
+      - "UMNO strategy"
+      - "opposition unity"
+      - "Johor polls"
+    
+    narrative_cluster: "NAR-04"
+    sentiment_threshold: 0.2
+    velocity_threshold: 60
+    
+    collection_sources:
+      - "NST"
+      - "Bernama"
+      - "Daily Express"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-5:
+    id: "PIR-5"
+    title: "Youth Voter Sentiment"
+    focus_area: "Demographic Analysis"
+    priority: "high"
+    status: "active"
+    
+    key_questions:
+      - "What are undi18 priorities?"
+      - "How does cost of living affect youth voting?"
+      - "Which parties appeal to youth?"
+      - "What is youth voter registration rate?"
+    
+    entities_tracked:
+      - "Youth voters"
+      - "Undi18"
+      - "First-time voters"
+      - "PKR Youth"
+    
+    keywords:
+      - "youth voter"
+      - "undi18"
+      - "cost of living"
+      - "first-time voter"
+      - "youth employment"
+    
+    narrative_cluster: "NAR-05"
+    sentiment_threshold: -0.6  # Highly negative = policy urgency
+    velocity_threshold: 200    # Emerging narrative
+    
+    collection_sources:
+      - "FMT"
+      - "Malaysiakini"
+      - "Twitter (fallback)"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-6:
+    id: "PIR-6"
+    title: "PKR Unity"
+    focus_area: "Party Reconciliation"
+    priority: "medium"
+    status: "active"
+    
+    key_questions:
+      - "Is PKR damage control effective?"
+      - "What reconciliation measures are announced?"
+      - "Are defections stopping?"
+      - "What is leadership response?"
+    
+    entities_tracked:
+      - "PKR leadership"
+      - "PKR unity"
+      - "Party reconciliation"
+    
+    keywords:
+      - "PKR unity"
+      - "damage control"
+      - "party reconciliation"
+      - "leadership response"
+    
+    narrative_cluster: "NAR-06"
+    sentiment_threshold: -0.2  # Alert if improvement stalls
+    velocity_threshold: 50
+    
+    collection_sources:
+      - "Bernama"
+      - "The Star"
+      - "NST"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-7:
+    id: "PIR-7"
+    title: "Onn Hafiz Strategy"
+    focus_area: "Individual Political Ambition"
+    priority: "medium"
+    status: "active"
+    
+    key_questions:
+      - "Is Onn Hafiz pursuing solo bid?"
+      - "What is the 56-seat strategy?"
+      - "What is BERSAMA support level?"
+      - "What is Menteri Besar ambition?"
+    
+    entities_tracked:
+      - "Onn Hafiz Ghazali"
+      - "BERSAMA Johor"
+    
+    keywords:
+      - "Onn Hafiz"
+      - "56 seats"
+      - "solo bid"
+      - "Menteri Besar"
+    
+    narrative_cluster: "NAR-07"
+    sentiment_threshold: 0.3
+    velocity_threshold: 70
+    
+    collection_sources:
+      - "NST"
+      - "Daily Express"
+      - "Bernama"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-8:
+    id: "PIR-8"
+    title: "BERSAMA Growth"
+    focus_area: "Party Expansion"
+    priority: "high"
+    status: "active"
+    
+    key_questions:
+      - "What are membership numbers?"
+      - "Who are key recruits?"
+      - "What is geographic distribution?"
+      - "What is candidate pipeline?"
+    
+    entities_tracked:
+      - "BERSAMA membership"
+      - "BERSAMA recruitment"
+    
+    keywords:
+      - "BERSAMA membership"
+      - "candidate recruitment"
+      - "party expansion"
+      - "new members"
+    
+    narrative_cluster: "NAR-08"
+    sentiment_threshold: 0.4
+    velocity_threshold: 100
+    
+    collection_sources:
+      - "Bernama"
+      - "NST"
+      - "FMT"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-9:
+    id: "PIR-9"
+    title: "PH Pact"
+    focus_area: "Coalition Stability"
+    priority: "medium"
+    status: "active"
+    
+    key_questions:
+      - "What is seat negotiation progress?"
+      - "Is PH pact stable?"
+      - "Are there internal disagreements?"
+      - "What is coalition strategy?"
+    
+    entities_tracked:
+      - "Pakatan Harapan"
+      - "PH leadership"
+      - "Coalition partners"
+    
+    keywords:
+      - "PH pact"
+      - "seat negotiation"
+      - "coalition talks"
+      - "PH unity"
+    
+    narrative_cluster: "NAR-09"
+    sentiment_threshold: 0.0
+    velocity_threshold: 40
+    
+    collection_sources:
+      - "Malaysiakini"
+      - "FMT"
+      - "The Star"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+  PIR-10:
+    id: "PIR-10"
+    title: "Sabah Cascade"
+    focus_area: "Regional Spillover"
+    priority: "medium"
+    status: "active"
+    
+    key_questions:
+      - "Is Sabah PKR facing defections?"
+      - "What is GRB expansion?"
+      - "Is Johor crisis spreading to Sabah?"
+      - "What is state government stability?"
+    
+    entities_tracked:
+      - "Sabah PKR"
+      - "GRB Sabah"
+      - "Sabah state assembly"
+    
+    keywords:
+      - "Sabah PKR"
+      - "GRB"
+      - "defection cascade"
+      - "Borneo politics"
+    
+    narrative_cluster: "NAR-10"
+    sentiment_threshold: -0.4
+    velocity_threshold: 150
+    
+    collection_sources:
+      - "Daily Express"
+      - "Borneo Post"
+      - "Bernama"
+    
+    last_assessment: null
+    next_review: "2026-06-14"
+
+# PIR Matching Configuration
+matching:
+  algorithm: "keyword_and_entity_cooccurrence"
+  confidence_threshold: 0.6
+  min_mentions_for_alert: 3
+  time_window_hours: 24
+  
+# Alert Configuration
+alerts:
+  enabled: true
+  channels:
+    - "workspace_logs"
+    - "daily_brief"
+  severity_levels:
+    critical: "velocity > 200% OR sentiment < -0.7"
+    high: "velocity > 150% OR sentiment < -0.5"
+    medium: "velocity > 100% OR sentiment < -0.3"
+    low: "velocity > 50% OR sentiment < -0.1"

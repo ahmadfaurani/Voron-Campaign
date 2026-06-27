@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Sensitive/Secrets (HOI Agent)
+*.key
+*.pem
+secrets/
+credentials/
+config/secrets.*
+
+# Large data files
+*.csv
+*.json
+!package.json
+*.parquet
+*.db
+*.sqlite
+
+# Cache
+.cache/
+hermes_cache/
+.hermes/cache/
+
+# Playwright
+playwright/.cache/
+
+# Node modules (if any)
+node_modules/
+
+# Documents (sensitive intel)
+intelligence/raw/
+intelligence/entities/
+intelligence/media-registry/
+intelligence/pdrm-io-*.csv
+intelligence/pdrm-io-*.json
+intelligence/prn-johor-2026/*.json
+intelligence/briefs/*.json
+
+# Excel/Office files (source documents)
+*.xlsx
+*.xls
+*.docx
+*.doc
+
+# Private keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# TLP:AMBER restricted files (add specific sensitive reports)
+# intelligence/pdrm-contacts-directory.md
+# intelligence/media-registry/

@@ -1,0 +1,386 @@
+# Malaysian Political Sentiment Lexicon
+# Political Monitoring Workstream - HOI Agent
+# Classification: TLP:AMBER
+# Last Updated: 2026-06-13
+
+# Positive Keywords (score +1 to +3)
+positive:
+  very_positive:  # +3
+    - "acclaim"
+    - "triumph"
+    - "landslide"
+    - "unanimous"
+    - "historic"
+    - "groundbreaking"
+    - "overwhelming support"
+    - "record-breaking"
+  
+  positive:  # +2
+    - "praise"
+    - "support"
+    - "endorse"
+    - "welcome"
+    - "approve"
+    - "applaud"
+    - "commend"
+    - "lauded"
+    - "backed"
+    - "favoured"
+  
+  slightly_positive:  # +1
+    - "hopeful"
+    - "optimistic"
+    - "progress"
+    - "improve"
+    - "success"
+    - "promising"
+    - "encouraging"
+    - "positive"
+    - "beneficial"
+    - "constructive"
+
+# Negative Keywords (score -1 to -3)
+negative:
+  very_negative:  # -3
+    - "scandal"
+    - "corrupt"
+    - "outrage"
+    - "condemn"
+    - "crisis"
+    - "collapse"
+    - "betrayal"
+    - "disaster"
+    - "catastrophic"
+    - "shameful"
+  
+  negative:  # -2
+    - "criticize"
+    - "failure"
+    - "resign"
+    - "defeat"
+    - "controversy"
+    - "allegation"
+    - "accusation"
+    - "protest"
+    - "backlash"
+    - "turmoil"
+  
+  slightly_negative:  # -1
+    - "question"
+    - "concern"
+    - "doubt"
+    - "challenge"
+    - "dispute"
+    - "skepticism"
+    - "worry"
+    - "apprehension"
+    - "criticism"
+    - "disagreement"
+
+# Negation Markers (invert sentiment)
+negations:
+  - "not"
+  - "no"
+  - "never"
+  - "neither"
+  - "nobody"
+  - "nothing"
+  - "nowhere"
+  - "none"
+  - "cannot"
+  - "won't"
+  - "don't"
+  - "doesn't"
+  - "didn't"
+  - "isn't"
+  - "aren't"
+  - "wasn't"
+  - "weren't"
+  - "hasn't"
+  - "haven't"
+  - "hadn't"
+  - "lack"
+  - "lacking"
+  - "without"
+  - "fails"
+  - "failed"
+  - "failing"
+
+# Intensifiers (multiply sentiment)
+intensifiers:
+  very: 1.5
+  extremely: 2.0
+  highly: 1.8
+  deeply: 1.7
+  strongly: 1.6
+  severely: 1.9
+  dramatically: 1.8
+  significantly: 1.5
+  substantially: 1.5
+  remarkably: 1.6
+  exceptionally: 1.9
+  overwhelmingly: 2.0
+  completely: 1.8
+  totally: 1.8
+  utterly: 1.9
+  absolutely: 1.8
+  quite: 1.3
+  rather: 1.3
+  fairly: 1.2
+  somewhat: 0.7
+  slightly: 0.5
+  marginally: 0.5
+  minimally: 0.4
+
+# Malaysian Political Context Rules
+context_rules:
+  # Party-specific framing
+  party_framing:
+    PKR:
+      positive_context:
+        - "unity"
+        - "reform"
+        - "leadership"
+      negative_context:
+        - "defection"
+        - "crisis"
+        - "faction"
+    
+    UMNO:
+      positive_context:
+        - "stability"
+        - "tradition"
+        - "strength"
+      negative_context:
+        - "internal conflict"
+        - "leadership challenge"
+        - "split"
+    
+    BERSAMA:
+      positive_context:
+        - "momentum"
+        - "growth"
+        - "alternative"
+      negative_context:
+        - "threat"
+        - "uncertainty"
+        - "unproven"
+    
+    DAP:
+      positive_context:
+        - "multicultural"
+        - "progressive"
+        - "reform"
+      negative_context:
+        - "divisive"
+        - "extremist"
+        - "controversial"
+  
+  # Event-specific sentiment adjustments
+  event_adjustments:
+    defection:
+      originating_party: -0.5  # Negative for party losing member
+      receiving_party: +0.3    # Positive for party gaining member
+    resignation:
+      default: -0.4  # Generally negative
+    endorsement:
+      default: +0.3  # Generally positive
+    election_wins:
+      winner: +0.5  # Positive for winner
+      loser: -0.3   # Negative for loser
+    scandal:
+      default: -0.6  # Strongly negative
+    policy_announcement:
+      default: 0.0  # Neutral, depends on reception
+    coalition_formation:
+      default: +0.2  # Slightly positive (stability)
+    coalition_collapse:
+      default: -0.5  # Negative (instability)
+  
+  # Demographic context
+  demographic_context:
+    youth_voters:
+      cost_of_living: -0.5  # Economic anxiety
+      employment: -0.4
+      education: +0.2
+    
+    rural_voters:
+      subsidies: +0.3  # Positive when maintained
+      development: +0.2
+      neglect: -0.4
+    
+    urban_voters:
+      infrastructure: +0.2
+      congestion: -0.3
+      housing: -0.4
+
+# Emotion Detection Patterns
+emotion_patterns:
+  anger:
+    - "outraged"
+    - "furious"
+    - "angry"
+    - "enraged"
+    - "incensed"
+    - "livid"
+    - "irate"
+    - "protest"
+    - "demonstration"
+    - "condemn"
+  
+  fear:
+    - "worried"
+    - "concerned"
+    - "alarmed"
+    - "anxious"
+    - "apprehensive"
+    - "threat"
+    - "risk"
+    - "danger"
+    - "crisis"
+    - "uncertainty"
+  
+  trust:
+    - "confident"
+    - "trust"
+    - "believe"
+    - "faith"
+    - "reliable"
+    - "dependable"
+    - "credible"
+    - "authentic"
+    - "honest"
+    - "integrity"
+  
+  joy:
+    - "celebrated"
+    - "jubilation"
+    - "elated"
+    - "thrilled"
+    - "delighted"
+    - "ecstatic"
+    - "triumph"
+    - "victory"
+    - "success"
+    - "achievement"
+  
+  sadness:
+    - "disappointed"
+    - "disheartened"
+    - "discouraged"
+    - "dismayed"
+    - "grief"
+    - "sorrow"
+    - "tragic"
+    - "loss"
+    - "regret"
+    - "mourning"
+  
+  disgust:
+    - "disgusted"
+    - "repulsed"
+    - "appalled"
+    - "horrified"
+    - "sickened"
+    - "revolted"
+    - "shameful"
+    - "despicable"
+    - "contempt"
+    - "scandal"
+  
+  surprise:
+    - "shocked"
+    - "stunned"
+    - "astonished"
+    - "amazed"
+    - "astounded"
+    - "unexpected"
+    - "surprising"
+    - "unprecedented"
+    - "sudden"
+    - "abrupt"
+  
+  anticipation:
+    - "eager"
+    - "expectant"
+    - "awaiting"
+    - "looking forward"
+    - "upcoming"
+    - "forthcoming"
+    - "imminent"
+    - "pending"
+    - "soon"
+    - "anticipated"
+
+# Framing Detection Patterns
+framing_patterns:
+  conflict:
+    - "dispute"
+    - "clash"
+    - "confrontation"
+    - "battle"
+    - "fight"
+    - "war"
+    - "struggle"
+    - "rivalry"
+    - "tension"
+    - "hostility"
+  
+  human_interest:
+    - "personal story"
+    - "family"
+    - "struggle"
+    - "journey"
+    - "experience"
+    - "life"
+    - "community"
+    - "impact on people"
+    - "voices"
+    - "perspective"
+  
+  economic_consequences:
+    - "economic impact"
+    - "cost"
+    - "budget"
+    - "spending"
+    - "investment"
+    - "growth"
+    - "recession"
+    - "inflation"
+    - "employment"
+    - "wages"
+  
+  morality:
+    - "ethical"
+    - "moral"
+    - "right"
+    - "wrong"
+    - "justice"
+    - "fairness"
+    - "integrity"
+    - "corruption"
+    - "values"
+    - "principles"
+  
+  responsibility:
+    - "accountability"
+    - "responsible"
+    - "blame"
+    - "fault"
+    - "answerable"
+    - "liable"
+    - "duty"
+    - "obligation"
+    - "commitment"
+    - "promise"
+
+# Calibration Data
+# Used to adjust LLM scores against human annotations
+calibration:
+  last_calibration_date: "2026-06-13"
+  sample_size: 0  # To be populated after first manual review
+  correlation_coefficient: null  # Target: r > 0.75
+  bias_correction: 0.0  # Apply if systematic bias detected
+  
+  # Manual annotation samples (to be filled)
+  samples: []

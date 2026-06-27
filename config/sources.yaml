@@ -1,0 +1,381 @@
+# News Source Configuration
+# Political Monitoring Workstream - HOI Agent
+# Classification: TLP:AMBER
+# Last Updated: 2026-06-13 (Expanded to include full media clusters)
+
+sources:
+  # ============================================
+  # TIER 1 - NATIONAL COVERAGE (High Priority)
+  # ============================================
+  
+  # Public Broadcaster / Wire Service
+  bernama:
+    name: "Bernama"
+    url: "https://www.bernama.com/en/"
+    priority: "high"
+    type: "national_agency"
+    political_lean: "pro-government"
+    coverage: ["national", "politics", "economy"]
+    scrape_method: "homepage"
+    update_frequency: "continuous"
+    language: "en"
+    status: "operational"
+    last_tested: "2026-06-13"
+    notes: "Malaysian National News Agency - official wire service"
+
+  # Commercial TV Groups
+  media_prima:
+    name: "Media Prima (TV3, NTV7, 8TV, TV9)"
+    url: "https://www.tv3.com.my/"
+    priority: "high"
+    type: "commercial_tv"
+    political_lean: "pro-government"
+    coverage: ["national", "politics", "entertainment"]
+    scrape_method: "homepage"
+    update_frequency: "continuous"
+    language: "ms"
+    status: "pending_test"
+    notes: "Largest commercial TV network - TV3 flagship"
+
+  astro_awani:
+    name: "Astro AWANI"
+    url: "https://www.astroawani.com/"
+    priority: "high"
+    type: "commercial_tv"
+    political_lean: "centrist"
+    coverage: ["national", "politics", "breaking_news"]
+    scrape_method: "homepage"
+    update_frequency: "continuous"
+    language: "ms"
+    status: "pending_test"
+    notes: "24-hour news channel - major reach"
+
+  # Print + Digital Publishers
+  the_star:
+    name: "The Star"
+    url: "https://www.thestar.com.my/"
+    priority: "high"
+    type: "mainstream_news"
+    political_lean: "centrist"
+    coverage: ["national", "politics", "business", "regional"]
+    scrape_method: "homepage"  # /news/politics returns 404
+    update_frequency: "daily"
+    language: "en"
+    status: "operational"
+    last_tested: "2026-06-13"
+    notes: "Politics section 404, using homepage fallback"
+
+  nst:
+    name: "New Straits Times"
+    url: "https://www.nst.com.my/"
+    priority: "high"
+    type: "mainstream_news"
+    political_lean: "pro-government"
+    coverage: ["national", "politics", "business"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "en"
+    status: "operational"
+    last_tested: "2026-06-13"
+    notes: "Established mainstream daily"
+
+  berita_harian:
+    name: "Berita Harian"
+    url: "https://www.bharian.com.my/"
+    priority: "high"
+    type: "mainstream_news"
+    political_lean: "pro-government"
+    coverage: ["national", "politics", "society"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "ms"
+    status: "pending_test"
+    notes: "Leading Malay daily - NSTP group"
+
+  sinar_harian:
+    name: "Sinar Harian"
+    url: "https://www.sinarharian.com.my/"
+    priority: "high"
+    type: "mainstream_news"
+    political_lean: "centrist"
+    coverage: ["national", "politics", "regional"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "ms"
+    status: "pending_test"
+    notes: "High circulation Malay daily"
+
+  # Digital-Native News Portals
+  malaysiakini:
+    name: "Malaysiakini"
+    url: "https://www.malaysiakini.com/"
+    priority: "high"
+    type: "independent_news"
+    political_lean: "critical-opposition"
+    coverage: ["politics", "investigations", "opinion"]
+    scrape_method: "homepage"
+    update_frequency: "continuous"
+    language: "en"
+    status: "operational"
+    last_tested: "2026-06-13"
+    notes: "Independent news - critical of government"
+
+  fmt:
+    name: "Free Malaysia Today"
+    url: "https://www.freemalaysiatoday.com/"
+    priority: "high"
+    type: "independent_news"
+    political_lean: "critical-opposition"
+    coverage: ["politics", "social_issues", "opinion"]
+    scrape_method: "homepage"  # /category/politics/ returns 404
+    update_frequency: "continuous"
+    language: "en"
+    status: "operational"
+    last_tested: "2026-06-13"
+    notes: "Independent - politics section 404, using homepage"
+
+  the_vibes:
+    name: "The Vibes"
+    url: "https://www.thevibes.com/"
+    priority: "medium"
+    type: "digital_native"
+    political_lean: "centrist"
+    coverage: ["politics", "business", "lifestyle"]
+    scrape_method: "homepage"
+    update_frequency: "continuous"
+    language: "en"
+    status: "pending_test"
+    notes: "Digital-first news portal"
+
+  malaysia_now:
+    name: "MalaysiaNow"
+    url: "https://www.malaysianow.com/"
+    priority: "medium"
+    type: "digital_native"
+    political_lean: "critical"
+    coverage: ["politics", "investigations", "opinion"]
+    scrape_method: "homepage"
+    update_frequency: "continuous"
+    language: "en"
+    status: "pending_test"
+    notes: "Independent digital news"
+
+  malay_mail:
+    name: "Malay Mail"
+    url: "https://www.malaymail.com/"
+    priority: "medium"
+    type: "digital_native"
+    political_lean: "centrist"
+    coverage: ["politics", "society", "lifestyle"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "en"
+    status: "pending_test"
+    notes: "Digital news portal"
+
+  the_edge:
+    name: "The Edge Markets"
+    url: "https://www.theedgemarkets.com/"
+    priority: "high"
+    type: "business_news"
+    political_lean: "centrist"
+    coverage: ["business", "politics", "economy"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "en"
+    status: "pending_test"
+    notes: "Business-focused with political coverage"
+
+  # ============================================
+  # TIER 2 - REGIONAL FOCUS (Borneo Priority)
+  # ============================================
+  
+  daily_express:
+    name: "Daily Express"
+    url: "https://www.dailyexpress.com.my/"
+    priority: "high"
+    type: "regional_news"
+    region: "sabah"
+    political_lean: "regional_focus"
+    coverage: ["sabah", "politics", "regional"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "en"
+    status: "operational"
+    last_tested: "2026-06-13"
+    notes: "Sabah-focused daily"
+
+  borneo_post:
+    name: "The Borneo Post"
+    url: "https://www.theborneopost.com/"
+    priority: "high"
+    type: "regional_news"
+    region: "sarawak_sabah"
+    political_lean: "regional_focus"
+    coverage: ["sarawak", "sabah", "politics", "regional"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "en"
+    status: "pending_test"
+    notes: "Sarawak/Sabah regional coverage"
+
+  tv_sarawak:
+    name: "TV Sarawak"
+    url: "https://www.tvsarawak.com/"
+    priority: "medium"
+    type: "regional_broadcast"
+    region: "sarawak"
+    political_lean: "state_government"
+    coverage: ["sarawak", "politics", "culture"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "ms"
+    status: "pending_test"
+    notes: "Sarawak state media"
+
+  new_sabah_times:
+    name: "New Sabah Times"
+    url: "https://newsabah.com/"
+    priority: "medium"
+    type: "regional_news"
+    region: "sabah"
+    political_lean: "regional_focus"
+    coverage: ["sabah", "politics", "society"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "en"
+    status: "pending_test"
+    notes: "Sabah regional daily"
+
+  # ============================================
+  # TIER 3 - CHINESE-LANGUAGE MEDIA
+  # ============================================
+  
+  sin_chew:
+    name: "Sin Chew Daily"
+    url: "https://www.sinchew.com.my/"
+    priority: "medium"
+    type: "ethnic_media"
+    language_group: "chinese"
+    political_lean: "centrist"
+    coverage: ["national", "politics", "community"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "zh"
+    status: "pending_test"
+    notes: "Largest Chinese daily - critical for Chinese voter sentiment"
+
+  china_press:
+    name: "China Press"
+    url: "https://www.chinapress.com.my/"
+    priority: "medium"
+    type: "ethnic_media"
+    language_group: "chinese"
+    political_lean: "centrist"
+    coverage: ["national", "politics", "community"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "zh"
+    status: "pending_test"
+    notes: "Major Chinese daily"
+
+  nanyang:
+    name: "Nanyang Siang Pau"
+    url: "https://www.nanyang.com.my/"
+    priority: "medium"
+    type: "ethnic_media"
+    language_group: "chinese"
+    political_lean: "centrist"
+    coverage: ["national", "politics", "business"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "zh"
+    status: "pending_test"
+    notes: "Business-focused Chinese daily"
+
+  # ============================================
+  # TIER 4 - TAMIL-LANGUAGE MEDIA
+  # ============================================
+  
+  tamil_nesan:
+    name: "Tamil Nesan"
+    url: "https://www.tamilnesan.com/"
+    priority: "low"
+    type: "ethnic_media"
+    language_group: "tamil"
+    political_lean: "centrist"
+    coverage: ["national", "indian_community", "politics"]
+    scrape_method: "homepage"
+    update_frequency: "daily"
+    language: "ta"
+    status: "pending_test"
+    notes: "Leading Tamil daily - Indian voter sentiment"
+
+  # ============================================
+  # TIER 5 - BUSINESS / SECTOR MEDIA
+  # ============================================
+  
+  focus_malaysia:
+    name: "Focus Malaysia"
+    url: "https://www.focusmalaysia.my/"
+    priority: "low"
+    type: "business_news"
+    political_lean: "centrist"
+    coverage: ["business", "economy", "policy"]
+    scrape_method: "homepage"
+    update_frequency: "weekly"
+    language: "en"
+    status: "pending_test"
+    notes: "Business weekly"
+
+# Collection Settings
+collection:
+  timeout_seconds: 30
+  retry_attempts: 3
+  retry_delay_seconds: 5
+  content_filter: "main_content_only"
+  exclude_patterns:
+    - "advertisement"
+    - "sidebar"
+    - "related_stories"
+    - "comments"
+  include_patterns:
+    - "headline"
+    - "article_body"
+    - "timestamp"
+    - "author"
+  language_priority:
+    - "en"   # Primary
+    - "ms"   # Secondary (majority language)
+    - "zh"   # Chinese community
+    - "ta"   # Tamil community
+
+# Firecrawl Configuration
+firecrawl:
+  api_url: "http://localhost:3002/v2"
+  timeout_ms: 30000
+  formats:
+    - "markdown"
+  only_main_content: true
+  proxy_used: "basic"
+  multilingual_support: true
+
+# Source Health Monitoring
+health_check:
+  enabled: true
+  frequency: "every_6_hours"
+  alert_threshold: "2_consecutive_failures"
+  notification_channel: "workspace_logs"
+
+# Media Cluster Summary
+# =====================
+# Public Broadcaster: Bernama (operational)
+# Commercial TV: Media Prima, Astro AWANI (pending)
+# Print + Digital: The Star, NST, BH, Sinar Harian (mixed)
+# Digital-Native: Malaysiakini, FMT, The Vibes, MalaysiaNow, Malay Mail, The Edge (mixed)
+# Regional: Daily Express, Borneo Post, TV Sarawak, New Sabah Times (mixed)
+# Chinese Media: Sin Chew, China Press, Nanyang (pending)
+# Tamil Media: Tamil Nesan (pending)
+# Business: The Edge, Focus Malaysia (pending)
+#
+# Total Sources: 24 (5 operational, 19 pending test)
