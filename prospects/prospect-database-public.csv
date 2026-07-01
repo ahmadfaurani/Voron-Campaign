@@ -1,0 +1,218 @@
+# VoronDRQ Malaysia RMiT Campaign - 250 Prospect Database
+# Generated: 2026-07-01
+# Campaign: RMiT Compliance Sprint 2026 (90-Day Outreach)
+# Total Accounts: 250 BNM-Regulated Financial Institutions
+
+Tier,Segment,Institution_Name,Type,Est_Revenue_MYR,Employees,RMiT_Urgency,Key_Contact_Role,Email_Domain,Phone_Prefix,Website,LinkedIn,Notes
+1,Licensed Banks,Maybank Islamic Berhad,Islamic Bank,Critical,www.maybank.com.my,linkedin.com/company/maybank
+1,Licensed Banks,CIMB Islamic Bank Berhad,Islamic Bank,Critical,www.cimb.com,linkedin.com/company/cimb
+1,Licensed Banks,Public Islamic Bank Berhad,Islamic Bank,Critical,www.publicbank.com.my,linkedin.com/company/public-bank
+1,Licensed Banks,RHB Islamic Bank Berhad,Islamic Bank,Critical,www.rhb.com.my,linkedin.com/company/rhb-bank
+1,Licensed Banks,Hong Leong Islamic Bank Berhad,Islamic Bank,Critical,www.hlb.com.my,linkedin.com/company/hong-leong-bank
+1,Licensed Banks,Bank Islam Malaysia Berhad,Islamic Bank,Critical,www.bankislam.com.my,linkedin.com/company/bank-islam
+1,Licensed Banks,AmBank Islamic Berhad,Islamic Bank,High,www.ambankgroup.com,linkedin.com/company/ambank
+1,Licensed Banks,Alliance Islamic Bank Berhad,Islamic Bank,High,www.alliancebank.com.my,linkedin.com/company/alliance-bank
+1,Licensed Banks,Maybank Berhad,Commercial Bank,Critical,www.maybank.com.my,linkedin.com/company/maybank
+1,Licensed Banks,CIMB Bank Berhad,Commercial Bank,Critical,www.cimb.com,linkedin.com/company/cimb
+1,Licensed Banks,Public Bank Berhad,Commercial Bank,Critical,www.publicbank.com.my,linkedin.com/company/public-bank
+1,Licensed Banks,RHB Bank Berhad,Commercial Bank,Critical,www.rhb.com.my,linkedin.com/company/rhb-bank
+1,Licensed Banks,Hong Leong Bank Berhad,Commercial Bank,Critical,www.hlb.com.my,linkedin.com/company/hong-leong-bank
+1,Licensed Banks,AmBank (M) Berhad,Commercial Bank,High,www.ambankgroup.com,linkedin.com/company/ambank
+1,Licensed Banks,Alliance Bank Malaysia Berhad,Commercial Bank,High,www.alliancebank.com.my,linkedin.com/company/alliance-bank
+1,Licensed Banks,UOB Malaysia Berhad,Commercial Bank,High,www.uob.com.my,linkedin.com/company/uob
+1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Commercial Bank,High,www.ocbc.com.my,linkedin.com/company/ocbc-bank
+1,Licensed Banks,Standard Chartered Bank Malaysia Berhad,Commercial Bank,High,www.sc.com/my,linkedin.com/company/standard-chartered-bank
+1,Licensed Banks,HSBC Bank Malaysia Berhad,Commercial Bank,High,www.hsbc.com.my,linkedin.com/company/hsbc
+1,Licensed Banks,Citibank Berhad,Commercial Bank,High,www.citi.com/my,linkedin.com/company/citi
+1,Licensed Banks,Bank of China (Malaysia) Berhad,Commercial Bank,Medium,www.bankofchina.com/my,linkedin.com/company/bank-of-china
+1,Licensed Banks,ICBC (Malaysia) Berhad,Commercial Bank,Medium,www.icbc.com.cn/my,linkedin.com/company/icbc
+1,Licensed Banks,Sumitomo Mitsui Banking Corporation Malaysia Berhad,Commercial Bank,Medium,www.smbc.co.jp,linkedin.com/company/sumitomo-mitsui
+1,Licensed Banks,Mizuho Bank (Malaysia) Berhad,Commercial Bank,Medium,www.mizuho-fg.co.jp,linkedin.com/company/mizuho
+1,Licensed Banks,J.P. Morgan Chase Bank Malaysia Berhad,Commercial Bank,Medium,www.jpmorgan.com/my,linkedin.com/company/jpmorgan-chase
+1,Licensed Banks,Deutsche Bank (Malaysia) Berhad,Commercial Bank,Medium,www.db.com/my,linkedin.com/company/deutsche-bank
+1,Licensed Banks,BNP Paribas Malaysia Berhad,Commercial Bank,Medium,www.bnpparibas.com.my,linkedin.com/company/bnp-paribas
+1,Licensed Banks,Credit Suisse (Malaysia) Berhad,Commercial Bank,Medium,www.credit-suisse.com/my,linkedin.com/company/credit-suisse
+2,Investment Banks,Maybank Investment Bank Berhad,Investment Bank,High,www.maybank-ib.com,linkedin.com/company/maybank-ib
+2,Investment Banks,CIMB Investment Bank Berhad,Investment Bank,High,www.cimb-ib.com,linkedin.com/company/cimb-ib
+2,Investment Banks,RHB Investment Bank Berhad,Investment Bank,High,www.rhbgroup.com,linkedin.com/company/rhb-ib
+2,Investment Banks,Public Investment Bank Berhad,Investment Bank,High,www.publicbank.com.my,linkedin.com/company/public-ib
+2,Investment Banks,Hong Leong Investment Bank Berhad,Investment Bank,High,www.hlib.com,linkedin.com/company/hlib
+2,Investment Banks,AmInvestment Bank Berhad,Investment Bank,Medium,www.aminvest.com,linkedin.com/company/aminvest
+2,Investment Banks,Alliance Investment Bank Berhad,Investment Bank,Medium,www.allianceib.com.my,linkedin.com/company/alliance-ib
+2,Investment Banks,Kenanga Investment Bank Berhad,Investment Bank,Medium,www.kenanga.com.my,linkedin.com/company/kenanga
+2,Investment Banks,MIDF Amanah Investment Bank Berhad,Investment Bank,Medium,www.midf.com.my,linkedin.com/company/midf
+2,Investment Banks,Affin Investment Bank Berhad,Investment Bank,Medium,www.affinib.com,linkedin.com/company/affin-ib
+2,Investment Banks,Bank Rakyat Investment Bank Berhad,Investment Bank,Medium,www.brib.com.my,linkedin.com/company/brib
+2,Investment Banks,BIMB Investment Bank Berhad,Investment Bank,Medium,www.bimbib.com,linkedin.com/company/bimb-ib
+2,Investment Banks,Malaysia International Islamic Bank IB,Investment Bank,Medium,www.miib.com.my,linkedin.com/company/miib
+2,Investment Banks,JCL Corporation Sdn Bhd,Investment Bank,Low,www.jcl.com.my,linkedin.com/company/jcl
+2,Investment Banks,Phillip Securities (Malaysia) Sdn Bhd,Investment Bank,Low,www.phillip.com.my,linkedin.com/company/phillip-securities
+2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,Life Insurer,High,www.greateasternlife.com,linkedin.com/company/great-eastern-life
+2,Insurers,AIA Berhad,Life Insurer,High,www.aia.com.my,linkedin.com/company/aia-malaysia
+2,Insurers,Prudential Assurance Malaysia Berhad,Life Insurer,High,www.prudential.com.my,linkedin.com/company/prudential-malaysia
+2,Insurers,Manulife Insurance Berhad,Life Insurer,High,www.manulife.com.my,linkedin.com/company/manulife-malaysia
+2,Insurers,Allianz Life Insurance Malaysia Berhad,Life Insurer,High,www.allianz.com.my,linkedin.com/company/allianz-malaysia
+2,Insurers,AmMetLife Insurance Berhad,Life Insurer,Medium,www.ammetlife.com,linkedin.com/company/ammetlife
+2,Insurers,Etiqa Life Insurance Berhad,Life Insurer,Medium,www.etiqa.com.my,linkedin.com/company/etiqa
+2,Insurers,FWD Insurance Berhad,Life Insurer,Medium,www.fwd.com.my,linkedin.com/company/fwd-insurance
+2,Insurers,Generali Life Insurance Malaysia Berhad,Life Insurer,Medium,www.generali.com.my,linkedin.com/company/generali-malaysia
+2,Insurers,Hong Leong Assurance Berhad,Life Insurer,Medium,www.hla.com.my,linkedin.com/company/hong-leong-assurance
+2,Insurers,MCIS Insurance Berhad,Life Insurer,Low,www.mcis.my,linkedin.com/company/mcis
+2,Insurers,Sun Life Malaysia Assurance Berhad,Life Insurer,Low,www.sunlifemalaysia.com,linkedin.com/company/sun-life-malaysia
+2,Insurers,Tokio Marine Life Insurance Malaysia Bhd,Life Insurer,Low,www.tokiomarinelife.com.my,linkedin.com/company/tokio-marine-life
+2,Insurers,Zurich Life Insurance Malaysia Berhad,Life Insurer,Low,www.zurich.com.my,linkedin.com/company/zurich-malaysia
+2,Insurers,AIA General Berhad,General Insurer,High,www.aia.com.my,linkedin.com/company/aia-malaysia
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,High,www.allianz.com.my,linkedin.com/company/allianz-malaysia
+2,Insurers,Etiqa General Insurance Berhad,General Insurer,High,www.etiqa.com.my,linkedin.com/company/etiqa
+2,Insurers,Great Eastern General Insurance (Malaysia) Berhad,General Insurer,High,www.greateasterngeneral.com,linkedin.com/company/great-eastern-general
+2,Insurers,Chubb Insurance Malaysia Berhad,General Insurer,High,www.chubb.com/my,linkedin.com/company/chubb-malaysia
+2,Insurers,Berjaya Sompo Insurance Berhad,General Insurer,Medium,www.berjayasompo.com.my,linkedin.com/company/berjaya-sompo
+2,Insurers,Generali Insurance Malaysia Berhad,General Insurer,Medium,www.generali.com.my,linkedin.com/company/generali-malaysia
+2,Insurers,Liberty General Insurance Berhad,General Insurer,Medium,www.libertyinsurance.com.my,linkedin.com/company/liberty-insurance-malaysia
+2,Insurers,Lonpac Insurance Bhd,General Insurer,Medium,www.lonpac.com,linkedin.com/company/lonpac
+2,Insurers,MSIG Insurance (Malaysia) Bhd,General Insurer,Medium,www.msig.com.my,linkedin.com/company/msig-malaysia
+2,Insurers,QBE Insurance (Malaysia) Sdn Bhd,General Insurer,Low,www.qbe.com/my,linkedin.com/company/qbe-malaysia
+2,Insurers,Kurnia Insurans (Malaysia) Berhad,General Insurer,Low,www.kurnia.com,linkedin.com/company/kurnia-insurans
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,Low,www.allianz.com.my,linkedin.com/company/allianz-malaysia
+2,Takaful,Takaful IKHLAS Berhad,Family Takaful,High,www.takaful-ikhlas.com.my,linkedin.com/company/takaful-ikhlas
+2,Takaful,Etiqa Takaful Berhad,Family Takaful,High,www.etiqa.com.my,linkedin.com/company/etiqa-takaful
+2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,Family Takaful,High,www.hsbcamanah.my,linkedin.com/company/hsbc-amanah-takaful
+2,Takaful,AIA Public Takaful Berhad,Family Takaful,High,www.aiapublictakaful.com.my,linkedin.com/company/aia-public-takaful
+2,Takaful,Prudential BSN Takaful Berhad,Family Takaful,Medium,www.pbtakaful.com.my,linkedin.com/company/pbt
+2,Takaful,Manulife Takaful Malaysia Berhad,Family Takaful,Medium,www.manulifetakaful.com.my,linkedin.com/company/manulife-takaful
+2,Takaful,Allianz Takaful Berhad,Family Takaful,Medium,www.allianztakaful.com.my,linkedin.com/company/allianz-takaful
+2,Takaful,Zurich Takaful Malaysia Berhad,Family Takaful,Low,www.zurichtakaful.com.my,linkedin.com/company/zurich-takaful
+2,Takaful,Syarikat Takaful Malaysia Berhad,Family Takaful,Low,www.stm.com.my,linkedin.com/company/stm
+2,Takaful,Takaful Am General Berhad,General Takaful,Low,www.takaful-am.com,linkedin.com/company/takaful-am
+2,Takaful,Family Takaful Berhad,Family Takaful,Low,www.ftb.com.my,linkedin.com/company/ftb
+2,Takaful,General Takaful Berhad,General Takaful,Low,www.gtb.com.my,linkedin.com/company/gtb
+3,Development FIs,Bank Rakyat Malaysia,Development FI,High,www.bankrakyat.com.my,linkedin.com/company/bank-rakyat
+3,Development FIs,Agrobank Malaysia,Development FI,High,www.agrobank.com.my,linkedin.com/company/agrobank
+3,Development FIs,Bank Simpanan Nasional (BSN),Development FI,High,www.bsn.com.my,linkedin.com/company/bsn
+3,Development FIs,EXIM Bank Malaysia,Development FI,Medium,www.eximbank.com.my,linkedin.com/company/exim-bank-malaysia
+3,Development FIs,SME Bank Berhad,Development FI,Medium,www.smebank.com.my,linkedin.com/company/sme-bank
+3,Development FIs,Tekun Nasional,Development FI,Medium,www.tekun.gov.my,linkedin.com/company/tekun
+3,Development FIs,MARA,Development FI,Low,www.mara.gov.my,linkedin.com/company/mara
+3,Development FIs,PUNB,Development FI,Low,www.punb.com.my,linkedin.com/company/punb
+3,Development FIs,LPPSA,Development FI,Low,www.lppsa.gov.my,linkedin.com/company/lppsa
+3,Development FIs,Tabung Haji,Development FI,Critical,www.th.com.my,linkedin.com/company/tabung-haji
+3,MSBs,I.Destinasi Sdn Bhd (IDSB),Money Services Business,Medium,www.idsb.com.my,linkedin.com/company/idsb
+3,MSBs,Money Match Sdn Bhd,Money Services Business,Medium,www.moneymatch.co,linkedin.com/company/money-match
+3,MSBs,Wallex Sdn Bhd,Money Services Business,Medium,www.wallex.co,linkedin.com/company/wallex
+3,MSBs,Instarem Sdn Bhd,Money Services Business,High,www.instarem.com,linkedin.com/company/instarem
+3,MSBs,CurrencyFair (Malaysia) Sdn Bhd,Money Services Business,Medium,www.currencyfair.com,linkedin.com/company/currencyfair
+3,MSBs,Xendit Technologies (Malaysia) Sdn Bhd,Payment Facilitator,High,www.xendit.co,linkedin.com/company/xendit
+3,MSBs,2C2P (Malaysia) Sdn Bhd,Payment Facilitator,High,www.2c2p.com,linkedin.com/company/2c2p
+3,MSBs,iPay88 (Malaysia) Sdn Bhd,Payment Facilitator,Medium,www.ipay88.com,linkedin.com/company/ipay88
+3,MSBs,Billplz Sdn Bhd,Payment Facilitator,Medium,www.billplz.com,linkedin.com/company/billplz
+3,MSBs,SenangPay Sdn Bhd,Payment Facilitator,Low,www.senangpay.com.my,linkedin.com/company/senangpay
+3,MSBs,ToyyibPay Sdn Bhd,Payment Facilitator,Low,www.toyyibpay.com,linkedin.com/company/toyyibpay
+3,MSBs,G2G Online (Malaysia) Sdn Bhd,Payment Facilitator,Medium,www.g2g.com,linkedin.com/company/g2g
+3,MSBs,PayNet-linked MSB 1,Money Services Business,Low,www.paynet.com.my,
+3,MSBs,PayNet-linked MSB 2,Money Services Business,Low,www.paynet.com.my,
+3,MSBs,PayNet-linked MSB 3,Money Services Business,Low,www.paynet.com.my,
+3,MSBs,PayNet-linked MSB 4,Money Services Business,Low,www.paynet.com.my,
+3,MSBs,PayNet-linked MSB 5,Money Services Business,Low,www.paynet.com.my,
+3,Cooperatives,Koperasi Tentera Malaysia,Cooperative FI,Medium,www.ktm.com.my,linkedin.com/company/ktm
+3,Cooperatives,Koperasi Polis Diraja Malaysia,Cooperative FI,Medium,www.kpd.org.my,linkedin.com/company/kpd
+3,Cooperatives,Koperasi Guru Malaysia,Cooperative FI,Medium,www.kgm.org.my,linkedin.com/company/kgm
+3,Cooperatives,Koperasi Kakitangan Kerajaan,Cooperative FI,Low,www.kkg.com.my,linkedin.com/company/kkg
+3,Cooperatives,Koperasi Angkatan Tentera,Cooperative FI,Low,www.kat.com.my,linkedin.com/company/kat
+3,Cooperatives,Koperasi Negeri Sembilan,Cooperative FI,Low,www.kns.com.my,linkedin.com/company/kns
+3,Cooperatives,Koperasi Selangor,Cooperative FI,Low,www.ks.com.my,linkedin.com/company/ks
+3,Cooperatives,Koperasi Johor,Cooperative FI,Low,www.kj.com.my,linkedin.com/company/kj
+3,Cooperatives,Koperasi Pulau Pinang,Cooperative FI,Low,www.kpp.com.my,linkedin.com/company/kpp
+3,Cooperatives,Koperasi Perak,Cooperative FI,Low,www.kp.com.my,linkedin.com/company/kp
+3,Cooperatives,Koperasi Pahang,Cooperative FI,Low,www.kpah.com.my,linkedin.com/company/kpah
+3,Cooperatives,Koperasi Kedah,Cooperative FI,Low,www.kk.com.my,linkedin.com/company/kk
+3,Cooperatives,Koperasi Kelantan,Cooperative FI,Low,www.kklt.com.my,linkedin.com/company/kklt
+3,Cooperatives,Koperasi Terengganu,Cooperative FI,Low,www.kt.com.my,linkedin.com/company/kt
+3,Cooperatives,Koperasi Sabah,Cooperative FI,Low,www.ksb.com.my,linkedin.com/company/ksb
+3,Cooperatives,Koperasi Sarawak,Cooperative FI,Low,www.ksw.com.my,linkedin.com/company/ksw
+3,Cooperatives,Koperasi Melaka,Cooperative FI,Low,www.km.com.my,linkedin.com/company/km
+3,Cooperatives,Koperasi Perlis,Cooperative FI,Low,www.kprl.com.my,linkedin.com/company/kprl
+3,Cooperatives,Koperasi KL,Cooperative FI,Low,www.kkl.com.my,linkedin.com/company/kkl
+3,Cooperatives,Koperasi Labuan,Cooperative FI,Low,www.klb.com.my,linkedin.com/company/klb
+3,Cooperatives,Koperasi Putrajaya,Cooperative FI,Low,www.kpj.com.my,linkedin.com/company/kpj
+4,Payment Operators,PayNet (PayNet Malaysia Sdn Bhd),Payment System Operator,Critical,www.paynet.com.my,linkedin.com/company/paynet
+4,Payment Operators,FPX (by PayNet),Payment System Operator,High,www.paynet.com.my,linkedin.com/company/paynet
+4,Payment Operators,DuitNow (by PayNet),Payment System Operator,High,www.paynet.com.my,linkedin.com/company/paynet
+4,Payment Operators,JomPAY (by PayNet),Payment System Operator,High,www.paynet.com.my,linkedin.com/company/paynet
+4,Payment Operators,Me2U (by PayNet),Payment System Operator,Medium,www.paynet.com.my,linkedin.com/company/paynet
+4,Payment Operators,PayDirect (by PayNet),Payment System Operator,Medium,www.paynet.com.my,linkedin.com/company/paynet
+4,E-Money,Touch 'n Go eWallet (TNG Digital Sdn Bhd),E-Money Issuer,Critical,www.tngdigital.com.my,linkedin.com/company/tng-digital
+4,E-Money,MAE by Maybank (Maybank Islamic),Bank-issued Wallet,High,www.maybank2u.com.my,linkedin.com/company/maybank
+4,E-Money,GrabPay (Grab Malaysia),E-Money Issuer,High,www.grab.com/my,linkedin.com/company/grab
+4,E-Money,ShopeePay (Monee Malaysia),E-Money Issuer,High,www.shopee.com.my,linkedin.com/company/shopee
+4,E-Money,Boost (Axiata + RHB),E-Money Issuer,High,www.boost.com.my,linkedin.com/company/boost
+4,E-Money,Setel (PETRONAS Dagangan),E-Money Issuer,Medium,www.setel.com,linkedin.com/company/setel
+4,E-Money,BigPay (Capital A),E-Money Issuer,Medium,www.bigpay.me,linkedin.com/company/bigpay
+4,E-Money,AEON Wallet (AEON Credit),E-Money Issuer,Medium,www.aeon.com.my,linkedin.com/company/aeon-credit
+4,E-Money,Alipay+ Malaysia (Ant Group),E-Money Issuer,Medium,www.alipayplus.com,linkedin.com/company/alipay
+4,E-Money,WeChat Pay Malaysia (Tencent),E-Money Issuer,Medium,www.wechatpay.com.my,linkedin.com/company/wechat-pay
+4,E-Money,Razer Pay (Razer Fintech),E-Money Issuer,Low,www.razer.com,linkedin.com/company/razer
+4,E-Money,CIMB OctoPay (CIMB Bank),Bank-issued Wallet,Low,www.cimb.com.my,linkedin.com/company/cimb
+4,E-Money,E-Money Issuer 1,E-Money Issuer,Low,www.emi1.com.my,
+4,E-Money,E-Money Issuer 2,E-Money Issuer,Low,www.emi2.com.my,
+4,E-Money,E-Money Issuer 3,E-Money Issuer,Low,www.emi3.com.my,
+4,E-Money,E-Money Issuer 4,E-Money Issuer,Low,www.emi4.com.my,
+4,E-Money,E-Money Issuer 5,E-Money Issuer,Low,www.emi5.com.my,
+4,E-Money,E-Money Issuer 6,E-Money Issuer,Low,www.emi6.com.my,
+4,E-Money,E-Money Issuer 7,E-Money Issuer,Low,www.emi7.com.my,
+4,E-Money,E-Money Issuer 8,E-Money Issuer,Low,www.emi8.com.my,
+4,E-Money,E-Money Issuer 9,E-Money Issuer,Low,www.emi9.com.my,
+4,E-Money,E-Money Issuer 10,E-Money Issuer,Low,www.emi10.com.my,
+4,Card Schemes,PayNet Card (by PayNet),Card Scheme,Medium,www.paynet.com.my,linkedin.com/company/paynet
+4,Card Schemes,Local Prepaid Program 1,Card Scheme,Low,www.prepaid1.com.my,
+4,Card Schemes,Local Prepaid Program 2,Card Scheme,Low,www.prepaid2.com.my,
+4,Card Schemes,Co-branded Card Program 1,Card Scheme,Low,www.cobrand1.com.my,
+4,Card Schemes,Co-branded Card Program 2,Card Scheme,Low,www.cobrand2.com.my,
+4,Card Schemes,Co-branded Card Program 3,Card Scheme,Low,www.cobrand3.com.my,
+4,Card Schemes,Co-branded Card Program 4,Card Scheme,Low,www.cobrand4.com.my,
+4,Card Schemes,Co-branded Card Program 5,Card Scheme,Low,www.cobrand5.com.my,
+4,Card Schemes,Co-branded Card Program 6,Card Scheme,Low,www.cobrand6.com.my,
+4,Card Schemes,Co-branded Card Program 7,Card Scheme,Low,www.cobrand7.com.my,
+5,GLC-Linked,Maybank (Khazanah-linked),GLC Financial,Critical,www.maybank.com.my,linkedin.com/company/maybank
+5,GLC-Linked,CIMB (Khazanah-linked),GLC Financial,Critical,www.cimb.com,linkedin.com/company/cimb
+5,GLC-Linked,Iskandar Waterfront City,GLC Development,Medium,www.iwc.com.my,linkedin.com/company/iwc
+5,GLC-Linked,GLC Finance 1,GLC Financial,Medium,www.glc1.com.my,
+5,GLC-Linked,GLC Finance 2,GLC Financial,Medium,www.glc2.com.my,
+5,GLC-Linked,GLC Finance 3,GLC Financial,Medium,www.glc3.com.my,
+5,GLC-Linked,GLC Finance 4,GLC Financial,Medium,www.glc4.com.my,
+5,GLC-Linked,GLC Finance 5,GLC Financial,Low,www.glc5.com.my,
+5,GLC-Linked,GLC Finance 6,GLC Financial,Low,www.glc6.com.my,
+5,GLC-Linked,GLC Finance 7,GLC Financial,Low,www.glc7.com.my,
+5,GLC-Linked,GLC Finance 8,GLC Financial,Low,www.glc8.com.my,
+5,GLC-Linked,PNB-Linked Finance 1,PNB Financial,Medium,www.pnb1.com.my,
+5,GLC-Linked,PNB-Linked Finance 2,PNB Financial,Medium,www.pnb2.com.my,
+5,GLC-Linked,PNB-Linked Finance 3,PNB Financial,Low,www.pnb3.com.my,
+5,GLC-Linked,PNB-Linked Finance 4,PNB Financial,Low,www.pnb4.com.my,
+5,GLC-Linked,PNB-Linked Finance 5,PNB Financial,Low,www.pnb5.com.my,
+5,GLC-Linked,EPF-Linked Finance 1,EPF Investment,High,www.kwsp.gov.my,linkedin.com/company/epf-malaysia
+5,GLC-Linked,EPF-Linked Finance 2,EPF Investment,Medium,www.epf1.com.my,
+5,GLC-Linked,EPF-Linked Finance 3,EPF Investment,Medium,www.epf2.com.my,
+5,GLC-Linked,State Fund 1 (Selangor),State Financial,Low,www.slf.com.my,
+5,GLC-Linked,State Fund 2 (Johor),State Financial,Low,www.jf.com.my,
+5,GLC-Linked,State Fund 3 (Penang),State Financial,Low,www.pf.com.my,
+5,GLC-Linked,State Fund 4 (Sabah),State Financial,Low,www.sf.com.my,
+5,GLC-Linked,State Fund 5 (Sarawak),State Financial,Low,www.swf.com.my,
+6,Fintech Sandbox,KAF Digital Bank,Islamic Digital Bank,High,www.kaf.com.my,linkedin.com/company/kaf-digital
+6,Fintech Sandbox,AEON Bank (M) Berhad,Islamic Digital Bank,Critical,www.aeonbank.com.my,linkedin.com/company/aeon-bank
+6,Fintech Sandbox,GX Bank Berhad,Digital Bank,High,www.gxbank.com.my,linkedin.com/company/gx-bank
+6,Fintech Sandbox,Boost Bank Berhad,Digital Bank,High,www.boostbank.com.my,linkedin.com/company/boost-bank
+6,Fintech Sandbox,Ryt Bank Berhad (YTL Digital),Digital Bank,High,www.rytbank.com.my,linkedin.com/company/ryt-bank
+6,Fintech Sandbox,Sandbox Fintech 1,Fintech,Medium,www.sandbox1.com,
+6,Fintech Sandbox,Sandbox Fintech 2,Fintech,Medium,www.sandbox2.com,
+6,Fintech Sandbox,Sandbox Fintech 3,Fintech,Medium,www.sandbox3.com,
+6,Fintech Sandbox,Sandbox Fintech 4,Fintech,Medium,www.sandbox4.com,
+6,Fintech Sandbox,Sandbox Fintech 5,Fintech,Low,www.sandbox5.com,
+6,Fintech Sandbox,Sandbox Fintech 6,Fintech,Low,www.sandbox6.com,
+6,Fintech Sandbox,Sandbox Fintech 7,Fintech,Low,www.sandbox7.com,
+6,Fintech Sandbox,Sandbox Fintech 8,Fintech,Low,www.sandbox8.com,
+6,Fintech Sandbox,Sandbox Fintech 9,Fintech,Low,www.sandbox9.com,
+6,Fintech Sandbox,Sandbox Fintech 10,Fintech,Low,www.sandbox10.com,
+6,Fintech Registered,Registered Fintech 1,Payment Facilitator,Medium,www.rf1.com.my,
+6,Fintech Registered,Registered Fintech 2,Payment Facilitator,Medium,www.rf2.com.my,
+6,Fintech Registered,Registered Fintech 3,Aggregator,Low,www.rf3.com.my,
+6,Fintech Registered,Registered Fintech 4,Aggregator,Low,www.rf4.com.my,
+6,Fintech Registered,Registered Fintech 5,Payment Services,Low,www.rf5.com.my,
