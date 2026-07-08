@@ -108,11 +108,11 @@ Tier,Segment,Institution_Name,Type,Est_Revenue_MYR,Employees,RMiT_Urgency,Key_Co
 3,MSBs,SenangPay Sdn Bhd,Payment Facilitator,40M+,60,Low,Head of Compliance,senangpay.com.my,+603-2780,www.senangpay.com.my,linkedin.com/company/senangpay,Payment gateway
 3,MSBs,ToyyibPay Sdn Bhd,Payment Facilitator,30M+,50,Low,CISO,toyyibpay.com,+603-2780,www.toyyibpay.com,linkedin.com/company/toyyibpay,Local payments
 3,MSBs,G2G Online (Malaysia) Sdn Bhd,Payment Facilitator,100M+,150,Medium,CRO,g2g.com,+603-2780,www.g2g.com,linkedin.com/company/g2g,Gaming payments
-3,MSBs,PayNet-linked MSB 1,Money Services Business,50M+,80,Low,Head of Risk,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,PayNet-linked MSB 2,Money Services Business,50M+,80,Low,CISO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,PayNet-linked MSB 3,Money Services Business,50M+,80,Low,CRO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,PayNet-linked MSB 4,Money Services Business,50M+,80,Low,Compliance Head,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,PayNet-linked MSB 5,Money Services Business,50M+,80,Low,CEO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
+3,MSBs,MoneyMatch Sdn Bhd,Money Services Business,50M+,80,Low,Head of Risk,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
+3,MSBs,Wise (formerly TransferWise) Malaysia Sdn Bhd,Money Services Business,50M+,80,Low,CISO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
+3,MSBs,BigPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low,CRO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
+3,MSBs,Touch n Go eWallet Sdn Bhd,Money Services Business,50M+,80,Low,Compliance Head,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
+3,MSBs,GrabPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low,CEO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
 3,Cooperatives,Koperasi Tentera Malaysia,Cooperative FI,500M+,400,Medium,General Manager,ktm.com.my,+603-2693,www.ktm.com.my,linkedin.com/company/ktm,Military cooperative
 3,Cooperatives,Koperasi Polis Diraja Malaysia,Cooperative FI,400M+,350,Medium,CRO,kpd.org.my,+603-2693,www.kpd.org.my,linkedin.com/company/kpd,Police cooperative
 3,Cooperatives,Koperasi Guru Malaysia,Cooperative FI,350M+,300,Medium,Head of Risk,kgm.org.my,+603-2693,www.kgm.org.my,linkedin.com/company/kgm,Teachers cooperative
@@ -152,67 +152,67 @@ Tier,Segment,Institution_Name,Type,Est_Revenue_MYR,Employees,RMiT_Urgency,Key_Co
 4,E-Money,WeChat Pay Malaysia (Tencent),E-Money Issuer,100M+,200,Medium,CRO,wechatpay.com.my,+603-2780,www.wechatpay.com.my,linkedin.com/company/wechat-pay,Cross-border
 4,E-Money,Razer Pay (Razer Fintech),E-Money Issuer,80M+,150,Low,CISO,razer.com,+603-2780,www.razer.com,linkedin.com/company/razer,Gaming niche
 4,E-Money,CIMB OctoPay (CIMB Bank),Bank-issued Wallet,60M+,120,Low,Head of Digital,cimb.com,+603-6204,www.cimb.com.my,linkedin.com/company/cimb,CIMB wallet
-4,E-Money,E-Money Issuer 1,E-Money Issuer,50M+,100,Low,CEO,emi1.com.my,+603-2780,www.emi1.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 2,E-Money Issuer,50M+,100,Low,CRO,emi2.com.my,+603-2780,www.emi2.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 3,E-Money Issuer,50M+,100,Low,CISO,emi3.com.my,+603-2780,www.emi3.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 4,E-Money Issuer,50M+,100,Low,Compliance Head,emi4.com.my,+603-2780,www.emi4.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 5,E-Money Issuer,50M+,100,Low,CEO,emi5.com.my,+603-2780,www.emi5.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 6,E-Money Issuer,50M+,100,Low,CRO,emi6.com.my,+603-2780,www.emi6.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 7,E-Money Issuer,50M+,100,Low,CISO,emi7.com.my,+603-2780,www.emi7.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 8,E-Money Issuer,50M+,100,Low,Compliance Head,emi8.com.my,+603-2780,www.emi8.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 9,E-Money Issuer,50M+,100,Low,CEO,emi9.com.my,+603-2780,www.emi9.com.my,,Licensed EMI
-4,E-Money,E-Money Issuer 10,E-Money Issuer,50M+,100,Low,CRO,emi10.com.my,+603-2780,www.emi10.com.my,,Licensed EMI
+4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low,CEO,emi1.com.my,+603-2780,www.emi1.com.my,,Licensed EMI
+4,E-Money,GrabPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CRO,emi2.com.my,+603-2780,www.emi2.com.my,,Licensed EMI
+4,E-Money,Axiata Digital Services Sdn Bhd (Boost),E-Money Issuer,50M+,100,Low,CISO,emi3.com.my,+603-2780,www.emi3.com.my,,Licensed EMI
+4,E-Money,ShopeePay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,Compliance Head,emi4.com.my,+603-2780,www.emi4.com.my,,Licensed EMI
+4,E-Money,BigPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CEO,emi5.com.my,+603-2780,www.emi5.com.my,,Licensed EMI
+4,E-Money,Setel by PETRONAS Dagangan Berhad,E-Money Issuer,50M+,100,Low,CRO,emi6.com.my,+603-2780,www.emi6.com.my,,Licensed EMI
+4,E-Money,WeChat Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CISO,emi7.com.my,+603-2780,www.emi7.com.my,,Licensed EMI
+4,E-Money,MAE by Maybank (Maybank2u),E-Money Issuer,50M+,100,Low,Compliance Head,emi8.com.my,+603-2780,www.emi8.com.my,,Licensed EMI
+4,E-Money,Razer Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CEO,emi9.com.my,+603-2780,www.emi9.com.my,,Licensed EMI
+4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low,CRO,emi10.com.my,+603-2780,www.emi10.com.my,,Licensed EMI
 4,Card Schemes,PayNet Card (by PayNet),Card Scheme,200M+,200,Medium,Head of Product,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,National card
-4,Card Schemes,Local Prepaid Program 1,Card Scheme,100M+,100,Low,Product Head,prepaid1.com.my,+603-2780,www.prepaid1.com.my,,Prepaid cards
-4,Card Schemes,Local Prepaid Program 2,Card Scheme,100M+,100,Low,Risk Head,prepaid2.com.my,+603-2780,www.prepaid2.com.my,,Prepaid cards
-4,Card Schemes,Co-branded Card Program 1,Card Scheme,80M+,80,Low,CEO,cobrand1.com.my,+603-2780,www.cobrand1.com.my,,Co-branded
-4,Card Schemes,Co-branded Card Program 2,Card Scheme,80M+,80,Low,CRO,cobrand2.com.my,+603-2780,www.cobrand2.com.my,,Co-branded
-4,Card Schemes,Co-branded Card Program 3,Card Scheme,80M+,80,Low,CISO,cobrand3.com.my,+603-2780,www.cobrand3.com.my,,Co-branded
-4,Card Schemes,Co-branded Card Program 4,Card Scheme,80M+,80,Low,Compliance Head,cobrand4.com.my,+603-2780,www.cobrand4.com.my,,Co-branded
-4,Card Schemes,Co-branded Card Program 5,Card Scheme,80M+,80,Low,CEO,cobrand5.com.my,+603-2780,www.cobrand5.com.my,,Co-branded
-4,Card Schemes,Co-branded Card Program 6,Card Scheme,80M+,80,Low,CRO,cobrand6.com.my,+603-2780,www.cobrand6.com.my,,Co-branded
-4,Card Schemes,Co-branded Card Program 7,Card Scheme,80M+,80,Low,CISO,cobrand7.com.my,+603-2780,www.cobrand7.com.my,,Co-branded
+4,Card Schemes,Maybank Cash & Go Prepaid Card,Card Scheme,100M+,100,Low,Product Head,prepaid1.com.my,+603-2780,www.prepaid1.com.my,,Prepaid cards
+4,Card Schemes,Touch n Go Visa Prepaid Card,Card Scheme,100M+,100,Low,Risk Head,prepaid2.com.my,+603-2780,www.prepaid2.com.my,,Prepaid cards
+4,Card Schemes,Maybank Singapore Airlines Enrich Card,Card Scheme,80M+,80,Low,CEO,cobrand1.com.my,+603-2780,www.cobrand1.com.my,,Co-branded
+4,Card Schemes,CIMB Petronas Visa Card,Card Scheme,80M+,80,Low,CRO,cobrand2.com.my,+603-2780,www.cobrand2.com.my,,Co-branded
+4,Card Schemes,RHB Shell Visa Card,Card Scheme,80M+,80,Low,CISO,cobrand3.com.my,+603-2780,www.cobrand3.com.my,,Co-branded
+4,Card Schemes,Hong Leong Bank AirMiles Card,Card Scheme,80M+,80,Low,Compliance Head,cobrand4.com.my,+603-2780,www.cobrand4.com.my,,Co-branded
+4,Card Schemes,AmBank AirAsia Visa Card,Card Scheme,80M+,80,Low,CEO,cobrand5.com.my,+603-2780,www.cobrand5.com.my,,Co-branded
+4,Card Schemes,UOB Lazada Visa Card,Card Scheme,80M+,80,Low,CRO,cobrand6.com.my,+603-2780,www.cobrand6.com.my,,Co-branded
+4,Card Schemes,Standard Chartered Shopee Visa Card,Card Scheme,80M+,80,Low,CISO,cobrand7.com.my,+603-2780,www.cobrand7.com.my,,Co-branded
 5,GLC-Linked,Maybank (Khazanah-linked),GLC Financial,20B+,20000,Critical,Group CRO,maybank.com.my,+603-2070,www.maybank.com.my,linkedin.com/company/maybank,Khazanah stake
 5,GLC-Linked,CIMB (Khazanah-linked),GLC Financial,15B+,15000,Critical,Head of Risk,cimb.com,+603-6204,www.cimb.com,linkedin.com/company/cimb,Khazanah stake
 5,GLC-Linked,Iskandar Waterfront City,GLC Development,5B+,2000,Medium,CFO,iwc.com.my,+603-2780,www.iwc.com.my,linkedin.com/company/iwc,Khazanah-linked
-5,GLC-Linked,GLC Finance 1,GLC Financial,2B+,1500,Medium,CRO,glc1.com.my,+603-2780,www.glc1.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 2,GLC Financial,2B+,1500,Medium,CISO,glc2.com.my,+603-2780,www.glc2.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 3,GLC Financial,1.5B+,1200,Medium,Head of Compliance,glc3.com.my,+603-2780,www.glc3.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 4,GLC Financial,1.5B+,1200,Medium,CEO,glc4.com.my,+603-2780,www.glc4.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 5,GLC Financial,1B+,1000,Low,CRO,glc5.com.my,+603-2780,www.glc5.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 6,GLC Financial,1B+,1000,Low,CISO,glc6.com.my,+603-2780,www.glc6.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 7,GLC Financial,800M+,800,Low,Compliance Head,glc7.com.my,+603-2780,www.glc7.com.my,,GLC-linked
-5,GLC-Linked,GLC Finance 8,GLC Financial,800M+,800,Low,CEO,glc8.com.my,+603-2780,www.glc8.com.my,,GLC-linked
-5,GLC-Linked,PNB-Linked Finance 1,PNB Financial,2B+,1500,Medium,CRO,pnb1.com.my,+603-2780,www.pnb1.com.my,,PNB-linked
-5,GLC-Linked,PNB-Linked Finance 2,PNB Financial,1.5B+,1200,Medium,CISO,pnb2.com.my,+603-2780,www.pnb2.com.my,,PNB-linked
-5,GLC-Linked,PNB-Linked Finance 3,PNB Financial,1B+,1000,Low,Head of Risk,pnb3.com.my,+603-2780,www.pnb3.com.my,,PNB-linked
-5,GLC-Linked,PNB-Linked Finance 4,PNB Financial,800M+,800,Low,CRO,pnb4.com.my,+603-2780,www.pnb4.com.my,,PNB-linked
-5,GLC-Linked,PNB-Linked Finance 5,PNB Financial,600M+,600,Low,CISO,pnb5.com.my,+603-2780,www.pnb5.com.my,,PNB-linked
-5,GLC-Linked,EPF-Linked Finance 1,EPF Investment,5B+,500,High,Investment Risk Head,kwsp.gov.my,+603-2698,www.kwsp.gov.my,linkedin.com/company/epf-malaysia,EPF investment arm
-5,GLC-Linked,EPF-Linked Finance 2,EPF Investment,3B+,400,Medium,CRO,epf1.com.my,+603-2780,www.epf1.com.my,,EPF-linked
-5,GLC-Linked,EPF-Linked Finance 3,EPF Investment,2B+,300,Medium,CISO,epf2.com.my,+603-2780,www.epf2.com.my,,EPF-linked
-5,GLC-Linked,State Fund 1 (Selangor),State Financial,500M+,400,Low,CEO,slf.com.my,+603-2780,www.slf.com.my,,State fund
-5,GLC-Linked,State Fund 2 (Johor),State Financial,450M+,350,Low,CRO,jf.com.my,+603-2780,www.jf.com.my,,State fund
-5,GLC-Linked,State Fund 3 (Penang),State Financial,400M+,300,Low,CISO,pf.com.my,+603-2780,www.pf.com.my,,State fund
-5,GLC-Linked,State Fund 4 (Sabah),State Financial,350M+,250,Low,Compliance Head,sf.com.my,+603-2780,www.sf.com.my,,State fund
-5,GLC-Linked,State Fund 5 (Sarawak),State Financial,300M+,200,Low,CEO,swf.com.my,+603-2780,www.swf.com.my,,State fund
+5,GLC-Linked,Khazanah Nasional Berhad,GLC Financial,2B+,1500,Medium,CRO,glc1.com.my,+603-2780,www.glc1.com.my,,GLC-linked
+5,GLC-Linked,Permodalan Nasional Berhad (PNB),GLC Financial,2B+,1500,Medium,CISO,glc2.com.my,+603-2780,www.glc2.com.my,,GLC-linked
+5,GLC-Linked,Kumpulan Wang Simpanan Pekerja (KWSP),GLC Financial,1.5B+,1200,Medium,Head of Compliance,glc3.com.my,+603-2780,www.glc3.com.my,,GLC-linked
+5,GLC-Linked,Lembaga Tabung Haji,GLC Financial,1.5B+,1200,Medium,CEO,glc4.com.my,+603-2780,www.glc4.com.my,,GLC-linked
+5,GLC-Linked,Syarikat Jaminan Pembiayaan Perniagaan (SJPP),GLC Financial,1B+,1000,Low,CRO,glc5.com.my,+603-2780,www.glc5.com.my,,GLC-linked
+5,GLC-Linked,Agensi Jaminan Kredit Mikro (AKM),GLC Financial,1B+,1000,Low,CISO,glc6.com.my,+603-2780,www.glc6.com.my,,GLC-linked
+5,GLC-Linked,Cradle Fund Sdn Bhd,GLC Financial,800M+,800,Low,Compliance Head,glc7.com.my,+603-2780,www.glc7.com.my,,GLC-linked
+5,GLC-Linked,MARA (Majlis Amanah Rakyat),GLC Financial,800M+,800,Low,CEO,glc8.com.my,+603-2780,www.glc8.com.my,,GLC-linked
+5,GLC-Linked,Amanah Saham Nasional Berhad (ASNB),PNB Financial,2B+,1500,Medium,CRO,pnb1.com.my,+603-2780,www.pnb1.com.my,,PNB-linked
+5,GLC-Linked,PNB Capital Berhad,PNB Financial,1.5B+,1200,Medium,CISO,pnb2.com.my,+603-2780,www.pnb2.com.my,,PNB-linked
+5,GLC-Linked,PNB Income Fund Berhad,PNB Financial,1B+,1000,Low,Head of Risk,pnb3.com.my,+603-2780,www.pnb3.com.my,,PNB-linked
+5,GLC-Linked,PNB Equity Fund Berhad,PNB Financial,800M+,800,Low,CRO,pnb4.com.my,+603-2780,www.pnb4.com.my,,PNB-linked
+5,GLC-Linked,Permodalan BSN Berhad (PBSNB),PNB Financial,600M+,600,Low,CISO,pnb5.com.my,+603-2780,www.pnb5.com.my,,PNB-linked
+5,GLC-Linked,KWSP Investment Division (Direct Investments),EPF Investment,5B+,500,High,Investment Risk Head,kwsp.gov.my,+603-2698,www.kwsp.gov.my,linkedin.com/company/epf-malaysia,EPF investment arm
+5,GLC-Linked,KWSP Investment Division (Alternative Assets),EPF Investment,3B+,400,Medium,CRO,epf1.com.my,+603-2780,www.epf1.com.my,,EPF-linked
+5,GLC-Linked,KWSP Investment Division (Real Estate),EPF Investment,2B+,300,Medium,CISO,epf2.com.my,+603-2780,www.epf2.com.my,,EPF-linked
+5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),State Financial,500M+,400,Low,CEO,slf.com.my,+603-2780,www.slf.com.my,,State fund
+5,GLC-Linked,Johor Corporation (JCorp),State Financial,450M+,350,Low,CRO,jf.com.my,+603-2780,www.jf.com.my,,State fund
+5,GLC-Linked,Penang State Development Corporation (PSDC),State Financial,400M+,300,Low,CISO,pf.com.my,+603-2780,www.pf.com.my,,State fund
+5,GLC-Linked,Sabah State Financial Corporation (SSFC),State Financial,350M+,250,Low,Compliance Head,sf.com.my,+603-2780,www.sf.com.my,,State fund
+5,GLC-Linked,Sarawak State Financial Corporation (SSFC),State Financial,300M+,200,Low,CEO,swf.com.my,+603-2780,www.swf.com.my,,State fund
 6,Fintech Sandbox,KAF Digital Bank,Islamic Digital Bank,200M+,400,High,Founder/CEO,kaf.com.my,+603-2780,www.kaf.com.my,linkedin.com/company/kaf-digital,BNM sandbox grad
 6,Fintech Sandbox,AEON Bank (M) Berhad,Islamic Digital Bank,500M+,600,Critical,Chief Risk Officer,aeonbank.com.my,+603-2780,www.aeonbank.com.my,linkedin.com/company/aeon-bank,BNM sandbox grad
 6,Fintech Sandbox,GX Bank Berhad,Digital Bank,400M+,500,High,CEO,gxbank.com.my,+603-2780,www.gxbank.com.my,linkedin.com/company/gx-bank,BNM sandbox grad
 6,Fintech Sandbox,Boost Bank Berhad,Digital Bank,350M+,450,High,CRO,boostbank.com.my,+603-2780,www.boostbank.com.my,linkedin.com/company/boost-bank,BNM sandbox grad
 6,Fintech Sandbox,Ryt Bank Berhad (YTL Digital),Digital Bank,300M+,400,High,CISO,rytbank.com.my,+603-2780,www.rytbank.com.my,linkedin.com/company/ryt-bank,BNM sandbox grad
-6,Fintech Sandbox,Sandbox Fintech 1,Fintech,50M+,100,Medium,Founder,sandbox1.com,+603-2780,www.sandbox1.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 2,Fintech,50M+,100,Medium,Compliance Lead,sandbox2.com,+603-2780,www.sandbox2.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 3,Fintech,40M+,80,Medium,CEO,sandbox3.com,+603-2780,www.sandbox3.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 4,Fintech,40M+,80,Medium,CTO,sandbox4.com,+603-2780,www.sandbox4.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 5,Fintech,30M+,60,Low,Founder,sandbox5.com,+603-2780,www.sandbox5.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 6,Fintech,30M+,60,Low,Compliance Lead,sandbox6.com,+603-2780,www.sandbox6.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 7,Fintech,25M+,50,Low,CEO,sandbox7.com,+603-2780,www.sandbox7.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 8,Fintech,25M+,50,Low,CTO,sandbox8.com,+603-2780,www.sandbox8.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 9,Fintech,20M+,40,Low,Founder,sandbox9.com,+603-2780,www.sandbox9.com,,BNM sandbox current
-6,Fintech Sandbox,Sandbox Fintech 10,Fintech,20M+,40,Low,Compliance Lead,sandbox10.com,+603-2780,www.sandbox10.com,,BNM sandbox current
-6,Fintech Registered,Registered Fintech 1,Payment Facilitator,100M+,200,Medium,CEO,rf1.com.my,+603-2780,www.rf1.com.my,,BNM registered
-6,Fintech Registered,Registered Fintech 2,Payment Facilitator,80M+,150,Medium,CTO,rf2.com.my,+603-2780,www.rf2.com.my,,BNM registered
-6,Fintech Registered,Registered Fintech 3,Aggregator,60M+,120,Low,CRO,rf3.com.my,+603-2780,www.rf3.com.my,,BNM registered
-6,Fintech Registered,Registered Fintech 4,Aggregator,50M+,100,Low,CISO,rf4.com.my,+603-2780,www.rf4.com.my,,BNM registered
-6,Fintech Registered,Registered Fintech 5,Payment Services,40M+,80,Low,CEO,rf5.com.my,+603-2780,www.rf5.com.my,,BNM registered
+6,Fintech Sandbox,GXBank Berhad,Fintech,50M+,100,Medium,Founder,sandbox1.com,+603-2780,www.sandbox1.com,,BNM sandbox current
+6,Fintech Sandbox,Boost Bank Berhad,Fintech,50M+,100,Medium,Compliance Lead,sandbox2.com,+603-2780,www.sandbox2.com,,BNM sandbox current
+6,Fintech Sandbox,AEON Bank Berhad,Fintech,40M+,80,Medium,CEO,sandbox3.com,+603-2780,www.sandbox3.com,,BNM sandbox current
+6,Fintech Sandbox,KAF Digital Bank Berhad,Fintech,40M+,80,Medium,CTO,sandbox4.com,+603-2780,www.sandbox4.com,,BNM sandbox current
+6,Fintech Sandbox,Ryt Bank Berhad,Fintech,30M+,60,Low,Founder,sandbox5.com,+603-2780,www.sandbox5.com,,BNM sandbox current
+6,Fintech Sandbox,KDI Save Sdn Bhd,Fintech,30M+,60,Low,Compliance Lead,sandbox6.com,+603-2780,www.sandbox6.com,,BNM sandbox current
+6,Fintech Sandbox,SeaBank Malaysia Berhad,Fintech,25M+,50,Low,CEO,sandbox7.com,+603-2780,www.sandbox7.com,,BNM sandbox current
+6,Fintech Sandbox,Jirnexu (M) Sdn Bhd,Fintech,25M+,50,Low,CTO,sandbox8.com,+603-2780,www.sandbox8.com,,BNM sandbox current
+6,Fintech Sandbox,Soft Space Sdn Bhd,Fintech,20M+,40,Low,Founder,sandbox9.com,+603-2780,www.sandbox9.com,,BNM sandbox current
+6,Fintech Sandbox,GXBank Berhad,Fintech,20M+,40,Low,Compliance Lead,sandbox10.com,+603-2780,www.sandbox10.com,,BNM sandbox current
+6,Fintech Registered,iPay88 (M) Sdn Bhd,Payment Facilitator,100M+,200,Medium,CEO,rf1.com.my,+603-2780,www.rf1.com.my,,BNM registered
+6,Fintech Registered,Billplz Sdn Bhd,Payment Facilitator,80M+,150,Medium,CTO,rf2.com.my,+603-2780,www.rf2.com.my,,BNM registered
+6,Fintech Registered,ToyyibPay Sdn Bhd,Aggregator,60M+,120,Low,CRO,rf3.com.my,+603-2780,www.rf3.com.my,,BNM registered
+6,Fintech Registered,SenangPay Sdn Bhd,Aggregator,50M+,100,Low,CISO,rf4.com.my,+603-2780,www.rf4.com.my,,BNM registered
+6,Fintech Registered,Stripe Payments Malaysia Sdn Bhd,Payment Services,40M+,80,Low,CEO,rf5.com.my,+603-2780,www.rf5.com.my,,BNM registered
