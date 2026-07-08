@@ -1,218 +1,213 @@
-# VoronDRQ Malaysia RMiT Campaign - 250 Prospect Database
-# Generated: 2026-07-01
-# Campaign: RMiT Compliance Sprint 2026 (90-Day Outreach)
-# Total Accounts: 250 BNM-Regulated Financial Institutions
-
-Tier,Segment,Institution_Name,Type,Est_Revenue_MYR,Employees,RMiT_Urgency,Key_Contact_Role,Email_Domain,Phone_Prefix,Website,LinkedIn,Notes
-1,Licensed Banks,Maybank Islamic Berhad,Islamic Bank,15B+,15000,Critical,Group Chief Risk Officer,maybank.com.my,+603-2070,www.maybank.com.my,linkedin.com/company/maybank,Largest Islamic bank globally
-1,Licensed Banks,CIMB Islamic Bank Berhad,Islamic Bank,12B+,12000,Critical,Head of Technology Risk,cimb.com,+603-6204,www.cimb.com,linkedin.com/company/cimb,Second largest Islamic bank
-1,Licensed Banks,Public Islamic Bank Berhad,Islamic Bank,8B+,8000,Critical,CISO,pbebank.com,+603-2176,www.publicbank.com.my,linkedin.com/company/public-bank,Conservative compliance culture
-1,Licensed Banks,RHB Islamic Bank Berhad,Islamic Bank,6B+,6000,Critical,Group CIO,rhbbank.com,+603-9206,www.rhb.com.my,linkedin.com/company/rhb-bank,Part of RHB Group
-1,Licensed Banks,Hong Leong Islamic Bank Berhad,Islamic Bank,4B+,4000,Critical,CEO (Digital Transformation),hlbbank.com.my,+603-7650,www.hlb.com.my,linkedin.com/company/hong-leong-bank,Digital transformation underway
-1,Licensed Banks,Bank Islam Malaysia Berhad,Islamic Bank,4B+,3500,Critical,Head of GRC,bankislam.com.my,+603-2698,www.bankislam.com.my,linkedin.com/company/bank-islam,First Islamic bank in Malaysia
-1,Licensed Banks,AmBank Islamic Berhad,Islamic Bank,3B+,3000,High,CRO,ambankgroup.com,+603-2056,www.ambankgroup.com,linkedin.com/company/ambank,Competitive pressure
-1,Licensed Banks,Alliance Islamic Bank Berhad,Islamic Bank,2B+,2000,High,CTO,alliancebank.com.my,+603-5516,www.alliancebank.com.my,linkedin.com/company/alliance-bank,Mid-tier player
-1,Licensed Banks,Maybank Berhad,Commercial Bank,20B+,20000,Critical,Group CISO,maybank.com.my,+603-2070,www.maybank.com.my,linkedin.com/company/maybank,Largest bank in Malaysia
-1,Licensed Banks,CIMB Bank Berhad,Commercial Bank,15B+,15000,Critical,Head of Cybersecurity,cimb.com,+603-6204,www.cimb.com,linkedin.com/company/cimb,Regional presence
-1,Licensed Banks,Public Bank Berhad,Commercial Bank,10B+,10000,Critical,Chief Operating Officer,pbebank.com,+603-2176,www.publicbank.com.my,linkedin.com/company/public-bank,Strong risk culture
-1,Licensed Banks,RHB Bank Berhad,Commercial Bank,8B+,8000,Critical,Group CRO,rhbbank.com,+603-9206,www.rhb.com.my,linkedin.com/company/rhb-bank,Established procurement
-1,Licensed Banks,Hong Leong Bank Berhad,Commercial Bank,6B+,5000,Critical,CIO,hlbbank.com.my,+603-7650,www.hlb.com.my,linkedin.com/company/hong-leong-bank,Modernizing operations
-1,Licensed Banks,AmBank (M) Berhad,Commercial Bank,4B+,4000,High,Head of IT Risk,ambankgroup.com,+603-2056,www.ambankgroup.com,linkedin.com/company/ambank,Transformation phase
-1,Licensed Banks,Alliance Bank Malaysia Berhad,Commercial Bank,3B+,2500,High,CISO,alliancebank.com.my,+603-5516,www.alliancebank.com.my,linkedin.com/company/alliance-bank,Growth stage
-1,Licensed Banks,UOB Malaysia Berhad,Commercial Bank,5B+,4000,High,Country CRO,uob.com.my,+603-2666,www.uob.com.my,linkedin.com/company/uob,Singapore parent
-1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Commercial Bank,4B+,3500,High,Head of Compliance,ocbc.com.my,+603-8317,www.ocbc.com.my,linkedin.com/company/ocbc-bank,Singapore parent
-1,Licensed Banks,Standard Chartered Bank Malaysia Berhad,Commercial Bank,3B+,2500,High,Country CISO,sc.com/my,+603-7711,www.sc.com/my,linkedin.com/company/standard-chartered-bank,UK parent
-1,Licensed Banks,HSBC Bank Malaysia Berhad,Commercial Bank,4B+,3000,High,Head of Operational Risk,hsbc.com.my,+603-7652,www.hsbc.com.my,linkedin.com/company/hsbc,UK parent
-1,Licensed Banks,Citibank Berhad,Commercial Bank,2B+,1500,High,Country CRO,citi.com/my,+603-2056,www.citi.com/my,linkedin.com/company/citi,Sold to UOB (transitioning)
-1,Licensed Banks,Bank of China (Malaysia) Berhad,Commercial Bank,1B+,800,Medium,Branch CEO,bankofchina.com/my,+603-2070,www.bankofchina.com/my,linkedin.com/company/bank-of-china,China parent
-1,Licensed Banks,ICBC (Malaysia) Berhad,Commercial Bank,1B+,600,Medium,Head of Risk,icbc.com.cn/my,+603-2287,www.icbc.com.cn/my,linkedin.com/company/icbc,China parent
-1,Licensed Banks,Sumitomo Mitsui Banking Corporation Malaysia Berhad,Commercial Bank,800M+,400,Medium,Country Manager,smbc.co.jp/my,+603-2117,www.smbc.co.jp,linkedin.com/company/sumitomo-mitsui,Japan parent
-1,Licensed Banks,Mizuho Bank (Malaysia) Berhad,Commercial Bank,600M+,300,Medium,Branch CRO,mizuho-fg.co.jp/my,+603-2059,www.mizuho-fg.co.jp,linkedin.com/company/mizuho,Japan parent
-1,Licensed Banks,J.P. Morgan Chase Bank Malaysia Berhad,Commercial Bank,500M+,250,Medium,Country Compliance Head,jpmorgan.com/my,+603-7499,www.jpmorgan.com/my,linkedin.com/company/jpmorgan-chase,US parent
-1,Licensed Banks,Deutsche Bank (Malaysia) Berhad,Commercial Bank,400M+,200,Medium,Branch Manager,db.com/my,+603-2331,www.db.com/my,linkedin.com/company/deutsche-bank,Germany parent
-1,Licensed Banks,BNP Paribas Malaysia Berhad,Commercial Bank,300M+,150,Medium,Country Head,bnpparibas.com.my,+603-2117,www.bnpparibas.com.my,linkedin.com/company/bnp-paribas,France parent
-1,Licensed Banks,Credit Suisse (Malaysia) Berhad,Commercial Bank,200M+,100,Medium,Branch CRO,credit-suisse.com/my,+603-2782,www.credit-suisse.com/my,linkedin.com/company/credit-suisse,Switzerland parent (UBS transition)
-2,Investment Banks,Maybank Investment Bank Berhad,Investment Bank,2B+,1500,High,Head of Compliance,maybank.com.my,+603-2070,www.maybank-ib.com,linkedin.com/company/maybank-ib,Maybank Group
-2,Investment Banks,CIMB Investment Bank Berhad,Investment Bank,1.5B+,1200,High,CRO,cimb.com,+603-6204,www.cimb-ib.com,linkedin.com/company/cimb-ib,CIMB Group
-2,Investment Banks,RHB Investment Bank Berhad,Investment Bank,1B+,1000,High,Head of Risk,rhbbank.com,+603-9206,www.rhbgroup.com,linkedin.com/company/rhb-ib,RHB Group
-2,Investment Banks,Public Investment Bank Berhad,Investment Bank,800M+,800,High,CISO,pbebank.com,+603-2176,www.publicbank.com.my,linkedin.com/company/public-ib,Public Bank Group
-2,Investment Banks,Hong Leong Investment Bank Berhad,Investment Bank,600M+,600,High,Head of Compliance,hlbbank.com.my,+603-7650,www.hlib.com,linkedin.com/company/hlib,Hong Leong Group
-2,Investment Banks,AmInvestment Bank Berhad,Investment Bank,400M+,500,Medium,CRO,ambankgroup.com,+603-2056,www.aminvest.com,linkedin.com/company/aminvest,AmBank Group
-2,Investment Banks,Alliance Investment Bank Berhad,Investment Bank,300M+,400,Medium,Head of Risk,alliancebank.com.my,+603-5516,www.allianceib.com.my,linkedin.com/company/alliance-ib,Alliance Group
-2,Investment Banks,Kenanga Investment Bank Berhad,Investment Bank,250M+,350,Medium,CISO,kenanga.com.my,+603-2147,www.kenanga.com.my,linkedin.com/company/kenanga,Independent
-2,Investment Banks,MIDF Amanah Investment Bank Berhad,Investment Bank,200M+,300,Medium,Head of Compliance,midf.com.my,+603-2070,www.midf.com.my,linkedin.com/company/midf,Maybank Group (merged MBSB)
-2,Investment Banks,Affin Investment Bank Berhad,Investment Bank,150M+,250,Medium,CRO,affinbank.com.my,+603-2070,www.affinib.com,linkedin.com/company/affin-ib,Affin Group
-2,Investment Banks,Bank Rakyat Investment Bank Berhad,Investment Bank,150M+,200,Medium,Head of Risk,bankrakyat.com.my,+603-2298,www.brib.com.my,linkedin.com/company/brib,Bank Rakyat Group
-2,Investment Banks,BIMB Investment Bank Berhad,Investment Bank,100M+,180,Medium,CISO,bimb.com.my,+603-2698,www.bimbib.com,linkedin.com/company/bimb-ib,Bank Islam Group
-2,Investment Banks,Malaysia International Islamic Bank IB,Investment Bank,100M+,150,Medium,Head of Compliance,miib.com.my,+603-2297,www.miib.com.my,linkedin.com/company/miib,Standalone
-2,Investment Banks,JCL Corporation Sdn Bhd,Investment Bank,80M+,120,Low,CRO,jcl.com.my,+603-2093,www.jcl.com.my,linkedin.com/company/jcl,Independent
-2,Investment Banks,Phillip Securities (Malaysia) Sdn Bhd,Investment Bank,60M+,100,Low,Head of Risk,phillip.com.my,+603-2059,www.phillip.com.my,linkedin.com/company/phillip-securities,Singapore parent
-2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,Life Insurer,5B+,4000,High,CRO,greateasternlife.com,+603-4259,www.greateasternlife.com,linkedin.com/company/great-eastern-life,Largest insurer
-2,Insurers,AIA Berhad,Life Insurer,4B+,3500,High,CISO,aia.com.my,+603-2056,www.aia.com.my,linkedin.com/company/aia-malaysia,HK parent
-2,Insurers,Prudential Assurance Malaysia Berhad,Life Insurer,3B+,3000,High,Head of Compliance,prudential.com.my,+603-2778,www.prudential.com.my,linkedin.com/company/prudential-malaysia,UK parent
-2,Insurers,Manulife Insurance Berhad,Life Insurer,2.5B+,2500,High,CRO,manulife.com.my,+603-2719,www.manulife.com.my,linkedin.com/company/manulife-malaysia,Canada parent
-2,Insurers,Allianz Life Insurance Malaysia Berhad,Life Insurer,2B+,2000,High,Head of Risk,allianz.com.my,+603-2264,www.allianz.com.my,linkedin.com/company/allianz-malaysia,Germany parent
-2,Insurers,AmMetLife Insurance Berhad,Life Insurer,1.5B+,1800,Medium,CISO,ammetlife.com,+603-2271,www.ammetlife.com,linkedin.com/company/ammetlife,AmBank + MetLife JV
-2,Insurers,Etiqa Life Insurance Berhad,Life Insurer,1.2B+,1500,Medium,CRO,etiqa.com.my,+603-2297,www.etiqa.com.my,linkedin.com/company/etiqa,Maybank Group
-2,Insurers,FWD Insurance Berhad,Life Insurer,1B+,1200,Medium,Head of Compliance,fwd.com.my,+603-2298,www.fwd.com.my,linkedin.com/company/fwd-insurance,HK parent (ex-Gibbs BSN)
-2,Insurers,Generali Life Insurance Malaysia Berhad,Life Insurer,800M+,1000,Medium,CISO,generali.com.my,+603-2117,www.generali.com.my,linkedin.com/company/generali-malaysia,Italy parent (ex-AXA Affin)
-2,Insurers,Hong Leong Assurance Berhad,Life Insurer,600M+,800,Medium,CRO,hla.com.my,+603-7650,www.hla.com.my,linkedin.com/company/hong-leong-assurance,Hong Leong Group
-2,Insurers,MCIS Insurance Berhad,Life Insurer,500M+,700,Low,Head of Risk,mcis.my,+603-7652,www.mcis.my,linkedin.com/company/mcis,Standalone
-2,Insurers,Sun Life Malaysia Assurance Berhad,Life Insurer,400M+,600,Low,CISO,sunlifemalaysia.com,+603-2612,www.sunlifemalaysia.com,linkedin.com/company/sun-life-malaysia,Canada parent
-2,Insurers,Tokio Marine Life Insurance Malaysia Bhd,Life Insurer,350M+,500,Low,CRO,tokiomarinelife.com.my,+603-2059,www.tokiomarinelife.com.my,linkedin.com/company/tokio-marine-life,Japan parent
-2,Insurers,Zurich Life Insurance Malaysia Berhad,Life Insurer,300M+,450,Low,Head of Compliance,zurich.com.my,+603-2206,www.zurich.com.my,linkedin.com/company/zurich-malaysia,Switzerland parent
-2,Insurers,AIA General Berhad,General Insurer,3B+,2500,High,CISO,aia.com.my,+603-2056,www.aia.com.my,linkedin.com/company/aia-malaysia,HK parent
-2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,2.5B+,2000,High,CRO,allianz.com.my,+603-2264,www.allianz.com.my,linkedin.com/company/allianz-malaysia,Germany parent
-2,Insurers,Etiqa General Insurance Berhad,General Insurer,2B+,1800,High,Head of Risk,etiqa.com.my,+603-2297,www.etiqa.com.my,linkedin.com/company/etiqa,Maybank Group
-2,Insurers,Great Eastern General Insurance (Malaysia) Berhad,General Insurer,1.5B+,1500,High,CISO,greateasterngeneral.com,+603-4259,www.greateasterngeneral.com,linkedin.com/company/great-eastern-general,Largest general insurer
-2,Insurers,Chubb Insurance Malaysia Berhad,General Insurer,1.2B+,1200,High,CRO,chubb.com/my,+603-2058,www.chubb.com/my,linkedin.com/company/chubb-malaysia,US parent
-2,Insurers,Berjaya Sompo Insurance Berhad,General Insurer,1B+,1000,Medium,Head of Compliance,berjayasompo.com.my,+603-2170,www.berjayasompo.com.my,linkedin.com/company/berjaya-sompo,Berjaya + Sompo JV
-2,Insurers,Generali Insurance Malaysia Berhad,General Insurer,800M+,900,Medium,CISO,generali.com.my,+603-2170,www.generali.com.my,linkedin.com/company/generali-malaysia,Italy parent (ex-AXA Affin)
-2,Insurers,Liberty General Insurance Berhad,General Insurer,600M+,800,Medium,CRO,libertyinsurance.com.my,+603-2268,www.libertyinsurance.com.my,linkedin.com/company/liberty-insurance-malaysia,US parent (ex-AmGeneral)
-2,Insurers,Lonpac Insurance Bhd,General Insurer,500M+,700,Medium,Head of Risk,lonpac.com,+603-2059,www.lonpac.com,linkedin.com/company/lonpac,Lloyd's of London
-2,Insurers,MSIG Insurance (Malaysia) Bhd,General Insurer,450M+,650,Medium,CISO,msig.com.my,+603-2070,www.msig.com.my,linkedin.com/company/msig-malaysia,Japan parent
-2,Insurers,QBE Insurance (Malaysia) Sdn Bhd,General Insurer,400M+,600,Low,CRO,qbe.com/my,+603-2201,www.qbe.com/my,linkedin.com/company/qbe-malaysia,Australia parent
-2,Insurers,Kurnia Insurans (Malaysia) Berhad,General Insurer,350M+,550,Low,Head of Compliance,kurnia.com,+603-2692,www.kurnia.com,linkedin.com/company/kurnia-insurans,Local owned
-2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,300M+,500,Low,CISO,allianz.com.my,+603-2264,www.allianz.com.my,linkedin.com/company/allianz-malaysia,Germany parent
-2,Takaful,Takaful IKHLAS Berhad,Family Takaful,2B+,1800,High,CRO,takaful-ikhlas.com.my,+603-2297,www.takaful-ikhlas.com.my,linkedin.com/company/takaful-ikhlas,Maybank Group
-2,Takaful,Etiqa Takaful Berhad,Family Takaful,1.5B+,1500,High,Head of Risk,etiqa.com.my,+603-2297,www.etiqa.com.my,linkedin.com/company/etiqa-takaful,Maybank Group
-2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,Family Takaful,1.2B+,1200,High,CISO,hsbcamanah.my,+603-7652,www.hsbcamanah.my,linkedin.com/company/hsbc-amanah-takaful,HSBC Group
-2,Takaful,AIA Public Takaful Berhad,Family Takaful,1B+,1000,High,CRO,aiapublictakaful.com.my,+603-2056,www.aiapublictakaful.com.my,linkedin.com/company/aia-public-takaful,AIA + Public Bank JV
-2,Takaful,Prudential BSN Takaful Berhad,Family Takaful,800M+,900,Medium,Head of Compliance,pbtakaful.com.my,+603-2778,www.pbtakaful.com.my,linkedin.com/company/pbt,Prudential + BSN JV
-2,Takaful,Manulife Takaful Malaysia Berhad,Family Takaful,600M+,800,Medium,CISO,manulifetakaful.com.my,+603-2719,www.manulifetakaful.com.my,linkedin.com/company/manulife-takaful,Manulife Group
-2,Takaful,Allianz Takaful Berhad,Family Takaful,500M+,700,Medium,CRO,allianztakaful.com.my,+603-2264,www.allianztakaful.com.my,linkedin.com/company/allianz-takaful,Allianz Group
-2,Takaful,Zurich Takaful Malaysia Berhad,Family Takaful,400M+,600,Low,Head of Risk,zurichtakaful.com.my,+603-2206,www.zurichtakaful.com.my,linkedin.com/company/zurich-takaful,Zurich Group
-2,Takaful,Syarikat Takaful Malaysia Berhad,Family Takaful,350M+,550,Low,CISO,stm.com.my,+603-2698,www.stm.com.my,linkedin.com/company/stm,Local owned
-2,Takaful,Takaful Am General Berhad,General Takaful,300M+,500,Low,CRO,takaful-am.com,+603-2056,www.takaful-am.com,linkedin.com/company/takaful-am,Local owned
-2,Takaful,Family Takaful Berhad,Family Takaful,250M+,450,Low,Head of Compliance,ftb.com.my,+603-2297,www.ftb.com.my,linkedin.com/company/ftb,Local owned
-2,Takaful,General Takaful Berhad,General Takaful,200M+,400,Low,CISO,gtb.com.my,+603-2297,www.gtb.com.my,linkedin.com/company/gtb,Local owned
-3,Development FIs,Bank Rakyat Malaysia,Development FI,10B+,5000,High,CEO,bankrakyat.com.my,+603-2298,www.bankrakyat.com.my,linkedin.com/company/bank-rakyat,Largest cooperative bank
-3,Development FIs,Agrobank Malaysia,Development FI,2B+,2000,High,Head of Risk,agrobank.com.my,+603-2698,www.agrobank.com.my,linkedin.com/company/agrobank,Agriculture focus
-3,Development FIs,Bank Simpanan Nasional (BSN),Development FI,5B+,3000,High,CISO,bsn.com.my,+603-2698,www.bsn.com.my,linkedin.com/company/bsn,Savings bank
-3,Development FIs,EXIM Bank Malaysia,Development FI,1B+,500,Medium,CRO,eximbank.com.my,+603-2693,www.eximbank.com.my,linkedin.com/company/exim-bank-malaysia,Export-import finance
-3,Development FIs,SME Bank Berhad,Development FI,800M+,800,Medium,Head of Compliance,smebank.com.my,+603-2693,www.smebank.com.my,linkedin.com/company/sme-bank,SME financing
-3,Development FIs,Tekun Nasional,Development FI,500M+,600,Medium,CISO,tekun.gov.my,+603-2693,www.tekun.gov.my,linkedin.com/company/tekun,Microfinance
-3,Development FIs,MARA,Development FI,400M+,500,Low,CRO,mara.gov.my,+603-2693,www.mara.gov.my,linkedin.com/company/mara,Bumiputera development
-3,Development FIs,PUNB,Development FI,300M+,400,Low,Head of Risk,punb.com.my,+603-2693,www.punb.com.my,linkedin.com/company/punb,Bumiputera commerce
-3,Development FIs,LPPSA,Development FI,200M+,300,Low,CISO,lppsa.gov.my,+603-2693,www.lppsa.gov.my,linkedin.com/company/lppsa,Civil service loans
-3,Development FIs,Tabung Haji,Development FI,15B+,2000,Critical,CEO,th.com.my,+603-2698,www.th.com.my,linkedin.com/company/tabung-haji,Pilgrimage fund (largest DFI)
-3,MSBs,I.Destinasi Sdn Bhd (IDSB),Money Services Business,50M+,100,Medium,Compliance Head,idsb.com.my,+603-4023,www.idsb.com.my,linkedin.com/company/idsb,Personal financing MSB
-3,MSBs,Money Match Sdn Bhd,Money Services Business,100M+,200,Medium,CEO,moneymatch.co,+603-2780,www.moneymatch.co,linkedin.com/company/money-match,Cross-border payments
-3,MSBs,Wallex Sdn Bhd,Money Services Business,80M+,150,Medium,CRO,wallex.co,+603-2780,www.wallex.co,linkedin.com/company/wallex,FX services
-3,MSBs,Instarem Sdn Bhd,Money Services Business,150M+,250,High,Head of Compliance,instarem.com,+603-2780,www.instarem.com,linkedin.com/company/instarem,Remittance
-3,MSBs,CurrencyFair (Malaysia) Sdn Bhd,Money Services Business,60M+,100,Medium,CISO,currencyfair.com,+603-2780,www.currencyfair.com,linkedin.com/company/currencyfair,Peer-to-peer FX
-3,MSBs,Xendit Technologies (Malaysia) Sdn Bhd,Payment Facilitator,200M+,300,High,CRO,xendit.co,+603-2780,www.xendit.co,linkedin.com/company/xendit,Payment gateway
-3,MSBs,2C2P (Malaysia) Sdn Bhd,Payment Facilitator,180M+,280,High,Head of Risk,2c2p.com,+603-2780,www.2c2p.com,linkedin.com/company/2c2p,Payment solutions
-3,MSBs,iPay88 (Malaysia) Sdn Bhd,Payment Facilitator,120M+,200,Medium,CISO,ipay88.com,+603-2780,www.ipay88.com,linkedin.com/company/ipay88,Online payments
-3,MSBs,Billplz Sdn Bhd,Payment Facilitator,50M+,80,Medium,CRO,billplz.com,+603-2780,www.billplz.com,linkedin.com/company/billplz,Bill payments
-3,MSBs,SenangPay Sdn Bhd,Payment Facilitator,40M+,60,Low,Head of Compliance,senangpay.com.my,+603-2780,www.senangpay.com.my,linkedin.com/company/senangpay,Payment gateway
-3,MSBs,ToyyibPay Sdn Bhd,Payment Facilitator,30M+,50,Low,CISO,toyyibpay.com,+603-2780,www.toyyibpay.com,linkedin.com/company/toyyibpay,Local payments
-3,MSBs,G2G Online (Malaysia) Sdn Bhd,Payment Facilitator,100M+,150,Medium,CRO,g2g.com,+603-2780,www.g2g.com,linkedin.com/company/g2g,Gaming payments
-3,MSBs,MoneyMatch Sdn Bhd,Money Services Business,50M+,80,Low,Head of Risk,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,Wise (formerly TransferWise) Malaysia Sdn Bhd,Money Services Business,50M+,80,Low,CISO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,BigPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low,CRO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,Touch n Go eWallet Sdn Bhd,Money Services Business,50M+,80,Low,Compliance Head,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,MSBs,GrabPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low,CEO,paynet.com.my,+603-2070,www.paynet.com.my,,PayNet partner
-3,Cooperatives,Koperasi Tentera Malaysia,Cooperative FI,500M+,400,Medium,General Manager,ktm.com.my,+603-2693,www.ktm.com.my,linkedin.com/company/ktm,Military cooperative
-3,Cooperatives,Koperasi Polis Diraja Malaysia,Cooperative FI,400M+,350,Medium,CRO,kpd.org.my,+603-2693,www.kpd.org.my,linkedin.com/company/kpd,Police cooperative
-3,Cooperatives,Koperasi Guru Malaysia,Cooperative FI,350M+,300,Medium,Head of Risk,kgm.org.my,+603-2693,www.kgm.org.my,linkedin.com/company/kgm,Teachers cooperative
-3,Cooperatives,Koperasi Kakitangan Kerajaan,Cooperative FI,300M+,280,Low,CISO,kkg.com.my,+603-2693,www.kkg.com.my,linkedin.com/company/kkg,Government staff
-3,Cooperatives,Koperasi Angkatan Tentera,Cooperative FI,280M+,250,Low,CRO,kat.com.my,+603-2693,www.kat.com.my,linkedin.com/company/kat,Armed forces
-3,Cooperatives,Koperasi Negeri Sembilan,Cooperative FI,250M+,220,Low,Head of Compliance,kns.com.my,+603-2693,www.kns.com.my,linkedin.com/company/kns,State cooperative
-3,Cooperatives,Koperasi Selangor,Cooperative FI,230M+,200,Low,CISO,ks.com.my,+603-2693,www.ks.com.my,linkedin.com/company/ks,State cooperative
-3,Cooperatives,Koperasi Johor,Cooperative FI,210M+,180,Low,CRO,kj.com.my,+603-2693,www.kj.com.my,linkedin.com/company/kj,State cooperative
-3,Cooperatives,Koperasi Pulau Pinang,Cooperative FI,190M+,160,Low,Compliance Head,kpp.com.my,+603-2693,www.kpp.com.my,linkedin.com/company/kpp,State cooperative
-3,Cooperatives,Koperasi Perak,Cooperative FI,170M+,140,Low,CEO,kp.com.my,+603-2693,www.kp.com.my,linkedin.com/company/kp,State cooperative
-3,Cooperatives,Koperasi Pahang,Cooperative FI,150M+,120,Low,General Manager,kpah.com.my,+603-2693,www.kpah.com.my,linkedin.com/company/kpah,State cooperative
-3,Cooperatives,Koperasi Kedah,Cooperative FI,140M+,110,Low,CRO,kk.com.my,+603-2693,www.kk.com.my,linkedin.com/company/kk,State cooperative
-3,Cooperatives,Koperasi Kelantan,Cooperative FI,130M+,100,Low,Head of Risk,kklt.com.my,+603-2693,www.kklt.com.my,linkedin.com/company/kklt,State cooperative
-3,Cooperatives,Koperasi Terengganu,Cooperative FI,120M+,90,Low,CISO,kt.com.my,+603-2693,www.kt.com.my,linkedin.com/company/kt,State cooperative
-3,Cooperatives,Koperasi Sabah,Cooperative FI,110M+,85,Low,CRO,ksb.com.my,+603-2693,www.ksb.com.my,linkedin.com/company/ksb,State cooperative
-3,Cooperatives,Koperasi Sarawak,Cooperative FI,100M+,80,Low,Compliance Head,ksw.com.my,+603-2693,www.ksw.com.my,linkedin.com/company/ksw,State cooperative
-3,Cooperatives,Koperasi Melaka,Cooperative FI,90M+,75,Low,CEO,km.com.my,+603-2693,www.km.com.my,linkedin.com/company/km,State cooperative
-3,Cooperatives,Koperasi Perlis,Cooperative FI,80M+,70,Low,General Manager,kprl.com.my,+603-2693,www.kprl.com.my,linkedin.com/company/kprl,State cooperative
-3,Cooperatives,Koperasi KL,Cooperative FI,70M+,65,Low,CRO,kkl.com.my,+603-2693,www.kkl.com.my,linkedin.com/company/kkl,Federal territory
-3,Cooperatives,Koperasi Labuan,Cooperative FI,60M+,60,Low,Head of Risk,klb.com.my,+603-2693,www.klb.com.my,linkedin.com/company/klb,Federal territory
-3,Cooperatives,Koperasi Putrajaya,Cooperative FI,50M+,55,Low,CISO,kpj.com.my,+603-2693,www.kpj.com.my,linkedin.com/company/kpj,Federal territory
-4,Payment Operators,PayNet (PayNet Malaysia Sdn Bhd),Payment System Operator,1B+,800,Critical,CEO,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,National payment network
-4,Payment Operators,FPX (by PayNet),Payment System Operator,500M+,400,High,Head of Technology,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,Online banking
-4,Payment Operators,DuitNow (by PayNet),Payment System Operator,400M+,350,High,CISO,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,Real-time payments
-4,Payment Operators,JomPAY (by PayNet),Payment System Operator,300M+,300,High,CRO,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,Bill payments
-4,Payment Operators,Me2U (by PayNet),Payment System Operator,200M+,250,Medium,Head of Risk,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,P2P transfers
-4,Payment Operators,PayDirect (by PayNet),Payment System Operator,150M+,200,Medium,CISO,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,QR payments
-4,E-Money,Touch 'n Go eWallet (TNG Digital Sdn Bhd),E-Money Issuer,500M+,1000,Critical,CISO,tngdigital.com.my,+603-2780,www.tngdigital.com.my,linkedin.com/company/tng-digital,CIMB + Ant Group JV
-4,E-Money,MAE by Maybank (Maybank Islamic),Bank-issued Wallet,400M+,800,High,Head of Digital,maybank.com.my,+603-2070,www.maybank2u.com.my,linkedin.com/company/maybank,Maybank's digital wallet
-4,E-Money,GrabPay (Grab Malaysia),E-Money Issuer,350M+,700,High,CRO,grab.com,+603-2780,www.grab.com/my,linkedin.com/company/grab,Superapp payments
-4,E-Money,ShopeePay (Monee Malaysia),E-Money Issuer,300M+,600,High,CISO,shopee.com.my,+603-2780,www.shopee.com.my,linkedin.com/company/shopee,E-commerce wallet
-4,E-Money,Boost (Axiata + RHB),E-Money Issuer,250M+,500,High,CEO,boost.com.my,+603-2780,www.boost.com.my,linkedin.com/company/boost,Now Boost Bank
-4,E-Money,Setel (PETRONAS Dagangan),E-Money Issuer,200M+,400,Medium,Head of Technology,setel.com,+603-2780,www.setel.com,linkedin.com/company/setel,PETRONAS wallet
-4,E-Money,BigPay (Capital A),E-Money Issuer,180M+,350,Medium,CRO,bigpay.me,+603-2780,www.bigpay.me,linkedin.com/company/bigpay,AirAsia fintech
-4,E-Money,AEON Wallet (AEON Credit),E-Money Issuer,150M+,300,Medium,CISO,aeon.com.my,+603-2780,www.aeon.com.my,linkedin.com/company/aeon-credit,AEON ecosystem
-4,E-Money,Alipay+ Malaysia (Ant Group),E-Money Issuer,120M+,250,Medium,Head of Compliance,alipayplus.com,+603-2780,www.alipayplus.com,linkedin.com/company/alipay,Cross-border
-4,E-Money,WeChat Pay Malaysia (Tencent),E-Money Issuer,100M+,200,Medium,CRO,wechatpay.com.my,+603-2780,www.wechatpay.com.my,linkedin.com/company/wechat-pay,Cross-border
-4,E-Money,Razer Pay (Razer Fintech),E-Money Issuer,80M+,150,Low,CISO,razer.com,+603-2780,www.razer.com,linkedin.com/company/razer,Gaming niche
-4,E-Money,CIMB OctoPay (CIMB Bank),Bank-issued Wallet,60M+,120,Low,Head of Digital,cimb.com,+603-6204,www.cimb.com.my,linkedin.com/company/cimb,CIMB wallet
-4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low,CEO,emi1.com.my,+603-2780,www.emi1.com.my,,Licensed EMI
-4,E-Money,GrabPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CRO,emi2.com.my,+603-2780,www.emi2.com.my,,Licensed EMI
-4,E-Money,Axiata Digital Services Sdn Bhd (Boost),E-Money Issuer,50M+,100,Low,CISO,emi3.com.my,+603-2780,www.emi3.com.my,,Licensed EMI
-4,E-Money,ShopeePay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,Compliance Head,emi4.com.my,+603-2780,www.emi4.com.my,,Licensed EMI
-4,E-Money,BigPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CEO,emi5.com.my,+603-2780,www.emi5.com.my,,Licensed EMI
-4,E-Money,Setel by PETRONAS Dagangan Berhad,E-Money Issuer,50M+,100,Low,CRO,emi6.com.my,+603-2780,www.emi6.com.my,,Licensed EMI
-4,E-Money,WeChat Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CISO,emi7.com.my,+603-2780,www.emi7.com.my,,Licensed EMI
-4,E-Money,MAE by Maybank (Maybank2u),E-Money Issuer,50M+,100,Low,Compliance Head,emi8.com.my,+603-2780,www.emi8.com.my,,Licensed EMI
-4,E-Money,Razer Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low,CEO,emi9.com.my,+603-2780,www.emi9.com.my,,Licensed EMI
-4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low,CRO,emi10.com.my,+603-2780,www.emi10.com.my,,Licensed EMI
-4,Card Schemes,PayNet Card (by PayNet),Card Scheme,200M+,200,Medium,Head of Product,paynet.com.my,+603-2070,www.paynet.com.my,linkedin.com/company/paynet,National card
-4,Card Schemes,Maybank Cash & Go Prepaid Card,Card Scheme,100M+,100,Low,Product Head,prepaid1.com.my,+603-2780,www.prepaid1.com.my,,Prepaid cards
-4,Card Schemes,Touch n Go Visa Prepaid Card,Card Scheme,100M+,100,Low,Risk Head,prepaid2.com.my,+603-2780,www.prepaid2.com.my,,Prepaid cards
-4,Card Schemes,Maybank Singapore Airlines Enrich Card,Card Scheme,80M+,80,Low,CEO,cobrand1.com.my,+603-2780,www.cobrand1.com.my,,Co-branded
-4,Card Schemes,CIMB Petronas Visa Card,Card Scheme,80M+,80,Low,CRO,cobrand2.com.my,+603-2780,www.cobrand2.com.my,,Co-branded
-4,Card Schemes,RHB Shell Visa Card,Card Scheme,80M+,80,Low,CISO,cobrand3.com.my,+603-2780,www.cobrand3.com.my,,Co-branded
-4,Card Schemes,Hong Leong Bank AirMiles Card,Card Scheme,80M+,80,Low,Compliance Head,cobrand4.com.my,+603-2780,www.cobrand4.com.my,,Co-branded
-4,Card Schemes,AmBank AirAsia Visa Card,Card Scheme,80M+,80,Low,CEO,cobrand5.com.my,+603-2780,www.cobrand5.com.my,,Co-branded
-4,Card Schemes,UOB Lazada Visa Card,Card Scheme,80M+,80,Low,CRO,cobrand6.com.my,+603-2780,www.cobrand6.com.my,,Co-branded
-4,Card Schemes,Standard Chartered Shopee Visa Card,Card Scheme,80M+,80,Low,CISO,cobrand7.com.my,+603-2780,www.cobrand7.com.my,,Co-branded
-5,GLC-Linked,Maybank (Khazanah-linked),GLC Financial,20B+,20000,Critical,Group CRO,maybank.com.my,+603-2070,www.maybank.com.my,linkedin.com/company/maybank,Khazanah stake
-5,GLC-Linked,CIMB (Khazanah-linked),GLC Financial,15B+,15000,Critical,Head of Risk,cimb.com,+603-6204,www.cimb.com,linkedin.com/company/cimb,Khazanah stake
-5,GLC-Linked,Iskandar Waterfront City,GLC Development,5B+,2000,Medium,CFO,iwc.com.my,+603-2780,www.iwc.com.my,linkedin.com/company/iwc,Khazanah-linked
-5,GLC-Linked,Khazanah Nasional Berhad,GLC Financial,2B+,1500,Medium,CRO,glc1.com.my,+603-2780,www.glc1.com.my,,GLC-linked
-5,GLC-Linked,Permodalan Nasional Berhad (PNB),GLC Financial,2B+,1500,Medium,CISO,glc2.com.my,+603-2780,www.glc2.com.my,,GLC-linked
-5,GLC-Linked,Kumpulan Wang Simpanan Pekerja (KWSP),GLC Financial,1.5B+,1200,Medium,Head of Compliance,glc3.com.my,+603-2780,www.glc3.com.my,,GLC-linked
-5,GLC-Linked,Lembaga Tabung Haji,GLC Financial,1.5B+,1200,Medium,CEO,glc4.com.my,+603-2780,www.glc4.com.my,,GLC-linked
-5,GLC-Linked,Syarikat Jaminan Pembiayaan Perniagaan (SJPP),GLC Financial,1B+,1000,Low,CRO,glc5.com.my,+603-2780,www.glc5.com.my,,GLC-linked
-5,GLC-Linked,Agensi Jaminan Kredit Mikro (AKM),GLC Financial,1B+,1000,Low,CISO,glc6.com.my,+603-2780,www.glc6.com.my,,GLC-linked
-5,GLC-Linked,Cradle Fund Sdn Bhd,GLC Financial,800M+,800,Low,Compliance Head,glc7.com.my,+603-2780,www.glc7.com.my,,GLC-linked
-5,GLC-Linked,MARA (Majlis Amanah Rakyat),GLC Financial,800M+,800,Low,CEO,glc8.com.my,+603-2780,www.glc8.com.my,,GLC-linked
-5,GLC-Linked,Amanah Saham Nasional Berhad (ASNB),PNB Financial,2B+,1500,Medium,CRO,pnb1.com.my,+603-2780,www.pnb1.com.my,,PNB-linked
-5,GLC-Linked,PNB Capital Berhad,PNB Financial,1.5B+,1200,Medium,CISO,pnb2.com.my,+603-2780,www.pnb2.com.my,,PNB-linked
-5,GLC-Linked,PNB Income Fund Berhad,PNB Financial,1B+,1000,Low,Head of Risk,pnb3.com.my,+603-2780,www.pnb3.com.my,,PNB-linked
-5,GLC-Linked,PNB Equity Fund Berhad,PNB Financial,800M+,800,Low,CRO,pnb4.com.my,+603-2780,www.pnb4.com.my,,PNB-linked
-5,GLC-Linked,Permodalan BSN Berhad (PBSNB),PNB Financial,600M+,600,Low,CISO,pnb5.com.my,+603-2780,www.pnb5.com.my,,PNB-linked
-5,GLC-Linked,KWSP Investment Division (Direct Investments),EPF Investment,5B+,500,High,Investment Risk Head,kwsp.gov.my,+603-2698,www.kwsp.gov.my,linkedin.com/company/epf-malaysia,EPF investment arm
-5,GLC-Linked,KWSP Investment Division (Alternative Assets),EPF Investment,3B+,400,Medium,CRO,epf1.com.my,+603-2780,www.epf1.com.my,,EPF-linked
-5,GLC-Linked,KWSP Investment Division (Real Estate),EPF Investment,2B+,300,Medium,CISO,epf2.com.my,+603-2780,www.epf2.com.my,,EPF-linked
-5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),State Financial,500M+,400,Low,CEO,slf.com.my,+603-2780,www.slf.com.my,,State fund
-5,GLC-Linked,Johor Corporation (JCorp),State Financial,450M+,350,Low,CRO,jf.com.my,+603-2780,www.jf.com.my,,State fund
-5,GLC-Linked,Penang State Development Corporation (PSDC),State Financial,400M+,300,Low,CISO,pf.com.my,+603-2780,www.pf.com.my,,State fund
-5,GLC-Linked,Sabah State Financial Corporation (SSFC),State Financial,350M+,250,Low,Compliance Head,sf.com.my,+603-2780,www.sf.com.my,,State fund
-5,GLC-Linked,Sarawak State Financial Corporation (SSFC),State Financial,300M+,200,Low,CEO,swf.com.my,+603-2780,www.swf.com.my,,State fund
-6,Fintech Sandbox,KAF Digital Bank,Islamic Digital Bank,200M+,400,High,Founder/CEO,kaf.com.my,+603-2780,www.kaf.com.my,linkedin.com/company/kaf-digital,BNM sandbox grad
-6,Fintech Sandbox,AEON Bank (M) Berhad,Islamic Digital Bank,500M+,600,Critical,Chief Risk Officer,aeonbank.com.my,+603-2780,www.aeonbank.com.my,linkedin.com/company/aeon-bank,BNM sandbox grad
-6,Fintech Sandbox,GX Bank Berhad,Digital Bank,400M+,500,High,CEO,gxbank.com.my,+603-2780,www.gxbank.com.my,linkedin.com/company/gx-bank,BNM sandbox grad
-6,Fintech Sandbox,Boost Bank Berhad,Digital Bank,350M+,450,High,CRO,boostbank.com.my,+603-2780,www.boostbank.com.my,linkedin.com/company/boost-bank,BNM sandbox grad
-6,Fintech Sandbox,Ryt Bank Berhad (YTL Digital),Digital Bank,300M+,400,High,CISO,rytbank.com.my,+603-2780,www.rytbank.com.my,linkedin.com/company/ryt-bank,BNM sandbox grad
-6,Fintech Sandbox,GXBank Berhad,Fintech,50M+,100,Medium,Founder,sandbox1.com,+603-2780,www.sandbox1.com,,BNM sandbox current
-6,Fintech Sandbox,Boost Bank Berhad,Fintech,50M+,100,Medium,Compliance Lead,sandbox2.com,+603-2780,www.sandbox2.com,,BNM sandbox current
-6,Fintech Sandbox,AEON Bank Berhad,Fintech,40M+,80,Medium,CEO,sandbox3.com,+603-2780,www.sandbox3.com,,BNM sandbox current
-6,Fintech Sandbox,KAF Digital Bank Berhad,Fintech,40M+,80,Medium,CTO,sandbox4.com,+603-2780,www.sandbox4.com,,BNM sandbox current
-6,Fintech Sandbox,Ryt Bank Berhad,Fintech,30M+,60,Low,Founder,sandbox5.com,+603-2780,www.sandbox5.com,,BNM sandbox current
-6,Fintech Sandbox,KDI Save Sdn Bhd,Fintech,30M+,60,Low,Compliance Lead,sandbox6.com,+603-2780,www.sandbox6.com,,BNM sandbox current
-6,Fintech Sandbox,SeaBank Malaysia Berhad,Fintech,25M+,50,Low,CEO,sandbox7.com,+603-2780,www.sandbox7.com,,BNM sandbox current
-6,Fintech Sandbox,Jirnexu (M) Sdn Bhd,Fintech,25M+,50,Low,CTO,sandbox8.com,+603-2780,www.sandbox8.com,,BNM sandbox current
-6,Fintech Sandbox,Soft Space Sdn Bhd,Fintech,20M+,40,Low,Founder,sandbox9.com,+603-2780,www.sandbox9.com,,BNM sandbox current
-6,Fintech Sandbox,GXBank Berhad,Fintech,20M+,40,Low,Compliance Lead,sandbox10.com,+603-2780,www.sandbox10.com,,BNM sandbox current
-6,Fintech Registered,iPay88 (M) Sdn Bhd,Payment Facilitator,100M+,200,Medium,CEO,rf1.com.my,+603-2780,www.rf1.com.my,,BNM registered
-6,Fintech Registered,Billplz Sdn Bhd,Payment Facilitator,80M+,150,Medium,CTO,rf2.com.my,+603-2780,www.rf2.com.my,,BNM registered
-6,Fintech Registered,ToyyibPay Sdn Bhd,Aggregator,60M+,120,Low,CRO,rf3.com.my,+603-2780,www.rf3.com.my,,BNM registered
-6,Fintech Registered,SenangPay Sdn Bhd,Aggregator,50M+,100,Low,CISO,rf4.com.my,+603-2780,www.rf4.com.my,,BNM registered
-6,Fintech Registered,Stripe Payments Malaysia Sdn Bhd,Payment Services,40M+,80,Low,CEO,rf5.com.my,+603-2780,www.rf5.com.my,,BNM registered
+Tier,Segment,Institution_Name,Type,Est_Revenue_MYR,Employees,RMiT_Urgency
+1,Licensed Banks,Maybank Islamic Berhad,Islamic Bank,15B+,15000,Critical
+1,Licensed Banks,CIMB Islamic Bank Berhad,Islamic Bank,12B+,12000,Critical
+1,Licensed Banks,Public Islamic Bank Berhad,Islamic Bank,8B+,8000,Critical
+1,Licensed Banks,RHB Islamic Bank Berhad,Islamic Bank,6B+,6000,Critical
+1,Licensed Banks,Hong Leong Islamic Bank Berhad,Islamic Bank,4B+,4000,Critical
+1,Licensed Banks,Bank Islam Malaysia Berhad,Islamic Bank,4B+,3500,Critical
+1,Licensed Banks,AmBank Islamic Berhad,Islamic Bank,3B+,3000,High
+1,Licensed Banks,Alliance Islamic Bank Berhad,Islamic Bank,2B+,2000,High
+1,Licensed Banks,Maybank Berhad,Commercial Bank,20B+,20000,Critical
+1,Licensed Banks,CIMB Bank Berhad,Commercial Bank,15B+,15000,Critical
+1,Licensed Banks,Public Bank Berhad,Commercial Bank,10B+,10000,Critical
+1,Licensed Banks,RHB Bank Berhad,Commercial Bank,8B+,8000,Critical
+1,Licensed Banks,Hong Leong Bank Berhad,Commercial Bank,6B+,5000,Critical
+1,Licensed Banks,AmBank (M) Berhad,Commercial Bank,4B+,4000,High
+1,Licensed Banks,Alliance Bank Malaysia Berhad,Commercial Bank,3B+,2500,High
+1,Licensed Banks,UOB Malaysia Berhad,Commercial Bank,5B+,4000,High
+1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Commercial Bank,4B+,3500,High
+1,Licensed Banks,Standard Chartered Bank Malaysia Berhad,Commercial Bank,3B+,2500,High
+1,Licensed Banks,HSBC Bank Malaysia Berhad,Commercial Bank,4B+,3000,High
+1,Licensed Banks,Citibank Berhad,Commercial Bank,2B+,1500,High
+1,Licensed Banks,Bank of China (Malaysia) Berhad,Commercial Bank,1B+,800,Medium
+1,Licensed Banks,ICBC (Malaysia) Berhad,Commercial Bank,1B+,600,Medium
+1,Licensed Banks,Sumitomo Mitsui Banking Corporation Malaysia Berhad,Commercial Bank,800M+,400,Medium
+1,Licensed Banks,Mizuho Bank (Malaysia) Berhad,Commercial Bank,600M+,300,Medium
+1,Licensed Banks,J.P. Morgan Chase Bank Malaysia Berhad,Commercial Bank,500M+,250,Medium
+1,Licensed Banks,Deutsche Bank (Malaysia) Berhad,Commercial Bank,400M+,200,Medium
+1,Licensed Banks,BNP Paribas Malaysia Berhad,Commercial Bank,300M+,150,Medium
+1,Licensed Banks,Credit Suisse (Malaysia) Berhad,Commercial Bank,200M+,100,Medium
+2,Investment Banks,Maybank Investment Bank Berhad,Investment Bank,2B+,1500,High
+2,Investment Banks,CIMB Investment Bank Berhad,Investment Bank,1.5B+,1200,High
+2,Investment Banks,RHB Investment Bank Berhad,Investment Bank,1B+,1000,High
+2,Investment Banks,Public Investment Bank Berhad,Investment Bank,800M+,800,High
+2,Investment Banks,Hong Leong Investment Bank Berhad,Investment Bank,600M+,600,High
+2,Investment Banks,AmInvestment Bank Berhad,Investment Bank,400M+,500,Medium
+2,Investment Banks,Alliance Investment Bank Berhad,Investment Bank,300M+,400,Medium
+2,Investment Banks,Kenanga Investment Bank Berhad,Investment Bank,250M+,350,Medium
+2,Investment Banks,MIDF Amanah Investment Bank Berhad,Investment Bank,200M+,300,Medium
+2,Investment Banks,Affin Investment Bank Berhad,Investment Bank,150M+,250,Medium
+2,Investment Banks,Bank Rakyat Investment Bank Berhad,Investment Bank,150M+,200,Medium
+2,Investment Banks,BIMB Investment Bank Berhad,Investment Bank,100M+,180,Medium
+2,Investment Banks,Malaysia International Islamic Bank IB,Investment Bank,100M+,150,Medium
+2,Investment Banks,JCL Corporation Sdn Bhd,Investment Bank,80M+,120,Low
+2,Investment Banks,Phillip Securities (Malaysia) Sdn Bhd,Investment Bank,60M+,100,Low
+2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,Life Insurer,5B+,4000,High
+2,Insurers,AIA Berhad,Life Insurer,4B+,3500,High
+2,Insurers,Prudential Assurance Malaysia Berhad,Life Insurer,3B+,3000,High
+2,Insurers,Manulife Insurance Berhad,Life Insurer,2.5B+,2500,High
+2,Insurers,Allianz Life Insurance Malaysia Berhad,Life Insurer,2B+,2000,High
+2,Insurers,AmMetLife Insurance Berhad,Life Insurer,1.5B+,1800,Medium
+2,Insurers,Etiqa Life Insurance Berhad,Life Insurer,1.2B+,1500,Medium
+2,Insurers,FWD Insurance Berhad,Life Insurer,1B+,1200,Medium
+2,Insurers,Generali Life Insurance Malaysia Berhad,Life Insurer,800M+,1000,Medium
+2,Insurers,Hong Leong Assurance Berhad,Life Insurer,600M+,800,Medium
+2,Insurers,MCIS Insurance Berhad,Life Insurer,500M+,700,Low
+2,Insurers,Sun Life Malaysia Assurance Berhad,Life Insurer,400M+,600,Low
+2,Insurers,Tokio Marine Life Insurance Malaysia Bhd,Life Insurer,350M+,500,Low
+2,Insurers,Zurich Life Insurance Malaysia Berhad,Life Insurer,300M+,450,Low
+2,Insurers,AIA General Berhad,General Insurer,3B+,2500,High
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,2.5B+,2000,High
+2,Insurers,Etiqa General Insurance Berhad,General Insurer,2B+,1800,High
+2,Insurers,Great Eastern General Insurance (Malaysia) Berhad,General Insurer,1.5B+,1500,High
+2,Insurers,Chubb Insurance Malaysia Berhad,General Insurer,1.2B+,1200,High
+2,Insurers,Berjaya Sompo Insurance Berhad,General Insurer,1B+,1000,Medium
+2,Insurers,Generali Insurance Malaysia Berhad,General Insurer,800M+,900,Medium
+2,Insurers,Liberty General Insurance Berhad,General Insurer,600M+,800,Medium
+2,Insurers,Lonpac Insurance Bhd,General Insurer,500M+,700,Medium
+2,Insurers,MSIG Insurance (Malaysia) Bhd,General Insurer,450M+,650,Medium
+2,Insurers,QBE Insurance (Malaysia) Sdn Bhd,General Insurer,400M+,600,Low
+2,Insurers,Kurnia Insurans (Malaysia) Berhad,General Insurer,350M+,550,Low
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,300M+,500,Low
+2,Takaful,Takaful IKHLAS Berhad,Family Takaful,2B+,1800,High
+2,Takaful,Etiqa Takaful Berhad,Family Takaful,1.5B+,1500,High
+2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,Family Takaful,1.2B+,1200,High
+2,Takaful,AIA Public Takaful Berhad,Family Takaful,1B+,1000,High
+2,Takaful,Prudential BSN Takaful Berhad,Family Takaful,800M+,900,Medium
+2,Takaful,Manulife Takaful Malaysia Berhad,Family Takaful,600M+,800,Medium
+2,Takaful,Allianz Takaful Berhad,Family Takaful,500M+,700,Medium
+2,Takaful,Zurich Takaful Malaysia Berhad,Family Takaful,400M+,600,Low
+2,Takaful,Syarikat Takaful Malaysia Berhad,Family Takaful,350M+,550,Low
+2,Takaful,Takaful Am General Berhad,General Takaful,300M+,500,Low
+2,Takaful,Family Takaful Berhad,Family Takaful,250M+,450,Low
+2,Takaful,General Takaful Berhad,General Takaful,200M+,400,Low
+3,Development FIs,Bank Rakyat Malaysia,Development FI,10B+,5000,High
+3,Development FIs,Agrobank Malaysia,Development FI,2B+,2000,High
+3,Development FIs,Bank Simpanan Nasional (BSN),Development FI,5B+,3000,High
+3,Development FIs,EXIM Bank Malaysia,Development FI,1B+,500,Medium
+3,Development FIs,SME Bank Berhad,Development FI,800M+,800,Medium
+3,Development FIs,Tekun Nasional,Development FI,500M+,600,Medium
+3,Development FIs,MARA,Development FI,400M+,500,Low
+3,Development FIs,PUNB,Development FI,300M+,400,Low
+3,Development FIs,LPPSA,Development FI,200M+,300,Low
+3,Development FIs,Tabung Haji,Development FI,15B+,2000,Critical
+3,MSBs,I.Destinasi Sdn Bhd (IDSB),Money Services Business,50M+,100,Medium
+3,MSBs,Money Match Sdn Bhd,Money Services Business,100M+,200,Medium
+3,MSBs,Wallex Sdn Bhd,Money Services Business,80M+,150,Medium
+3,MSBs,Instarem Sdn Bhd,Money Services Business,150M+,250,High
+3,MSBs,CurrencyFair (Malaysia) Sdn Bhd,Money Services Business,60M+,100,Medium
+3,MSBs,Xendit Technologies (Malaysia) Sdn Bhd,Payment Facilitator,200M+,300,High
+3,MSBs,2C2P (Malaysia) Sdn Bhd,Payment Facilitator,180M+,280,High
+3,MSBs,iPay88 (Malaysia) Sdn Bhd,Payment Facilitator,120M+,200,Medium
+3,MSBs,Billplz Sdn Bhd,Payment Facilitator,50M+,80,Medium
+3,MSBs,SenangPay Sdn Bhd,Payment Facilitator,40M+,60,Low
+3,MSBs,ToyyibPay Sdn Bhd,Payment Facilitator,30M+,50,Low
+3,MSBs,G2G Online (Malaysia) Sdn Bhd,Payment Facilitator,100M+,150,Medium
+3,MSBs,MoneyMatch Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,Wise (formerly TransferWise) Malaysia Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,BigPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,Touch n Go eWallet Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,GrabPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low
+3,Cooperatives,Koperasi Tentera Malaysia,Cooperative FI,500M+,400,Medium
+3,Cooperatives,Koperasi Polis Diraja Malaysia,Cooperative FI,400M+,350,Medium
+3,Cooperatives,Koperasi Guru Malaysia,Cooperative FI,350M+,300,Medium
+3,Cooperatives,Koperasi Kakitangan Kerajaan,Cooperative FI,300M+,280,Low
+3,Cooperatives,Koperasi Angkatan Tentera,Cooperative FI,280M+,250,Low
+3,Cooperatives,Koperasi Negeri Sembilan,Cooperative FI,250M+,220,Low
+3,Cooperatives,Koperasi Selangor,Cooperative FI,230M+,200,Low
+3,Cooperatives,Koperasi Johor,Cooperative FI,210M+,180,Low
+3,Cooperatives,Koperasi Pulau Pinang,Cooperative FI,190M+,160,Low
+3,Cooperatives,Koperasi Perak,Cooperative FI,170M+,140,Low
+3,Cooperatives,Koperasi Pahang,Cooperative FI,150M+,120,Low
+3,Cooperatives,Koperasi Kedah,Cooperative FI,140M+,110,Low
+3,Cooperatives,Koperasi Kelantan,Cooperative FI,130M+,100,Low
+3,Cooperatives,Koperasi Terengganu,Cooperative FI,120M+,90,Low
+3,Cooperatives,Koperasi Sabah,Cooperative FI,110M+,85,Low
+3,Cooperatives,Koperasi Sarawak,Cooperative FI,100M+,80,Low
+3,Cooperatives,Koperasi Melaka,Cooperative FI,90M+,75,Low
+3,Cooperatives,Koperasi Perlis,Cooperative FI,80M+,70,Low
+3,Cooperatives,Koperasi KL,Cooperative FI,70M+,65,Low
+3,Cooperatives,Koperasi Labuan,Cooperative FI,60M+,60,Low
+3,Cooperatives,Koperasi Putrajaya,Cooperative FI,50M+,55,Low
+4,Payment Operators,PayNet (PayNet Malaysia Sdn Bhd),Payment System Operator,1B+,800,Critical
+4,Payment Operators,FPX (by PayNet),Payment System Operator,500M+,400,High
+4,Payment Operators,DuitNow (by PayNet),Payment System Operator,400M+,350,High
+4,Payment Operators,JomPAY (by PayNet),Payment System Operator,300M+,300,High
+4,Payment Operators,Me2U (by PayNet),Payment System Operator,200M+,250,Medium
+4,Payment Operators,PayDirect (by PayNet),Payment System Operator,150M+,200,Medium
+4,E-Money,Touch 'n Go eWallet (TNG Digital Sdn Bhd),E-Money Issuer,500M+,1000,Critical
+4,E-Money,MAE by Maybank (Maybank Islamic),Bank-issued Wallet,400M+,800,High
+4,E-Money,GrabPay (Grab Malaysia),E-Money Issuer,350M+,700,High
+4,E-Money,ShopeePay (Monee Malaysia),E-Money Issuer,300M+,600,High
+4,E-Money,Boost (Axiata + RHB),E-Money Issuer,250M+,500,High
+4,E-Money,Setel (PETRONAS Dagangan),E-Money Issuer,200M+,400,Medium
+4,E-Money,BigPay (Capital A),E-Money Issuer,180M+,350,Medium
+4,E-Money,AEON Wallet (AEON Credit),E-Money Issuer,150M+,300,Medium
+4,E-Money,Alipay+ Malaysia (Ant Group),E-Money Issuer,120M+,250,Medium
+4,E-Money,WeChat Pay Malaysia (Tencent),E-Money Issuer,100M+,200,Medium
+4,E-Money,Razer Pay (Razer Fintech),E-Money Issuer,80M+,150,Low
+4,E-Money,CIMB OctoPay (CIMB Bank),Bank-issued Wallet,60M+,120,Low
+4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,GrabPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,Axiata Digital Services Sdn Bhd (Boost),E-Money Issuer,50M+,100,Low
+4,E-Money,ShopeePay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,BigPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,Setel by PETRONAS Dagangan Berhad,E-Money Issuer,50M+,100,Low
+4,E-Money,WeChat Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,MAE by Maybank (Maybank2u),E-Money Issuer,50M+,100,Low
+4,E-Money,Razer Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,Card Schemes,PayNet Card (by PayNet),Card Scheme,200M+,200,Medium
+4,Card Schemes,Maybank Cash & Go Prepaid Card,Card Scheme,100M+,100,Low
+4,Card Schemes,Touch n Go Visa Prepaid Card,Card Scheme,100M+,100,Low
+4,Card Schemes,Maybank Singapore Airlines Enrich Card,Card Scheme,80M+,80,Low
+4,Card Schemes,CIMB Petronas Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,RHB Shell Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,Hong Leong Bank AirMiles Card,Card Scheme,80M+,80,Low
+4,Card Schemes,AmBank AirAsia Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,UOB Lazada Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,Standard Chartered Shopee Visa Card,Card Scheme,80M+,80,Low
+5,GLC-Linked,Maybank (Khazanah-linked),GLC Financial,20B+,20000,Critical
+5,GLC-Linked,CIMB (Khazanah-linked),GLC Financial,15B+,15000,Critical
+5,GLC-Linked,Iskandar Waterfront City,GLC Development,5B+,2000,Medium
+5,GLC-Linked,Khazanah Nasional Berhad,GLC Financial,2B+,1500,Medium
+5,GLC-Linked,Permodalan Nasional Berhad (PNB),GLC Financial,2B+,1500,Medium
+5,GLC-Linked,Kumpulan Wang Simpanan Pekerja (KWSP),GLC Financial,1.5B+,1200,Medium
+5,GLC-Linked,Lembaga Tabung Haji,GLC Financial,1.5B+,1200,Medium
+5,GLC-Linked,Syarikat Jaminan Pembiayaan Perniagaan (SJPP),GLC Financial,1B+,1000,Low
+5,GLC-Linked,Agensi Jaminan Kredit Mikro (AKM),GLC Financial,1B+,1000,Low
+5,GLC-Linked,Cradle Fund Sdn Bhd,GLC Financial,800M+,800,Low
+5,GLC-Linked,MARA (Majlis Amanah Rakyat),GLC Financial,800M+,800,Low
+5,GLC-Linked,Amanah Saham Nasional Berhad (ASNB),PNB Financial,2B+,1500,Medium
+5,GLC-Linked,PNB Capital Berhad,PNB Financial,1.5B+,1200,Medium
+5,GLC-Linked,PNB Income Fund Berhad,PNB Financial,1B+,1000,Low
+5,GLC-Linked,PNB Equity Fund Berhad,PNB Financial,800M+,800,Low
+5,GLC-Linked,Permodalan BSN Berhad (PBSNB),PNB Financial,600M+,600,Low
+5,GLC-Linked,KWSP Investment Division (Direct Investments),EPF Investment,5B+,500,High
+5,GLC-Linked,KWSP Investment Division (Alternative Assets),EPF Investment,3B+,400,Medium
+5,GLC-Linked,KWSP Investment Division (Real Estate),EPF Investment,2B+,300,Medium
+5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),State Financial,500M+,400,Low
+5,GLC-Linked,Johor Corporation (JCorp),State Financial,450M+,350,Low
+5,GLC-Linked,Penang State Development Corporation (PSDC),State Financial,400M+,300,Low
+5,GLC-Linked,Sabah State Financial Corporation (SSFC),State Financial,350M+,250,Low
+5,GLC-Linked,Sarawak State Financial Corporation (SSFC),State Financial,300M+,200,Low
+6,Fintech Sandbox,KAF Digital Bank,Islamic Digital Bank,200M+,400,High
+6,Fintech Sandbox,AEON Bank (M) Berhad,Islamic Digital Bank,500M+,600,Critical
+6,Fintech Sandbox,GX Bank Berhad,Digital Bank,400M+,500,High
+6,Fintech Sandbox,Boost Bank Berhad,Digital Bank,350M+,450,High
+6,Fintech Sandbox,Ryt Bank Berhad (YTL Digital),Digital Bank,300M+,400,High
+6,Fintech Sandbox,GXBank Berhad,Fintech,50M+,100,Medium
+6,Fintech Sandbox,Boost Bank Berhad,Fintech,50M+,100,Medium
+6,Fintech Sandbox,AEON Bank Berhad,Fintech,40M+,80,Medium
+6,Fintech Sandbox,KAF Digital Bank Berhad,Fintech,40M+,80,Medium
+6,Fintech Sandbox,Ryt Bank Berhad,Fintech,30M+,60,Low
+6,Fintech Sandbox,KDI Save Sdn Bhd,Fintech,30M+,60,Low
+6,Fintech Sandbox,SeaBank Malaysia Berhad,Fintech,25M+,50,Low
+6,Fintech Sandbox,Jirnexu (M) Sdn Bhd,Fintech,25M+,50,Low
+6,Fintech Sandbox,Soft Space Sdn Bhd,Fintech,20M+,40,Low
+6,Fintech Sandbox,GXBank Berhad,Fintech,20M+,40,Low
+6,Fintech Registered,iPay88 (M) Sdn Bhd,Payment Facilitator,100M+,200,Medium
+6,Fintech Registered,Billplz Sdn Bhd,Payment Facilitator,80M+,150,Medium
+6,Fintech Registered,ToyyibPay Sdn Bhd,Aggregator,60M+,120,Low
+6,Fintech Registered,SenangPay Sdn Bhd,Aggregator,50M+,100,Low
+6,Fintech Registered,Stripe Payments Malaysia Sdn Bhd,Payment Services,40M+,80,Low
