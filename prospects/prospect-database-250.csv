@@ -1,0 +1,213 @@
+Tier,Segment,Institution_Name,Type,Est_Revenue_MYR,Employees,RMiT_Urgency
+1,Licensed Banks,Maybank Islamic Berhad,Islamic Bank,15B+,15000,Critical
+1,Licensed Banks,CIMB Islamic Bank Berhad,Islamic Bank,12B+,12000,Critical
+1,Licensed Banks,Public Islamic Bank Berhad,Islamic Bank,8B+,8000,Critical
+1,Licensed Banks,RHB Islamic Bank Berhad,Islamic Bank,6B+,6000,Critical
+1,Licensed Banks,Hong Leong Islamic Bank Berhad,Islamic Bank,4B+,4000,Critical
+1,Licensed Banks,Bank Islam Malaysia Berhad,Islamic Bank,4B+,3500,Critical
+1,Licensed Banks,AmBank Islamic Berhad,Islamic Bank,3B+,3000,High
+1,Licensed Banks,Alliance Islamic Bank Berhad,Islamic Bank,2B+,2000,High
+1,Licensed Banks,Maybank Berhad,Commercial Bank,20B+,20000,Critical
+1,Licensed Banks,CIMB Bank Berhad,Commercial Bank,15B+,15000,Critical
+1,Licensed Banks,Public Bank Berhad,Commercial Bank,10B+,10000,Critical
+1,Licensed Banks,RHB Bank Berhad,Commercial Bank,8B+,8000,Critical
+1,Licensed Banks,Hong Leong Bank Berhad,Commercial Bank,6B+,5000,Critical
+1,Licensed Banks,AmBank (M) Berhad,Commercial Bank,4B+,4000,High
+1,Licensed Banks,Alliance Bank Malaysia Berhad,Commercial Bank,3B+,2500,High
+1,Licensed Banks,UOB Malaysia Berhad,Commercial Bank,5B+,4000,High
+1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Commercial Bank,4B+,3500,High
+1,Licensed Banks,Standard Chartered Bank Malaysia Berhad,Commercial Bank,3B+,2500,High
+1,Licensed Banks,HSBC Bank Malaysia Berhad,Commercial Bank,4B+,3000,High
+1,Licensed Banks,Citibank Berhad,Commercial Bank,2B+,1500,High
+1,Licensed Banks,Bank of China (Malaysia) Berhad,Commercial Bank,1B+,800,Medium
+1,Licensed Banks,ICBC (Malaysia) Berhad,Commercial Bank,1B+,600,Medium
+1,Licensed Banks,Sumitomo Mitsui Banking Corporation Malaysia Berhad,Commercial Bank,800M+,400,Medium
+1,Licensed Banks,Mizuho Bank (Malaysia) Berhad,Commercial Bank,600M+,300,Medium
+1,Licensed Banks,J.P. Morgan Chase Bank Malaysia Berhad,Commercial Bank,500M+,250,Medium
+1,Licensed Banks,Deutsche Bank (Malaysia) Berhad,Commercial Bank,400M+,200,Medium
+1,Licensed Banks,BNP Paribas Malaysia Berhad,Commercial Bank,300M+,150,Medium
+1,Licensed Banks,Credit Suisse (Malaysia) Berhad,Commercial Bank,200M+,100,Medium
+2,Investment Banks,Maybank Investment Bank Berhad,Investment Bank,2B+,1500,High
+2,Investment Banks,CIMB Investment Bank Berhad,Investment Bank,1.5B+,1200,High
+2,Investment Banks,RHB Investment Bank Berhad,Investment Bank,1B+,1000,High
+2,Investment Banks,Public Investment Bank Berhad,Investment Bank,800M+,800,High
+2,Investment Banks,Hong Leong Investment Bank Berhad,Investment Bank,600M+,600,High
+2,Investment Banks,AmInvestment Bank Berhad,Investment Bank,400M+,500,Medium
+2,Investment Banks,Alliance Investment Bank Berhad,Investment Bank,300M+,400,Medium
+2,Investment Banks,Kenanga Investment Bank Berhad,Investment Bank,250M+,350,Medium
+2,Investment Banks,MIDF Amanah Investment Bank Berhad,Investment Bank,200M+,300,Medium
+2,Investment Banks,Affin Investment Bank Berhad,Investment Bank,150M+,250,Medium
+2,Investment Banks,Bank Rakyat Investment Bank Berhad,Investment Bank,150M+,200,Medium
+2,Investment Banks,BIMB Investment Bank Berhad,Investment Bank,100M+,180,Medium
+2,Investment Banks,Malaysia International Islamic Bank IB,Investment Bank,100M+,150,Medium
+2,Investment Banks,JCL Corporation Sdn Bhd,Investment Bank,80M+,120,Low
+2,Investment Banks,Phillip Securities (Malaysia) Sdn Bhd,Investment Bank,60M+,100,Low
+2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,Life Insurer,5B+,4000,High
+2,Insurers,AIA Berhad,Life Insurer,4B+,3500,High
+2,Insurers,Prudential Assurance Malaysia Berhad,Life Insurer,3B+,3000,High
+2,Insurers,Manulife Insurance Berhad,Life Insurer,2.5B+,2500,High
+2,Insurers,Allianz Life Insurance Malaysia Berhad,Life Insurer,2B+,2000,High
+2,Insurers,AmMetLife Insurance Berhad,Life Insurer,1.5B+,1800,Medium
+2,Insurers,Etiqa Life Insurance Berhad,Life Insurer,1.2B+,1500,Medium
+2,Insurers,FWD Insurance Berhad,Life Insurer,1B+,1200,Medium
+2,Insurers,Generali Life Insurance Malaysia Berhad,Life Insurer,800M+,1000,Medium
+2,Insurers,Hong Leong Assurance Berhad,Life Insurer,600M+,800,Medium
+2,Insurers,MCIS Insurance Berhad,Life Insurer,500M+,700,Low
+2,Insurers,Sun Life Malaysia Assurance Berhad,Life Insurer,400M+,600,Low
+2,Insurers,Tokio Marine Life Insurance Malaysia Bhd,Life Insurer,350M+,500,Low
+2,Insurers,Zurich Life Insurance Malaysia Berhad,Life Insurer,300M+,450,Low
+2,Insurers,AIA General Berhad,General Insurer,3B+,2500,High
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,2.5B+,2000,High
+2,Insurers,Etiqa General Insurance Berhad,General Insurer,2B+,1800,High
+2,Insurers,Great Eastern General Insurance (Malaysia) Berhad,General Insurer,1.5B+,1500,High
+2,Insurers,Chubb Insurance Malaysia Berhad,General Insurer,1.2B+,1200,High
+2,Insurers,Berjaya Sompo Insurance Berhad,General Insurer,1B+,1000,Medium
+2,Insurers,Generali Insurance Malaysia Berhad,General Insurer,800M+,900,Medium
+2,Insurers,Liberty General Insurance Berhad,General Insurer,600M+,800,Medium
+2,Insurers,Lonpac Insurance Bhd,General Insurer,500M+,700,Medium
+2,Insurers,MSIG Insurance (Malaysia) Bhd,General Insurer,450M+,650,Medium
+2,Insurers,QBE Insurance (Malaysia) Sdn Bhd,General Insurer,400M+,600,Low
+2,Insurers,Kurnia Insurans (Malaysia) Berhad,General Insurer,350M+,550,Low
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,General Insurer,300M+,500,Low
+2,Takaful,Takaful IKHLAS Berhad,Family Takaful,2B+,1800,High
+2,Takaful,Etiqa Takaful Berhad,Family Takaful,1.5B+,1500,High
+2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,Family Takaful,1.2B+,1200,High
+2,Takaful,AIA Public Takaful Berhad,Family Takaful,1B+,1000,High
+2,Takaful,Prudential BSN Takaful Berhad,Family Takaful,800M+,900,Medium
+2,Takaful,Manulife Takaful Malaysia Berhad,Family Takaful,600M+,800,Medium
+2,Takaful,Allianz Takaful Berhad,Family Takaful,500M+,700,Medium
+2,Takaful,Zurich Takaful Malaysia Berhad,Family Takaful,400M+,600,Low
+2,Takaful,Syarikat Takaful Malaysia Berhad,Family Takaful,350M+,550,Low
+2,Takaful,Takaful Am General Berhad,General Takaful,300M+,500,Low
+2,Takaful,Family Takaful Berhad,Family Takaful,250M+,450,Low
+2,Takaful,General Takaful Berhad,General Takaful,200M+,400,Low
+3,Development FIs,Bank Rakyat Malaysia,Development FI,10B+,5000,High
+3,Development FIs,Agrobank Malaysia,Development FI,2B+,2000,High
+3,Development FIs,Bank Simpanan Nasional (BSN),Development FI,5B+,3000,High
+3,Development FIs,EXIM Bank Malaysia,Development FI,1B+,500,Medium
+3,Development FIs,SME Bank Berhad,Development FI,800M+,800,Medium
+3,Development FIs,Tekun Nasional,Development FI,500M+,600,Medium
+3,Development FIs,MARA,Development FI,400M+,500,Low
+3,Development FIs,PUNB,Development FI,300M+,400,Low
+3,Development FIs,LPPSA,Development FI,200M+,300,Low
+3,Development FIs,Tabung Haji,Development FI,15B+,2000,Critical
+3,MSBs,I.Destinasi Sdn Bhd (IDSB),Money Services Business,50M+,100,Medium
+3,MSBs,Money Match Sdn Bhd,Money Services Business,100M+,200,Medium
+3,MSBs,Wallex Sdn Bhd,Money Services Business,80M+,150,Medium
+3,MSBs,Instarem Sdn Bhd,Money Services Business,150M+,250,High
+3,MSBs,CurrencyFair (Malaysia) Sdn Bhd,Money Services Business,60M+,100,Medium
+3,MSBs,Xendit Technologies (Malaysia) Sdn Bhd,Payment Facilitator,200M+,300,High
+3,MSBs,2C2P (Malaysia) Sdn Bhd,Payment Facilitator,180M+,280,High
+3,MSBs,iPay88 (Malaysia) Sdn Bhd,Payment Facilitator,120M+,200,Medium
+3,MSBs,Billplz Sdn Bhd,Payment Facilitator,50M+,80,Medium
+3,MSBs,SenangPay Sdn Bhd,Payment Facilitator,40M+,60,Low
+3,MSBs,ToyyibPay Sdn Bhd,Payment Facilitator,30M+,50,Low
+3,MSBs,G2G Online (Malaysia) Sdn Bhd,Payment Facilitator,100M+,150,Medium
+3,MSBs,MoneyMatch Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,Wise (formerly TransferWise) Malaysia Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,BigPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,Touch n Go eWallet Sdn Bhd,Money Services Business,50M+,80,Low
+3,MSBs,GrabPay Malaysia Sdn Bhd,Money Services Business,50M+,80,Low
+3,Cooperatives,Koperasi Tentera Malaysia,Cooperative FI,500M+,400,Medium
+3,Cooperatives,Koperasi Polis Diraja Malaysia,Cooperative FI,400M+,350,Medium
+3,Cooperatives,Koperasi Guru Malaysia,Cooperative FI,350M+,300,Medium
+3,Cooperatives,Koperasi Kakitangan Kerajaan,Cooperative FI,300M+,280,Low
+3,Cooperatives,Koperasi Angkatan Tentera,Cooperative FI,280M+,250,Low
+3,Cooperatives,Koperasi Negeri Sembilan,Cooperative FI,250M+,220,Low
+3,Cooperatives,Koperasi Selangor,Cooperative FI,230M+,200,Low
+3,Cooperatives,Koperasi Johor,Cooperative FI,210M+,180,Low
+3,Cooperatives,Koperasi Pulau Pinang,Cooperative FI,190M+,160,Low
+3,Cooperatives,Koperasi Perak,Cooperative FI,170M+,140,Low
+3,Cooperatives,Koperasi Pahang,Cooperative FI,150M+,120,Low
+3,Cooperatives,Koperasi Kedah,Cooperative FI,140M+,110,Low
+3,Cooperatives,Koperasi Kelantan,Cooperative FI,130M+,100,Low
+3,Cooperatives,Koperasi Terengganu,Cooperative FI,120M+,90,Low
+3,Cooperatives,Koperasi Sabah,Cooperative FI,110M+,85,Low
+3,Cooperatives,Koperasi Sarawak,Cooperative FI,100M+,80,Low
+3,Cooperatives,Koperasi Melaka,Cooperative FI,90M+,75,Low
+3,Cooperatives,Koperasi Perlis,Cooperative FI,80M+,70,Low
+3,Cooperatives,Koperasi KL,Cooperative FI,70M+,65,Low
+3,Cooperatives,Koperasi Labuan,Cooperative FI,60M+,60,Low
+3,Cooperatives,Koperasi Putrajaya,Cooperative FI,50M+,55,Low
+4,Payment Operators,PayNet (PayNet Malaysia Sdn Bhd),Payment System Operator,1B+,800,Critical
+4,Payment Operators,FPX (by PayNet),Payment System Operator,500M+,400,High
+4,Payment Operators,DuitNow (by PayNet),Payment System Operator,400M+,350,High
+4,Payment Operators,JomPAY (by PayNet),Payment System Operator,300M+,300,High
+4,Payment Operators,Me2U (by PayNet),Payment System Operator,200M+,250,Medium
+4,Payment Operators,PayDirect (by PayNet),Payment System Operator,150M+,200,Medium
+4,E-Money,Touch 'n Go eWallet (TNG Digital Sdn Bhd),E-Money Issuer,500M+,1000,Critical
+4,E-Money,MAE by Maybank (Maybank Islamic),Bank-issued Wallet,400M+,800,High
+4,E-Money,GrabPay (Grab Malaysia),E-Money Issuer,350M+,700,High
+4,E-Money,ShopeePay (Monee Malaysia),E-Money Issuer,300M+,600,High
+4,E-Money,Boost (Axiata + RHB),E-Money Issuer,250M+,500,High
+4,E-Money,Setel (PETRONAS Dagangan),E-Money Issuer,200M+,400,Medium
+4,E-Money,BigPay (Capital A),E-Money Issuer,180M+,350,Medium
+4,E-Money,AEON Wallet (AEON Credit),E-Money Issuer,150M+,300,Medium
+4,E-Money,Alipay+ Malaysia (Ant Group),E-Money Issuer,120M+,250,Medium
+4,E-Money,WeChat Pay Malaysia (Tencent),E-Money Issuer,100M+,200,Medium
+4,E-Money,Razer Pay (Razer Fintech),E-Money Issuer,80M+,150,Low
+4,E-Money,CIMB OctoPay (CIMB Bank),Bank-issued Wallet,60M+,120,Low
+4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,GrabPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,Axiata Digital Services Sdn Bhd (Boost),E-Money Issuer,50M+,100,Low
+4,E-Money,ShopeePay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,BigPay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,Setel by PETRONAS Dagangan Berhad,E-Money Issuer,50M+,100,Low
+4,E-Money,WeChat Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,MAE by Maybank (Maybank2u),E-Money Issuer,50M+,100,Low
+4,E-Money,Razer Pay Malaysia Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,E-Money,TNG Digital Sdn Bhd,E-Money Issuer,50M+,100,Low
+4,Card Schemes,PayNet Card (by PayNet),Card Scheme,200M+,200,Medium
+4,Card Schemes,Maybank Cash & Go Prepaid Card,Card Scheme,100M+,100,Low
+4,Card Schemes,Touch n Go Visa Prepaid Card,Card Scheme,100M+,100,Low
+4,Card Schemes,Maybank Singapore Airlines Enrich Card,Card Scheme,80M+,80,Low
+4,Card Schemes,CIMB Petronas Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,RHB Shell Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,Hong Leong Bank AirMiles Card,Card Scheme,80M+,80,Low
+4,Card Schemes,AmBank AirAsia Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,UOB Lazada Visa Card,Card Scheme,80M+,80,Low
+4,Card Schemes,Standard Chartered Shopee Visa Card,Card Scheme,80M+,80,Low
+5,GLC-Linked,Maybank (Khazanah-linked),GLC Financial,20B+,20000,Critical
+5,GLC-Linked,CIMB (Khazanah-linked),GLC Financial,15B+,15000,Critical
+5,GLC-Linked,Iskandar Waterfront City,GLC Development,5B+,2000,Medium
+5,GLC-Linked,Khazanah Nasional Berhad,GLC Financial,2B+,1500,Medium
+5,GLC-Linked,Permodalan Nasional Berhad (PNB),GLC Financial,2B+,1500,Medium
+5,GLC-Linked,Kumpulan Wang Simpanan Pekerja (KWSP),GLC Financial,1.5B+,1200,Medium
+5,GLC-Linked,Lembaga Tabung Haji,GLC Financial,1.5B+,1200,Medium
+5,GLC-Linked,Syarikat Jaminan Pembiayaan Perniagaan (SJPP),GLC Financial,1B+,1000,Low
+5,GLC-Linked,Agensi Jaminan Kredit Mikro (AKM),GLC Financial,1B+,1000,Low
+5,GLC-Linked,Cradle Fund Sdn Bhd,GLC Financial,800M+,800,Low
+5,GLC-Linked,MARA (Majlis Amanah Rakyat),GLC Financial,800M+,800,Low
+5,GLC-Linked,Amanah Saham Nasional Berhad (ASNB),PNB Financial,2B+,1500,Medium
+5,GLC-Linked,PNB Capital Berhad,PNB Financial,1.5B+,1200,Medium
+5,GLC-Linked,PNB Income Fund Berhad,PNB Financial,1B+,1000,Low
+5,GLC-Linked,PNB Equity Fund Berhad,PNB Financial,800M+,800,Low
+5,GLC-Linked,Permodalan BSN Berhad (PBSNB),PNB Financial,600M+,600,Low
+5,GLC-Linked,KWSP Investment Division (Direct Investments),EPF Investment,5B+,500,High
+5,GLC-Linked,KWSP Investment Division (Alternative Assets),EPF Investment,3B+,400,Medium
+5,GLC-Linked,KWSP Investment Division (Real Estate),EPF Investment,2B+,300,Medium
+5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),State Financial,500M+,400,Low
+5,GLC-Linked,Johor Corporation (JCorp),State Financial,450M+,350,Low
+5,GLC-Linked,Penang State Development Corporation (PSDC),State Financial,400M+,300,Low
+5,GLC-Linked,Sabah State Financial Corporation (SSFC),State Financial,350M+,250,Low
+5,GLC-Linked,Sarawak State Financial Corporation (SSFC),State Financial,300M+,200,Low
+6,Fintech Sandbox,KAF Digital Bank,Islamic Digital Bank,200M+,400,High
+6,Fintech Sandbox,AEON Bank (M) Berhad,Islamic Digital Bank,500M+,600,Critical
+6,Fintech Sandbox,GX Bank Berhad,Digital Bank,400M+,500,High
+6,Fintech Sandbox,Boost Bank Berhad,Digital Bank,350M+,450,High
+6,Fintech Sandbox,Ryt Bank Berhad (YTL Digital),Digital Bank,300M+,400,High
+6,Fintech Sandbox,GXBank Berhad,Fintech,50M+,100,Medium
+6,Fintech Sandbox,Boost Bank Berhad,Fintech,50M+,100,Medium
+6,Fintech Sandbox,AEON Bank Berhad,Fintech,40M+,80,Medium
+6,Fintech Sandbox,KAF Digital Bank Berhad,Fintech,40M+,80,Medium
+6,Fintech Sandbox,Ryt Bank Berhad,Fintech,30M+,60,Low
+6,Fintech Sandbox,KDI Save Sdn Bhd,Fintech,30M+,60,Low
+6,Fintech Sandbox,SeaBank Malaysia Berhad,Fintech,25M+,50,Low
+6,Fintech Sandbox,Jirnexu (M) Sdn Bhd,Fintech,25M+,50,Low
+6,Fintech Sandbox,Soft Space Sdn Bhd,Fintech,20M+,40,Low
+6,Fintech Sandbox,GXBank Berhad,Fintech,20M+,40,Low
+6,Fintech Registered,iPay88 (M) Sdn Bhd,Payment Facilitator,100M+,200,Medium
+6,Fintech Registered,Billplz Sdn Bhd,Payment Facilitator,80M+,150,Medium
+6,Fintech Registered,ToyyibPay Sdn Bhd,Aggregator,60M+,120,Low
+6,Fintech Registered,SenangPay Sdn Bhd,Aggregator,50M+,100,Low
+6,Fintech Registered,Stripe Payments Malaysia Sdn Bhd,Payment Services,40M+,80,Low
