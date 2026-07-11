@@ -3,7 +3,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 6,Fintech Sandbox,AEON Bank (M) Berhad,,,,,,,
 6,Fintech Sandbox,AEON Bank Berhad,,,,,,,
 4,E-Money,AEON Wallet (AEON Credit),,,,,,,
-2,Insurers,AIA Berhad,,,,,,,
+2,Insurers,AIA Berhad,,,Edwin Peh (CFO) [Official: aia.com.my],,,,
 2,Insurers,AIA General Berhad,,,,,,,
 2,Takaful,AIA Public Takaful Berhad,,,,,,,
 2,Investment Banks,Affin Investment Bank Berhad,,,,,,,
@@ -13,9 +13,9 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,Alliance Bank Malaysia Berhad,William Song (Group CISO) [LinkedIn],,Ronnie Royston Fernandiz (Group CFO),Jacob Abraham (Group CRO + Compliance),"Jacob Abraham (Group CRO, also responsible for Group Compliance)",Nantha Kumar Subramanian (Group Chief Digital & Info Officer),Andrew Ng Yin Min (Group Chief Internal Auditor)
 2,Investment Banks,Alliance Investment Bank Berhad,,,,,,,
 1,Licensed Banks,Alliance Islamic Bank Berhad,,,,,,,
-2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,,,,,,,
-2,Insurers,Allianz Life Insurance Malaysia Berhad,,,,,,,
-2,Takaful,Allianz Takaful Berhad,,,,,,,
+2,Insurers,Allianz General Insurance Company (Malaysia) Berhad,,,Xiao Chin (CFO) [SimplyWallSt],,,David Brandl (CIO) [SimplyWallSt],
+2,Insurers,Allianz Life Insurance Malaysia Berhad,,,Xiao Chin (CFO) [SimplyWallSt],,,David Brandl (CIO) [SimplyWallSt],
+2,Takaful,Allianz Takaful Berhad,,,Xiao Chin (CFO) [SimplyWallSt],,,David Brandl (CIO) [SimplyWallSt],
 1,Licensed Banks,AmBank (M) Berhad,Malini Kanesamoorthy (CISO) [CyberSec Malaysia 2023],,Phuah Shok Cheng (Group CFO),Shamsul Bahrom Bin Mohamed Ibrahim (Group CRO),Faradina Binti Mohammad Ghouse (Group CCO),Wong Eng Teng (Group Chief Fintech & Technology Officer),Ng Ek Leong (Group Chief Internal Auditor)
 4,Card Schemes,AmBank AirAsia Visa Card,,,,,,,
 1,Licensed Banks,AmBank Islamic Berhad,,,,,,,
@@ -30,6 +30,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 3,Development FIs,Bank Rakyat Malaysia,,,Nor Haimee Zakaria (Chief Finance Officer) [Official: bankrakyat.com.my],Azni Azaddin (Group Chief Risk Officer) [Official: bankrakyat.com.my],Jufree Soaidin (Group Chief Compliance Officer) [Official: bankrakyat.com.my],,
 3,Development FIs,Bank Simpanan Nasional (BSN),,,Norhafizah Md Shariff (Chief Financial Officer) [Official: bsn.com.my],Muizz Aiman Farid (SVP / Chief Risk Officer) [Official: bsn.com.my],Sujit Guha Thakurta (SVP / Chief Compliance Officer) [Official: bsn.com.my],,
 1,Licensed Banks,Bank of China (Malaysia) Berhad,Willy Neo,,Datuk Alvin Tay (DCEO/acting CFO),Anysia Yeung,Ker Yong (Director - Head of Legal and Compliance),,Chen Thien Yin (Board Audit Committee Chair)
+3,Development FIs,Bank Pembangunan Malaysia Berhad (BPMB),,Hee Wei Jean (Group CFO) [Official: bpmb.com.my],Hee Wei Jean (Group CFO) [Official: bpmb.com.my],Mohammad Azam Ahmad (Group CRO) [Official: bpmb.com.my],Rohayati Talha (Group CCO) [Official: bpmb.com.my],Hairil Izwar Abd Rahman (Group Chief Digital & Technology Officer) [Official: bpmb.com.my],Hasrul Farid Hasnan (Group Chief Internal Auditor) [Official: bpmb.com.my]
 2,Insurers,Berjaya Sompo Insurance Berhad,,,,,,,
 4,E-Money,BigPay (Capital A),,,,,,,
 3,MSBs,BigPay Malaysia Sdn Bhd,,,,,,,
@@ -50,9 +51,9 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,Deutsche Bank (Malaysia) Berhad,,,,,,,
 4,Payment Operators,DuitNow (by PayNet),,,,,,,
 3,Development FIs,EXIM Bank Malaysia,,,,,,,
-2,Insurers,Etiqa General Insurance Berhad,,,,,,,
-2,Insurers,Etiqa Life Insurance Berhad,,,,,,,
-2,Takaful,Etiqa Takaful Berhad,,,,,,,
+2,Insurers,Etiqa General Insurance Berhad,Devinder Singh Sardool Singh (CISO) [Official: etiqa.com],Nurliana Mat Lazim (CRO/Compliance - GRC) [Official: etiqa.com],Lee Hin Sze (CFO) [Official: etiqa.com],Nurliana Mat Lazim (Chief Risk & Compliance Officer) [Official: etiqa.com],Roslina Mohd Ramza (CCO) [Official: etiqa.com],Dennis Liu (CTO) [Official: etiqa.com],
+2,Insurers,Etiqa Life Insurance Berhad,Devinder Singh Sardool Singh (CISO) [Official: etiqa.com],Nurliana Mat Lazim (CRO/Compliance - GRC) [Official: etiqa.com],Lee Hin Sze (CFO) [Official: etiqa.com],Nurliana Mat Lazim (Chief Risk & Compliance Officer) [Official: etiqa.com],Roslina Mohd Ramza (CCO) [Official: etiqa.com],Dennis Liu (CTO) [Official: etiqa.com],
+2,Takaful,Etiqa Takaful Berhad,Devinder Singh Sardool Singh (CISO) [Official: etiqa.com],Nurliana Mat Lazim (CRO/Compliance - GRC) [Official: etiqa.com],Lee Hin Sze (CFO) [Official: etiqa.com],Nurliana Mat Lazim (Chief Risk & Compliance Officer) [Official: etiqa.com],Roslina Mohd Ramza (CCO) [Official: etiqa.com],Dennis Liu (CTO) [Official: etiqa.com],
 4,Payment Operators,FPX (by PayNet),,,,,,,
 2,Insurers,FWD Insurance Berhad,,,,,,,
 2,Takaful,Family Takaful Berhad,,,,,,,
@@ -68,7 +69,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,,Liza Hanim Zainal Abidin (Legal/Compliance) + Audra Chung Kit Li (Audit),Loke Chang Yueh,Teo Chun Seng,Liza Hanim Zainal Abidin,Vincent Chin,Audra Chung Kit Li
 2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,,,,,,,
 1,Licensed Banks,HSBC Bank Malaysia Berhad,,,Elly Neoh (CFO),Brian McGuire (Acting Chief Risk & Compliance Officer),Brian McGuire (Acting CCO),Mei Ling Soo (CIO),
-2,Insurers,Hong Leong Assurance Berhad,,,,,,,
+2,Insurers,Hong Leong Assurance Berhad,,,Loh Guat Lan (Group MD/CEO) [TheOfficialBoard],,,,
 4,Card Schemes,Hong Leong Bank AirMiles Card,,,,,,,
 1,Licensed Banks,Hong Leong Bank Berhad,,,Malkit Singh (CFO) [The Org - unverified],Justin Soong (Group CRO) [RocketReach],Jack Babani (CCO) [The Org - unverified],William Streitberg (Chief Info & Tech Officer) [The Org],Chua Yew Lim (Chief Internal Auditor) [Official CG Report]
 2,Investment Banks,Hong Leong Investment Bank Berhad,,,,,,,
@@ -125,7 +126,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 2,Investment Banks,MIDF Amanah Investment Bank Berhad,,,,,,,
 2,Insurers,MSIG Insurance (Malaysia) Bhd,,,,,,,
 2,Investment Banks,Malaysia International Islamic Bank IB,,,,,,,
-2,Insurers,Manulife Insurance Berhad,,,,,,,
+2,Insurers,Manulife Insurance Berhad,,,Vibha Hamsi Coburn (CEO) [Official: manulife.com.my],,,,
 2,Takaful,Manulife Takaful Malaysia Berhad,,,,,,,
 5,GLC-Linked,Maybank (Khazanah-linked),,,,,,,
 1,Licensed Banks,Maybank Berhad,Devinder Singh (Group CISO) [LinkedIn/The Org],,Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,,Giorgio Migliarina (Group Chief Technology & Digital Officer),
