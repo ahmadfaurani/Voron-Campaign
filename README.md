@@ -38,19 +38,43 @@ cd hoi-intelligence-ops
 
 ```
 workspace-hoi/
-├── AGENT-SPEC.md           # Agent specification (read first)
-├── README.md               # This file
-├── TOOLS.md                # Intelligence tools, APIs
-├── MEMORY.md               # Long-term intelligence memory
-├── intelligence/           # Intelligence briefs, reports
-├── domains/                # Target domain knowledge (6 domains)
-├── sources/                # Source registry, evaluations
-├── stakeholders/           # Stakeholder profiles
-├── technical/              # Technical intelligence
-├── policy/                 # Policy, regulation, compliance
-├── templates/              # Intelligence product templates
-├── planning/               # Collection plans, priorities
-└── metrics/                # KPIs, quality assessment
+├── .gitmodules                # Submodule registration (prn-johor-2026, kempas, n27-layang-layang)
+├── AGENT-SPEC.md              # Agent specification (read first)
+├── README.md                  # This file
+├── ANALYTICAL-WORKSPACE.md    # Component inventory + 55-pair coupling matrix
+├── ARCHITECTURE.md            # Three-layer system architecture map
+├── REORGANIZATION-PLAN.md     # Directory consolidation plan
+├── REPO-SPLIT-PLAN.md         # Repository split execution plan
+├── STRUCTURE-SUMMARY.md       # Workspace structure summary
+├── WORKSPACE-MANUAL.md        # Master documentation
+├── config/                    # Pipeline configuration (sources, PIRs, narrative clusters, sentiment lexicon)
+├── scripts/                   # Pipeline scripts (collection → extraction → sentiment → narrative → brief)
+├── templates/                 # Brief and intel templates
+├── intelligence/              # Intelligence outputs
+│   ├── briefs/                # Daily Intelligence Briefs (INTEL-008 → INTEL-034)
+│   ├── narrative-tracking/    # 96 narrative velocity reports
+│   ├── sentiment-analysis/    # 44 sentiment analysis reports
+│   ├── cyber/                 # Cybersecurity intelligence briefs (7 + 2 distribution packages)
+│   ├── media/                 # Media intelligence & journalist registry docs
+│   ├── prn-johor-2026/        # SUBMODULE → PRN-Johor-2026-H
+│   └── kempas/                # SUBMODULE → N47-Kempas-H
+├── constituency-analysis/     # Electoral intelligence (N07, N17, N27, Pemanis, PRN Johor)
+├── n27-layang-layang/         # SUBMODULE → N27-Layang-Layang-H
+├── ops/                       # Operational intelligence
+│   ├── tier2-intel/           # 144 government agency profiles + execution plans
+│   └── pdrm-io/               # PDRM Information Operations (docs, intel, scripts)
+├── voron/                     # VoronDRQ commercial GRC (consolidated from 6 directories)
+│   ├── collateral/            # Battle cards, email templates, compliance
+│   ├── prospects/             # Prospect databases
+│   ├── scripts/               # Enrichment scripts
+│   └── collected-pages/       # OSINT collection
+├── openosint/                 # OpenOSINT CLI integration (config, browser automation)
+├── planning/                  # Infrastructure planning docs
+├── reference/                 # Reference data (politicians, parties, media contacts)
+├── sources/                   # Source registry
+├── models/                    # ML models (budget anomaly detector, sector classifier)
+├── workflows/                 # Budget intelligence pipeline
+└── skills/                    # Browser harness skills (govsec)
 ```
 
 ---

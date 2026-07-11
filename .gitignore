@@ -119,6 +119,8 @@ n9-pir/
 narrative-tracking-workspace/
 vorondrq-rmit-campaign/
 
-# Voron enrichment venv and cache
-voron-enrichment/venv/
-voron-enrichment/__pycache__/
+# Voron enrichment (LinkedIn exports, screenshots — sensitive)
+voron-enrichment/
+
+# Voron prospect data (untracked, separate from consolidated voron/prospects/)
+voron-prospects/
