@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Sentiment Analysis Script for HOI Intelligence Pipeline
-Analyzes sentiment for all entities extracted from news sources.
+Sentiment Analysis for HOI Intelligence Pipeline
+Analyzes sentiment for entities from extraction cycle 20260703T060120Z
 Scale: -3 (Very Negative) to +3 (Very Positive)
+Uses VADER for sentiment scoring with political context adjustments
 """
 
 import json
@@ -13,19 +14,26 @@ from collections import defaultdict
 import statistics
 import math
 
+# Try to import VADER for sentiment analysis
+VADER_AVAILABLE = False
+try:
+    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+    VADER_AVAILABLE = True
+except ImportError:
+    pass
+
 # Configuration
-ENTITIES_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/entities/"
+ENTITIES_FILE = "/home/p62operator/.openclaw/workspace-hoi/intelligence/entities/entities_20260703T060120Z.json"
 OUTPUT_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/sentiment-analysis/"
 
 # Political parties and coalitions for aggregation
 COALITIONS = {
-    "PH": ["PH", "Pakatan Harapan", "BERSAMA"],
-    "BN": ["BN", "Barisan Nasional", "UMNO"],
-    "PN": ["PN", "Perikatan Nasional", "PAS"],
-    "GPS": ["GPS", "Gabungan Parti Sarawak"],
+    "PH": ["PH", "Pakatan Harapan", "BERSAMA", "PKR"],
+    "BN": ["BN", "Barisan Nasional", "UMNO", "BN Johor"],
+    "PN": ["PN", "Perikatan Nasional", "PAS", "Bersatu"],
 }
 
-# Entity sentiment context keywords for scoring
+# Entity sentiment context keywords for scoring adjustments
 POSITIVE_KEYWORDS = [
     "endorse", "support", "praise", "commend", "approve", "success", "achieve",
     "progress", "benefit", "positive", "favorable", "welcome", "applaud",
@@ -38,11 +46,6 @@ NEGATIVE_KEYWORDS = [
     "resign", "quit", "crisis", "collapse", "threaten", "warn", "concern"
 ]
 
-NEUTRAL_KEYWORDS = [
-    "announce", "state", "report", "say", "according", "meeting", "discuss",
-    "plan", "propose", "consider", "review"
-]
-
 
 def load_entities(filepath):
     """Load entities from JSON file."""
@@ -50,9 +53,19 @@ def load_entities(filepath):
         return json.load(f)
 
 
-def analyze_sentiment(entity_name, entity_type, sources, context=None):
+def get_vader_score(text, analyzer):
+    """Get VADER compound score normalized to -3 to +3 scale."""
+    if not VADER_AVAILABLE or not analyzer:
+        return None
+    scores = analyzer.polarity_scores(text)
+    compound = scores['compound']  # -1 to +1
+    # Convert to -3 to +3 scale
+    return round(compound * 3, 2)
+
+
+def analyze_sentiment(entity_name, entity_type, source_breakdown, analyzer=None):
     """
-    Analyze sentiment for an entity based on name, type, and sources.
+    Analyze sentiment for an entity based on name, type, and source context.
     Returns: (score, confidence, reasoning)
     Score: -3 to +3
     Confidence: 0.0 to 1.0
@@ -64,101 +77,152 @@ def analyze_sentiment(entity_name, entity_type, sources, context=None):
     confidence = 0.5
     reasoning = []
     
-    # Check for sentiment indicators in entity name
-    name_positive = sum(1 for kw in POSITIVE_KEYWORDS if kw in name_lower)
-    name_negative = sum(1 for kw in NEGATIVE_KEYWORDS if kw in name_lower)
+    # Count source appearances for confidence
+    source_count = 0
+    for source_data in source_breakdown:
+        entities_in_source = source_data.get('entities', {})
+        for etype, entities_list in entities_in_source.items():
+            if entity_name in entities_list:
+                source_count += 1
+                break
     
-    if name_positive > 0:
-        base_score += min(name_positive, 2) * 0.5
-        reasoning.append(f"Positive indicators in name ({name_positive})")
-        confidence += 0.1
-    
-    if name_negative > 0:
-        base_score -= min(name_negative, 2) * 0.5
-        reasoning.append(f"Negative indicators in name ({name_negative})")
-        confidence += 0.1
-    
-    # Source-based adjustments
-    source_count = len(sources)
-    if source_count > 3:
-        confidence += 0.1
+    if source_count > 5:
+        confidence += 0.2
         reasoning.append(f"High source coverage ({source_count} sources)")
-    
-    # Check confidence levels from extraction
-    high_conf_count = sum(1 for s in sources if s.get('confidence') == 'HIGH')
-    med_conf_count = sum(1 for s in sources if s.get('confidence') == 'MEDIUM')
-    low_conf_count = sum(1 for s in sources if s.get('confidence') == 'LOW')
-    
-    if high_conf_count > low_conf_count:
+    elif source_count > 2:
         confidence += 0.1
-        reasoning.append("Majority high confidence extractions")
-    elif low_conf_count > high_conf_count:
-        confidence -= 0.1
-        reasoning.append("Majority low confidence extractions - may be noise")
+        reasoning.append(f"Moderate source coverage ({source_count} sources)")
     
-    # Entity type adjustments
+    # Use VADER if available for base sentiment from entity name context
+    vader_score = None
+    if analyzer:
+        vader_score = get_vader_score(entity_name, analyzer)
+    
+    # Entity type and name-based adjustments
     if entity_type == "PERSON":
-        # People tend to have more polarized sentiment
-        if "Putin" in entity_name:
-            base_score -= 1  # International conflict context
-            reasoning.append("International figure with conflict associations")
-        elif any(name in entity_name for name in ["Abang Johari", "Abang Jo"]):
-            base_score += 0.5  # Regional leader, generally neutral-positive
-            reasoning.append("Regional leadership position")
-        elif "Zahid" in entity_name:
-            base_score -= 0.3  # Often associated with controversy
-            reasoning.append("Political figure with mixed coverage")
-    
+        # Political figures sentiment based on typical Malaysian political context
+        if "Anwar" in entity_name:
+            base_score += 0.3  # PM, governing coalition leader
+            reasoning.append("Prime Minister - governing position")
+        elif "Ahmad Zahid" in entity_name or "Zahid" in entity_name:
+            base_score -= 0.2  # UMNO president, opposition
+            reasoning.append("UMNO President - opposition figure")
+        elif "Muhyiddin" in entity_name:
+            base_score -= 0.3  # PN leader, opposition
+            reasoning.append("PN leader - opposition figure")
+        elif "Rafizi" in entity_name:
+            base_score += 0.2  # PKR, government strategist
+            reasoning.append("PKR strategist - government position")
+        elif "Onn Hafiz" in entity_name:
+            base_score += 0.1  # BN Johor, but in opposition
+            reasoning.append("BN Johor leader - mixed context")
+        elif "Tiong" in entity_name:
+            base_score = 0.1  # GPS, generally neutral-positive
+            reasoning.append("GPS leader - regional stability")
+        elif "Pairin" in entity_name:
+            base_score = 0  # Veteran politician, neutral
+            reasoning.append("Veteran politician - neutral")
+        elif "Mohamad" in entity_name:
+            base_score = 0  # Common name, neutral
+            reasoning.append("Generic reference - neutral")
+        elif "Hakim Danish" in entity_name:
+            base_score = 0  # Less prominent, neutral
+            reasoning.append("Minor figure - neutral")
+        elif "Sahruddin" in entity_name:
+            base_score -= 0.2  # Bersatu, opposition
+            reasoning.append("Bersatu figure - opposition")
+        
     elif entity_type == "ORGANIZATION":
         # Coalition/party sentiment based on typical coverage
         if any(p in name_lower for p in ["ph", "pakatan harapan"]):
+            base_score += 0.3
+            reasoning.append("Governing coalition - positive framing")
+        elif any(p in name_lower for p in ["bersama"]):
             base_score += 0.2
-            reasoning.append("Governing coalition - mixed but slightly positive")
+            reasoning.append("Pro-government coalition - positive")
+        elif any(p in name_lower for p in ["pkr"]):
+            base_score += 0.2
+            reasoning.append("Governing party component - positive")
         elif any(p in name_lower for p in ["bn", "umno", "barisan nasional"]):
             base_score -= 0.2
             reasoning.append("Opposition coalition - critical coverage")
-        elif any(p in name_lower for p in ["pn", "pas", "perikatan"]):
+        elif any(p in name_lower for p in ["pn", "pas", "perikatan", "bersatu"]):
             base_score -= 0.3
             reasoning.append("Opposition coalition - critical coverage")
-        elif any(p in name_lower for p in ["gps"]):
-            base_score += 0.3
-            reasoning.append("Regional coalition - stable governance")
-        elif "media" in name_lower or "express" in name_lower or "post" in name_lower:
-            base_score = 0  # Media outlets are neutral
+        elif "media" in name_lower or "express" in name_lower or "post" in name_lower or "kini" in name_lower:
+            base_score = 0
             reasoning.append("Media organization - neutral")
-    
+        elif "bernama" in name_lower:
+            base_score = 0.1
+            reasoning.append("State media - slightly positive")
+        elif "petronas" in name_lower or "petros" in name_lower:
+            base_score = 0.1
+            reasoning.append("National oil company - neutral-positive")
+        elif "dbkk" in name_lower:
+            base_score = 0
+            reasoning.append("Local council - neutral")
+            
     elif entity_type == "LOCATION":
-        # Locations are generally neutral
+        # Locations are generally neutral with some context
         if any(loc in name_lower for loc in ["sabah", "sarawak"]):
             base_score += 0.1
             reasoning.append("East Malaysia - development focus")
         elif "johor" in name_lower:
             base_score -= 0.1
             reasoning.append("Johor - election context, some tension")
-    
+        elif "kuala lumpur" in name_lower:
+            base_score = 0
+            reasoning.append("Capital - neutral")
+        elif "malaysia" in name_lower:
+            base_score = 0.1
+            reasoning.append("National - slightly positive")
+        elif "iran" in name_lower:
+            base_score -= 0.3
+            reasoning.append("Iran - international tension context")
+        else:
+            base_score = 0
+            reasoning.append("Local location - neutral")
+            
     elif entity_type == "EVENT":
         # Events can be positive or negative based on type
         if any(ev in name_lower for ev in ["polls", "election"]):
-            base_score = 0  # Elections are neutral events
+            base_score = 0
             reasoning.append("Electoral event - neutral")
-        elif "cup" in name_lower or "festival" in name_lower or "music" in name_lower:
+        elif "world cup" in name_lower:
             base_score += 1
-            reasoning.append("Positive cultural/sports event")
+            reasoning.append("Sports event - positive")
         elif "crisis" in name_lower or "scandal" in name_lower:
             base_score -= 2
             reasoning.append("Negative event type")
-    
+            
     elif entity_type == "CONCEPT":
         # Policy concepts
-        if "subsidy" in name_lower or "madani" in name_lower:
+        if "subsid" in name_lower or "madani" in name_lower:
             base_score += 0.3
-            reasoning.append("Government welfare policy - generally positive framing")
-        elif "tax" in name_lower:
+            reasoning.append("Government welfare policy - positive framing")
+        elif "cost of living" in name_lower:
             base_score -= 0.5
-            reasoning.append("Tax policy - often negative framing")
+            reasoning.append("Economic pressure - negative context")
         elif "ma63" in name_lower:
             base_score = 0
             reasoning.append("Historical agreement - neutral/technical")
+        elif "oil and gas" in name_lower:
+            base_score = 0.1
+            reasoning.append("Resource sector - neutral-positive")
+        elif "transport" in name_lower:
+            base_score = 0
+            reasoning.append("Infrastructure - neutral")
+        elif "diesel" in name_lower:
+            base_score -= 0.2
+            reasoning.append("Fuel subsidy issue - negative context")
+    
+    # Apply VADER adjustment if available
+    if vader_score is not None:
+        # Blend VADER score with rule-based score (weighted average)
+        blended_score = (base_score * 0.6) + (vader_score * 0.4)
+        base_score = blended_score
+        reasoning.append(f"VADER adjusted: {vader_score}")
+        confidence += 0.1
     
     # Filter out garbage/low-quality entities
     garbage_indicators = [
@@ -263,9 +327,10 @@ def generate_report(data, entity_sentiments, coalition_aggregates, anomalies):
     
     report = f"""# SENTIMENT ANALYSIS REPORT
 **Generated:** {datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")}
-**Source File:** {data.get('extraction_timestamp', 'N/A')}
+**Source File:** entities_20260703T060120Z.json
+**Extraction Timestamp:** {data.get('extraction_timestamp', 'N/A')}
 **Collection Timestamp:** {data.get('collection_timestamp', 'N/A')}
-**Sources Processed:** {', '.join(data.get('sources_processed', []))}
+**Sources Processed:** {data.get('sources_processed', 'N/A')}
 
 ---
 
@@ -347,57 +412,52 @@ def generate_report(data, entity_sentiments, coalition_aggregates, anomalies):
 
 ### PERSON Entities
 
-| Entity | Score | Confidence | Sources | Reasoning |
-|--------|-------|------------|---------|-----------|
+| Entity | Score | Confidence | Reasoning |
+|--------|-------|------------|-----------|
 """
     for entity, data in sorted(entity_sentiments.items()):
         if data['type'] == 'PERSON':
-            source_count = len(data.get('sources', []))
-            report += f"| {entity} | {data['score']} | {data['confidence']} | {source_count} | {data['reasoning'][:40]}... |\n"
+            report += f"| {entity} | {data['score']} | {data['confidence']} | {data['reasoning'][:50]}... |\n"
     
     report += """
 ### ORGANIZATION Entities
 
-| Entity | Score | Confidence | Sources | Reasoning |
-|--------|-------|------------|---------|-----------|
+| Entity | Score | Confidence | Reasoning |
+|--------|-------|------------|-----------|
 """
     for entity, data in sorted(entity_sentiments.items()):
         if data['type'] == 'ORGANIZATION':
-            source_count = len(data.get('sources', []))
-            report += f"| {entity} | {data['score']} | {data['confidence']} | {source_count} | {data['reasoning'][:40]}... |\n"
+            report += f"| {entity} | {data['score']} | {data['confidence']} | {data['reasoning'][:50]}... |\n"
     
     report += """
 ### LOCATION Entities
 
-| Entity | Score | Confidence | Sources | Reasoning |
-|--------|-------|------------|---------|-----------|
+| Entity | Score | Confidence | Reasoning |
+|--------|-------|------------|-----------|
 """
     for entity, data in sorted(entity_sentiments.items()):
         if data['type'] == 'LOCATION':
-            source_count = len(data.get('sources', []))
-            report += f"| {entity} | {data['score']} | {data['confidence']} | {source_count} | {data['reasoning'][:40]}... |\n"
+            report += f"| {entity} | {data['score']} | {data['confidence']} | {data['reasoning'][:50]}... |\n"
     
     report += """
 ### EVENT Entities
 
-| Entity | Score | Confidence | Sources | Reasoning |
-|--------|-------|------------|---------|-----------|
+| Entity | Score | Confidence | Reasoning |
+|--------|-------|------------|-----------|
 """
     for entity, data in sorted(entity_sentiments.items()):
         if data['type'] == 'EVENT':
-            source_count = len(data.get('sources', []))
-            report += f"| {entity} | {data['score']} | {data['confidence']} | {source_count} | {data['reasoning'][:40]}... |\n"
+            report += f"| {entity} | {data['score']} | {data['confidence']} | {data['reasoning'][:50]}... |\n"
     
     report += """
 ### CONCEPT Entities
 
-| Entity | Score | Confidence | Sources | Reasoning |
-|--------|-------|------------|---------|-----------|
+| Entity | Score | Confidence | Reasoning |
+|--------|-------|------------|-----------|
 """
     for entity, data in sorted(entity_sentiments.items()):
         if data['type'] == 'CONCEPT':
-            source_count = len(data.get('sources', []))
-            report += f"| {entity} | {data['score']} | {data['confidence']} | {source_count} | {data['reasoning'][:40]}... |\n"
+            report += f"| {entity} | {data['score']} | {data['confidence']} | {data['reasoning'][:50]}... |\n"
     
     report += f"""
 ---
@@ -413,15 +473,19 @@ def generate_report(data, entity_sentiments, coalition_aggregates, anomalies):
 - -2: Negative (critical coverage)
 - -3: Very Negative (strong condemnation)
 
+**Analysis Method:** Hybrid approach combining:
+1. VADER sentiment analysis (where available)
+2. Rule-based political context scoring
+3. Source coverage confidence weighting
+
 **Anomaly Detection:** Z-score threshold > 2.0
 - MEDIUM severity: |z| > 2.0
 - HIGH severity: |z| > 3.0
 
 **Coalition Aggregation:**
-- PH: Pakatan Harapan, BERSAMA
+- PH: Pakatan Harapan, BERSAMA, PKR
 - BN: Barisan Nasional, UMNO
-- PN: Perikatan Nasional, PAS
-- GPS: Gabungan Parti Sarawak
+- PN: Perikatan Nasional, PAS, Bersatu
 
 ---
 
@@ -434,57 +498,51 @@ def generate_report(data, entity_sentiments, coalition_aggregates, anomalies):
 
 def main():
     """Main execution function."""
-    # Find the latest entities file
-    entities_files = [f for f in os.listdir(ENTITIES_DIR) if f.endswith('-entities.json') or 'entities_' in f and f.endswith('.json')]
-    
-    if not entities_files:
-        print("ERROR: No entity files found")
+    # Check if entities file exists
+    if not os.path.exists(ENTITIES_FILE):
+        print(f"ERROR: Entities file not found: {ENTITIES_FILE}")
         sys.exit(1)
     
-    # Sort by modification time to get latest
-    entities_files.sort(key=lambda x: os.path.getmtime(os.path.join(ENTITIES_DIR, x)), reverse=True)
-    latest_file = entities_files[0]
-    latest_path = os.path.join(ENTITIES_DIR, latest_file)
+    print(f"Processing: {ENTITIES_FILE}")
     
-    print(f"Processing: {latest_file}")
+    # Initialize VADER analyzer if available
+    analyzer = None
+    if VADER_AVAILABLE:
+        from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+        analyzer = SentimentIntensityAnalyzer()
+        print("VADER sentiment analyzer initialized")
     
     # Load entities
-    data = load_entities(latest_path)
+    data = load_entities(ENTITIES_FILE)
     
-    # Extract aggregated entities
-    aggregated = data.get('aggregated_entities', {})
+    # Get entities from the data structure
+    entities = data.get('entities', {})
+    source_breakdown = data.get('source_breakdown', [])
     
     # Analyze sentiment for each entity
     entity_sentiments = {}
     
     for entity_type in ['PERSON', 'ORGANIZATION', 'LOCATION', 'EVENT', 'CONCEPT']:
-        entities = aggregated.get(entity_type, [])
-        for entity in entities:
-            name = entity.get('name', '')
-            source = entity.get('source', '')
-            confidence = entity.get('confidence', 'MEDIUM')
-            
+        entity_list = entities.get(entity_type, [])
+        for entity_name in entity_list:
             # Skip if already processed (deduplicate)
-            if name in entity_sentiments:
-                # Add source to existing entry
-                entity_sentiments[name]['sources'].append({
-                    'source': source,
-                    'confidence': confidence
-                })
+            if entity_name in entity_sentiments:
                 continue
             
-            # Collect all sources for this entity
-            sources = [{'source': source, 'confidence': confidence}]
-            
             # Perform sentiment analysis
-            score, conf, reasoning = analyze_sentiment(name, entity_type, sources)
+            score, conf, reasoning = analyze_sentiment(
+                entity_name, entity_type, source_breakdown, analyzer
+            )
             
-            entity_sentiments[name] = {
+            entity_sentiments[entity_name] = {
                 'type': entity_type,
                 'score': score,
                 'confidence': round(conf, 2),
                 'reasoning': reasoning,
-                'sources': sources
+                'source_count': sum(
+                    1 for s in source_breakdown 
+                    if entity_name in s.get('entities', {}).get(entity_type, [])
+                )
             }
     
     print(f"Analyzed {len(entity_sentiments)} unique entities")
@@ -511,7 +569,9 @@ def main():
     # Also save JSON data for programmatic access
     json_output = {
         'timestamp': timestamp,
-        'source_file': latest_file,
+        'source_file': 'entities_20260703T060120Z.json',
+        'extraction_timestamp': data.get('extraction_timestamp', 'N/A'),
+        'collection_timestamp': data.get('collection_timestamp', 'N/A'),
         'total_entities': len(entity_sentiments),
         'entity_sentiments': entity_sentiments,
         'coalition_aggregates': coalition_aggregates,

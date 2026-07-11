@@ -104,3 +104,21 @@ id_ed25519.pub
 # TLP:AMBER restricted files (add specific sensitive reports)
 # intelligence/pdrm-contacts-directory.md
 # intelligence/media-registry/
+
+# OpenOSINT configuration (contains API keys — never commit)
+openosint-config.env
+
+# OpenOSINT virtual environment
+openosint-env/
+
+# Nested git repositories (managed as separate repos)
+Voron-Campaign/
+integration-module/
+n03-pemanis-repo/
+n9-pir/
+narrative-tracking-workspace/
+vorondrq-rmit-campaign/
+
+# Voron enrichment venv and cache
+voron-enrichment/venv/
+voron-enrichment/__pycache__/

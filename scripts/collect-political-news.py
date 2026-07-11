@@ -12,9 +12,9 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-FIRECRAWL_API_URL = "http://localhost:3002/v2/scrape"
+FIRECRAWL_API_URL = "http://localhost:3002/v1/scrape"
 OUTPUT_DIR = Path("/home/p62operator/.openclaw/workspace-hoi/intelligence/raw")
-TIMEOUT = 60000  # 60 seconds per source
+TIMEOUT = 30000  # 30 seconds per source
 
 # 7 News sources to collect from
 SOURCES = [

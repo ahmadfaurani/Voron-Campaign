@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sentiment Analysis for Extracted Entities
+Sentiment Analysis for Extracted Entities - 2026-07-10 Cycle
 Analyzes sentiment of entities from OpenCLaw extraction cycle using VADER.
 Generates aggregate sentiment for parties/coalitions and detects anomalies.
 """
@@ -20,32 +20,41 @@ OUTPUT_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/sentiment-a
 
 # Political party mappings for aggregation
 PARTY_COALITIONS = {
-    "PH": ["PH", "Pakatan Harapan", "PKR", "BERSAMA"],
-    "BN": ["BN", "UMNO"],
+    "PH": ["PH", "Pakatan Harapan", "PKR", "BERSAMA", "AMANAH", "DAP"],
+    "BN": ["BN", "Barisan Nasional", "UMNO"],
     "PN": ["PN", "Perikatan Nasional", "PAS", "Bersatu", "Parti Pribumi Bersatu Malaysia"],
+    "GPS": ["GPS", "Gabungan Parti Sarawak"],
+    "GRS": ["GRS", "Gabungan Rakyat Sabah"],
+    "MUDA": ["MUDA"],
+    "WARISAN": ["WARISAN"],
 }
 
 # Key political figures and their affiliations
 FIGURE_AFFILIATIONS = {
-    "Anwar": "PH",
     "Anwar Ibrahim": "PH",
-    "Datuk Seri Anwar Ibrahim": "PH",
-    "PM Anwar": "PH",
-    "Ahmad Zahid": "BN",
-    "DPM Ahmad Zahid": "BN",
-    "Muhyiddin": "PN",
+    "Anwar": "PH",
     "Muhyiddin Yassin": "PN",
+    "Muhyiddin": "PN",
+    "Zahid Hamidi": "BN",
+    "Ahmad Zahid": "BN",
     "Onn Hafiz": "BN",
     "Onn Hafiz Ghazi": "BN",
-    "Zaid": "PH",
-    "Mohamad": "PH",
-    "Mustapha": "INDEPENDENT",
-    "Salleh": "INDEPENDENT",
+    "Nik Nazmi": "PH",
+    "Mat Sabu": "PH",
+    "Mohamad Sabu": "PH",
+    "Dzulkefly Ahmad": "PH",
+    "Halimah Ali": "PH",
 }
 
 
 def get_latest_entities_file():
     """Find the most recent entities JSON file."""
+    # Look for the specific file from the latest extraction
+    latest_file = os.path.join(ENTITIES_DIR, "2026-07-10T002125Z_entities_extracted.json")
+    if os.path.exists(latest_file):
+        return latest_file
+    
+    # Fallback to glob search
     json_files = glob.glob(os.path.join(ENTITIES_DIR, "entities_*T*.json"))
     if not json_files:
         json_files = glob.glob(os.path.join(ENTITIES_DIR, "entities_*.json"))
@@ -63,29 +72,25 @@ def load_entities(filepath):
 def load_source_articles(collection_timestamp):
     """Load all source articles from the collection."""
     articles = {}
-    # Convert timestamp format if needed
-    date_part = collection_timestamp.split('T')[0] if 'T' in collection_timestamp else collection_timestamp[:10]
     
-    # Try multiple patterns to find articles
-    patterns = [
-        os.path.join(RAW_DIR, f"{date_part.replace('-', '')}T*_*.json"),
-        os.path.join(RAW_DIR, f"{date_part}*_*.json"),
-        os.path.join(RAW_DIR, f"*{date_part.replace('-', '')}*.json"),
-    ]
+    # Pattern for the collection timestamp
+    date_part = "2026-07-10T002125Z"
     
-    article_files = []
-    for pattern in patterns:
-        article_files.extend(glob.glob(pattern))
-    
-    # Remove duplicates
-    article_files = list(set(article_files))
+    # Find all article files from this collection
+    pattern = os.path.join(RAW_DIR, f"{date_part}*.json")
+    article_files = glob.glob(pattern)
     
     for filepath in article_files:
+        # Skip the main collection file and manifest
+        basename = os.path.basename(filepath)
+        if 'political_collection' in basename or 'manifest' in basename or 'INTELLIGENCE_BRIEF' in basename:
+            continue
+            
         try:
             with open(filepath, 'r') as f:
                 article = json.load(f)
                 # Extract source name from filename
-                source_name = os.path.basename(filepath).replace('.json', '')
+                source_name = basename.replace(f'{date_part}_', '').replace('.json', '')
                 articles[source_name] = article
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not load {filepath}: {e}")
@@ -203,8 +208,8 @@ def aggregate_by_coalition(entity_sentiments, entity_type='ORGANIZATION'):
             aggregates[coalition] = {
                 'mean_sentiment': statistics.mean(scores),
                 'entities_count': len(scores),
-                'entities': [e for e, d in entity_sentiments.items() 
-                           if any(e in members for members in [m for m in PARTY_COALITIONS.values()] for c, m in PARTY_COALITIONS.items() if c == coalition)]
+                'entities': [e for e in entity_sentiments.keys() 
+                           if any(e in members for members in [PARTY_COALITIONS[c] for c in PARTY_COALITIONS.keys() if c == coalition])]
             }
     
     return aggregates
@@ -231,7 +236,7 @@ def aggregate_figures_by_party(entity_sentiments):
             party_aggregates[party] = {
                 'mean_sentiment': statistics.mean(scores),
                 'figures_count': len(scores),
-                'figures': list(figure_data.keys())
+                'figures': list([e for e, d in figure_data.items() if FIGURE_AFFILIATIONS.get(e) == party])
             }
     
     return party_aggregates, figure_data
@@ -250,11 +255,16 @@ def generate_report(entity_data, entity_sentiments, z_scores, coalition_aggregat
     
     timestamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
     
+    # Get sources processed count from entity data
+    sources_processed = 0
+    if 'extraction_summary' in entity_data and 'collection_stats' in entity_data['extraction_summary']:
+        sources_processed = entity_data['extraction_summary']['collection_stats'].get('successful', 0)
+    
     report = {
         "report_timestamp": timestamp,
         "extraction_source": entity_data.get('extraction_timestamp', 'unknown'),
-        "collection_timestamp": entity_data.get('collection_timestamp', 'unknown'),
-        "sources_processed": entity_data.get('sources_processed', 0),
+        "collection_timestamp": entity_data.get('source_timestamp', 'unknown'),
+        "sources_processed": sources_processed,
         "analysis_method": "VADER Sentiment Analysis",
         "score_range": "-3 (very negative) to +3 (very positive)",
         "anomaly_threshold": "z-score > 2 or < -2",
@@ -299,10 +309,103 @@ def generate_report(entity_data, entity_sentiments, z_scores, coalition_aggregat
     return report
 
 
+def generate_markdown_summary(report):
+    """Generate a markdown summary of the sentiment analysis."""
+    
+    md = f"""# Sentiment Analysis Report
+
+**Report Generated:** {report['report_timestamp']}  
+**Extraction Source:** {report['extraction_source']}  
+**Collection Timestamp:** {report['collection_timestamp']}  
+**Sources Processed:** {report['sources_processed']}  
+**Analysis Method:** {report['analysis_method']}  
+**Score Range:** {report['score_range']}
+
+---
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| Total Entities Analyzed | {report['summary']['total_entities_analyzed']} |
+| Average Sentiment | {scale_to_int(report['summary']['average_sentiment'])} ({report['summary']['average_sentiment']:.4f}) |
+| Sentiment Std Dev | {report['summary']['sentiment_std_dev']:.4f} |
+| Positive Entities | {report['summary']['positive_entities']} |
+| Neutral Entities | {report['summary']['neutral_entities']} |
+| Negative Entities | {report['summary']['negative_entities']} |
+| Anomalies Detected | {report['summary']['anomalies_detected']} |
+
+---
+
+## Coalition Sentiment Aggregates
+
+| Coalition | Mean Sentiment | Entity Count |
+|-----------|---------------|--------------|
+"""
+    
+    for coalition, data in sorted(report['coalition_aggregates'].items()):
+        score = scale_to_int(data['mean_sentiment'])
+        md += f"| {coalition} | {score} ({data['mean_sentiment']:.4f}) | {data['entities_count']} |\n"
+    
+    md += """
+---
+
+## Political Party Figure Aggregates
+
+| Party | Mean Sentiment | Figures Count |
+|-------|---------------|---------------|
+"""
+    
+    for party, data in sorted(report['party_figure_aggregates'].items()):
+        score = scale_to_int(data['mean_sentiment'])
+        md += f"| {party} | {score} ({data['mean_sentiment']:.4f}) | {data['figures_count']} |\n"
+    
+    md += """
+---
+
+## Sentiment Anomalies (z-score > 2)
+
+"""
+    
+    if report['anomalies']['details']:
+        md += "| Entity | Z-Score | Sentiment | Type |\n"
+        md += "|--------|---------|-----------|------|\n"
+        for entity, data in report['anomalies']['details'].items():
+            md += f"| {entity} | {data['z_score']:.4f} | {data['sentiment_score']} | {data['type']} |\n"
+    else:
+        md += "*No significant anomalies detected.*\n"
+    
+    md += """
+---
+
+## Entity Sentiments by Type
+
+"""
+    
+    for entity_type, entities in report['entity_sentiments'].items():
+        md += f"### {entity_type}\n\n"
+        md += "| Entity | Sentiment | Raw Score | Mentions | Z-Score | Anomaly |\n"
+        md += "|--------|-----------|-----------|----------|---------|---------|\n"
+        
+        for entity, data in sorted(entities.items(), key=lambda x: x[1]['sentiment_score'], reverse=True):
+            anomaly_mark = "⚠️" if data['is_anomaly'] else ""
+            md += f"| {entity} | {data['sentiment_score']} | {data['raw_compound']:.4f} | {data['mention_count']} | {data['z_score']:.4f} | {anomaly_mark} |\n"
+        
+        md += "\n"
+    
+    md += """
+---
+
+*Report generated by OpenCLaw Sentiment Analysis Pipeline*
+"""
+    
+    return md
+
+
 def main():
     """Main execution function."""
     print("=" * 60)
-    print("SENTIMENT ANALYSIS - Entity Extraction Cycle")
+    print("SENTIMENT ANALYSIS - Entity Extraction Cycle 2026-07-10")
     print("=" * 60)
     
     # Initialize VADER analyzer
@@ -314,10 +417,10 @@ def main():
     entity_data = load_entities(entities_file)
     
     print(f"Extraction timestamp: {entity_data.get('extraction_timestamp', 'unknown')}")
-    print(f"Sources processed: {entity_data.get('sources_processed', 0)}")
+    print(f"Source timestamp: {entity_data.get('source_timestamp', 'unknown')}")
     
     # Load source articles for context
-    collection_ts = entity_data.get('collection_timestamp', '')
+    collection_ts = entity_data.get('source_timestamp', '')
     print(f"\nLoading source articles from collection: {collection_ts}")
     articles = load_source_articles(collection_ts)
     print(f"Loaded {len(articles)} source articles")
@@ -397,103 +500,26 @@ def main():
         f.write(md_report)
     
     print(f"Markdown summary saved to: {md_file}")
+    
+    # Update latest symlinks
+    latest_json = os.path.join(OUTPUT_DIR, "sentiment_latest.json")
+    latest_md = os.path.join(OUTPUT_DIR, "sentiment_latest.md")
+    
+    # Copy to latest
+    with open(output_file, 'r') as src:
+        with open(latest_json, 'w') as dst:
+            dst.write(src.read())
+    
+    with open(md_file, 'r') as src:
+        with open(latest_md, 'w') as dst:
+            dst.write(src.read())
+    
+    print(f"Latest symlinks updated")
     print("\n" + "=" * 60)
     print("SENTIMENT ANALYSIS COMPLETE")
     print("=" * 60)
     
     return report
-
-
-def generate_markdown_summary(report):
-    """Generate a markdown summary of the sentiment analysis."""
-    
-    md = f"""# Sentiment Analysis Report
-
-**Report Generated:** {report['report_timestamp']}  
-**Extraction Source:** {report['extraction_source']}  
-**Collection Timestamp:** {report['collection_timestamp']}  
-**Sources Processed:** {report['sources_processed']}  
-**Analysis Method:** {report['analysis_method']}
-
----
-
-## Summary
-
-| Metric | Value |
-|--------|-------|
-| Total Entities Analyzed | {report['summary']['total_entities_analyzed']} |
-| Average Sentiment | {scale_to_int(report['summary']['average_sentiment'])} ({report['summary']['average_sentiment']:.4f}) |
-| Sentiment Std Dev | {report['summary']['sentiment_std_dev']:.4f} |
-| Positive Entities | {report['summary']['positive_entities']} |
-| Neutral Entities | {report['summary']['neutral_entities']} |
-| Negative Entities | {report['summary']['negative_entities']} |
-| Anomalies Detected | {report['summary']['anomalies_detected']} |
-
----
-
-## Coalition Sentiment Aggregates
-
-| Coalition | Mean Sentiment | Entity Count |
-|-----------|---------------|--------------|
-"""
-    
-    for coalition, data in report['coalition_aggregates'].items():
-        score = scale_to_int(data['mean_sentiment'])
-        md += f"| {coalition} | {score} ({data['mean_sentiment']:.4f}) | {data['entities_count']} |\n"
-    
-    md += """
----
-
-## Political Party Figure Aggregates
-
-| Party | Mean Sentiment | Figures Count |
-|-------|---------------|---------------|
-"""
-    
-    for party, data in report['party_figure_aggregates'].items():
-        score = scale_to_int(data['mean_sentiment'])
-        md += f"| {party} | {score} ({data['mean_sentiment']:.4f}) | {data['figures_count']} |\n"
-    
-    md += """
----
-
-## Sentiment Anomalies (z-score > 2)
-
-"""
-    
-    if report['anomalies']['details']:
-        md += "| Entity | Z-Score | Sentiment | Type |\n"
-        md += "|--------|---------|-----------|------|\n"
-        for entity, data in report['anomalies']['details'].items():
-            md += f"| {entity} | {data['z_score']:.4f} | {data['sentiment_score']} | {data['type']} |\n"
-    else:
-        md += "*No significant anomalies detected.*\n"
-    
-    md += """
----
-
-## Entity Sentiments by Type
-
-"""
-    
-    for entity_type, entities in report['entity_sentiments'].items():
-        md += f"### {entity_type}\n\n"
-        md += "| Entity | Sentiment | Raw Score | Mentions | Z-Score | Anomaly |\n"
-        md += "|--------|-----------|-----------|----------|---------|---------|\n"
-        
-        for entity, data in sorted(entities.items(), key=lambda x: x[1]['sentiment_score'], reverse=True):
-            anomaly_mark = "⚠️" if data['is_anomaly'] else ""
-            md += f"| {entity} | {data['sentiment_score']} | {data['raw_compound']:.4f} | {data['mention_count']} | {data['z_score']:.4f} | {anomaly_mark} |\n"
-        
-        md += "\n"
-    
-    md += """
----
-
-*Report generated by OpenCLaw Sentiment Analysis Pipeline*
-"""
-    
-    return md
 
 
 if __name__ == "__main__":
