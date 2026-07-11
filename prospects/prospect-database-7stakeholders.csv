@@ -27,8 +27,8 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,BNP Paribas Malaysia Berhad,,,,,,,
 1,Licensed Banks,Bank Islam Malaysia Berhad,Anthony Tai (Group CISO),Nik Azmir Nik Anis (Group Chief Integrity and Governance Officer),Siti Nur Huda Sufian (Group CFO),Alina Sylvia Appoo (Group CRO) [Bloomberg],Nik Azmir Nik Anis (Group CCO + GRC Officer),Zulkanain Kassim (CITO) [LinkedIn],Zalfitri Abd Mutalip (Group Chief Internal Auditor)
 2,Investment Banks,Bank Rakyat Investment Bank Berhad,,,,,,,
-3,Development FIs,Bank Rakyat Malaysia,,,,,,,
-3,Development FIs,Bank Simpanan Nasional (BSN),,,,,,,
+3,Development FIs,Bank Rakyat Malaysia,,,Nor Haimee Zakaria (Chief Finance Officer) [Official: bankrakyat.com.my],Azni Azaddin (Group Chief Risk Officer) [Official: bankrakyat.com.my],Jufree Soaidin (Group Chief Compliance Officer) [Official: bankrakyat.com.my],,
+3,Development FIs,Bank Simpanan Nasional (BSN),,,Norhafizah Md Shariff (Chief Financial Officer) [Official: bsn.com.my],Muizz Aiman Farid (SVP / Chief Risk Officer) [Official: bsn.com.my],Sujit Guha Thakurta (SVP / Chief Compliance Officer) [Official: bsn.com.my],,
 1,Licensed Banks,Bank of China (Malaysia) Berhad,Willy Neo,,Datuk Alvin Tay (DCEO/acting CFO),Anysia Yeung,Ker Yong (Director - Head of Legal and Compliance),,Chen Thien Yin (Board Audit Committee Chair)
 2,Insurers,Berjaya Sompo Insurance Berhad,,,,,,,
 4,E-Money,BigPay (Capital A),,,,,,,
@@ -88,7 +88,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 5,GLC-Linked,KWSP Investment Division (Alternative Assets),,,,,,,
 5,GLC-Linked,KWSP Investment Division (Direct Investments),,,,,,,
 5,GLC-Linked,KWSP Investment Division (Real Estate),,,,,,,
-2,Investment Banks,Kenanga Investment Bank Berhad,,,,,,,
+2,Investment Banks,Kenanga Investment Bank Berhad,,,Cheong Boon Kak (Group Chief Financial & Operations Officer) [Official: kenanga.com.my],Tai Yan Fee (Group Chief Risk Officer) [Official: kenanga.com.my],Choo Siew Fun (Group Chief Compliance & Ethics Officer) [Official: kenanga.com.my],Low Jia Yee (Chief Technology Officer) [Official: kenanga.com.my],Terence Tan Kian Meng (Group Chief Internal Auditor) [Official: kenanga.com.my]
 5,GLC-Linked,Khazanah Nasional Berhad,,,,,,,
 3,Cooperatives,Koperasi Angkatan Tentera,,,,,,,
 3,Cooperatives,Koperasi Guru Malaysia,,,,,,,
@@ -128,7 +128,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 2,Insurers,Manulife Insurance Berhad,,,,,,,
 2,Takaful,Manulife Takaful Malaysia Berhad,,,,,,,
 5,GLC-Linked,Maybank (Khazanah-linked),,,,,,,
-1,Licensed Banks,Maybank Berhad,,,Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,,Giorgio Migliarina (Group Chief Technology & Digital Officer),
+1,Licensed Banks,Maybank Berhad,Devinder Singh (Group CISO) [LinkedIn/The Org],,Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,,Giorgio Migliarina (Group Chief Technology & Digital Officer),
 4,Card Schemes,Maybank Cash & Go Prepaid Card,,,,,,,
 2,Investment Banks,Maybank Investment Bank Berhad,,,,,,,
 1,Licensed Banks,Maybank Islamic Berhad,,,,,,,
