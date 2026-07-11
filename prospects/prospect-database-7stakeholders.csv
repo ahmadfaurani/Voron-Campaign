@@ -29,7 +29,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 2,Investment Banks,Bank Rakyat Investment Bank Berhad,,,,,,,
 3,Development FIs,Bank Rakyat Malaysia,,,,,,,
 3,Development FIs,Bank Simpanan Nasional (BSN),,,,,,,
-1,Licensed Banks,Bank of China (Malaysia) Berhad,,,,,,,
+1,Licensed Banks,Bank of China (Malaysia) Berhad,Willy Neo,,Datuk Alvin Tay (DCEO/acting CFO),Anysia Yeung,Ker Yong (Director - Head of Legal and Compliance),,Chen Thien Yin (Board Audit Committee Chair)
 2,Insurers,Berjaya Sompo Insurance Berhad,,,,,,,
 4,E-Money,BigPay (Capital A),,,,,,,
 3,MSBs,BigPay Malaysia Sdn Bhd,,,,,,,
@@ -65,7 +65,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 4,E-Money,GrabPay (Grab Malaysia),,,,,,,
 3,MSBs,GrabPay Malaysia Sdn Bhd,,,,,,,
 2,Insurers,Great Eastern General Insurance (Malaysia) Berhad,,Liza Hanim Zainal Abidin (Legal/Compliance) + Audra Chung Kit Li (Audit),Loke Chang Yueh,,Liza Hanim Zainal Abidin,Vincent Chin,Audra Chung Kit Li
-2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,,Liza Hanim Zainal Abidin (Legal/Compliance) + Audra Chung Kit Li (Audit),Loke Chang Yueh,,Liza Hanim Zainal Abidin,Vincent Chin,Audra Chung Kit Li
+2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,,Liza Hanim Zainal Abidin (Legal/Compliance) + Audra Chung Kit Li (Audit),Loke Chang Yueh,Teo Chun Seng,Liza Hanim Zainal Abidin,Vincent Chin,Audra Chung Kit Li
 2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,,,,,,,
 1,Licensed Banks,HSBC Bank Malaysia Berhad,,,Elly Neoh (CFO),Brian McGuire (Acting Chief Risk & Compliance Officer),Brian McGuire (Acting CCO),Mei Ling Soo (CIO),
 2,Insurers,Hong Leong Assurance Berhad,,,,,,,
@@ -128,7 +128,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 2,Insurers,Manulife Insurance Berhad,,,,,,,
 2,Takaful,Manulife Takaful Malaysia Berhad,,,,,,,
 5,GLC-Linked,Maybank (Khazanah-linked),,,,,,,
-1,Licensed Banks,Maybank Berhad,,,Shafiq Abdul Jabbar,,,Giorgio Migliarina (Group Chief Technology & Digital Officer),
+1,Licensed Banks,Maybank Berhad,,,Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,,Giorgio Migliarina (Group Chief Technology & Digital Officer),
 4,Card Schemes,Maybank Cash & Go Prepaid Card,,,,,,,
 2,Investment Banks,Maybank Investment Bank Berhad,,,,,,,
 1,Licensed Banks,Maybank Islamic Berhad,,,,,,,
@@ -137,7 +137,7 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,Mizuho Bank (Malaysia) Berhad,,,,,,,
 3,MSBs,Money Match Sdn Bhd,,,,,,,
 3,MSBs,MoneyMatch Sdn Bhd,,,,,,,
-1,Licensed Banks,OCBC Bank (Malaysia) Berhad,,,,,,,
+1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Dominic Yew,,Ms Teoh Yin Meng,Dr Priya Ranjan Sharma,Ms Doreen Keng Chun Ching,Mr Hong Hee Loon (Head of Technology),Mr Victor Ong Hock Seng
 5,GLC-Linked,PNB Capital Berhad,,,,,,,
 5,GLC-Linked,PNB Equity Fund Berhad,,,,,,,
 5,GLC-Linked,PNB Income Fund Berhad,,,,,,,
