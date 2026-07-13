@@ -124,3 +124,14 @@ voron-enrichment/
 
 # Voron prospect data (untracked, separate from consolidated voron/prospects/)
 voron-prospects/
+
+# === Workstream split repos (separate git repos, NOT part of hoi-intelligence-ops) ===
+/cyber-intel/
+/gov-intel/
+/pdrm-io/
+/hoi-intelligence-ops/
+/malaysia-journalist-registry/
+/prn-johor-constituency/
+/vorondrq-prospect-db/
+/vorondrq-rmit-campaign/
+/Voron-Campaign/
