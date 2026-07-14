@@ -104,6 +104,7 @@
 | HCR-092 | pdrm-io | PRIVATE | 2026-07-13 |
 | HCR-093 | gov-intel | PRIVATE | 2026-07-13 |
 | HCR-094 | hoi-intelligence-ops | PRIVATE | 2026-07-13 |
+| HCR-095 | prn-negeri-sembilan-2026 | PRIVATE | 2026-07-14 |
 
 ---
 
@@ -173,4 +174,4 @@
 
 ---
 
-*Next HCR number: HCR-095*
+*Next HCR number: HCR-096*
