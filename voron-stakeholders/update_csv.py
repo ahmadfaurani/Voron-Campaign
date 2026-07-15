@@ -1,86 +1,118 @@
 #!/usr/bin/env python3
-"""Update enriched CSV v3.4 → v3.5 with new findings."""
 import csv
-import shutil
+import io
 
-# Read the current CSV
-src = '/home/p62operator/.openclaw/workspace-hoi/voron-stakeholders/prospect-database-enriched-v3.4.csv'
-dst = '/home/p62operator/.openclaw/workspace-hoi/voron-stakeholders/prospect-database-enriched-v3.5.csv'
+# Read the current enriched CSV
+with open('/home/p62operator/.openclaw/workspace-hoi/voron-stakeholders/prospect-database-enriched-v3.7.csv', 'r', encoding='utf-8') as f:
+    content = f.read()
 
-# Copy v3.4 to v3.5 as starting point
-shutil.copy2(src, dst)
+# Parse CSV
+reader = csv.DictReader(io.StringIO(content))
+fieldnames = [f for f in reader.fieldnames if f is not None]
+rows = []
+for row in reader:
+    # Remove None keys
+    clean_row = {k: v for k, v in row.items() if k is not None}
+    rows.append(clean_row)
 
-# Read all rows
-with open(dst, 'r', newline='') as f:
-    reader = csv.DictReader(f)
-    fieldnames = reader.fieldnames
-    rows = list(reader)
+print(f"Total rows: {len(rows)}")
+updates = []
 
-updates_made = []
-
-# === UPDATE 1: QBE Insurance (Malaysia) Sdn Bhd ===
-# Source: https://www.qbe.com/my/about-qbe/executive-team (OFFICIAL - HIGH confidence)
-for i, r in enumerate(rows):
-    if r['Institution_Name'] == 'QBE Insurance (Malaysia) Sdn Bhd':
-        r['Chief Financial Officer'] = 'Vivien Wong (Head of Finance, joined May 2026, 25+ yrs finance leadership, CPA Australia & MIA) [Official: qbe.com/my/about-qbe/executive-team]'
-        r['Chief Risk Officer'] = 'Mohd Farid Bin Othman (Head of Risk, joined Dec 2018, 20+ yrs internal audit/risk, MIA member) [Official: qbe.com/my/about-qbe/executive-team]'
-        r['Head of Compliance'] = 'Jaysree Kaliappan (Head of Compliance, joined Jul 2025, 14+ yrs compliance/operational risk, ICA Intl Diploma in GRC) [Official: qbe.com/my/about-qbe/executive-team]'
-        updates_made.append(f"Row {i}: QBE Insurance - Added CFO, CRO, Compliance - 3/7 roles filled")
+# Update 1: Hong Leong Bank Berhad - CISO = Dr. Simon Hoh
+for row in rows:
+    if row.get('Institution_Name') == 'Hong Leong Bank Berhad':
+        old_ciso = row.get('Chief Information Security Officer', '')
+        row['Chief Information Security Officer'] = 'Dr. Simon Hoh (CISO) [TheOrg: theorg.com/org/hong-leong-bank/org-chart/dr-simon-hoh, conf 65]'
+        updates.append(f"HLB CISO updated")
         break
 
-# === UPDATE 2: Manulife Insurance Berhad ===
-# Fix: CISO field incorrectly contained CEO name - clear it
-for i, r in enumerate(rows):
-    if r['Institution_Name'] == 'Manulife Insurance Berhad':
-        old_ciso = r['Chief Information Security Officer']
-        if 'Vibha' in old_ciso and 'Group CEO' in old_ciso:
-            r['Chief Information Security Officer'] = ''
-            updates_made.append(f"Row {i}: Manulife Insurance - Corrected CISO field (was CEO name, now cleared)")
+# Update 2: Hong Leong Islamic Bank Berhad - CISO = Dr. Simon Hoh (group-level)
+for row in rows:
+    if row.get('Institution_Name') == 'Hong Leong Islamic Bank Berhad':
+        row['Chief Information Security Officer'] = 'Dr. Simon Hoh (CISO) [Group-level: Hong Leong Bank, TheOrg, conf 60]'
+        updates.append(f"HLB Islamic CISO updated")
+        break
+
+# Update 3: Mizuho Bank Malaysia - Add CEO info as context
+for row in rows:
+    if row.get('Institution_Name') == 'Mizuho Bank (Malaysia) Berhad':
+        row['Chief Information Security Officer'] = 'CEO: Daisuke Ihara (Executive Director/CEO, appointed 1 Jul 2026, Certified AML Specialist) [Official: mizuhogroup.com Profile of Directors PDF, conf 95]; Chairman: Dato Dr Zaha Rina binti Zahari'
+        updates.append("Mizuho: added CEO Daisuke Ihara (context)")
+        break
+
+# Update 4: HSBC Malaysia - Add CEO confirmation to GRC field
+for row in rows:
+    if row.get('Institution_Name') == 'HSBC Bank Malaysia Berhad':
+        row['Head of Governance Risk & Compliance'] = "Brian McGuire (Chief Risk & Compliance Officer) [TheOfficialBoard]; CEO: Dato Omar Siddiq (CEO and Head of Banking) [Official: hsbc.com.my, conf 95]"
+        updates.append("HSBC: added CEO Dato Omar Siddiq to GRC field")
+        break
+
+# Update 5: Citibank Berhad - Add CEO info to GRC field
+for row in rows:
+    if row.get('Institution_Name') == 'Citibank Berhad':
+        row['Head of Governance Risk & Compliance'] = 'CEO: Vikram Singh (CEO Citi Malaysia, effective 1 May 2023) [Official: theasianbanker.com, conf 90]; Country Lead: Divya Nair; Head of Commercial Bank: Shawn Khong [TheOfficialBoard]'
+        updates.append("Citibank: added CEO Vikram Singh to GRC field")
+        break
+
+# Update 6: Credit Suisse Malaysia - Note about UBS merger
+for row in rows:
+    if row.get('Institution_Name') == 'Credit Suisse (Malaysia) Berhad':
+        row['Chief Information Security Officer'] = 'ENTITY STATUS: Credit Suisse acquired by UBS; parent banks merged 31 May 2024. Entity likely absorbed/restructured. [Source: ubs.com press release, conf 85]'
+        updates.append("Credit Suisse: added UBS merger status note")
         break
 
 # Write updated CSV
-with open(dst, 'w', newline='') as f:
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
-    writer.writeheader()
-    writer.writerows(rows)
+output = io.StringIO()
+writer = csv.DictWriter(output, fieldnames=fieldnames, extrasaction='ignore')
+writer.writeheader()
+writer.writerows(rows)
+updated_content = output.getvalue()
 
-# Calculate coverage stats
-total_institutions = len(rows)
-total_target = total_institutions * 7
-filled = 0
-for r in rows:
-    for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
-                'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
-                'Chief Information Officer', 'Head of Internal Audit']:
-        if r.get(col, '').strip():
-            filled += 1
+# Write to v3.8
+new_path = '/home/p62operator/.openclaw/workspace-hoi/voron-stakeholders/prospect-database-enriched-v3.8.csv'
+with open(new_path, 'w', encoding='utf-8', newline='') as f:
+    f.write(updated_content)
 
-print(f"=== CSV UPDATE COMPLETE ===")
-print(f"Source: v3.4 -> Output: v3.5")
-print(f"Total institutions: {total_institutions}")
-print(f"Total target roles: {total_target}")
-print(f"Filled roles: {filled}")
-print(f"Overall coverage: {filled}/{total_target} ({filled/total_target*100:.1f}%)")
-print(f"\nUpdates made this cycle:")
-for u in updates_made:
-    print(f"  + {u}")
+print(f"\nUpdates made:")
+for u in updates:
+    print(f"  - {u}")
+print(f"\nWritten to: {new_path}")
+print(f"File size: {len(updated_content)} chars")
 
-# Show QBE final state
-print(f"\nQBE Insurance Malaysia final state:")
-for r in rows:
-    if 'QBE' in r['Institution_Name']:
-        for col in fieldnames:
-            if col not in ['Tier', 'Segment', 'Institution_Name']:
-                val = r.get(col, '')
-                status = 'FILLED' if val.strip() else 'EMPTY'
-                print(f"  [{status}] {col}: {val[:120] if val else '(empty)'}")
+# Coverage stats for T1 banks
+t1_banks = [
+    'Maybank Berhad', 'CIMB Bank Berhad', 'Public Bank Berhad', 'RHB Bank Berhad',
+    'Hong Leong Bank Berhad', 'AmBank (M) Berhad', 'Bank Islam Malaysia Berhad',
+    'Bank Rakyat Malaysia', 'OCBC Bank (Malaysia) Berhad', 'UOB Malaysia Berhad',
+    'HSBC Bank Malaysia Berhad', 'Standard Chartered Bank Malaysia Berhad',
+    'Citibank Berhad', 'Bank of China (Malaysia) Berhad', 'ICBC (Malaysia) Berhad',
+    'Credit Suisse (Malaysia) Berhad', 'Mizuho Bank (Malaysia) Berhad',
+    'Sumitomo Mitsui Banking Corporation Malaysia Berhad', 'Deutsche Bank (Malaysia) Berhad',
+    'BNP Paribas Malaysia Berhad', 'Bank Muamalat Malaysia Berhad',
+    'Maybank Investment Bank Berhad', 'CIMB Investment Bank Berhad',
+    'RHB Investment Bank Berhad', 'Hong Leong Investment Bank Berhad',
+    'Public Investment Bank Berhad', 'Maybank Islamic Berhad',
+    'CIMB Islamic Bank Berhad', 'RHB Islamic Bank Berhad',
+    'AmBank Islamic Berhad', 'Hong Leong Islamic Bank Berhad', 'Public Islamic Bank Berhad'
+]
 
-# Show Manulife final state
-print(f"\nManulife Insurance Berhad final state:")
-for r in rows:
-    if r['Institution_Name'] == 'Manulife Insurance Berhad':
-        for col in fieldnames:
-            if col not in ['Tier', 'Segment', 'Institution_Name']:
-                val = r.get(col, '')
-                status = 'FILLED' if val.strip() else 'EMPTY'
-                print(f"  [{status}] {col}: {val[:120] if val else '(empty)'}")
+print(f"\n--- T1 Bank Coverage (7 target roles) ---")
+total_found = 0
+total_target = 0
+for bank in t1_banks:
+    for row in rows:
+        if row.get('Institution_Name') == bank:
+            found = 0
+            for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
+                       'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
+                       'Chief Information Officer', 'Head of Internal Audit']:
+                val = row.get(col, '').strip()
+                if val and not val.startswith('ENTITY STATUS') and not val.startswith('CEO:'):
+                    found += 1
+            total_found += found
+            total_target += 7
+            pct = round(found/7*100)
+            print(f"  {bank}: {found}/7 ({pct}%)")
+            break
+
+print(f"\nTotal T1 coverage: {total_found}/{total_target} ({round(total_found/total_target*100)}%)")
