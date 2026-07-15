@@ -1,0 +1,21 @@
+{
+  "entity_id": "person_muhamad_norazlan_aris_001",
+  "name": "Muhamad Norazlan Aris",
+  "type": "PERSON",
+  "subtype": "military_leadership",
+  "honorific": "General Tan Sri",
+  "current_positions": [
+    {"title": "Chief of the Royal Malaysian Air Force (RMAF)", "organization": "Royal Malaysian Air Force", "status": "current"}
+  ],
+  "party_affiliation": null,
+  "coalition": null,
+  "aliases": ["Gen Tan Sri Muhamad Norazlan Aris"],
+  "sentiment_score": null,
+  "mention_count": 1,
+  "pir_relevance": ["PIR-3"],
+  "key_events": [
+    "Member of Malaysia Aerospace & Defence Industry Mission to Australia (July 2026)"
+  ],
+  "source_articles": ["weststar-defence-mission-australia-202607"],
+  "last_updated": "2026-07-15T14:00:00+08:00"
+}

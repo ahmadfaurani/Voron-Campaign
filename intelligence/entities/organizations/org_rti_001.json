@@ -1,0 +1,17 @@
+{
+  "entity_id": "org_rti_001",
+  "name": "Rocket Technologies International (RTI)",
+  "type": "ORGANIZATION",
+  "subtype": "aerospace_defence_manufacturer",
+  "description": "Australian aerospace and defence technology company. Operates RTI Helidon Energetix & Test Complex. Specializes in rocket propulsion, energetics, and defence systems.",
+  "country": "Australia",
+  "facilities": ["RTI Helidon Energetix & Test Complex (Queensland, Australia)"],
+  "key_events": [
+    "Signed Strategic Collaboration Agreement with Weststar Defence Industries at National Convention Centre, Canberra (July 2026)"
+  ],
+  "partnerships": [
+    {"partner": "Weststar Defence Industries (The Weststar Group)", "type": "Strategic Collaboration Agreement", "date": "July 2026", "location": "National Convention Centre, Canberra"}
+  ],
+  "source_articles": ["weststar-defence-mission-australia-202607"],
+  "last_updated": "2026-07-15T14:00:00+08:00"
+}
