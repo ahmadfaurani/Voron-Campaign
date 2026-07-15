@@ -175,3 +175,5 @@
 ---
 
 *Next HCR number: HCR-096*
+
+| HCR-096 | weststar-rti-workstream | 2026-07-15 | Weststar-RTI Defence Industrial Cooperation — 8 PIRs, 28 sources, dedicated cronjob (every 6h) | private |
