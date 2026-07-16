@@ -1,7 +1,7 @@
 # Sentiment Analysis Report
 
 **Classification:** TLP:AMBER
-**Report Timestamp:** 20260716T095558Z
+**Report Timestamp:** 20260716T095413Z
 **Extraction ID:** ext_20260716_061213_001
 **Extraction Source:** 2026-07-16T06:12:13+00:00
 **Collection Cycle:** 2026-07-16T001140Z
@@ -72,19 +72,7 @@ Negative (12)  ████████████
 
 | Party | Sentiment Score | Label | Mean (raw) | Std Dev | Entities | Range | Coalition |
 |-------|:-:|------|:----------:|:-------:|:--------:|:-----:|:---------:|
-| BERSAMA | +1 | Slightly Positive | 0.1053 | 0.0000 | 1 | [0.105, 0.105] | BERSAMA |
-| BERSATU | +1 | Slightly Positive | 0.1013 | 0.2016 | 2 | [-0.041, 0.244] | PN |
-| PKR | +0 | Neutral | 0.0203 | 0.1624 | 7 | [-0.226, 0.273] | PH |
-| AMANAH | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | PH |
-| MUDA | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | PH |
-| PAS | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | PN |
-| Warisan | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | WARISAN |
-| UMNO | +0 | Neutral | -0.0037 | 0.1434 | 6 | [-0.273, 0.154] | BN |
-| DAP | +0 | Neutral | -0.0970 | 0.0000 | 1 | [-0.097, -0.097] | PH |
-| MCA | -1 | Slightly Negative | -0.1273 | 0.0000 | 1 | [-0.127, -0.127] | BN |
-| MIC | -1 | Slightly Negative | -0.1273 | 0.0000 | 1 | [-0.127, -0.127] | BN |
-| GPS | -3 | Very Negative | -0.6597 | 0.0000 | 2 | [-0.660, -0.660] | GPS |
-| Pejuang | -3 | Very Negative | -0.7650 | 0.0000 | 1 | [-0.765, -0.765] | PEJUANG |
+| BERSAMA | +1 | Slightly Positive | 0.1053 | 0.0000 | 1 | [0.105, 0.105] | BERSAMA || BERSATU | +1 | Slightly Positive | 0.1013 | 0.2016 | 2 | [-0.041, 0.244] | PN || PKR | +0 | Neutral | 0.0203 | 0.1624 | 7 | [-0.226, 0.273] | PH || AMANAH | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | PH || MUDA | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | PH || PAS | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | PN || Warisan | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] | WARISAN || UMNO | +0 | Neutral | -0.0037 | 0.1434 | 6 | [-0.273, 0.154] | BN || DAP | +0 | Neutral | -0.0970 | 0.0000 | 1 | [-0.097, -0.097] | PH || MCA | -1 | Slightly Negative | -0.1273 | 0.0000 | 1 | [-0.127, -0.127] | BN || MIC | -1 | Slightly Negative | -0.1273 | 0.0000 | 1 | [-0.127, -0.127] | BN || GPS | -3 | Very Negative | -0.6597 | 0.0000 | 2 | [-0.660, -0.660] | GPS || Pejuang | -3 | Very Negative | -0.7650 | 0.0000 | 1 | [-0.765, -0.765] | PEJUANG |
 
 ### Party Entities
 - **BERSAMA** (+1, Slightly Positive, → BERSAMA): Parti Bersama

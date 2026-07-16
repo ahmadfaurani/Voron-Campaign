@@ -1,7 +1,7 @@
 # Sentiment Analysis Report
 
 **Classification:** TLP:AMBER
-**Report Timestamp:** 20260716T095558Z
+**Report Timestamp:** 20260716T095513Z
 **Extraction ID:** ext_20260716_061213_001
 **Extraction Source:** 2026-07-16T06:12:13+00:00
 **Collection Cycle:** 2026-07-16T001140Z
@@ -72,6 +72,7 @@ Negative (12)  ████████████
 
 | Party | Sentiment Score | Label | Mean (raw) | Std Dev | Entities | Range | Coalition |
 |-------|:-:|------|:----------:|:-------:|:--------:|:-----:|:---------:|
+
 | BERSAMA | +1 | Slightly Positive | 0.1053 | 0.0000 | 1 | [0.105, 0.105] | BERSAMA |
 | BERSATU | +1 | Slightly Positive | 0.1013 | 0.2016 | 2 | [-0.041, 0.244] | PN |
 | PKR | +0 | Neutral | 0.0203 | 0.1624 | 7 | [-0.226, 0.273] | PH |
