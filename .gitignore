@@ -1,3 +1,8 @@
+# Backup files
+*.bak
+*.bak-v*
+*.bak_*
+
 # Python
 __pycache__/
 *.py[cod]
