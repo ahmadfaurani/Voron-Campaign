@@ -174,6 +174,7 @@
 
 ---
 
-*Next HCR number: HCR-096*
+*Next HCR number: HCR-098*
 
 | HCR-096 | weststar-rti-workstream | 2026-07-15 | Weststar-RTI Defence Industrial Cooperation — 8 PIRs, 28 sources, dedicated cronjob (every 6h) | private |
+| HCR-097 | aras-iss-2026 | 2026-07-17 | Aras Integrasi ISS World Asia 2026 — 10 PIRs, pre-event intelligence collection, dedicated cronjob (every 12h) | private |
