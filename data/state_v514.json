@@ -1,0 +1,106 @@
+{
+  "last_check": "2026-07-19T16:30:00Z",
+  "version": "v5.14",
+  "git_commit_pending": true,
+  "csv_source": "prospect-database-7stakeholders.csv (master, 206 rows) + prospect-database-enriched-v5.14.csv (217 rows)",
+  "baseline_prev": "v5.13 7c4941f (2026-07-19T12:56:53Z) - 1 commit since",
+  "total": 206,
+  "enriched_rows": 217,
+  "total_roles": 1442,
+  "roles_filled": 775,
+  "coverage_pct": 53.7,
+  "cluster": {
+    "0/7": 40,
+    "1/7": 32,
+    "2/7": 14,
+    "3/7": 5,
+    "4/7": 10,
+    "5/7": 32,
+    "6/7": 11,
+    "7/7": 62
+  },
+  "delta_vs_v513": {
+    "roles_filled": 1,
+    "coverage_pp": 0.0,
+    "2_7_delta": -3,
+    "5_7_delta": 1,
+    "1_7_delta": 2,
+    "new_fills": 3,
+    "corrections": 2,
+    "not_found_audit_trails_added": 76,
+    "title_corrections": 1,
+    "stale_flags": 1
+  },
+  "new_fills_v514": [
+    {
+      "institution": "Manulife Takaful Malaysia Berhad",
+      "role": "Chief Risk Officer",
+      "name": "Mohd Naim Bin Mohd Arsad",
+      "confidence": 85,
+      "source": "Manulife Holdings Berhad Annual Report 2025, p.13"
+    },
+    {
+      "institution": "Manulife Takaful Malaysia Berhad",
+      "role": "Head of Compliance",
+      "name": "Senthil Woon Wai Keong",
+      "confidence": 85,
+      "source": "Manulife Holdings Berhad Annual Report 2025, p.13"
+    },
+    {
+      "institution": "Manulife Takaful Malaysia Berhad",
+      "role": "Head of Internal Audit",
+      "name": "Krishna Rajaa Ramalingam",
+      "confidence": 90,
+      "source": "Manulife Holdings Berhad Annual Report 2025, p.91"
+    }
+  ],
+  "corrections_v514": [
+    {
+      "institution": "Zurich Life Insurance Malaysia Berhad",
+      "role": "CISO",
+      "type": "CEO misfiled as CISO",
+      "previous_name": "Pauline Teoh",
+      "actual_role": "CEO",
+      "conf": 95
+    },
+    {
+      "institution": "MARA (Majlis Amanah Rakyat)",
+      "role": "CISO",
+      "type": "CEO (Ketua Pengarah) misfiled as CISO",
+      "previous_name": "Datuk Zulfikri Osman",
+      "actual_role": "Ketua Pengarah (CEO/Director General)",
+      "conf": 95
+    }
+  ],
+  "ceO_misfiled_ciso_total_to_date": 5,
+  "ceo_misfiled_insts_corrected": [
+    "SMBC Bank Malaysia Berhad (v5.13)",
+    "Zurich Life Insurance Malaysia Berhad (v5.14)",
+    "MARA / MARA (Majlis Amanah Rakyat) (v5.14)"
+  ],
+  "cluster_2_7_remaining_14": [
+    "Allianz General Insurance Company (Malaysia) Berhad",
+    "Allianz Life Insurance Malaysia Berhad",
+    "Allianz Takaful Berhad",
+    "HSBC Amanah Takaful / FWD Takaful",
+    "Prudential BSN Takaful Berhad",
+    "Zurich Life Insurance Malaysia Berhad",
+    "MARA (Majlis Amanah Rakyat)",
+    "DuitNow (by PayNet)",
+    "FPX (by PayNet)",
+    "JomPAY (by PayNet)",
+    "Me2U (by PayNet)",
+    "PayDirect (by PayNet)",
+    "PayNet Card (by PayNet)",
+    "GrabPay (Grab Malaysia)"
+  ],
+  "next_target_cluster": "1/7 (32 institutions, 6 roles each = 192 roles recoverable)",
+  "key_findings": [
+    "PayNet CISO is VACANT — active job posting on careers page at Senior Manager level",
+    "Allianz Malaysia IAR 2024 PDF anti-bot blocked (URL confirmed, needs manual download)",
+    "MARA management page is image-based (29 positions as image cards, needs OCR/vision)",
+    "HSBC Amanah Takaful is now FWD Takaful Berhad (FWD Group acquired from HSBC 2019)",
+    "PruBSN CRO Anita Menon NOT on current ExCo (stale flag)",
+    "CEO-as-CISO misclassification is systemic — 5 total cases identified (3 corrected in v5.13-v5.14, 2 remaining in nominal)"
+  ]
+}
