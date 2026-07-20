@@ -1,0 +1,225 @@
+{
+  "source": "prospect-database-enriched-v5.9.csv (repo ROOT, v5.9 versioned file)",
+  "fetch_lines": 207,
+  "real_institutions": 205,
+  "phantom_rows": 0,
+  "tier_counts": {
+    "1": 29,
+    "2": 53,
+    "3": 49,
+    "4": 35,
+    "5": 24,
+    "6": 15
+  },
+  "segment_counts": {
+    "Licensed Banks": 29,
+    "Insurers": 26,
+    "GLC-Linked": 24,
+    "Cooperatives": 21,
+    "E-Money": 19,
+    "MSBs": 17,
+    "Investment Banks": 15,
+    "Fintech Sandbox": 13,
+    "Takaful": 12,
+    "Development FIs": 11,
+    "Card Schemes": 10,
+    "Payment Operators": 6,
+    "Fintech Registered": 2
+  },
+  "total_cells_possible": 1435,
+  "total_cells_filled": 800,
+  "cell_fill_pct": 55.7,
+  "with_ge1_contact": 181,
+  "enrichment_rate_pct": 88.3,
+  "empty_institutions": 24,
+  "fully_enriched_7_7": 74,
+  "role_completion": {
+    "CISO": {
+      "filled": 127,
+      "pct": 62.0
+    },
+    "GRC": {
+      "filled": 99,
+      "pct": 48.3
+    },
+    "CFO": {
+      "filled": 135,
+      "pct": 65.9
+    },
+    "CRO": {
+      "filled": 109,
+      "pct": 53.2
+    },
+    "Compliance": {
+      "filled": 110,
+      "pct": 53.7
+    },
+    "CIO": {
+      "filled": 123,
+      "pct": 60.0
+    },
+    "IA": {
+      "filled": 97,
+      "pct": 47.3
+    }
+  },
+  "dist_contacts": {
+    "0": 24,
+    "1": 40,
+    "2": 21,
+    "3": 10,
+    "4": 13,
+    "5": 20,
+    "6": 3,
+    "7": 74
+  },
+  "tier1": {
+    "count": 29,
+    "with_ge1": 29,
+    "fully_7_7": 23,
+    "banks": [
+      {
+        "name": "Alliance Bank Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Alliance Islamic Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "AmBank (M) Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "AmBank Islamic Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "BNP Paribas Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Bank Islam Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Bank of China (Malaysia) Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "CIMB Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "CIMB Islamic Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Citibank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "HSBC Bank Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Hong Leong Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Hong Leong Islamic Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Maybank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Maybank Islamic Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "OCBC Bank (Malaysia) Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Public Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Public Islamic Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "RHB Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "RHB Islamic Bank Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Standard Chartered Bank Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "UOB Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "Bank Muamalat Malaysia Berhad",
+        "contacts": 7
+      },
+      {
+        "name": "ICBC (Malaysia) Berhad",
+        "contacts": 4
+      },
+      {
+        "name": "Deutsche Bank (Malaysia) Berhad",
+        "contacts": 3
+      },
+      {
+        "name": "Sumitomo Mitsui Banking Corporation Malaysia Berhad",
+        "contacts": 3
+      },
+      {
+        "name": "Credit Suisse (Malaysia) Berhad",
+        "contacts": 1
+      },
+      {
+        "name": "J.P. Morgan Chase Bank Malaysia Berhad",
+        "contacts": 1
+      },
+      {
+        "name": "Mizuho Bank (Malaysia) Berhad",
+        "contacts": 1
+      }
+    ]
+  },
+  "empty_institution_names": [
+    "Alipay+ Malaysia (Ant Group)",
+    "Koperasi Angkatan Tentera",
+    "Koperasi Guru Malaysia",
+    "Koperasi Johor",
+    "Koperasi KL",
+    "Koperasi Kakitangan Kerajaan",
+    "Koperasi Kedah",
+    "Koperasi Kelantan",
+    "Koperasi Labuan",
+    "Koperasi Melaka",
+    "Koperasi Negeri Sembilan",
+    "Koperasi Pahang",
+    "Koperasi Perak",
+    "Koperasi Perlis",
+    "Koperasi Polis Diraja Malaysia",
+    "Koperasi Pulau Pinang",
+    "Koperasi Putrajaya",
+    "Koperasi Sabah",
+    "Koperasi Sarawak",
+    "Koperasi Selangor",
+    "Koperasi Tentera Malaysia",
+    "Koperasi Terengganu",
+    "WeChat Pay Malaysia (Tencent)",
+    "WeChat Pay Malaysia Sdn Bhd"
+  ]
+}

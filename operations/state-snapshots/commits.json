@@ -1,0 +1,422 @@
+[
+  {
+    "sha": "7c4941f9fdb0027f108a9d8c430fcefae903642a",
+    "node_id": "C_kwDOTKIk9toAKDdjNDk0MWY5ZmRiMDAyN2YxMDhhOWQ4YzQzMGZjZWZhZTkwMzY0MmE",
+    "commit": {
+      "author": {
+        "name": "p62operator",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T12:56:53Z"
+      },
+      "committer": {
+        "name": "p62operator",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T12:56:53Z"
+      },
+      "message": "v5.13: 3/7 cluster resolution - 11 institutions, +10 net roles\n\nEnrichment v5.13 focused on resolving the 3/7 cluster (11 institutions\nsitting at exactly 3/7 coverage, 44 roles recoverable).\n\nKey achievements:\n- 11 NEW role additions across 6 institutions (all MEDIUM-HIGH to MEDIUM confidence):\n  * SMBC MY CFO: Norihiro Oyanagi (conf 90, official Annual Financial Statement 31 Mar 2025)\n  * PBSNB Head of GRC: Wong Ching Fai @ Christopher (conf 90, official pbsn.com.my)\n  * JCorp Head of Compliance: Mohd Azmi Hitam (Chief Governance Officer, conf 80)\n  * PNSB CRO: Mohammed Hanafi Bin Muhi (Senior Manager Integriti, conf 80)\n  * PNSB Head of Compliance: Mohammed Hanafi Bin Muhi (conf 75)\n  * JCorp Head of Internal Audit: Mohd Nordin Jamaludin (Chief Corporate Services Officer, conf 70)\n  * Setel Head of Compliance + Head of GRC: Fazni Ismail (General Counsel, conf 65/60)\n  * Wise Head of GRC: Jessica Winter (Chief Legal Officer, conf 65)\n- 1 CORRECTION: SMBC MY CISO - previous entry was CEO Atsuhide Shiojiri\n  misfiled as CISO. Replaced with NOT FOUND audit trail (conf 35).\n- 31 NOT FOUND audit trail entries documented across 10 institutions\n  (replacing empty cells with sourced negative findings).\n\nCoverage statistics:\n- Total roles filled: 774/1442 = 53.7% (+0.7% from v5.12)\n- 5/7 institutions: 27 -> 31 (+4)\n- 4/7 institutions: 8 -> 10 (+2)\n- 3/7 institutions: 11 -> 5 (-6, cluster resolved)\n\n3/7 cluster promotions:\n- 3/7 -> 5/7: JCorp, Setel (both rows), PNSB\n- 3/7 -> 4/7: PBSNB, Wise\n\nRemaining 3/7 (5 institutions, all roles confirmed NOT FOUND with audit):\nAmMetLife, MSIG Insurance, Deutsche Bank MY, Maybank IB, SMBC MY\n\nClassification: TLP:AMBER",
+      "tree": {
+        "sha": "f978ac54b26d21036cf08211ad7b9c3304c06be1",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/f978ac54b26d21036cf08211ad7b9c3304c06be1"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/7c4941f9fdb0027f108a9d8c430fcefae903642a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/7c4941f9fdb0027f108a9d8c430fcefae903642a",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/7c4941f9fdb0027f108a9d8c430fcefae903642a",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/7c4941f9fdb0027f108a9d8c430fcefae903642a/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "1afcca0fbebd6b455a4f191e141a699f162393e1",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/1afcca0fbebd6b455a4f191e141a699f162393e1",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/1afcca0fbebd6b455a4f191e141a699f162393e1"
+      }
+    ]
+  },
+  {
+    "sha": "1afcca0fbebd6b455a4f191e141a699f162393e1",
+    "node_id": "C_kwDOTKIk9toAKDFhZmNjYTBmYmViZDZiNDU1YTRmMTkxZTE0MWE2OTlmMTYyMzkzZTE",
+    "commit": {
+      "author": {
+        "name": "p62operator",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T08:29:56Z"
+      },
+      "committer": {
+        "name": "p62operator",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T08:29:56Z"
+      },
+      "message": "v5.12: 4/7 cluster resolution — +3 roles (FWD Compliance, Takaful Am GRC, Takaful IKHLAS GRC), +30 NOT FOUND audit trails (53.0% coverage)\n\n4/7 Institutions: 11 → 8 (3 promoted to 5/7)\n5/7 Institutions: 24 → 27\nCoverage: 761 → 764 filled roles (52.8% → 53.0%)\n\nNew roles (3):\n- FWD Insurance Berhad Head of Compliance → Anita Menon (Chief Governance Officer, conf 65)\n- Takaful Am General Berhad Head of GRC → Shizal Fisham bin Ramli (Chief Governance Officer, conf 60)\n- Takaful IKHLAS Berhad Head of GRC → Abd Ghafur Ahmad (Group Chief Compliance Officer, conf 75)\n\nNOT FOUND audit trails (30 entries, 11 institutions):\n- FWD Insurance: CISO, CIO (conf 30)\n- Manulife Insurance: CISO, Head of GRC, Head of IA (conf 25)\n- QBE Insurance: CISO, CIO, Head of IA (conf 20)\n- Takaful Am General: CISO, CRO (conf 30)\n- Takaful IKHLAS: CISO, CRO (conf 30)\n- ICBC Malaysia: Head of GRC, CFO, CIO (conf 35)\n- Boost Bank: CISO, Head of GRC, Head of IA (conf 40)\n- Ryt Bank: CISO, Head of GRC, Head of IA (conf 40)\n- Instarem/Nium: CISO, Head of GRC, Head of IA (conf 30)\n- MoneyMatch: Head of GRC, CRO, Head of IA (conf 30)\n\nClassification: TLP:AMBER",
+      "tree": {
+        "sha": "ca388017686b12528250b842e480aa3ce2a50f77",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/ca388017686b12528250b842e480aa3ce2a50f77"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/1afcca0fbebd6b455a4f191e141a699f162393e1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/1afcca0fbebd6b455a4f191e141a699f162393e1",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/1afcca0fbebd6b455a4f191e141a699f162393e1",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/1afcca0fbebd6b455a4f191e141a699f162393e1/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "ddb84ee97d59cd0eee85d9af0e28a02ed8971032",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/ddb84ee97d59cd0eee85d9af0e28a02ed8971032",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/ddb84ee97d59cd0eee85d9af0e28a02ed8971032"
+      }
+    ]
+  },
+  {
+    "sha": "ddb84ee97d59cd0eee85d9af0e28a02ed8971032",
+    "node_id": "C_kwDOTKIk9toAKGRkYjg0ZWU5N2Q1OWNkMGVlZTg1ZDlhZjBlMjhhMDJlZDg5NzEwMzI",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Stakeholder Collection Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T06:20:22Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Stakeholder Collection Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T06:20:22Z"
+      },
+      "message": "auto: voron-daily-enrichment 2026-07-19T06:20:22Z",
+      "tree": {
+        "sha": "c892d931a47ea2313e2985012dae739bf21f7f7b",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/c892d931a47ea2313e2985012dae739bf21f7f7b"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/ddb84ee97d59cd0eee85d9af0e28a02ed8971032",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/ddb84ee97d59cd0eee85d9af0e28a02ed8971032",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/ddb84ee97d59cd0eee85d9af0e28a02ed8971032",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/ddb84ee97d59cd0eee85d9af0e28a02ed8971032/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "cc2410e686f3ce2f487b118a8d2da946ff50deaa",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/cc2410e686f3ce2f487b118a8d2da946ff50deaa",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/cc2410e686f3ce2f487b118a8d2da946ff50deaa"
+      }
+    ]
+  },
+  {
+    "sha": "cc2410e686f3ce2f487b118a8d2da946ff50deaa",
+    "node_id": "C_kwDOTKIk9toAKGNjMjQxMGU2ODZmM2NlMmY0ODdiMTE4YThkMmRhOTQ2ZmY1MGRlYWE",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T04:51:05Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T04:51:05Z"
+      },
+      "message": "v5.11: AIA Berhad CISO (HIGH 85) + Prudential 2 LOW-conf leads + 19 NOT FOUND audit trails\n\nCoverage: 761/1442 roles (52.8%, +0.3%)\n7/7 institutions: 62 (+1 - Prudential w/ LOW leads)\n6/7 institutions: 11 (+1 - AIA Berhad w/ HIGH CISO)\n5/7 institutions: 24 (-2)\n\nNew HIGH-confidence role:\n- AIA Berhad CISO: Chee Lung Yuen (ASEAN Risk Awards, conf 85)\n\nLOW-confidence leads (tracked, require verification):\n- Prudential CISO: Tan Chia Chee (Contactout, conf 45)\n- Prudential Head of IA: Rohini Maniam (LinkedIn, conf 40)\n\nNOT FOUND audit trails (19 entries, 10 institutions):\n- BNP Paribas (CISO, CIO) - conf 85\n- HSBC Malaysia (CISO, IA) - conf 80\n- Citibank (CISO, Compliance) - conf 65\n- Chubb Insurance (CISO, Compliance) - conf 60\n- MCIS Insurance (CISO, GRC) - conf 40\n- BSN (CISO, IA) - conf 30\n- BRIB (CISO) - conf 35\n- Generali (CISO, GRC) - conf 25\n- Takaful Malaysia (CISO, CRO) - conf 20\n- Tokio Marine Life (CISO, GRC) - conf 20\n\nClassification: TLP:AMBER",
+      "tree": {
+        "sha": "9c6da3bbe1622ec64f94b7bd82cacfb6e155ca6e",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/9c6da3bbe1622ec64f94b7bd82cacfb6e155ca6e"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/cc2410e686f3ce2f487b118a8d2da946ff50deaa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/cc2410e686f3ce2f487b118a8d2da946ff50deaa",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/cc2410e686f3ce2f487b118a8d2da946ff50deaa",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/cc2410e686f3ce2f487b118a8d2da946ff50deaa/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c48ead38143b2716bdf341a4371c96956b37471f",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/c48ead38143b2716bdf341a4371c96956b37471f",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/c48ead38143b2716bdf341a4371c96956b37471f"
+      }
+    ]
+  },
+  {
+    "sha": "c48ead38143b2716bdf341a4371c96956b37471f",
+    "node_id": "C_kwDOTKIk9toAKGM0OGVhZDM4MTQzYjI3MTZiZGYzNDFhNDM3MWM5Njk1NmIzNzQ3MWY",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Stakeholder Collection Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T01:15:38Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Stakeholder Collection Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-19T01:15:44Z"
+      },
+      "message": "v5.10: +3 PNB Group CISO promotions (7/7 institutions 58→61), +7 NOT FOUND audit confirmations (52.5% coverage)\n\n- Permodalan Nasional Berhad (PNB): CTO Ts. Muhammad Izzat bin Hj Abdul Aziz added as CISO-equivalent (conf 85, PNB LinkedIn + ETCIO SEA + Global CIO Forum)\n- PNB Capital Berhad: PNB Group CTO inherited (conf 80)\n- PNB Equity Fund Berhad: PNB Group CTO inherited (conf 80)\n- 7 NOT FOUND audit confirmations: Bank Rakyat IA, Berjaya Sompo CIO, PIBB CISO, Public Islamic Bank CISO, Phillip Securities GRC, SSFC CISO, Tekun GRC\n- v5.9 report backfilled",
+      "tree": {
+        "sha": "042daede065977274580ae3d211288b6250eba37",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/042daede065977274580ae3d211288b6250eba37"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/c48ead38143b2716bdf341a4371c96956b37471f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/c48ead38143b2716bdf341a4371c96956b37471f",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/c48ead38143b2716bdf341a4371c96956b37471f",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/c48ead38143b2716bdf341a4371c96956b37471f/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "3d39acc384e10eb0602cee7319c3e0a993800b41",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/3d39acc384e10eb0602cee7319c3e0a993800b41",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/3d39acc384e10eb0602cee7319c3e0a993800b41"
+      }
+    ]
+  },
+  {
+    "sha": "3d39acc384e10eb0602cee7319c3e0a993800b41",
+    "node_id": "C_kwDOTKIk9toAKDNkMzlhY2MzODRlMTBlYjA2MDJjZWU3MzE5YzNlMGE5OTM4MDBiNDE",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T20:56:58Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T20:56:58Z"
+      },
+      "message": "Enrichment v5.9: +5 institutions to 7/7 (Agrobank, BPMB, EXIM, SME Bank, Lembaga Tabung Haji) — CISO-equivalent roles from official sources; 15 confirmed NOT FOUND entries with source citations",
+      "tree": {
+        "sha": "8e52f105e1c970c1331a1afa7c23b3578abc557e",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/8e52f105e1c970c1331a1afa7c23b3578abc557e"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/3d39acc384e10eb0602cee7319c3e0a993800b41",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/3d39acc384e10eb0602cee7319c3e0a993800b41",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/3d39acc384e10eb0602cee7319c3e0a993800b41",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/3d39acc384e10eb0602cee7319c3e0a993800b41/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "d27e984645480623cf8dcd7dd856bd76a425f34d",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/d27e984645480623cf8dcd7dd856bd76a425f34d",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/d27e984645480623cf8dcd7dd856bd76a425f34d"
+      }
+    ]
+  },
+  {
+    "sha": "d27e984645480623cf8dcd7dd856bd76a425f34d",
+    "node_id": "C_kwDOTKIk9toAKGQyN2U5ODQ2NDU0ODA2MjNjZjhkY2Q3ZGQ4NTZiZDc2YTQyNWYzNGQ",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T16:55:20Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T16:55:20Z"
+      },
+      "message": "v5.8: +150 roles (44.4%→55.1% coverage), +14 full-7/7 institutions (55→69), product-brand inheritance mapping\n\n- 3 institutions completed to 7/7 via direct research (Family Takaful, Tabung Haji, SSFC/DBOS)\n- 11 card-scheme/e-money product brands completed to 7/7 via parent-bank inheritance\n- 5 Axiata Group leadership roles mapped to Boost/Axiata Digital\n- PNB CIO (Ts Izzat Aziz) added; PNB CISO confirmed NOT FOUND\n- Berjaya Sompo GRC added (Tricia Mallika Appaduray)\n- GrabPay group-level CFO/CTO inherited from Grab Holdings\n- 22 institutions cleared from 0/7 bucket (46→24)\n- 1 corrupted empty row removed (data integrity)\n- Master CSV updated: 114 role cells",
+      "tree": {
+        "sha": "d3c811b0ea9f49ae24d9ed4af16a35e7a8756759",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/d3c811b0ea9f49ae24d9ed4af16a35e7a8756759"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/d27e984645480623cf8dcd7dd856bd76a425f34d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/d27e984645480623cf8dcd7dd856bd76a425f34d",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/d27e984645480623cf8dcd7dd856bd76a425f34d",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/d27e984645480623cf8dcd7dd856bd76a425f34d/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "df05b56da580187bd31e64f9fddc5618c0268e3a",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/df05b56da580187bd31e64f9fddc5618c0268e3a",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/df05b56da580187bd31e64f9fddc5618c0268e3a"
+      }
+    ]
+  },
+  {
+    "sha": "df05b56da580187bd31e64f9fddc5618c0268e3a",
+    "node_id": "C_kwDOTKIk9toAKGRmMDViNTZkYTU4MDE4N2JkMzFlNjRmOWZkZGM1NjE4YzAyNjhlM2E",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T12:53:10Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T12:53:10Z"
+      },
+      "message": "Add v5.7 enrichment report",
+      "tree": {
+        "sha": "84e5c9adda4791ee5651fd0a0c8cd81b93d9c4de",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/84e5c9adda4791ee5651fd0a0c8cd81b93d9c4de"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/df05b56da580187bd31e64f9fddc5618c0268e3a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/df05b56da580187bd31e64f9fddc5618c0268e3a",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/df05b56da580187bd31e64f9fddc5618c0268e3a",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/df05b56da580187bd31e64f9fddc5618c0268e3a/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "ae0e712baa883e8d2a057bb1dca97f586384f8cc",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/ae0e712baa883e8d2a057bb1dca97f586384f8cc",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/ae0e712baa883e8d2a057bb1dca97f586384f8cc"
+      }
+    ]
+  },
+  {
+    "sha": "ae0e712baa883e8d2a057bb1dca97f586384f8cc",
+    "node_id": "C_kwDOTKIk9toAKGFlMGU3MTJiYWE4ODNlOGQyYTA1N2JiMWRjYTk3ZjU4NjM4NGY4Y2M",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T12:52:38Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T12:52:38Z"
+      },
+      "message": "v5.7: +5 CISO/CIO contacts (6/7→7/7 institutions), +13 audit notes\n\nNew contacts:\n- ASNB CIO/CTO: Ts Izzat Aziz (PNB Group CTO, conf 90)\n- Great Eastern Life CISO-equiv: Vincent Chin (Div Head IT, conf 75)\n- Hong Leong Assurance CISO-equiv: Low Tek Chee (CTO, conf 75)\n- Liberty General Insurance CISO-equiv: Ganesan Vaithilingam (CIO, conf 72)\n- Kenanga Investment Bank CISO-equiv: Low Jia Yee (CTO, conf 75)\n\nAudit notes (CISO confirmed NOT FOUND):\n- Agrobank, BPMB, EXIM Bank, SME Bank, Tabung Haji, Public Bank,\n  Public Islamic Bank, HLIB, Public Investment Bank, Great Eastern General\n- Bank Rakyat Internal Audit (position exists, name not published)\n- Phillip Securities GRC (website has no management page)\n- Tekun Nasional GRC (no management pages exist)\n\nCoverage: 640/1442 (44.4%) [+12 from v5.6]\nClassification: TLP:AMBER",
+      "tree": {
+        "sha": "2668f5ef7c2e3b13eb699a7ccd2262c026a7468c",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/2668f5ef7c2e3b13eb699a7ccd2262c026a7468c"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/ae0e712baa883e8d2a057bb1dca97f586384f8cc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/ae0e712baa883e8d2a057bb1dca97f586384f8cc",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/ae0e712baa883e8d2a057bb1dca97f586384f8cc",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/ae0e712baa883e8d2a057bb1dca97f586384f8cc/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "cbe088f6822e561b03967c5cc8dd271e70bbfaf9",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/cbe088f6822e561b03967c5cc8dd271e70bbfaf9",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/cbe088f6822e561b03967c5cc8dd271e70bbfaf9"
+      }
+    ]
+  },
+  {
+    "sha": "cbe088f6822e561b03967c5cc8dd271e70bbfaf9",
+    "node_id": "C_kwDOTKIk9toAKGNiZTA4OGY2ODIyZTU2MWIwMzk2N2M1Y2M4ZGQyNzFlNzBiYmZhZjk",
+    "commit": {
+      "author": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T08:25:32Z"
+      },
+      "committer": {
+        "name": "VoronDRQ Agent",
+        "email": "p62operator@proton.me",
+        "date": "2026-07-18T08:25:48Z"
+      },
+      "message": "v5.6: +7 roles across 5 fintech/e-money institutions (43.8% coverage)\n\nNew roles (inherited-from-parent pattern for fintech subsidiaries):\n- Wallex Sdn Bhd: Head of Compliance (Dee Patria Adithana, M-DAQ parent, conf 80)\n- Xendit Malaysia: CIO/CTO (Bo Chen, Xendit parent, conf 80)\n- BigPay Malaysia: CFO (Mun Hui Teh, Capital A parent, conf 80)\n- ShopeePay Malaysia: CFO (Tony Hou, Sea Limited parent, conf 80)\n- Setel by PETRONAS Dagangan: 3 roles (CFO/CTO/Chief Audit Exec from PDB parent, conf 80)\n\nAudit notes (0/7 researched): Billplz, ToyyibPay, GrabPay Malaysia\nDefunct flag: Razer Pay Malaysia (shut down 2021, domains expired)\nMaster CSV synced (closed 24-role sync gap: 604->628)",
+      "tree": {
+        "sha": "84291303c840db287ae16bf1e8d17e86743ec666",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/trees/84291303c840db287ae16bf1e8d17e86743ec666"
+      },
+      "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/git/commits/cbe088f6822e561b03967c5cc8dd271e70bbfaf9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/cbe088f6822e561b03967c5cc8dd271e70bbfaf9",
+    "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/cbe088f6822e561b03967c5cc8dd271e70bbfaf9",
+    "comments_url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/cbe088f6822e561b03967c5cc8dd271e70bbfaf9/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "73c67232f9024839fc357b99e281f58af1ed4b65",
+        "url": "https://api.github.com/repos/ahmadfaurani/Voron-Campaign/commits/73c67232f9024839fc357b99e281f58af1ed4b65",
+        "html_url": "https://github.com/ahmadfaurani/Voron-Campaign/commit/73c67232f9024839fc357b99e281f58af1ed4b65"
+      }
+    ]
+  }
+]

@@ -1,0 +1,237 @@
+{
+  "v42": {
+    "tier": {
+      "3": 49,
+      "6": 15,
+      "4": 35,
+      "2": 53,
+      "5": 24,
+      "1": 29
+    },
+    "seg": {
+      "MSBs": 17,
+      "Fintech Sandbox": 13,
+      "E-Money": 19,
+      "Insurers": 26,
+      "Takaful": 12,
+      "Investment Banks": 15,
+      "GLC-Linked": 24,
+      "Development FIs": 11,
+      "Licensed Banks": 29,
+      "Card Schemes": 10,
+      "Payment Operators": 6,
+      "Cooperatives": 21,
+      "Fintech Registered": 2
+    },
+    "role_pop": {
+      "CISO": 61,
+      "GRC": 78,
+      "CFO": 91,
+      "CRO": 76,
+      "Compliance": 80,
+      "CIO": 77,
+      "Internal Audit": 61
+    },
+    "with_c": 119,
+    "empty": 86,
+    "total_cells": 524,
+    "full_all": 32,
+    "n": 205,
+    "rate": 58.0,
+    "fill": 36.5
+  },
+  "v45": {
+    "tier": {
+      "3": 49,
+      "6": 15,
+      "4": 35,
+      "2": 53,
+      "5": 24,
+      "1": 29
+    },
+    "seg": {
+      "MSBs": 17,
+      "Fintech Sandbox": 13,
+      "E-Money": 19,
+      "Insurers": 26,
+      "Takaful": 12,
+      "Investment Banks": 15,
+      "GLC-Linked": 24,
+      "Development FIs": 11,
+      "Licensed Banks": 29,
+      "Card Schemes": 10,
+      "Payment Operators": 6,
+      "Cooperatives": 21,
+      "Fintech Registered": 2
+    },
+    "role_pop": {
+      "CISO": 54,
+      "GRC": 76,
+      "CFO": 91,
+      "CRO": 76,
+      "Compliance": 80,
+      "CIO": 78,
+      "Internal Audit": 61
+    },
+    "with_c": 115,
+    "empty": 90,
+    "total_cells": 516,
+    "full_all": 30,
+    "n": 205,
+    "rate": 56.1,
+    "fill": 36.0
+  },
+  "newly_populated": [],
+  "newly_full": [],
+  "newly_full_t1": [],
+  "cell_changes": [
+    [
+      "Chubb Insurance Malaysia Berhad",
+      "2",
+      2,
+      3,
+      [
+        "GRC"
+      ],
+      []
+    ],
+    [
+      "Citibank Berhad",
+      "1",
+      3,
+      5,
+      [
+        "CRO",
+        "Internal Audit"
+      ],
+      []
+    ],
+    [
+      "FWD Insurance Berhad",
+      "2",
+      3,
+      4,
+      [
+        "GRC"
+      ],
+      []
+    ],
+    [
+      "Generali Insurance Malaysia Berhad",
+      "2",
+      2,
+      5,
+      [
+        "CFO",
+        "CIO",
+        "CRO"
+      ],
+      []
+    ],
+    [
+      "Great Eastern General Insurance (Malaysia) Berhad",
+      "2",
+      7,
+      6,
+      [],
+      [
+        "CISO"
+      ]
+    ],
+    [
+      "Great Eastern Life Assurance (Malaysia) Berhad",
+      "2",
+      7,
+      6,
+      [],
+      [
+        "CISO"
+      ]
+    ],
+    [
+      "Kurnia Insurans (Malaysia) Berhad",
+      "2",
+      2,
+      0,
+      [],
+      [
+        "CISO",
+        "GRC"
+      ]
+    ],
+    [
+      "Manulife Insurance Berhad",
+      "2",
+      4,
+      5,
+      [
+        "Compliance"
+      ],
+      []
+    ],
+    [
+      "Manulife Takaful Malaysia Berhad",
+      "2",
+      2,
+      0,
+      [],
+      [
+        "CISO",
+        "GRC"
+      ]
+    ],
+    [
+      "Prudential Assurance Malaysia Berhad",
+      "2",
+      5,
+      5,
+      [
+        "CIO"
+      ],
+      [
+        "CISO"
+      ]
+    ],
+    [
+      "Sun Life Malaysia Assurance Berhad",
+      "2",
+      5,
+      2,
+      [],
+      [
+        "CRO",
+        "Compliance",
+        "Internal Audit"
+      ]
+    ],
+    [
+      "Zurich Life Insurance Malaysia Berhad",
+      "2",
+      4,
+      0,
+      [],
+      [
+        "CFO",
+        "CISO",
+        "CRO",
+        "GRC"
+      ]
+    ],
+    [
+      "Zurich Takaful Malaysia Berhad",
+      "2",
+      3,
+      0,
+      [],
+      [
+        "CIO",
+        "CISO",
+        "GRC"
+      ]
+    ]
+  ],
+  "net_cells_added": 9,
+  "net_cells_removed": 17,
+  "only_v42": [],
+  "only_v45": []
+}

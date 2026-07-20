@@ -1,0 +1,207 @@
+{
+  "last_check": "2026-07-19T13:30:00Z",
+  "git_commit": "7c4941f",
+  "git_commit_msg": "v5.13: 3/7 cluster resolution - 11 institutions, +10 net roles",
+  "git_commit_at": "2026-07-19T12:56:53Z",
+  "csv_source": "ROOT prospect-database-7stakeholders.csv (task URL prospects/ still 404)",
+  "baseline_prev": "v5.8 d27e984 (2026-07-18T16:55:20Z) - 6 commits since baseline (v5.9-v5.13 + 1 auto)",
+  "total": 205,
+  "raw_rows": 206,
+  "raw_row_note": "+1 PHANTOM row (Sun Life unescaped-quote fragment) persists. Real=205. UNFIXED since v4.7.",
+  "tier": {
+    "1": 29,
+    "2": 53,
+    "3": 49,
+    "4": 35,
+    "5": 24,
+    "6": 15
+  },
+  "segment": {
+    "Licensed Banks": 29,
+    "Insurers": 26,
+    "GLC-Linked": 24,
+    "Cooperatives": 21,
+    "E-Money": 19,
+    "MSBs": 17,
+    "Investment Banks": 15,
+    "Fintech Sandbox": 13,
+    "Takaful": 12,
+    "Development FIs": 11,
+    "Card Schemes": 10,
+    "Payment Operators": 6,
+    "Fintech Registered": 2
+  },
+  "role_pop_nominal": {
+    "CISO": 152,
+    "GRC": 120,
+    "CFO": 137,
+    "CRO": 118,
+    "Compliance": 121,
+    "CIO": 131,
+    "IA": 111
+  },
+  "role_pop_true": {
+    "CISO": 71,
+    "GRC": 101,
+    "CFO": 136,
+    "CRO": 110,
+    "Compliance": 114,
+    "CIO": 121,
+    "IA": 94
+  },
+  "role_notfound": {
+    "CISO": 58,
+    "GRC": 17,
+    "CFO": 1,
+    "CRO": 8,
+    "Compliance": 7,
+    "CIO": 9,
+    "IA": 17
+  },
+  "role_ceo_misfiled_ciso": 23,
+  "role_completion_pct_nominal": {
+    "CISO": 74.1,
+    "GRC": 58.5,
+    "CFO": 66.8,
+    "CRO": 57.6,
+    "Compliance": 59.0,
+    "CIO": 63.9,
+    "IA": 54.1
+  },
+  "role_completion_pct_true": {
+    "CISO": 34.6,
+    "GRC": 49.3,
+    "CFO": 66.3,
+    "CRO": 53.7,
+    "Compliance": 55.6,
+    "CIO": 59.0,
+    "IA": 45.9
+  },
+  "role_rank_true": [
+    {
+      "CFO": 66.3
+    },
+    {
+      "CIO": 59.0
+    },
+    {
+      "Compliance": 55.6
+    },
+    {
+      "CRO": 53.7
+    },
+    {
+      "GRC": 49.3
+    },
+    {
+      "IA": 45.9
+    },
+    {
+      "CISO": 34.6
+    }
+  ],
+  "with_contacts_nominal": 181,
+  "with_contacts_true": 156,
+  "empty": 24,
+  "no_real_contact": 49,
+  "enrichment_rate_nominal": 88.3,
+  "enrichment_rate_true": 76.1,
+  "total_cells_nominal": 890,
+  "total_cells_true": 747,
+  "possible_cells": 1435,
+  "cell_fill_rate_nominal": 62.0,
+  "cell_fill_rate_true": 52.1,
+  "full_all_nominal": 104,
+  "full_all_true": 55,
+  "t1_total": 29,
+  "t1_with_real": 28,
+  "t1_full_nominal": 26,
+  "t1_full_true": 17,
+  "t1_full_names_true": [
+    "Alliance Bank Malaysia Berhad",
+    "Alliance Islamic Bank Berhad",
+    "AmBank (M) Berhad",
+    "AmBank Islamic Berhad",
+    "Bank Islam Malaysia Berhad",
+    "Bank of China (Malaysia) Berhad",
+    "CIMB Bank Berhad",
+    "CIMB Islamic Bank Berhad",
+    "Hong Leong Bank Berhad",
+    "Hong Leong Islamic Bank Berhad",
+    "Maybank Berhad",
+    "Maybank Islamic Berhad",
+    "OCBC Bank (Malaysia) Berhad",
+    "RHB Bank Berhad",
+    "RHB Islamic Bank Berhad",
+    "Standard Chartered Bank Malaysia Berhad",
+    "UOB Malaysia Berhad"
+  ],
+  "t1_ciso_gap": [
+    "HSBC Bank Malaysia Berhad",
+    "Public Bank Berhad",
+    "Public Islamic Bank Berhad",
+    "Bank Muamalat Malaysia Berhad"
+  ],
+  "ceo_misfiled_insts": [
+    "AEON Bank (M) Berhad",
+    "AEON Bank Berhad",
+    "AEON Wallet (AEON Credit)",
+    "Amanah Saham Nasional Berhad (ASNB)",
+    "CIMB (Khazanah-linked)",
+    "Cradle Fund Sdn Bhd",
+    "GX Bank Berhad",
+    "GXBank Berhad",
+    "ICBC (Malaysia) Berhad",
+    "KAF Digital Bank",
+    "KAF Digital Bank Berhad",
+    "Kurnia Insurans (Malaysia) Berhad",
+    "LPPSA",
+    "MARA",
+    "MARA (Majlis Amanah Rakyat)",
+    "MIDF Amanah Investment Bank Berhad",
+    "Mizuho Bank (Malaysia) Berhad",
+    "Phillip Securities (Malaysia) Sdn Bhd",
+    "Sun Life Malaysia Assurance Berhad",
+    "Tekun Nasional",
+    "Zurich Life Insurance Malaysia Berhad",
+    "Zurich Takaful Malaysia Berhad",
+    "Bank Muamalat Malaysia Berhad"
+  ],
+  "notfound_cell_count": 117,
+  "notfound_inst_count": 65,
+  "delta_vs_v58": {
+    "enrichment_true_pp": 1.0,
+    "cells_true_delta": 24,
+    "cells_nominal_delta": 100,
+    "full_true_delta": 8,
+    "full_nominal_delta": 35,
+    "t1_full_true_delta": 0,
+    "ceo_misfiled_delta": -4,
+    "role_true_delta": {
+      "CISO": 12,
+      "GRC": 4,
+      "CFO": 1,
+      "CRO": 1,
+      "Compliance": 5,
+      "CIO": -1,
+      "IA": 2
+    }
+  },
+  "previous": {
+    "last_check": "2026-07-18T03:07:00Z",
+    "git_commit": "cfcbc96",
+    "total": 205,
+    "with_contacts_nominal": 128,
+    "enrichment_rate_nominal": 62.4,
+    "total_cells_nominal": 605,
+    "cell_fill_rate_nominal": 42.2,
+    "full_all_nominal": 36,
+    "full_all_true": 31,
+    "t1_full_nominal": 18,
+    "t1_full_true": 17,
+    "ceo_misfiled_count": 21
+  },
+  "last_change_commit": "7c4941f",
+  "last_change_at": "2026-07-19T12:56:53Z",
+  "runs_since_last_change": 0
+}

@@ -1,0 +1,172 @@
+{
+  "csv_file": "prospect-database-enriched-v3.2.csv",
+  "total_prospects": 205,
+  "prospects_with_contacts": 83,
+  "prospects_empty": 122,
+  "enrichment_rate": 40.5,
+  "fully_enriched": 6,
+  "total_contact_cells": 345,
+  "total_possible_cells": 1435,
+  "role_fill_rate": 24.0,
+  "tier_counts": {
+    "3": 49,
+    "6": 15,
+    "4": 35,
+    "2": 53,
+    "5": 24,
+    "1": 29
+  },
+  "segment_counts": {
+    "MSBs": 17,
+    "Fintech Sandbox": 13,
+    "E-Money": 19,
+    "Insurers": 26,
+    "Takaful": 12,
+    "Investment Banks": 15,
+    "GLC-Linked": 24,
+    "Development FIs": 11,
+    "Licensed Banks": 29,
+    "Card Schemes": 10,
+    "Payment Operators": 6,
+    "Cooperatives": 21,
+    "Fintech Registered": 2
+  },
+  "stakeholder_populated": {
+    "Head of Governance Risk & Compliance": 24,
+    "Chief Financial Officer": 74,
+    "Chief Risk Officer": 57,
+    "Chief Information Officer": 58,
+    "Chief Information Security Officer": 28,
+    "Head of Compliance": 58,
+    "Head of Internal Audit": 46
+  },
+  "role_completion_pct": {
+    "Chief Information Security Officer": 13.7,
+    "Head of Governance Risk & Compliance": 11.7,
+    "Chief Financial Officer": 36.1,
+    "Chief Risk Officer": 27.8,
+    "Head of Compliance": 28.3,
+    "Chief Information Officer": 28.3,
+    "Head of Internal Audit": 22.4
+  },
+  "tier1_banks_with_contacts_count": 26,
+  "tier1_fully_enriched": [
+    "Bank Islam Malaysia Berhad",
+    "CIMB Bank Berhad",
+    "CIMB Islamic Bank Berhad",
+    "RHB Bank Berhad",
+    "RHB Islamic Bank Berhad",
+    "Bank Muamalat Malaysia Berhad"
+  ],
+  "tier1_empty": [
+    "Credit Suisse (Malaysia) Berhad",
+    "Mizuho Bank (Malaysia) Berhad",
+    "Sumitomo Mitsui Banking Corporation Malaysia Berhad"
+  ],
+  "tier1_with_contacts_detail": [
+    [
+      "Bank Islam Malaysia Berhad",
+      7
+    ],
+    [
+      "CIMB Bank Berhad",
+      7
+    ],
+    [
+      "CIMB Islamic Bank Berhad",
+      7
+    ],
+    [
+      "RHB Bank Berhad",
+      7
+    ],
+    [
+      "RHB Islamic Bank Berhad",
+      7
+    ],
+    [
+      "Bank Muamalat Malaysia Berhad",
+      7
+    ],
+    [
+      "Alliance Bank Malaysia Berhad",
+      6
+    ],
+    [
+      "AmBank (M) Berhad",
+      6
+    ],
+    [
+      "AmBank Islamic Berhad",
+      6
+    ],
+    [
+      "Maybank Berhad",
+      6
+    ],
+    [
+      "OCBC Bank (Malaysia) Berhad",
+      6
+    ],
+    [
+      "Alliance Islamic Bank Berhad",
+      5
+    ],
+    [
+      "Bank of China (Malaysia) Berhad",
+      5
+    ],
+    [
+      "Hong Leong Bank Berhad",
+      5
+    ],
+    [
+      "Hong Leong Islamic Bank Berhad",
+      5
+    ],
+    [
+      "Maybank Islamic Berhad",
+      5
+    ],
+    [
+      "Public Bank Berhad",
+      5
+    ],
+    [
+      "Public Islamic Bank Berhad",
+      5
+    ],
+    [
+      "Standard Chartered Bank Malaysia Berhad",
+      5
+    ],
+    [
+      "UOB Malaysia Berhad",
+      5
+    ],
+    [
+      "HSBC Bank Malaysia Berhad",
+      4
+    ],
+    [
+      "Citibank Berhad",
+      2
+    ],
+    [
+      "ICBC (Malaysia) Berhad",
+      2
+    ],
+    [
+      "BNP Paribas Malaysia Berhad",
+      1
+    ],
+    [
+      "Deutsche Bank (Malaysia) Berhad",
+      1
+    ],
+    [
+      "J.P. Morgan Chase Bank Malaysia Berhad",
+      1
+    ]
+  ]
+}
