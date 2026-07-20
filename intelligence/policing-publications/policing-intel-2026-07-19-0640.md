@@ -1,7 +1,7 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
 ## PRN Johor 2026 Polling Day Operations Monitor
 
-**Report Date:** 2026-07-19 06:40 MYT
+**Report Date:** 2026-07-20 MYT
 **Classification:** TLP:AMBER
 **Period Covered:** Post-polling (11 July 2026) through 19 July 2026
 **Election Status:** POLLING CONCLUDED 11 July 2026 — BN 48 / PH 8 (BN supermajority)

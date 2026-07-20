@@ -1,5 +1,5 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
-**Generated:** 2026-07-17 06:36 MYT (UTC+8)
+**Generated:** 2026-07-20 12:30 MYT (UTC+8)
 **Classification:** TLP:AMBER
 **Mission:** PRN Johor 2026 Polling Day — Policing & Law Enforcement Monitor
 **Cycle Status:** Post-Polling (Polling Day = 11 July 2026; D+6)
