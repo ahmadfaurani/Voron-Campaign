@@ -1,7 +1,7 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
 ## PRN Johor 2026 — Polling Day Operations
 
-**Generated:** 2026-07-12 02:54 UTC (10:54 MYT, July 12)
+**Generated:** 2026-07-12 10:54 MYT (10:54 MYT, July 12)
 **Classification:** TLP:AMBER
 **Cycle:** Post-Polling-Day monitoring (Polling Day: 11 July 2026)
 

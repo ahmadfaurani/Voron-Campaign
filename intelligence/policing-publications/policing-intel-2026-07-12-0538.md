@@ -1,5 +1,5 @@
 # POLICING PUBLICATIONS INTELLIGENCE — PRN JOHOR 2026
-**Generated:** 2026-07-12 05:38 UTC (13:38 MYT)
+**Generated:** 2026-07-12 13:38 MYT (13:38 MYT)
 **Classification:** TLP:AMBER
 **Monitor:** Top Policing Publications Monitor Agent
 **Cycle Focus:** PRN Johor 2026 Polling Day + Post-Election Security (Election held 11 July 2026)

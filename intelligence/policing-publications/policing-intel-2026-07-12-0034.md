@@ -1,5 +1,5 @@
 # 🚔 POLICING PUBLICATIONS MONITOR — PRN JOHOR 2026
-**Timestamp:** 2026-07-12 00:34 UTC / 08:34 MYT
+**Timestamp:** 2026-07-12 08:34 MYT / 08:34 MYT
 **Classification:** TLP:AMBER
 **Cycle:** Post-Polling-Day Monitor (Polling Day = 11 July 2026)
 **Analyst:** Top Policing Publications Monitor Agent

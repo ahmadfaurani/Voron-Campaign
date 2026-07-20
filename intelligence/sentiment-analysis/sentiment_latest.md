@@ -1,10 +1,10 @@
 # Sentiment Analysis Report
 
 **Classification:** TLP:AMBER
-**Report Timestamp:** 20260716T095558Z
+**Report Timestamp:** 20260716T175558+08
 **Extraction ID:** ext_20260716_061213_001
 **Extraction Source:** 2026-07-16T06:12:13+00:00
-**Collection Cycle:** 2026-07-16T001140Z
+**Collection Cycle:** 2026-07-16T081140+08
 **Source Count:** 23
 **Analysis Method:** VADER Sentiment Analysis on entity context snippets
 **Score Range:** -3 (very negative) to +3 (very positive)
@@ -227,7 +227,7 @@ Negative (12)  ████████████
 
 ## Methodology
 
-1. **Entity Source:** Loaded from the latest entity extraction cycle (2026-07-16T001140Z)
+1. **Entity Source:** Loaded from the latest entity extraction cycle (2026-07-16T081140+08)
 2. **Context Extraction:** Used pre-extracted context snippets stored in per-entity JSON files (entity `contexts` field)
 3. **Sentiment Scoring:** Applied VADER (Valence Aware Dictionary and sEntiment Reasoner) to each context snippet
 4. **Score Mapping:** VADER compound scores (-1 to +1) mapped to 7-point Likert scale (-3 to +3):

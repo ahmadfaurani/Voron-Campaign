@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Sentiment Analysis for Extracted Entities - 2026-07-11T100922Z Extraction Cycle
+Sentiment Analysis for Extracted Entities - 2026-07-12T022041+08 Extraction Cycle
 Analyzes sentiment of entities from OpenCLaw extraction cycle using VADER.
 Generates aggregate sentiment for parties/coalitions and detects anomalies (z-score > 2).
 
-Entity source:  2026-07-11T100922Z_entities_extracted.json (161 entities, 23 successful sources)
-Collection:     2026-07-11T100922Z_political_collection_25sources_OPERATIONAL.json
+Entity source:  2026-07-12T022041+08_entities_extracted.json (187 entities, 24 successful sources)
+Collection:     2026-07-12T022041+08_political_collection_25sources_OPERATIONAL.json
 Score range:    -3 (very negative) to +3 (very positive)
 """
 
@@ -24,19 +24,20 @@ RAW_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/raw/"
 OUTPUT_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/sentiment-analysis/"
 
 # Target files for this cycle
-ENTITIES_FILE = os.path.join(ENTITIES_DIR, "2026-07-11T100922Z_entities_extracted.json")
-COLLECTION_PREFIX = "2026-07-11T100922Z"
+ENTITIES_FILE = os.path.join(ENTITIES_DIR, "2026-07-12T022041+08_entities_extracted.json")
+COLLECTION_PREFIX = "2026-07-12T022041+08"
 
 # Political party/coalition mappings for aggregation
 PARTY_COALITIONS = {
     "PH": ["PH", "Pakatan Harapan", "PKR", "AMANAH", "DAP"],
-    "BN": ["BN", "Barisan Nasional", "UMNO", "MIC"],
-    "PN": ["PN", "Perikatan Nasional", "PAS", "Bersatu"],
+    "BN": ["BN", "Barisan Nasional", "UMNO", "MCA", "MIC"],
+    "PN": ["PN", "Perikatan Nasional", "PAS", "Bersatu", "BERSATU", "Parti Pribumi Bersatu Malaysia"],
     "GPS": ["GPS", "Gabungan Parti Sarawak"],
     "GRS": ["GRS", "Gabungan Rakyat Sabah"],
     "MUDA": ["MUDA"],
     "WARISAN": ["WARISAN"],
     "PEJUANG": ["Pejuang"],
+    "BERSAMA": ["BERSAMA", "Parti Bersama"],
 }
 
 # Key political figures and their affiliations
@@ -46,6 +47,7 @@ FIGURE_AFFILIATIONS = {
     "Datuk Seri Anwar Ibrahim": "PH",
     "PM Anwar": "PH",
     "Ahmad Zahid": "BN",
+    "Ahmad Zahid Hamidi": "BN",
     "Zahid Hamidi": "BN",
     "Muhyiddin": "PN",
     "Ismail Sabri": "BN",
@@ -68,6 +70,16 @@ FIGURE_AFFILIATIONS = {
     "Fadillah": "BN",
     "Fadillah Yusof": "BN",
     "Maszlee Malik": "PH",
+    "Fahmi Fadzil": "PH",
+    "Azmin Ali": "PN",
+    "Nurul Izzah": "PH",
+    "Nurul Izzah Anwar": "PH",
+    "Wan Junaidi": "GPS",
+    "Datuk Zahari Sarip": "BN",
+    "Noraziah Mohd Razit": "PN",
+    "Qistina Nadia Dzulqarnain": "INDEPENDENT",
+    "Alyaa Alhadjri": "INDEPENDENT",
+    "B Nantha Kumar": "INDEPENDENT",
 }
 
 # Entities that are titles/honorifics (not real sentiment targets)
@@ -405,7 +417,7 @@ def generate_markdown_summary(report):
     if report.get('political_figure_sentiments'):
         md += "---\n\n## Political Figure Sentiments (with Party Affiliation)\n\n"
         md += "| Figure | Sentiment | Raw Score | Mentions | Z-Score | Party | Anomaly |\n"
-        md += "|--------|-----------|-----------|----------|---------|-------|---------|\n"
+        md += "|--------|-----------|-----------|----------|---------|-------|--------|\n"
         for entity, data in sorted(report['political_figure_sentiments'].items(),
                                    key=lambda x: x[1]['sentiment_score'], reverse=True):
             anomaly_mark = "⚠️" if data['is_anomaly'] else ""
@@ -421,7 +433,7 @@ def generate_markdown_summary(report):
 
 def main():
     print("=" * 60)
-    print("SENTIMENT ANALYSIS - Entity Extraction Cycle 2026-07-11T100922Z")
+    print("SENTIMENT ANALYSIS - Entity Extraction Cycle 2026-07-12T022041+08")
     print("=" * 60)
 
     analyzer = SentimentIntensityAnalyzer()

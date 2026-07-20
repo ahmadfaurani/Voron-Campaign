@@ -4,8 +4,8 @@ Sentiment Analysis for Extracted Entities - 2026-07-11 Cycle
 Analyzes sentiment of entities from OpenCLaw extraction cycle using VADER.
 Generates aggregate sentiment for parties/coalitions and detects anomalies.
 
-Entity source: 2026-07-11T001148Z_entities_extracted.json (160 entities, 25 sources)
-Collection:    2026-07-11T001148Z_political_collection_25sources_OPERATIONAL.json
+Entity source: 2026-07-11T081148+08_entities_extracted.json (160 entities, 25 sources)
+Collection:    2026-07-11T081148+08_political_collection_25sources_OPERATIONAL.json
 """
 
 import json
@@ -22,8 +22,8 @@ RAW_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/raw/"
 OUTPUT_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/sentiment-analysis/"
 
 # Target files for this cycle
-ENTITIES_FILE = os.path.join(ENTITIES_DIR, "2026-07-11T001148Z_entities_extracted.json")
-COLLECTION_PREFIX = "2026-07-11T001148Z"
+ENTITIES_FILE = os.path.join(ENTITIES_DIR, "2026-07-11T081148+08_entities_extracted.json")
+COLLECTION_PREFIX = "2026-07-11T081148+08"
 
 # Political party/coalition mappings for aggregation
 PARTY_COALITIONS = {

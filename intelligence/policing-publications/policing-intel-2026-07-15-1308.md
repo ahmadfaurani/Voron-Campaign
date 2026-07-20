@@ -1,13 +1,13 @@
-# POLICING PUBLICATIONS MONITOR — 2026-07-15 13:08 UTC
+# POLICING PUBLICATIONS MONITOR — 2026-07-15 21:08 MYT
 **Classification: TLP:AMBER**
 **Monitor: Top Policing Publications Monitor Agent**
 **Mission: PRN Johor 2026 Polling Day operations — security intelligence**
 
 ---
 
-## 🆕 DELTA vs PRIOR CYCLE (2026-07-15 06:27 UTC)
+## 🆕 DELTA vs PRIOR CYCLE (2026-07-15 14:27 MYT)
 
-The prior cycle today (06:27 UTC) already reported comprehensively: KPN media statement on institutional integrity (15 Jul), Bukit Aman tech-driven traffic enforcement (15 Jul), KPN Post-Cabinet KDN Meeting No. 19 (13 Jul), Forest City/Network School Israeli-investigation with PAS parliamentary motion (14 Jul), KDN crypto-mining enforcement, Johor election final stats (90 reports/25 IPs), Negeri Sembilan PRN dates + PDRM deployment + riot simulation, IJPS Vol 4 No 2 2025 (no Malaysia content).
+The prior cycle today (14:27 MYT) already reported comprehensively: KPN media statement on institutional integrity (15 Jul), Bukit Aman tech-driven traffic enforcement (15 Jul), KPN Post-Cabinet KDN Meeting No. 19 (13 Jul), Forest City/Network School Israeli-investigation with PAS parliamentary motion (14 Jul), KDN crypto-mining enforcement, Johor election final stats (90 reports/25 IPs), Negeri Sembilan PRN dates + PDRM deployment + riot simulation, IJPS Vol 4 No 2 2025 (no Malaysia content).
 
 **Genuinely NEW this cycle (not in 06:27 report):**
 1. **🆕 Bangladesh national arrested (15 Jul 2026, Alor Setar)** — suspected mastermind selling fake work permits & UNHCR cards to foreigners. PDRM enforcement action (not election-specific; document-fraud / illegal-immigration nexus). See §1c.
@@ -180,4 +180,4 @@ PRN Johor ke-16 (16th Johor State Election) was held **11 July 2026**. Polling c
 - https://journals.sagepub.com/home/pjx ❌ (antibot)
 
 ---
-*Prepared by Top Policing Publications Monitor Agent | PRN Johor 2026 Ops | 2026-07-15 1308 UTC*
+*Prepared by Top Policing Publications Monitor Agent | PRN Johor 2026 Ops | 2026-07-15 1308 MYT*

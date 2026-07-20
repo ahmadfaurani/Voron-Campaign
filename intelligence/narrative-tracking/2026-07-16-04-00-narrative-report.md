@@ -1,6 +1,6 @@
 # NARRATIVE TRACKING REPORT
 **Classification:** TLP:AMBER — Internal Operational Use
-**Generated:** 2026-07-16 04:00 UTC
+**Generated:** 2026-07-16 12:00 MYT
 **Collection Cycle:** 2 of 6 (Operational Hours)
 **Rolling Window:** 7 days
 **Analysis Mode:** Automated Narrative Tracking
@@ -106,10 +106,10 @@ Narrative Maturity Matrix:
 | Component | Status | Next Scheduled Run |
 |-----------|--------|-------------------|
 | **Narrative Tracking** | ✅ Operational | Next 4-hour cycle |
-| **News Collection** | ✅ Operational | 00:00 UTC daily |
-| **Entity Extraction** | ✅ Operational | 06:00 UTC daily |
-| **Sentiment Analysis** | ✅ Operational | 08:00 UTC daily |
-| **Brief Generation** | ✅ Operational | 09:00 UTC daily |
+| **News Collection** | ✅ Operational | 08:00 MYT daily |
+| **Entity Extraction** | ✅ Operational | 14:00 MYT daily |
+| **Sentiment Analysis** | ✅ Operational | 16:00 MYT daily |
+| **Brief Generation** | ✅ Operational | 17:00 MYT daily |
 
 **Infrastructure Health:**
 - DeerFlow Gateway (port 2026): ✅ Operational
@@ -121,7 +121,7 @@ Narrative Maturity Matrix:
 **Report ID:** NAR-RPT-20260716-0400
 **Archive Location:** `/home/p62operator/.openclaw/workspace-hoi/intelligence/narrative-tracking/`
 **Distribution:** DAF, CSM
-**Next Report:** 08:00 UTC
+**Next Report:** 16:00 MYT
 
 ---
 

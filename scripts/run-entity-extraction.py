@@ -437,7 +437,7 @@ def find_latest_timestamp():
     files = os.listdir(RAW_DIR)
     timestamps = set()
     for f in files:
-        # Extract timestamp prefix (e.g., 2026-07-14T001151Z)
+        # Extract timestamp prefix (e.g., 2026-07-14T081151+08)
         match = re.match(r'(\d{4}-\d{2}-\d{2}T\d{6}Z)_', f)
         if match:
             timestamps.add(match.group(1))

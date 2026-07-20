@@ -1,7 +1,7 @@
-# VoronDRQ Prospect Monitor — Brief 2026-07-15 07:21 UTC
+# VoronDRQ Prospect Monitor — Brief 2026-07-15 15:21 MYT
 
 Source: prospect-database-enriched-v3.9.csv (commit 3fea274, "Enrichment v3.9: Standard Chartered CISO, Great Eastern CEO, Tokio Marine CEO+CFO, Zurich Takaful CEO, Sun Life CEO")
-Prev basis: v3.8 (commit 8bd5f8b, brief 2026-07-15 01:19 UTC)
+Prev basis: v3.8 (commit 8bd5f8b, brief 2026-07-15 09:19 MYT)
 URL note: Task URL prospects/prospect-database-7stakeholders.csv still 404 (repo restructured; root-level seed is un-enriched 205-row template). Canonical enriched DB = prospects/prospect-database-enriched-v3.9.csv, fetched from raw GitHub.
 
 ## 1. Database size and composition

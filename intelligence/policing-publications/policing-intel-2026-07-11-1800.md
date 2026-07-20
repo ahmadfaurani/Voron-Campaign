@@ -1,7 +1,7 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
 ## PRN Johor 2026 Polling Day Operations
 
-**Timestamp:** 2026-07-11 18:00 MYT (UTC+8)
+**Timestamp:** 2026-07-11 18:00 MYT (+08:00)
 **Classification:** TLP:AMBER
 **Monitor Agent:** Top Policing Publications Monitor
 **Cycle:** Polling Day + Results Window

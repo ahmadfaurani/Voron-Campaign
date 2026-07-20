@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Context-Aware Sentiment Analysis for Entity Extraction Cycle
-Source: 2026-07-11T235427Z entities extraction (281 entities)
+Source: 2026-07-12T075427+08 entities extraction (281 entities)
 Method: VADER Sentiment Analysis on source article context around entity mentions
 Scale: -3 (very negative) to +3 (very positive)
 Anomaly Detection: |z-score| > 2
@@ -20,7 +20,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 ENTITIES_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/entities/"
 RAW_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/raw/"
 OUTPUT_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/sentiment-analysis/"
-COLLECTION_TIMESTAMP = "2026-07-11T235427Z"
+COLLECTION_TIMESTAMP = "2026-07-12T075427+08"
 
 # ─── Coalition / Party Mapping ───
 COALITION_MAPPING = {

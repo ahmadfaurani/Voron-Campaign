@@ -1,6 +1,6 @@
 # NARRATIVE TRACKING REPORT
 **Classification:** TLP:AMBER — Internal Operational Use
-**Generated:** 2026-07-12 05:51 UTC
+**Generated:** 2026-07-12 13:51 MYT
 **Collection Cycle:** 2 of 6 (Operational Hours)
 **Rolling Window:** 7 days
 **Analysis Mode:** Automated Narrative Tracking
@@ -37,7 +37,7 @@
 ### 🟠 Orange Alert — NAR-05 (Youth Voter Sentiment)
 
 **Trigger:** High acceleration: 250.0%
-**Time:** 2026-07-12 05:51 UTC
+**Time:** 2026-07-12 13:51 MYT
 **Narrative Details:**
 - Current Mentions: 28
 - Baseline Mentions: 8
@@ -52,7 +52,7 @@
 ### 🟠 Orange Alert — NAR-10 (Sabah Cascade)
 
 **Trigger:** High acceleration: 250.0%
-**Time:** 2026-07-12 05:51 UTC
+**Time:** 2026-07-12 13:51 MYT
 **Narrative Details:**
 - Current Mentions: 21
 - Baseline Mentions: 6
@@ -67,7 +67,7 @@
 ### 🟡 Yellow Alert — NAR-02 (BERSAMA Movement)
 
 **Trigger:** Moderate acceleration: 100.0%
-**Time:** 2026-07-12 05:51 UTC
+**Time:** 2026-07-12 13:51 MYT
 **Narrative Details:**
 - Current Mentions: 36
 - Baseline Mentions: 18
@@ -82,7 +82,7 @@
 ### 🟡 Yellow Alert — NAR-06 (PKR Unity Efforts)
 
 **Trigger:** Moderate acceleration: 100.0%
-**Time:** 2026-07-12 05:51 UTC
+**Time:** 2026-07-12 13:51 MYT
 **Narrative Details:**
 - Current Mentions: 20
 - Baseline Mentions: 10
@@ -97,7 +97,7 @@
 ### 🟡 Yellow Alert — NAR-08 (BERSAMA Growth)
 
 **Trigger:** Moderate acceleration: 100.0%
-**Time:** 2026-07-12 05:51 UTC
+**Time:** 2026-07-12 13:51 MYT
 **Narrative Details:**
 - Current Mentions: 20
 - Baseline Mentions: 10
@@ -272,10 +272,10 @@ Narrative Maturity Matrix:
 | Component | Status | Next Scheduled Run |
 |-----------|--------|-------------------|
 | **Narrative Tracking** | ✅ Operational | Next 4-hour cycle |
-| **News Collection** | ✅ Operational | 00:00 UTC daily |
-| **Entity Extraction** | ✅ Operational | 06:00 UTC daily |
-| **Sentiment Analysis** | ✅ Operational | 08:00 UTC daily |
-| **Brief Generation** | ✅ Operational | 09:00 UTC daily |
+| **News Collection** | ✅ Operational | 08:00 MYT daily |
+| **Entity Extraction** | ✅ Operational | 14:00 MYT daily |
+| **Sentiment Analysis** | ✅ Operational | 16:00 MYT daily |
+| **Brief Generation** | ✅ Operational | 17:00 MYT daily |
 
 **Infrastructure Health:**
 - DeerFlow Gateway (port 2026): ✅ Operational
@@ -287,7 +287,7 @@ Narrative Maturity Matrix:
 **Report ID:** NAR-RPT-20260712-0551
 **Archive Location:** `/home/p62operator/.openclaw/workspace-hoi/intelligence/narrative-tracking/`
 **Distribution:** DAF, CSM
-**Next Report:** 08:00 UTC
+**Next Report:** 16:00 MYT
 
 ---
 

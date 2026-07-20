@@ -1,5 +1,5 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
-**Cycle:** 2026-07-12 06:00 UTC (14:00 MYT)
+**Cycle:** 2026-07-12 14:00 MYT (14:00 MYT)
 **Classification:** TLP:AMBER
 **Monitor:** Top Policing Publications Monitor Agent — PRN Johor 2026 Polling Day Operations
 
@@ -153,4 +153,4 @@ PRN Johor ke-16 polling day concluded 11 July 2026 (yesterday) peacefully. BN wo
 6. **Tier 3 journals** — direct scrape of current-issue pages next cycle (search yielded no Malaysia content).
 
 ---
-*End of intelligence report — 2026-07-12 06:00 UTC cycle.*
+*End of intelligence report — 2026-07-12 14:00 MYT cycle.*

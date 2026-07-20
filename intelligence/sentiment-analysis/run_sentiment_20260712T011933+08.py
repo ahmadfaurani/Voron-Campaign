@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Sentiment Analysis for Extracted Entities - 2026-07-11T171933Z Extraction Cycle
+Sentiment Analysis for Extracted Entities - 2026-07-12T011933+08 Extraction Cycle
 Analyzes sentiment of entities from OpenCLaw extraction cycle using VADER.
 Generates aggregate sentiment for parties/coalitions and detects anomalies (z-score > 2).
 
-Entity source:  2026-07-11T171933Z_entities_extracted.json (186 entities, 23 successful sources)
-Collection:     2026-07-11T171933Z_political_collection_25sources_OPERATIONAL.json
+Entity source:  2026-07-12T011933+08_entities_extracted.json (186 entities, 23 successful sources)
+Collection:     2026-07-12T011933+08_political_collection_25sources_OPERATIONAL.json
 Score range:    -3 (very negative) to +3 (very positive)
 """
 
@@ -24,8 +24,8 @@ RAW_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/raw/"
 OUTPUT_DIR = "/home/p62operator/.openclaw/workspace-hoi/intelligence/sentiment-analysis/"
 
 # Target files for this cycle
-ENTITIES_FILE = os.path.join(ENTITIES_DIR, "2026-07-11T171933Z_entities_extracted.json")
-COLLECTION_PREFIX = "2026-07-11T171933Z"
+ENTITIES_FILE = os.path.join(ENTITIES_DIR, "2026-07-12T011933+08_entities_extracted.json")
+COLLECTION_PREFIX = "2026-07-12T011933+08"
 
 # Political party/coalition mappings for aggregation
 PARTY_COALITIONS = {
@@ -431,7 +431,7 @@ def generate_markdown_summary(report):
 
 def main():
     print("=" * 60)
-    print("SENTIMENT ANALYSIS - Entity Extraction Cycle 2026-07-11T171933Z")
+    print("SENTIMENT ANALYSIS - Entity Extraction Cycle 2026-07-12T011933+08")
     print("=" * 60)
 
     analyzer = SentimentIntensityAnalyzer()
