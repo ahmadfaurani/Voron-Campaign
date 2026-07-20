@@ -1,5 +1,5 @@
 # VoronDRQ Prospect Database Monitor - Intelligence Brief
-**Run:** 2026-07-16 15:40 MYT | **Source:** prospect-database-enriched-v4.5.csv (repo HEAD e9a417d)
+**Run:** 2026-07-20 12:34 MYT | **Source:** prospect-database-enriched-v4.5.csv (repo HEAD e9a417d)
 **Prev run:** 2026-07-16 09:40 MYT, commit b9a0b2c (v4.2 CSV) | **Classification:** TLP:AMBER
 
 ## 1. Database size and composition

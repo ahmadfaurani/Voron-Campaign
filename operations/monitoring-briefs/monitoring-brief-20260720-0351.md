@@ -1,5 +1,5 @@
 # VoronDRQ Prospect Database Monitor — Intelligence Brief
-**Run:** 2026-07-19 16:40 UTC | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit 46ec566 = v5.14, Jul 19 16:24 UTC)
+**Run:** 2026-07-20 03:51 MYTUTC | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit 46ec566 = v5.14, Jul 19 16:24 UTC)
 **Prev baseline:** v5.13 (7c4941f, Jul 19 12:56 UTC) | **Last delivered brief:** v5.9 (Jul 19 00:14 UTC)
 **CSV integrity:** Local file md5-matches GitHub raw (VERIFIED). Task URL prospects/... still 404 — canonical file is at repo root.
 **Classification:** TLP:AMBER | **Two counts:** POPULATED = any non-empty cell (literal task definition); ACTIONABLE = real named contact (excludes "NOT FOUND" audit notes and CEO-misfiled) — the count that enables outreach.
