@@ -1,0 +1,433 @@
+# Sentiment Analysis Report
+
+**Classification:** TLP:AMBER
+**Report Timestamp:** 20260712T003346Z
+**Extraction Source:** 2026-07-12T00:30:53.929563Z
+**Source Collection:** 2026-07-11T235427Z_political_collection_25sources_OPERATIONAL.json
+**Source Timestamp:** 2026-07-11T235427Z
+**Analysis Method:** VADER Sentiment Analysis on source article context
+**Score Range:** -3 (very negative) to +3 (very positive)
+**Anomaly Threshold:** |z-score| > 2
+
+---
+
+## Executive Summary
+
+| Metric | Value |
+|--------|-------|
+| Total Entities Analyzed | 281 |
+| Sources Processed | 23 |
+| Sources with Content | 22 |
+| Entities with Context | 249 |
+| Entities without Context (fallback) | 32 |
+| Overall Mean Sentiment | +0.413 |
+| Overall Std Deviation | 1.180 |
+| Overall Median Sentiment | +0.000 |
+| Sentiment Range | [-3, +3] |
+| Positive Entities | 118 |
+| Neutral Entities | 133 |
+| Negative Entities | 30 |
+| Anomalies Detected | 26 |
+
+### Sentiment Distribution
+
+```
+Positive (118)  ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+Neutral  (133)  █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+Negative (30)  ██████████████████████████████
+```
+
+---
+
+## Coalition / Party Aggregate Sentiment
+
+| Coalition | Sentiment Score | Label | Mean (raw) | Std Dev | Entities | Range |
+|-----------|:-:|------|:----------:|:-------:|:--------:|:-----:|
+| WARISAN | +2 | Positive | 0.5765 | 0.0000 | 1 | [0.577, 0.577] |
+| GPS | +2 | Positive | 0.3226 | 0.4562 | 2 | [0.000, 0.645] |
+| INDEPENDENT | +1 | Slightly Positive | 0.2105 | 0.2978 | 11 | [-0.101, 0.827] |
+| BN | +1 | Slightly Positive | 0.1562 | 0.1645 | 21 | [-0.012, 0.562] |
+| PN | +1 | Slightly Positive | 0.1066 | 0.2006 | 8 | [0.000, 0.562] |
+| PH | +0 | Neutral | 0.0603 | 0.1438 | 22 | [-0.318, 0.353] |
+| BERSAMA | +0 | Neutral | 0.0580 | 0.0000 | 2 | [0.058, 0.058] |
+| GRS | +0 | Neutral | 0.0000 | 0.0000 | 1 | [0.000, 0.000] |
+| PEJUANG | +0 | Neutral | 0.0000 | 0.0000 | 4 | [0.000, 0.000] |
+
+### Coalition Entities
+- **WARISAN** (+2, Positive): WARISAN
+- **GPS** (+2, Positive): Abang Johari, GPS
+- **INDEPENDENT** (+1, Slightly Positive): Alyaa Alhadjri, B Nantha Kumar, Bridget Welsh, Hakim Danish, Isham Jalil, Massila Kamalrudin, Mohamad Armin, Mustapha, Qistina Nadia Dzulqarnain, Ridzuan Ahmad, Ts Dr Massila Kamalrudin
+- **BN** (+1, Slightly Positive): Abdul Razak, Ahmad Zahid, Ahmad Zahid Hamidi, Asyraf Wajdi Dusuki, Datuk Dr Asyraf Wajdi Dusuki, Datuk Seri Ramlan Harun, Datuk Zahari Sarip, Dr Ahmad Zahid Hamidi, Isham Ishak, Onn Abu Bakar, Onn Hafiz, Onn Hafiz Ghazi, Ramlan Harun, Tun Abdul Razak, Zahari Sarip, Zahid Hamidi, BN, Barisan Nasional, MCA, MIC, UMNO
+- **PN** (+1, Slightly Positive): Muhammad Sanusi Md Nor, Muhyiddin, Noraziah Mohd Razit, Sanusi, BERSATU, Bersatu, PAS, PN
+- **PH** (+0, Neutral): Amirudin Shari, Anthony Loke, Anthony Loke Siew Fook, Anwar, Anwar Ibrahim, Datuk Seri Amirudin Shari, Datuk Seri Anwar Ibrahim, Dzulkefly Ahmad, Hasnah Jusid, Maszlee Malik, Mat Sabu, Mohamad Sabu, Nurul Izzah, Nurul Izzah Anwar, PM Anwar, Rafizi, Syed Saddiq, AMANAH, DAP, MUDA, PH, Pakatan Harapan
+- **BERSAMA** (+0, Neutral): BERSAMA, Bersama
+- **GRS** (+0, Neutral): GRS
+- **PEJUANG** (+0, Neutral): Dr Mahathir Mohamad, Mahathir Mohamad, Tun Dr Mahathir Mohamad, Pejuang
+
+---
+
+## Sentiment Anomalies (|z-score| > 2)
+
+**26 anomalies detected.**
+
+| # | Entity | Type | Score | Label | Z-Score | Direction | Coalition | Mentions |
+|---|--------|------|:-----:|-------|:-------:|:---------:|-----------|:--------:|
+| 1 | Petronas | ORGANIZATION | +3 | Very Positive | 2.9554 | positive | N/A | 1 |
+| 2 | renewable energy | CONCEPT | +3 | Very Positive | 2.9278 | positive | N/A | 1 |
+| 3 | abortion | CONCEPT | -3 | Very Negative | -2.9168 | negative | N/A | 1 |
+| 4 | community pharmacies | CONCEPT | -3 | Very Negative | -2.9168 | negative | N/A | 1 |
+| 5 | Morocco | LOCATION | +3 | Very Positive | 2.8947 | positive | N/A | 1 |
+| 6 | semi-finals | EVENT | +3 | Very Positive | 2.8947 | positive | N/A | 1 |
+| 7 | oil and gas | CONCEPT | -3 | Very Negative | -2.6953 | negative | N/A | 1 |
+| 8 | AFP | ORGANIZATION | -3 | Very Negative | -2.6695 | negative | N/A | 4 |
+| 9 | Mustapha | PERSON | +3 | Very Positive | 2.6627 | positive | INDEPENDENT | 1 |
+| 10 | Datuk David Chong Ket Sui | PERSON | +3 | Very Positive | 2.6101 | positive | N/A | 1 |
+| 11 | David Chong Ket Sui | PERSON | +3 | Very Positive | 2.6101 | positive | N/A | 1 |
+| 12 | KPKM | ORGANIZATION | -3 | Very Negative | -2.5868 | negative | N/A | 1 |
+| 13 | budget cuts | CONCEPT | -3 | Very Negative | -2.5868 | negative | N/A | 1 |
+| 14 | fertiliser price | CONCEPT | -3 | Very Negative | -2.5868 | negative | N/A | 1 |
+| 15 | food subsidies | CONCEPT | -3 | Very Negative | -2.5868 | negative | N/A | 1 |
+| 16 | harm reduction | CONCEPT | -3 | Very Negative | -2.5868 | negative | N/A | 1 |
+| 17 | pork supply | CONCEPT | -3 | Very Negative | -2.5868 | negative | N/A | 1 |
+| 18 | Inanam | LOCATION | -2 | Negative | -2.4677 | negative | N/A | 1 |
+| 19 | Manggatal | LOCATION | -2 | Negative | -2.4677 | negative | N/A | 1 |
+| 20 | water supply | CONCEPT | -2 | Negative | -2.4677 | negative | N/A | 1 |
+| 21 | FMT | ORGANIZATION | +3 | Very Positive | 2.4601 | positive | N/A | 2 |
+| 22 | SOBA 2025 | EVENT | -2 | Negative | -2.3642 | negative | N/A | 1 |
+| 23 | DVS | ORGANIZATION | +3 | Very Positive | 2.1678 | positive | N/A | 1 |
+| 24 | Kulai | LOCATION | -2 | Negative | -2.1387 | negative | N/A | 3 |
+| 25 | Abang Johari | PERSON | +3 | Very Positive | 2.0023 | positive | GPS | 2 |
+| 26 | Mohamad Armin | PERSON | +3 | Very Positive | 2.0023 | positive | INDEPENDENT | 2 |
+
+---
+
+## Entity Sentiments by Type
+
+### PERSON
+
+| Entity | Score | Label | Raw Compound | Z-Score | Anomaly | Mentions | Coalition |
+|--------|:-----:|-------|:------------:|:-------:|:-------:|:--------:|-----------|
+| Mustapha | +3 | Very Positive | 0.8271 | 2.6627 | ⚠️ | 1 | INDEPENDENT |
+| Datuk David Chong Ket Sui | +3 | Very Positive | 0.8126 | 2.6101 | ⚠️ | 1 | — |
+| David Chong Ket Sui | +3 | Very Positive | 0.8126 | 2.6101 | ⚠️ | 1 | — |
+| Abang Johari | +3 | Very Positive | 0.6452 | 2.0023 | ⚠️ | 2 | GPS |
+| Mohamad Armin | +3 | Very Positive | 0.6452 | 2.0023 | ⚠️ | 2 | INDEPENDENT |
+| Datuk Mohd Arifin Mohd Arif | +2 | Positive | 0.5719 | 1.7361 |  | 1 | — |
+| Mohd Arifin Mohd Arif | +2 | Positive | 0.5719 | 1.7361 |  | 1 | — |
+| Datuk Zahari Sarip | +2 | Positive | 0.5622 | 1.7009 |  | 1 | BN |
+| Noraziah Mohd Razit | +2 | Positive | 0.5622 | 1.7009 |  | 1 | PN |
+| Zahari Sarip | +2 | Positive | 0.5622 | 1.7009 |  | 1 | BN |
+| Ampuan Afzan Hospital | +2 | Positive | 0.4333 | 1.2329 |  | 2 | — |
+| Amirudin Shari | +2 | Positive | 0.3196 | 0.8201 |  | 4 | PH |
+| Alyaa Alhadjri | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 1 | INDEPENDENT |
+| B Nantha Kumar | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 1 | INDEPENDENT |
+| Qistina Nadia Dzulqarnain | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 1 | INDEPENDENT |
+| Asyraf Wajdi Dusuki | +1 | Slightly Positive | 0.2556 | 0.5877 |  | 2 | BN |
+| Datuk Dr Asyraf Wajdi Dusuki | +1 | Slightly Positive | 0.2556 | 0.5877 |  | 2 | BN |
+| Dr Ahmad Zahid Hamidi | +1 | Slightly Positive | 0.2521 | 0.5750 |  | 6 | BN |
+| Datuk Seri | +1 | Slightly Positive | 0.2084 | 0.4163 |  | 10 | — |
+| Mat Sabu | +1 | Slightly Positive | 0.2023 | 0.3942 |  | 1 | PH |
+| Mohamad Sabu | +1 | Slightly Positive | 0.2023 | 0.3942 |  | 1 | PH |
+| Datuk Seri Amirudin Shari | +1 | Slightly Positive | 0.1906 | 0.3517 |  | 3 | PH |
+| Ahmad Zahid | +1 | Slightly Positive | 0.1891 | 0.3462 |  | 8 | BN |
+| Ahmad Zahid Hamidi | +1 | Slightly Positive | 0.1891 | 0.3462 |  | 8 | BN |
+| Zahid Hamidi | +1 | Slightly Positive | 0.1891 | 0.3462 |  | 8 | BN |
+| Datuk | +1 | Slightly Positive | 0.1681 | 0.2700 |  | 10 | — |
+| Onn Hafiz Ghazi | +1 | Slightly Positive | 0.1679 | 0.2693 |  | 9 | BN |
+| Maszlee Malik | +1 | Slightly Positive | 0.1144 | 0.0750 |  | 5 | PH |
+| Isham Jalil | +0 | Neutral | 0.0610 | -0.1189 |  | 4 | INDEPENDENT |
+| Onn Abu Bakar | +0 | Neutral | 0.0258 | -0.2467 |  | 1 | BN |
+| Anwar | +0 | Neutral | 0.0036 | -0.3273 |  | 10 | PH |
+| Abdul Razak | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | BN |
+| Anthony Loke | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PH |
+| Anthony Loke Siew Fook | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PH |
+| Anwar Ibrahim | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PH |
+| Bridget Welsh | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | INDEPENDENT |
+| Datuk Seri Anwar Ibrahim | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PH |
+| Datuk Seri Ramlan Harun | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | BN |
+| Dr Ismail Abd | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| Dr Mahathir Mohamad | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PEJUANG |
+| Dzulkefly Ahmad | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PH |
+| Hakim Danish | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | INDEPENDENT |
+| Isham Ishak | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | BN |
+| Mahathir Mohamad | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PEJUANG |
+| Massila Kamalrudin | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | INDEPENDENT |
+| Mohd Taha | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Muhammad Sanusi Md Nor | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PN |
+| Muhyiddin | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | PN |
+| Nurul Izzah | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | PH |
+| Nurul Izzah Anwar | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | PH |
+| PM Anwar | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | PH |
+| Ramlan Harun | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | BN |
+| Sanusi | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PN |
+| Syed Saddiq | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | PH |
+| Ts Dr Massila Kamalrudin | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | INDEPENDENT |
+| Tun Abdul Razak | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | BN |
+| Tun Dr Mahathir Mohamad | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PEJUANG |
+| Onn Hafiz | +0 | Neutral | -0.0123 | -0.3850 |  | 10 | BN |
+| Tun | +0 | Neutral | -0.0218 | -0.4195 |  | 10 | — |
+| Hasnah Jusid | +0 | Neutral | -0.0258 | -0.4340 |  | 2 | PH |
+| Ridzuan Ahmad | -1 | Slightly Negative | -0.1012 | -0.7078 |  | 2 | INDEPENDENT |
+| Rafizi | -2 | Negative | -0.3182 | -1.4957 |  | 1 | PH |
+
+### ORGANIZATION
+
+| Entity | Score | Label | Raw Compound | Z-Score | Anomaly | Mentions | Coalition |
+|--------|:-----:|-------|:------------:|:-------:|:-------:|:--------:|-----------|
+| Petronas | +3 | Very Positive | 0.9077 | 2.9554 | ⚠️ | 1 | — |
+| FMT | +3 | Very Positive | 0.7713 | 2.4601 | ⚠️ | 2 | — |
+| DVS | +3 | Very Positive | 0.6908 | 2.1678 | ⚠️ | 1 | — |
+| KWSP | +3 | Very Positive | 0.6441 | 1.9983 |  | 3 | — |
+| WARISAN | +2 | Positive | 0.5765 | 1.7528 |  | 3 | WARISAN |
+| Sultan Ahmad Shah Medical Centre | +2 | Positive | 0.4333 | 1.2329 |  | 2 | — |
+| Tengku Ampuan Afzan Hospital | +2 | Positive | 0.4333 | 1.2329 |  | 2 | — |
+| Daily Express | +2 | Positive | 0.3816 | 1.0452 |  | 2 | — |
+| Malay Mail | +2 | Positive | 0.3567 | 0.9548 |  | 2 | — |
+| AMANAH | +2 | Positive | 0.3533 | 0.9424 |  | 2 | PH |
+| SK hynix | +2 | Positive | 0.3132 | 0.7968 |  | 4 | — |
+| Malaysiakini | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 1 | — |
+| PAS | +1 | Slightly Positive | 0.2351 | 0.5132 |  | 10 | PN |
+| MOH | +1 | Slightly Positive | 0.2156 | 0.4424 |  | 10 | — |
+| ASEAN | +1 | Slightly Positive | 0.2087 | 0.4174 |  | 8 | — |
+| JKNS | +1 | Slightly Positive | 0.2023 | 0.3942 |  | 1 | — |
+| UMNO | +1 | Slightly Positive | 0.1909 | 0.3528 |  | 10 | BN |
+| AirBorneo | +1 | Slightly Positive | 0.1889 | 0.3455 |  | 5 | — |
+| Apple | +1 | Slightly Positive | 0.1842 | 0.3284 |  | 4 | — |
+| Boeing | +1 | Slightly Positive | 0.1681 | 0.2700 |  | 3 | — |
+| Bernama | +1 | Slightly Positive | 0.1676 | 0.2682 |  | 10 | — |
+| PH | +1 | Slightly Positive | 0.1636 | 0.2536 |  | 10 | PH |
+| Free Malaysia Today | +1 | Slightly Positive | 0.1532 | 0.2159 |  | 0 | — |
+| Barisan Nasional | +1 | Slightly Positive | 0.1512 | 0.2086 |  | 10 | BN |
+| BN | +1 | Slightly Positive | 0.1269 | 0.1204 |  | 10 | BN |
+| DAP | +1 | Slightly Positive | 0.1254 | 0.1149 |  | 10 | PH |
+| Sinar Harian | +1 | Slightly Positive | 0.1231 | 0.1066 |  | 2 | — |
+| MalaysiaGazette | +1 | Slightly Positive | 0.1227 | 0.1051 |  | 6 | — |
+| mStar | +1 | Slightly Positive | 0.1110 | 0.0627 |  | 10 | — |
+| MIC | +0 | Neutral | 0.0926 | -0.0041 |  | 10 | BN |
+| MCA | +0 | Neutral | 0.0823 | -0.0415 |  | 10 | BN |
+| MUDA | +0 | Neutral | 0.0743 | -0.0706 |  | 10 | PH |
+| The Edge Malaysia | +0 | Neutral | 0.0637 | -0.1091 |  | 2 | — |
+| MCMC | +0 | Neutral | 0.0589 | -0.1265 |  | 5 | — |
+| BERSAMA | +0 | Neutral | 0.0580 | -0.1298 |  | 10 | BERSAMA |
+| Bersama | +0 | Neutral | 0.0580 | -0.1298 |  | 10 | BERSAMA |
+| EC | +0 | Neutral | 0.0543 | -0.1432 |  | 10 | — |
+| SPR | +0 | Neutral | 0.0339 | -0.2173 |  | 10 | — |
+| BURSA | +0 | Neutral | 0.0306 | -0.2293 |  | 5 | — |
+| BERSATU | +0 | Neutral | 0.0199 | -0.2681 |  | 10 | PN |
+| Bersatu | +0 | Neutral | 0.0199 | -0.2681 |  | 10 | PN |
+| PN | +0 | Neutral | 0.0153 | -0.2848 |  | 10 | PN |
+| BERSIH | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Bursa Malaysia | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | — |
+| Dewan Rakyat | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| FIFA | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | — |
+| GPS | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | GPS |
+| GRS | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | GRS |
+| Grab | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| HTAR Klang | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| Kosmo | +0 | Neutral | 0.0000 | -0.3404 |  | 4 | — |
+| Media Mulia | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | — |
+| Pejuang | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | PEJUANG |
+| World of Buzz | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| NST | +0 | Neutral | -0.0029 | -0.3509 |  | 10 | — |
+| OpenAI | +0 | Neutral | -0.0095 | -0.3749 |  | 3 | — |
+| CHT | +0 | Neutral | -0.0258 | -0.4340 |  | 2 | — |
+| Pakatan Harapan | +0 | Neutral | -0.0783 | -0.6247 |  | 10 | PH |
+| Election Commission | +0 | Neutral | -0.0899 | -0.6668 |  | 4 | — |
+| DUN | -1 | Slightly Negative | -0.1159 | -0.7612 |  | 10 | — |
+| MACC | -1 | Slightly Negative | -0.1457 | -0.8694 |  | 2 | — |
+| TikTok | -1 | Slightly Negative | -0.1481 | -0.8781 |  | 7 | — |
+| Parliament | -1 | Slightly Negative | -0.1531 | -0.8962 |  | 1 | — |
+| Tropicana | -1 | Slightly Negative | -0.2541 | -1.2630 |  | 5 | — |
+| Spotify | -2 | Negative | -0.4139 | -1.8432 |  | 5 | — |
+| KPKM | -3 | Very Negative | -0.6187 | -2.5868 | ⚠️ | 1 | — |
+| AFP | -3 | Very Negative | -0.6415 | -2.6695 | ⚠️ | 4 | — |
+
+### LOCATION
+
+| Entity | Score | Label | Raw Compound | Z-Score | Anomaly | Mentions | Coalition |
+|--------|:-----:|-------|:------------:|:-------:|:-------:|:--------:|-----------|
+| Morocco | +3 | Very Positive | 0.8910 | 2.8947 | ⚠️ | 1 | — |
+| Jementah | +2 | Positive | 0.5622 | 1.7009 |  | 1 | — |
+| Banting | +2 | Positive | 0.5567 | 1.6809 |  | 4 | — |
+| Thailand | +2 | Positive | 0.5217 | 1.5538 |  | 3 | — |
+| United States | +2 | Positive | 0.4535 | 1.3062 |  | 9 | — |
+| France | +2 | Positive | 0.4455 | 1.2772 |  | 2 | — |
+| Sultan Ahmad Shah | +2 | Positive | 0.4333 | 1.2329 |  | 2 | — |
+| Wall Street | +2 | Positive | 0.4176 | 1.1759 |  | 3 | — |
+| Miri | +2 | Positive | 0.4063 | 1.1348 |  | 2 | — |
+| Russia | +2 | Positive | 0.4006 | 1.1142 |  | 2 | — |
+| Japan | +2 | Positive | 0.3365 | 0.8814 |  | 7 | — |
+| Skudai | +2 | Positive | 0.3344 | 0.8738 |  | 5 | — |
+| Tawau | +2 | Positive | 0.3313 | 0.8625 |  | 4 | — |
+| Likas | +2 | Positive | 0.3037 | 0.7623 |  | 2 | — |
+| Taiwan | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 8 | — |
+| Sabah | +1 | Slightly Positive | 0.2871 | 0.7021 |  | 10 | — |
+| Penampang | +1 | Slightly Positive | 0.2859 | 0.6977 |  | 4 | — |
+| Buloh Kasap | +1 | Slightly Positive | 0.2811 | 0.6803 |  | 2 | — |
+| Johor Bahru | +1 | Slightly Positive | 0.2625 | 0.6127 |  | 10 | — |
+| Kuching | +1 | Slightly Positive | 0.2622 | 0.6116 |  | 7 | — |
+| Argentina | +1 | Slightly Positive | 0.2483 | 0.5612 |  | 6 | — |
+| Pasir Puteh | +1 | Slightly Positive | 0.2470 | 0.5565 |  | 2 | — |
+| Sarawak | +1 | Slightly Positive | 0.2237 | 0.4719 |  | 10 | — |
+| Indonesia | +1 | Slightly Positive | 0.2154 | 0.4417 |  | 10 | — |
+| Kota Kinabalu | +1 | Slightly Positive | 0.2047 | 0.4029 |  | 6 | — |
+| West Asia | +1 | Slightly Positive | 0.2023 | 0.3942 |  | 1 | — |
+| Melaka | +1 | Slightly Positive | 0.1906 | 0.3517 |  | 3 | — |
+| Penang | +1 | Slightly Positive | 0.1820 | 0.3205 |  | 3 | — |
+| Dewan Inderapura | +1 | Slightly Positive | 0.1817 | 0.3194 |  | 5 | — |
+| Kuala Lumpur | +1 | Slightly Positive | 0.1642 | 0.2558 |  | 10 | — |
+| Sandakan | +1 | Slightly Positive | 0.1580 | 0.2333 |  | 4 | — |
+| China | +1 | Slightly Positive | 0.1516 | 0.2101 |  | 10 | — |
+| Simpang Renggam | +1 | Slightly Positive | 0.1389 | 0.1640 |  | 7 | — |
+| Malaysia | +1 | Slightly Positive | 0.1225 | 0.1044 |  | 10 | — |
+| Machap | +1 | Slightly Positive | 0.1033 | 0.0347 |  | 10 | — |
+| Johor | +1 | Slightly Positive | 0.1003 | 0.0238 |  | 10 | — |
+| Bukit Naning | +0 | Neutral | 0.0987 | 0.0180 |  | 3 | — |
+| Perlis | +0 | Neutral | 0.0981 | 0.0158 |  | 3 | — |
+| England | +0 | Neutral | 0.0934 | -0.0012 |  | 5 | — |
+| Norway | +0 | Neutral | 0.0934 | -0.0012 |  | 5 | — |
+| Bentayan | +0 | Neutral | 0.0873 | -0.0234 |  | 7 | — |
+| Muar | +0 | Neutral | 0.0740 | -0.0717 |  | 4 | — |
+| Puteri Wangsa | +0 | Neutral | 0.0489 | -0.1628 |  | 9 | — |
+| Middle East | +0 | Neutral | 0.0383 | -0.2013 |  | 3 | — |
+| Selangor | +0 | Neutral | 0.0383 | -0.2013 |  | 4 | — |
+| Senggarang | +0 | Neutral | 0.0258 | -0.2467 |  | 1 | — |
+| Bangunan Sultan Ismail | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Batu Pahat | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Beluran | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Bintulu | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Boston | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| Czech | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Endau | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Kedah | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Kelantan | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Kempas | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Kota Iskandar | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Kota Tinggi | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Kuala Selangor | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Kudat | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Mersing | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Myanmar | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| N01 | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| N24 | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| N41 | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| Negeri Sembilan | +0 | Neutral | 0.0000 | -0.3404 |  | 4 | — |
+| Pahang | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Perak | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Petaling Jaya | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | — |
+| Pontian | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Putatan | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Putrajaya | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | — |
+| Segamat | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Sekinchan | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Semporna | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Spain | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Sultan Ismail | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Tambunan | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Tenom | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Terengganu | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| Tiram | +0 | Neutral | 0.0000 | -0.3404 |  | 3 | — |
+| Iran | +0 | Neutral | -0.0071 | -0.3661 |  | 10 | — |
+| Bangladesh | +0 | Neutral | -0.0129 | -0.3872 |  | 2 | — |
+| Strait of Hormuz | +0 | Neutral | -0.0510 | -0.5255 |  | 3 | — |
+| Vietnam | +0 | Neutral | -0.0819 | -0.6377 |  | 7 | — |
+| Singapore | -1 | Slightly Negative | -0.2159 | -1.1243 |  | 10 | — |
+| Lahad Datu | -1 | Slightly Negative | -0.2929 | -1.4038 |  | 2 | — |
+| Kulai | -2 | Negative | -0.4953 | -2.1387 | ⚠️ | 3 | — |
+| Inanam | -2 | Negative | -0.5859 | -2.4677 | ⚠️ | 1 | — |
+| Manggatal | -2 | Negative | -0.5859 | -2.4677 | ⚠️ | 1 | — |
+
+### EVENT
+
+| Entity | Score | Label | Raw Compound | Z-Score | Anomaly | Mentions | Coalition |
+|--------|:-----:|-------|:------------:|:-------:|:-------:|:--------:|-----------|
+| semi-finals | +3 | Very Positive | 0.8910 | 2.8947 | ⚠️ | 1 | — |
+| Johor State Election Results | +2 | Positive | 0.5719 | 1.7361 |  | 1 | — |
+| majlis | +2 | Positive | 0.3348 | 0.8752 |  | 2 | — |
+| press conference | +1 | Slightly Positive | 0.2804 | 0.6777 |  | 6 | — |
+| Johor election | +1 | Slightly Positive | 0.2689 | 0.6360 |  | 9 | — |
+| State Polls 2026 | +1 | Slightly Positive | 0.2375 | 0.5220 |  | 3 | — |
+| World Cup | +1 | Slightly Positive | 0.1860 | 0.3350 |  | 10 | — |
+| Typhoon Bavi | +1 | Slightly Positive | 0.1815 | 0.3186 |  | 9 | — |
+| campaign | +1 | Slightly Positive | 0.1789 | 0.3092 |  | 3 | — |
+| WAN IFRA ASIA MEDIA AWARDS 2025 | +1 | Slightly Positive | 0.1730 | 0.2878 |  | 0 | — |
+| Johor Polls | +1 | Slightly Positive | 0.1707 | 0.2794 |  | 10 | — |
+| DUN Johor | +1 | Slightly Positive | 0.1339 | 0.1458 |  | 5 | — |
+| election | +0 | Neutral | 0.0769 | -0.0612 |  | 10 | — |
+| PRN Johor | +0 | Neutral | 0.0707 | -0.0837 |  | 10 | — |
+| pilihan raya | +0 | Neutral | 0.0633 | -0.1105 |  | 10 | — |
+| pilihan raya negeri | +0 | Neutral | 0.0633 | -0.1105 |  | 10 | — |
+| quarter-final | +0 | Neutral | 0.0633 | -0.1105 |  | 6 | — |
+| 2026 Elections | +0 | Neutral | 0.0383 | -0.2013 |  | 4 | — |
+| Johor Polls 2026 | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| Pilihan Raya Negeri Johor | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| kempen | +0 | Neutral | 0.0000 | -0.3404 |  | 2 | — |
+| sidang akhbar | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| walkabout | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| CHT Lifetime Achievement Award | +0 | Neutral | -0.0516 | -0.5277 |  | 1 | — |
+| state election | +0 | Neutral | -0.0568 | -0.5466 |  | 10 | — |
+| Johor State Election | +0 | Neutral | -0.0594 | -0.5560 |  | 10 | — |
+| Piala Dunia | +0 | Neutral | -0.0927 | -0.6769 |  | 7 | — |
+| event | -1 | Slightly Negative | -0.1042 | -0.7187 |  | 10 | — |
+| rally | -1 | Slightly Negative | -0.2492 | -1.2452 |  | 5 | — |
+| SOBA 2025 | -2 | Negative | -0.5574 | -2.3642 | ⚠️ | 1 | — |
+
+### CONCEPT
+
+| Entity | Score | Label | Raw Compound | Z-Score | Anomaly | Mentions | Coalition |
+|--------|:-----:|-------|:------------:|:-------:|:-------:|:--------:|-----------|
+| renewable energy | +3 | Very Positive | 0.9001 | 2.9278 | ⚠️ | 1 | — |
+| copyright | +2 | Positive | 0.3798 | 1.0386 |  | 10 | — |
+| subsidised diesel | +2 | Positive | 0.3612 | 0.9711 |  | 1 | — |
+| politics of hatred | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 1 | — |
+| racism | +1 | Slightly Positive | 0.2944 | 0.7286 |  | 1 | — |
+| anti-corruption | +1 | Slightly Positive | 0.2166 | 0.4461 |  | 4 | — |
+| doctor shortage | +1 | Slightly Positive | 0.2023 | 0.3942 |  | 1 | — |
+| health insurance | +1 | Slightly Positive | 0.2023 | 0.3942 |  | 1 | — |
+| simple majority | +1 | Slightly Positive | 0.1845 | 0.3295 |  | 4 | — |
+| turnout | +1 | Slightly Positive | 0.1684 | 0.2711 |  | 10 | — |
+| voter turnout | +1 | Slightly Positive | 0.1313 | 0.1364 |  | 3 | — |
+| TVET | +1 | Slightly Positive | 0.1144 | 0.0750 |  | 5 | — |
+| deposits | +1 | Slightly Positive | 0.1067 | 0.0470 |  | 4 | — |
+| AI | +0 | Neutral | 0.0225 | -0.2587 |  | 10 | — |
+| 56 seats | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| MADANI | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| artificial intelligence | +0 | Neutral | 0.0000 | -0.3404 |  | 1 | — |
+| transport | +0 | Neutral | 0.0000 | -0.3404 |  | 0 | — |
+| mandate | +0 | Neutral | -0.0387 | -0.4809 |  | 2 | — |
+| two-thirds majority | +0 | Neutral | -0.0516 | -0.5277 |  | 1 | — |
+| emergency triage | -1 | Slightly Negative | -0.2536 | -1.2611 |  | 2 | — |
+| MHIT | -1 | Slightly Negative | -0.2960 | -1.4151 |  | 1 | — |
+| MediAsas | -1 | Slightly Negative | -0.2960 | -1.4151 |  | 1 | — |
+| water supply | -2 | Negative | -0.5859 | -2.4677 | ⚠️ | 1 | — |
+| budget cuts | -3 | Very Negative | -0.6187 | -2.5868 | ⚠️ | 1 | — |
+| fertiliser price | -3 | Very Negative | -0.6187 | -2.5868 | ⚠️ | 1 | — |
+| food subsidies | -3 | Very Negative | -0.6187 | -2.5868 | ⚠️ | 1 | — |
+| harm reduction | -3 | Very Negative | -0.6187 | -2.5868 | ⚠️ | 1 | — |
+| pork supply | -3 | Very Negative | -0.6187 | -2.5868 | ⚠️ | 1 | — |
+| oil and gas | -3 | Very Negative | -0.6486 | -2.6953 | ⚠️ | 1 | — |
+| abortion | -3 | Very Negative | -0.7096 | -2.9168 | ⚠️ | 1 | — |
+| community pharmacies | -3 | Very Negative | -0.7096 | -2.9168 | ⚠️ | 1 | — |
+
+---
+
+## Methodology
+
+1. **Entity Source:** Loaded from the latest entity extraction cycle (2026-07-11T235427Z)
+2. **Context Extraction:** For each entity, searched raw source article texts for sentences containing entity mentions
+3. **Sentiment Scoring:** Applied VADER (Valence Aware Dictionary and sEntiment Reasoner) to each context snippet
+4. **Score Mapping:** VADER compound scores (-1 to +1) mapped to 7-point Likert scale (-3 to +3):
+   - +3: Very Positive (compound ≥ 0.6)
+   - +2: Positive (compound ≥ 0.3)
+   - +1: Slightly Positive (compound ≥ 0.1)
+   - 0: Neutral (-0.1 < compound < 0.1)
+   - -1: Slightly Negative (compound > -0.3)
+   - -2: Negative (compound > -0.6)
+   - -3: Very Negative (compound ≤ -0.6)
+5. **Anomaly Detection:** Z-score calculated using overall mean and standard deviation of raw compound scores
+6. **Coalition Aggregation:** Entities mapped to coalitions via organization/figure affiliation mappings
+
+---
+
+*Report generated by OpenCLaw Sentiment Analysis Pipeline*
+*VADER: Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text.*
