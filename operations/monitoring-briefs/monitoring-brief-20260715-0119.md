@@ -1,6 +1,6 @@
-# VoronDRQ Prospect Monitor - Brief 2026-07-15 01:19 UTC
+# VoronDRQ Prospect Monitor - Brief 2026-07-15 09:19 MYT
 
-Source: prospect-database-enriched-v3.8.csv (commit 8bd5f8b, 2026-07-14 20:18 UTC)
+Source: prospect-database-enriched-v3.8.csv (commit 8bd5f8b, 2026-07-14 04:18 MYT)
 Prev basis: v3.7 (commit bf8ecd9, brief 2026-07-14 19:14)
 URL note: prospects/prospect-database-7stakeholders.csv still 404 - repo restructured to root; root-level seed is un-enriched (205 prospects, all-empty stakeholder cells). Canonical enriched DB tracked in local workspace git. Remote root seed fetched OK (21159 bytes, 205 rows).
 

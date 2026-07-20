@@ -1,10 +1,10 @@
 # VoronDRQ Prospect Database Monitor — Intelligence Brief
-**Run:** 2026-07-18 03:07 UTC | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit cfcbc96, v5.4)
-**Prev run:** 2026-07-17 21:05 UTC (commit 5f6c048, v5.3 fix2) | **Classification:** TLP:AMBER
+**Run:** 2026-07-18 11:07 MYT | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit cfcbc96, v5.4)
+**Prev run:** 2026-07-17 05:05 MYT (commit 5f6c048, v5.3 fix2) | **Classification:** TLP:AMBER
 **Source note:** Task URL `prospects/...` still 404 — canonical CSV lives at repo ROOT, fetched via git (known issue).
 
 ## Headline
-v5.4 enrichment landed (commit 00:39 UTC, ~4h after last check): **+35 stakeholder contact cells across 8 institutions** (5 GLC-Linked, 3 MSBs), all driven from empty (0/7). **Headline win: KWSP/EPF Investment Division — 3 sub-division rows driven to full 7/7** from the official kwsp.gov.my org chart (conf 98), the first Malaysian government institution with all 7 target roles confirmed from an official source, **including the rare CISO**. Enrichment rate **+3.9pp to 62.4%**; cell-fill **+2.5pp to 42.2%**; fully-enriched **33 to 36**. **CFO crossed 50%** (now 51.7%, biggest gainer +8). **No new institutions, no Tier-1 changes.** Phantom row persists.
+v5.4 enrichment landed (commit 08:39 MYT, ~4h after last check): **+35 stakeholder contact cells across 8 institutions** (5 GLC-Linked, 3 MSBs), all driven from empty (0/7). **Headline win: KWSP/EPF Investment Division — 3 sub-division rows driven to full 7/7** from the official kwsp.gov.my org chart (conf 98), the first Malaysian government institution with all 7 target roles confirmed from an official source, **including the rare CISO**. Enrichment rate **+3.9pp to 62.4%**; cell-fill **+2.5pp to 42.2%**; fully-enriched **33 to 36**. **CFO crossed 50%** (now 51.7%, biggest gainer +8). **No new institutions, no Tier-1 changes.** Phantom row persists.
 
 ## 1. Database size & composition (unchanged)
 - **205 real institutions** (+1 phantom junk row persists -> raw 206). **0 added, 0 removed.**

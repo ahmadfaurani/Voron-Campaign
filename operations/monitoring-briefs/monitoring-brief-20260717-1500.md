@@ -1,9 +1,9 @@
 # VoronDRQ Prospect Database Monitor — Intelligence Brief
-**Run:** 2026-07-17 15:00 UTC | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit 203f95e, v5.1)
-**Prev run:** 2026-07-17 07:55 UTC (commit 659f4ac, v5.0) | **Classification:** TLP:AMBER
+**Run:** 2026-07-17 23:00 MYT | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit 203f95e, v5.1)
+**Prev run:** 2026-07-17 15:55 MYT (commit 659f4ac, v5.0) | **Classification:** TLP:AMBER
 
 ## Headline
-v5.1 enrichment landed (commit 12:59 UTC): **+14 stakeholder contacts across 8 Tier-2 Insurer/Takaful institutions**, driven by the newly-tapped **Malaysian Insurance Directory 2025/2026** (Malaysian RE Corp, conf 85–90). No new institutions, no Tier-1 changes, no new fully-enriched. Cell-fill rate +1.0pp to **39.0%**; enrichment rate holds **58.0%**. **CRO was the biggest gainer (+7)** — now tied #2 for role completion.
+v5.1 enrichment landed (commit 20:59 MYT): **+14 stakeholder contacts across 8 Tier-2 Insurer/Takaful institutions**, driven by the newly-tapped **Malaysian Insurance Directory 2025/2026** (Malaysian RE Corp, conf 85–90). No new institutions, no Tier-1 changes, no new fully-enriched. Cell-fill rate +1.0pp to **39.0%**; enrichment rate holds **58.0%**. **CRO was the biggest gainer (+7)** — now tied #2 for role completion.
 
 ## 1. Database size & composition (unchanged)
 - **205 real institutions** (+1 phantom junk row persists → raw 206). **0 added, 0 removed.**

@@ -1,6 +1,6 @@
 # VoronDRQ Prospect Database Monitor - Intelligence Brief
-**Run:** 2026-07-16 07:40 UTC | **Source:** prospect-database-enriched-v4.5.csv (repo HEAD e9a417d)
-**Prev run:** 2026-07-16 01:40 UTC, commit b9a0b2c (v4.2 CSV) | **Classification:** TLP:AMBER
+**Run:** 2026-07-16 15:40 MYT | **Source:** prospect-database-enriched-v4.5.csv (repo HEAD e9a417d)
+**Prev run:** 2026-07-16 09:40 MYT, commit b9a0b2c (v4.2 CSV) | **Classification:** TLP:AMBER
 
 ## 1. Database size and composition
 - **205 institutions** (206 rows minus 1 ghost row from Sun Life CSV quoting corruption)

@@ -1,6 +1,6 @@
 # VoronDRQ Prospect Database Monitor — Intelligence Brief
-**Run:** 2026-07-17 07:55 UTC | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit 659f4ac, v5.0)
-**Prev run:** 2026-07-17 01:53 UTC (reported root v4.6 metrics = 531 cells, 31 full) | **Classification:** TLP:AMBER
+**Run:** 2026-07-17 15:55 MYT | **Source:** prospect-database-7stakeholders.csv (repo ROOT, commit 659f4ac, v5.0)
+**Prev run:** 2026-07-17 09:53 MYT (reported root v4.6 metrics = 531 cells, 31 full) | **Classification:** TLP:AMBER
 
 ## 1. Database size and composition
 - **205 real institutions** (UNCHANGED — 0 new, 0 removed). +1 phantom junk row (Sun Life CEO unescaped-quote fragment, line 182) inflates raw count to 206 — REGRESSION: phantom migrated into canonical root.
@@ -16,7 +16,7 @@
 - CISO count DROPPED 59 to 57 — misfiled-CEO cleanups (Manulife Insurance, Manulife Takaful, Tokio Marine CEOs removed from CISO col). More ACCURATE now.
 
 ## 3. Changes since last check (v4.6 root -> v5.0 root, merge +10 new roles)
-The v5.0 commit (04:58 UTC) merged the v4.7/v4.9 working copies into canonical root AND added 10 genuinely new roles. Working-copy changes previously narrated (Deutsche CFO, TEKUN +5, Takaful IKHLAS +2, Bank Rakyat CISO, MARA CIO, QBE GRC) are now in root — metrics authoritative.
+The v5.0 commit (12:58 MYT) merged the v4.7/v4.9 working copies into canonical root AND added 10 genuinely new roles. Working-copy changes previously narrated (Deutsche CFO, TEKUN +5, Takaful IKHLAS +2, Bank Rakyat CISO, MARA CIO, QBE GRC) are now in root — metrics authoritative.
 
 ### NEWLY FULLY ENRICHED (reached 7/7)
 - **Lonpac Insurance Bhd (T2, Insurers) 5->7/7** +CFO Ng Seng Khin (Group CFO, LPI Capital official, HIGH-90) +IA Irene Hwang Siew Ling (Group Chief Internal Auditor, LPI Capital official, HIGH-90). FIRST INSURER to achieve full 7-role coverage.
@@ -35,7 +35,7 @@ The v5.0 commit (04:58 UTC) merged the v4.7/v4.9 working copies into canonical r
 ### New institutions added
 **None.** Roster unchanged at 205 (real).
 
-## 4. Today's email-verification run (06:13 UTC, separate cron)
+## 4. Today's email-verification run (14:13 MYT, separate cron)
 8 Tier-1 banks scanned, 56 role-based emails tested, 9 verified (16% rate):
 - Maybank 3/7 (ciso, grc, internal.audit verified), CIMB 2/7 (ciso, grc), AmBank 1/7 (compliance), Bank Islam 1/7 (risk), OCBC 1/7 (compliance), UOB 1/7 (compliance)
 - Hong Leong + RHB: 0/7 verified — both DMARC NON-COMPLIANT (RMiT violation hook)
