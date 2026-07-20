@@ -1,0 +1,39 @@
+=== Step 1: search-dorks-live (incident/breach search) ===
+[*] Live dork search: ServiceNow security incident OR ServiceNow breach OR ServiceNow vulnerability OR ServiceNow outage OR ServiceNow GRC exploit
+============================================================
+======================= SCAN RESULTS =======================
+============================================================
+Scan error: BRIGHTDATA_API_KEY environment variable is not set. A free tier (5,000 requests/month) is available — sign up at https://get.brightdata.com/984ni58s2oad?utm_source=github&utm_medium=cli
+============================================================
+
+=== Step 2: github servicenow scan ===
+[*] GitHub lookup: servicenow
+============================================================
+======================= SCAN RESULTS =======================
+============================================================
+[GitHub] Login: ServiceNow
+[GitHub] Name: ServiceNow
+[GitHub] Bio: Works for you™
+[GitHub] Location: N/A
+[GitHub] Company: N/A
+[GitHub] Email (profile): N/A
+[GitHub] Followers: 1073  |  Following: 0
+[GitHub] Public repos: 272  |  Gists: 0
+[GitHub] Account type: Organization
+[GitHub] Created: 2014-02-03T18:00:24Z
+[GitHub] Profile URL: https://github.com/ServiceNow
+
+[GitHub] Recent repositories (up to 10):
+  • eva [Python] ★182 — A New End-to-end Framework for Evaluating Voice Agents
+  • WorkArena [Python] ★259 — WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?
+  • BrowserGym [Python] ★1283 — 🌎💪 BrowserGym, a Gym environment for web task automation
+  • sdk [Shell] ★101 — Fluent SDK
+  • SynthDocBench [Python] ★6
+  • Fast-LLM [Python] ★327 — Accelerating your LLM training to full speed! Made with ❤️ by ServiceNow Researc
+  • AU-Harness [Python] ★66 — A comprehensive framework to test audio comprehension of Large Audio Language Mo
+  • webarena-verified [Python] ★44 — A verified version of the WebArena Benchmark
+  • NOWAI-Bench [unknown] ★1
+  • ServiceNowDocs [unknown] ★402 — ServiceNow AI Platform documentation for LLM consumption.
+============================================================
+
+=== END ===
