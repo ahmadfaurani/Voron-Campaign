@@ -17,7 +17,7 @@ import os
 import re
 import sys
 import yaml
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
 from pathlib import Path
 
@@ -645,7 +645,7 @@ def main():
         return
 
     # Build output matching established format
-    extraction_timestamp = datetime.utcnow().isoformat() + "Z"
+    extraction_timestamp = datetime.now(timezone(timedelta(hours=8))).isoformat() + "Z"
     collection_file = f"{timestamp}_political_collection_25sources_OPERATIONAL.json"
 
     entity_counts = {k: len(v) for k, v in results["entities"].items()}
