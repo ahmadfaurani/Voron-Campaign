@@ -1,5 +1,5 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
-**Generated:** 2026-07-12 12:35 MYT (Sunday)
+**Generated:** 2026-07-19 04:56 MYT (Sunday)
 **Cycle:** Post-Polling Day — PRN Johor Ke-16 (Polling Day: 11 July 2026)
 **Classification:** TLP:AMBER
 **Monitor Agent:** Top Policing Publications Monitor

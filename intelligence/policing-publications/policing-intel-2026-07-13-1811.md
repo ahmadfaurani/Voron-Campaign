@@ -1,5 +1,5 @@
 # POLICING PUBLICATIONS INTELLIGENCE REPORT
-**Generated:** 2026-07-13 18:11 MYT
+**Generated:** 2026-07-19 04:56 MYT
 **Classification:** TLP:AMBER
 **Subject:** PRN Johor 2026 — Post-Polling Day Policing & Security Assessment
 **Polling Day:** 11 July 2026 (Saturday)

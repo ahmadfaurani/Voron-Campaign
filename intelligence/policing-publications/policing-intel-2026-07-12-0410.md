@@ -1,5 +1,5 @@
 # POLICING PUBLICATIONS MONITOR — INTELLIGENCE FILE
-**Generated:** 2026-07-12 04:10 MYT (Post-Polling Day cycle)
+**Generated:** 2026-07-19 04:56 MYT (Post-Polling Day cycle)
 **Classification:** TLP:AMBER
 **Monitor:** Top Policing Publications Monitor — PRN Johor 2026 Polling Day Operations
 **Election context:** PRN Johor Ke-16 polling day was Saturday 11 July 2026; this cycle captures the day-after landscape (results + post-poll policing).

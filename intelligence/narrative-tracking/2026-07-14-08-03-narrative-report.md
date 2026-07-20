@@ -1,6 +1,6 @@
 # NARRATIVE TRACKING REPORT
 **Classification:** TLP:AMBER — Internal Operational Use
-**Generated:** 2026-07-14 16:03 MYT
+**Generated:** 2026-07-19 04:56 MYT
 **Collection Cycle:** 3 of 6 (Operational Hours)
 **Rolling Window:** 7 days
 **Analysis Mode:** Automated Narrative Tracking
