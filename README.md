@@ -2,43 +2,61 @@
 
 **Classification:** TLP:AMBER  
 **HCR:** HCR-072  
-**Purpose:** VoronDRQ commercial GRC intelligence — stakeholder mapping, prospect database, and campaign operations for Malaysian financial institutions.
+**Purpose:** VoronDRQ commercial GRC intelligence — stakeholder mapping, prospect database, and campaign operations for Malaysian financial institutions. Data collection to enable a successful marketing outreach campaign targeting key GRC stakeholders within Malaysia's compliance-driven financial institution landscape.
 
 ## Repository Structure
 
 ```
 Voron-Campaign/
-├── voron/                         # Campaign operations
-│   ├── campaign-operations-manual.md
-│   ├── collateral/                # Battle cards, email templates, RMIT checklist
-│   ├── prospects/                 # Prospect databases (v1.6 → v2.8 enriched)
-│   ├── scripts/                   # Enrichment & update scripts
-│   └── collected-pages/           # Scraped stakeholder pages
-├── stakeholders/                  # Bank stakeholder profiles (50 files)
-│   ├── *-stakeholders-*.md        # Per-bank leadership dossiers
-│   ├── prospect-database-*.csv    # Versioned prospect databases
-│   └── CAMPAIGN-STATUS-*.md       # Campaign status reports
-├── voron-stakeholders/            # Latest enriched prospect database
-│   └── prospect-database-enriched-v2.8.csv
-└── email-to-head-of-solution*.md  # Commercial outreach templates
+├── campaign-operations-manual.md          # 90-day execution playbook
+├── prospects/
+│   └── prospect-database-250.csv          # Full account database with contacts
+├── collateral/
+│   ├── email-templates.md                 # Email templates for all tiers
+│   ├── battle-cards.md                    # Competitor battle cards
+│   └── rmit-compliance-checklist.md       # Customer-facing RMiT guide
+├── operations/                            # All cronjob operational files (audit trail)
+│   ├── enrichment-reports/                # Enrichment cycle reports (v3.0→v5.15)
+│   ├── monitoring-briefs/                 # Prospect database monitor briefs
+│   ├── daily-enrichment/                   # Daily enrichment JSONL + summaries
+│   ├── stakeholder-profiles/              # Per-bank leadership dossiers + session reports
+│   ├── prospect-databases/                # Versioned prospect database CSVs (full history)
+│   ├── analysis/                          # Diff analysis JSONs
+│   ├── state-snapshots/                    # State snapshots + commit logs
+│   ├── scripts/                           # Enrichment & update scripts
+│   ├── collected-pages/                    # Scraped stakeholder pages
+│   ├── email-drafts/                       # Commercial outreach email drafts
+│   └── STATUS.md                          # Campaign status
+├── HCR-REGISTRY.md                        # Hermes Created Repo registry
+└── LICENSE
 ```
 
-## Split History
+## Campaign Deployment Files
 
-This repo was previously a monorepo (`hoi-intelligence-ops`) containing 538 files across 11 components. On 2026-07-13, it was split into 7 workstream repos:
+The GitHub repository contains all campaign collateral ready for deployment:
 
-| Target Repo | HCR | Files | Content |
-|-------------|-----|-------|---------|
-| Voron-Campaign (this repo) | HCR-072 | 81 | VoronDRQ stakeholder + prospect data |
-| hoi-intelligence-ops | HCR-094 | 226 | Core pipeline (scripts, config, intelligence briefs) |
-| gov-intel | HCR-093 | 170 | Tier2 gov agency profiles + budget intel |
-| pdrm-io | HCR-092 | 30 | PDRM information operations |
-| cyber-intel | HCR-091 | 10 | Cybersecurity intel briefs |
-| PRN-Johor-2026-H | existing | 15 | Constituency analysis (absorbed) |
-| malaysia-journalist-registry | existing | 5 | Media intel files (absorbed) |
+| File | Description |
+|------|-------------|
+| `prospects/prospect-database-250.csv` | Full account database with contacts |
+| `collateral/email-templates.md` | Email templates for all tiers |
+| `collateral/battle-cards.md` | Competitor battle cards |
+| `collateral/rmit-compliance-checklist.md` | Customer-facing RMiT guide |
+| `campaign-operations-manual.md` | 90-day execution playbook |
+
+## Operations Audit Trail
+
+All cronjob operational files are filed under `operations/` to enable audit checks of the data collection pipeline. This includes enrichment reports, monitoring briefs, daily enrichment logs, stakeholder profiles, versioned databases, analysis snapshots, and scripts.
 
 ## Prospect Database
 
-Current version: **v2.8** — 205 institutions, 96 enriched (46.8% activation rate).
+Current version: **v5.15** — 205 institutions, enriched with GRC stakeholder contacts.
 
-Daily enrichment runs via Hermes cron job. See `voron/scripts/` for enrichment pipeline.
+Daily enrichment runs via Hermes cron job. See `operations/scripts/` for enrichment pipeline.
+
+## Git Contamination Prevention
+
+This repo uses a scoped `.gitignore` that explicitly blocks non-Voron directories and file types. The Git Sync script uses scoped `git add` (not `git add -A`) to prevent crossover from other workstreams sharing the parent workspace.
+
+## Split History
+
+This repo was previously a monorepo (`hoi-intelligence-ops`) containing 538 files across 11 components. On 2026-07-13, it was split into 7 workstream repos. On 2026-07-20, 108 crossover files from unrelated workstreams (PRN Johor, PDRM, Weststar-RTI) were cleaned out and migrated to their respective repos.

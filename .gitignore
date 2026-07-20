@@ -1,142 +1,80 @@
-# Backup files
-*.bak
-*.bak-v*
-*.bak_*
+# === Voron-Campaign (HCR-072) — Scoped .gitignore ===
+# Purpose: Prevent cross-contamination from other HOI workstreams sharing
+# the parent workspace directory. Only Voron-Campaign files should be tracked.
 
-# Python
+# === Python ===
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
 eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
 venv/
 env/
-ENV/
+.venv
 
-# Jupyter Notebook
+# === Jupyter ===
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
-# Environments
-.env
-.venv
-.env.local
-
-# IDE
+# === IDE ===
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# === OS ===
 .DS_Store
 Thumbs.db
 
-# Logs
+# === Logs ===
 *.log
 logs/
 
-# Temporary files
+# === Temp ===
 tmp/
 temp/
 *.tmp
 
-# Sensitive/Secrets (HOI Agent)
+# === Secrets ===
 *.key
 *.pem
 secrets/
 credentials/
-config/secrets.*
+.env
+.env.local
 
-# Large data files
-*.csv
-*.json
-!package.json
-*.parquet
-*.db
-*.sqlite
+# === CROSS-CONTAMINATION PREVENTION ===
+# These directories belong to OTHER workstreams and must NEVER be tracked
+# in the Voron-Campaign repo:
+intelligence/
+n27-layang-layang/
+kempas/
+prn-johor-2026/
+narrative-tracking/
+policing-publications/
+sentiment-analysis/
+entities/
+briefs/
+cyber-intel/
+gov-intel/
+pdrm-io/
 
-# Cache
-.cache/
-hermes_cache/
-.hermes/cache/
-
-# Playwright
-playwright/.cache/
-
-# Node modules (if any)
-node_modules/
-
-# Documents (sensitive intel)
-intelligence/raw/
-intelligence/entities/
-intelligence/media-registry/
-intelligence/pdrm-io-*.csv
-intelligence/pdrm-io-*.json
-intelligence/prn-johor-2026/*.json
-intelligence/briefs/*.json
-
-# Excel/Office files (source documents)
-*.xlsx
-*.xls
-*.docx
-*.doc
-
-# Private keys
-id_rsa
-id_rsa.pub
-id_ed25519
-id_ed25519.pub
-
-# TLP:AMBER restricted files (add specific sensitive reports)
-# intelligence/pdrm-contacts-directory.md
-# intelligence/media-registry/
-
-# OpenOSINT configuration (contains API keys — never commit)
-openosint-config.env
-
-# OpenOSINT virtual environment
-openosint-env/
-
-# Nested git repositories (managed as separate repos)
+# === Nested git repos ===
 Voron-Campaign/
-integration-module/
-n03-pemanis-repo/
-n9-pir/
-narrative-tracking-workspace/
+vorondrq-prospect-db/
 vorondrq-rmit-campaign/
 
-# Voron enrichment (LinkedIn exports, screenshots — sensitive)
+# === Sensitive enrichment data (LinkedIn exports, screenshots) ===
 voron-enrichment/
-
-# Voron prospect data (untracked, separate from consolidated voron/prospects/)
 voron-prospects/
 
-# === Workstream split repos (separate git repos, NOT part of hoi-intelligence-ops) ===
-/cyber-intel/
-/gov-intel/
-/pdrm-io/
-/hoi-intelligence-ops/
-/malaysia-journalist-registry/
-# prn-johor-constituency merged into intelligence/prn-johor-2026 (HCR-062)
-/vorondrq-prospect-db/
-/vorondrq-rmit-campaign/
-/Voron-Campaign/
+# === OpenOSINT ===
+openosint-config.env
+openosint-env/
+
+# NOTE: CSV and JSON files ARE tracked in this repo.
+# The repo's primary purpose is the prospect database CSV.

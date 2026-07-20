@@ -1,0 +1,328 @@
+{
+  "current_file": "prospect-database-enriched-v3.8.csv",
+  "previous_file": "prospect-database-enriched-v3.7.csv",
+  "current": {
+    "total": 205,
+    "with_contacts": 98,
+    "empty": 107,
+    "fully": 27,
+    "enrichment_rate": 47.8,
+    "total_cells": 449,
+    "possible_cells": 1435,
+    "cell_fill_rate": 31.3,
+    "tier_counts": {
+      "1": 29,
+      "2": 53,
+      "3": 49,
+      "4": 35,
+      "5": 24,
+      "6": 15
+    },
+    "segment_counts": {
+      "Licensed Banks": 29,
+      "Insurers": 26,
+      "GLC-Linked": 24,
+      "Cooperatives": 21,
+      "E-Money": 19,
+      "MSBs": 17,
+      "Investment Banks": 15,
+      "Fintech Sandbox": 13,
+      "Takaful": 12,
+      "Development FIs": 11,
+      "Card Schemes": 10,
+      "Payment Operators": 6,
+      "Fintech Registered": 2
+    },
+    "role_populated": {
+      "CISO": 41,
+      "Head of GRC": 66,
+      "CFO": 84,
+      "CRO": 68,
+      "Head of Compliance": 70,
+      "CIO": 68,
+      "Head of Internal Audit": 52
+    },
+    "role_completion_pct": {
+      "CISO": 20.0,
+      "Head of GRC": 32.2,
+      "CFO": 41.0,
+      "CRO": 33.2,
+      "Head of Compliance": 34.1,
+      "CIO": 33.2,
+      "Head of Internal Audit": 25.4
+    },
+    "t1_total": 29,
+    "t1_with_contacts": 29,
+    "t1_fully_enriched": [
+      "Alliance Bank Malaysia Berhad",
+      "Alliance Islamic Bank Berhad",
+      "AmBank (M) Berhad",
+      "AmBank Islamic Berhad",
+      "Bank Islam Malaysia Berhad",
+      "CIMB Bank Berhad",
+      "CIMB Islamic Bank Berhad",
+      "Hong Leong Bank Berhad",
+      "Hong Leong Islamic Bank Berhad",
+      "Maybank Berhad",
+      "Maybank Islamic Berhad",
+      "OCBC Bank (Malaysia) Berhad",
+      "RHB Bank Berhad",
+      "RHB Islamic Bank Berhad",
+      "Bank Muamalat Malaysia Berhad"
+    ],
+    "t1_empty": [],
+    "t1_partial": [
+      [
+        "Bank of China (Malaysia) Berhad",
+        6
+      ],
+      [
+        "Public Bank Berhad",
+        6
+      ],
+      [
+        "Public Islamic Bank Berhad",
+        6
+      ],
+      [
+        "Standard Chartered Bank Malaysia Berhad",
+        6
+      ],
+      [
+        "UOB Malaysia Berhad",
+        6
+      ],
+      [
+        "HSBC Bank Malaysia Berhad",
+        5
+      ],
+      [
+        "Citibank Berhad",
+        3
+      ],
+      [
+        "Sumitomo Mitsui Banking Corporation Malaysia Berhad",
+        3
+      ],
+      [
+        "ICBC (Malaysia) Berhad",
+        2
+      ],
+      [
+        "BNP Paribas Malaysia Berhad",
+        1
+      ],
+      [
+        "Credit Suisse (Malaysia) Berhad",
+        1
+      ],
+      [
+        "Deutsche Bank (Malaysia) Berhad",
+        1
+      ],
+      [
+        "J.P. Morgan Chase Bank Malaysia Berhad",
+        1
+      ],
+      [
+        "Mizuho Bank (Malaysia) Berhad",
+        1
+      ]
+    ]
+  },
+  "previous": {
+    "total": 205,
+    "with_contacts": 96,
+    "empty": 109,
+    "fully": 25,
+    "enrichment_rate": 46.8,
+    "total_cells": 444,
+    "possible_cells": 1435,
+    "cell_fill_rate": 30.9,
+    "tier_counts": {
+      "1": 29,
+      "2": 53,
+      "3": 49,
+      "4": 35,
+      "5": 24,
+      "6": 15
+    },
+    "segment_counts": {
+      "Licensed Banks": 29,
+      "Insurers": 26,
+      "GLC-Linked": 24,
+      "Cooperatives": 21,
+      "E-Money": 19,
+      "MSBs": 17,
+      "Investment Banks": 15,
+      "Fintech Sandbox": 13,
+      "Takaful": 12,
+      "Development FIs": 11,
+      "Card Schemes": 10,
+      "Payment Operators": 6,
+      "Fintech Registered": 2
+    },
+    "role_populated": {
+      "CISO": 37,
+      "Head of GRC": 65,
+      "CFO": 84,
+      "CRO": 68,
+      "Head of Compliance": 70,
+      "CIO": 68,
+      "Head of Internal Audit": 52
+    },
+    "role_completion_pct": {
+      "CISO": 18.0,
+      "Head of GRC": 31.7,
+      "CFO": 41.0,
+      "CRO": 33.2,
+      "Head of Compliance": 34.1,
+      "CIO": 33.2,
+      "Head of Internal Audit": 25.4
+    },
+    "t1_total": 29,
+    "t1_with_contacts": 27,
+    "t1_fully_enriched": [
+      "Alliance Bank Malaysia Berhad",
+      "Alliance Islamic Bank Berhad",
+      "AmBank (M) Berhad",
+      "AmBank Islamic Berhad",
+      "Bank Islam Malaysia Berhad",
+      "CIMB Bank Berhad",
+      "CIMB Islamic Bank Berhad",
+      "Maybank Berhad",
+      "Maybank Islamic Berhad",
+      "OCBC Bank (Malaysia) Berhad",
+      "RHB Bank Berhad",
+      "RHB Islamic Bank Berhad",
+      "Bank Muamalat Malaysia Berhad"
+    ],
+    "t1_empty": [
+      "Credit Suisse (Malaysia) Berhad",
+      "Mizuho Bank (Malaysia) Berhad"
+    ],
+    "t1_partial": [
+      [
+        "Bank of China (Malaysia) Berhad",
+        6
+      ],
+      [
+        "Hong Leong Bank Berhad",
+        6
+      ],
+      [
+        "Hong Leong Islamic Bank Berhad",
+        6
+      ],
+      [
+        "Public Bank Berhad",
+        6
+      ],
+      [
+        "Public Islamic Bank Berhad",
+        6
+      ],
+      [
+        "Standard Chartered Bank Malaysia Berhad",
+        6
+      ],
+      [
+        "UOB Malaysia Berhad",
+        6
+      ],
+      [
+        "HSBC Bank Malaysia Berhad",
+        5
+      ],
+      [
+        "Sumitomo Mitsui Banking Corporation Malaysia Berhad",
+        3
+      ],
+      [
+        "Citibank Berhad",
+        2
+      ],
+      [
+        "ICBC (Malaysia) Berhad",
+        2
+      ],
+      [
+        "BNP Paribas Malaysia Berhad",
+        1
+      ],
+      [
+        "Deutsche Bank (Malaysia) Berhad",
+        1
+      ],
+      [
+        "J.P. Morgan Chase Bank Malaysia Berhad",
+        1
+      ]
+    ]
+  },
+  "delta": {
+    "total": 0,
+    "with_contacts": 2,
+    "empty": -2,
+    "fully": 2,
+    "enrichment_rate_pp": 1.0,
+    "total_cells": 5,
+    "cell_fill_rate_pp": 0.4,
+    "t1_with_contacts": 2,
+    "t1_fully": 2
+  },
+  "new_institutions": [],
+  "removed_institutions": [],
+  "changed_institutions": [
+    {
+      "inst": "Citibank Berhad",
+      "tier": "1",
+      "seg": "Licensed Banks",
+      "prev": 2,
+      "now": 3,
+      "new_roles": [
+        "Head of GRC"
+      ]
+    },
+    {
+      "inst": "Credit Suisse (Malaysia) Berhad",
+      "tier": "1",
+      "seg": "Licensed Banks",
+      "prev": 0,
+      "now": 1,
+      "new_roles": [
+        "CISO"
+      ]
+    },
+    {
+      "inst": "Hong Leong Bank Berhad",
+      "tier": "1",
+      "seg": "Licensed Banks",
+      "prev": 6,
+      "now": 7,
+      "new_roles": [
+        "CISO"
+      ]
+    },
+    {
+      "inst": "Hong Leong Islamic Bank Berhad",
+      "tier": "1",
+      "seg": "Licensed Banks",
+      "prev": 6,
+      "now": 7,
+      "new_roles": [
+        "CISO"
+      ]
+    },
+    {
+      "inst": "Mizuho Bank (Malaysia) Berhad",
+      "tier": "1",
+      "seg": "Licensed Banks",
+      "prev": 0,
+      "now": 1,
+      "new_roles": [
+        "CISO"
+      ]
+    }
+  ]
+}

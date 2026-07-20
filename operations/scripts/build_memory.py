@@ -1,0 +1,95 @@
+import json
+cur = json.load(open('state_v513.json'))
+prev_v58 = json.load(open('/home/p62operator/.hermes/memories/voron-prospect-monitor.json'))
+
+mem = {
+  "last_check": "2026-07-19T13:30:00Z",
+  "git_commit": "7c4941f",
+  "git_commit_msg": "v5.13: 3/7 cluster resolution - 11 institutions, +10 net roles",
+  "git_commit_at": "2026-07-19T12:56:53Z",
+  "csv_source": "ROOT prospect-database-7stakeholders.csv (task URL prospects/... still 404; canonical root CSV fetched via raw.githubusercontent)",
+  "baseline_prev": "v5.8 d27e984 (2026-07-18T16:55:20Z). 6 commits since baseline: v5.9 (3d39acc, +5 Dev FIs to 7/7), v5.10 (c48ead3, +3 PNB Group CISO), auto (ddb84ee), v5.11 (cc2410e, AIA CISO + 19 NOT FOUND audit), v5.12 (1afcca0, +3 roles FWD/Takaful Am/Takaful IKHLAS), v5.13 (7c4941f, +10 net roles / 11 inst).",
+  "total": 205,
+  "raw_rows": 206,
+  "raw_row_note": "+1 PHANTOM row (Sun Life unescaped-quote fragment, file line 184) persists. Real=205. UNFIXED since v4.7.",
+  "tier": cur["tier"],
+  "segment": cur["segment"],
+  "role_pop_nominal": cur["role_pop_nominal"],
+  "role_pop_true": cur["role_pop_true"],
+  "role_notfound": cur["role_notfound"],
+  "role_ceo_misfiled_ciso": cur["role_ceo_misfiled_ciso"],
+  "role_completion_pct_true": cur["role_completion_pct_true"],
+  "role_completion_pct_nominal": cur["role_completion_pct_nominal"],
+  "role_rank_true": ["CFO 66.3%","CIO 59.0%","Compliance 55.6%","CRO 53.7%","GRC 49.3%","IA 45.9%","CISO 34.6%"],
+  "with_contacts_nominal": cur["with_contacts_nominal"],
+  "with_contacts_true": cur["with_contacts_true"],
+  "empty": cur["empty"],
+  "no_real_contact": cur["no_real_contact"],
+  "enrichment_rate_nominal": cur["enrichment_rate_nominal"],
+  "enrichment_rate_true": cur["enrichment_rate_true"],
+  "total_cells_nominal": cur["total_cells_nominal"],
+  "total_cells_true": cur["total_cells_true"],
+  "cell_fill_rate_nominal": cur["cell_fill_rate_nominal"],
+  "cell_fill_rate_true": cur["cell_fill_rate_true"],
+  "full_all_nominal": cur["full_all_nominal"],
+  "full_all_true": cur["full_all_true"],
+  "full_true_note": "Nominal 104 inflated by 117 'NOT FOUND' placeholder cells (65 inst) + 23 CEO-misfiled-in-CISO. TRUE full=55. CISO nominal 152 vs true 71 = 81-cell DQ gap (58 NOT FOUND + 23 CEO-misfiled). NOT FOUND grew +77 cells since v5.8 due to active audit-trail documentation (v5.10 +7, v5.11 +19), NOT real-data regression.",
+  "t1_total": cur["t1_total"],
+  "t1_with_real": cur["t1_with_real"],
+  "t1_full_nominal": cur["t1_full_nominal"],
+  "t1_full_true": cur["t1_full_true"],
+  "t1_full_true_note": "T1 TRUE full 17/29 UNCHANGED since v5.8. +6 nominal (Public Bank, Public Islamic Bank, HSBC, BNP Paribas, Citibank, SMBC) are illusory - CISO cell = 'NOT FOUND' or CEO-misfiled. NO real T1 progress this cycle; all real enrichment went to T2/T3/T5.",
+  "t1_full_names_true": cur["t1_full_names_true"],
+  "t1_one_role_gap_ciso": ["Public Bank Berhad (6/7, CISO=NOT FOUND)", "Public Islamic Bank Berhad (6/7, CISO=NOT FOUND)", "Bank Muamalat Malaysia Berhad (6/7, CISO=CEO-misfiled)"],
+  "t1_ciso_gap_5plus": ["Public Bank 6/7","Public Islamic Bank 6/7","Bank Muamalat 6/7(CEO-misfiled)","HSBC 5/7(-CISO,IA)","BNP Paribas 4/7(-CISO,GRC,CIO)","Citibank 4/7(-CISO,GRC,Compliance)","ICBC 3/7(-CISO,GRC,CFO,CIO; CISO=CEO-misfiled)","SMBC 3/7(-CISO,GRC,Compliance,CIO)","Deutsche 3/7","Credit Suisse 1/7","J.P. Morgan 1/7","Mizuho 0/7 real (CISO=CEO-misfiled)"],
+  "new_institutions_added": [],
+  "delta_vs_v58": {
+    "enrichment_true_pp": 1.0,
+    "enrichment_nominal_pp": 0.0,
+    "cells_true_delta": 24,
+    "cells_nominal_delta": 100,
+    "cells_nominal_note": "+100 nominal but 76 are NOT FOUND audit-trail additions, NOT real contacts. Real new contacts = +24.",
+    "full_true_delta": 8,
+    "full_nominal_delta": 35,
+    "t1_full_true_delta": 0,
+    "t1_full_nominal_delta": 6,
+    "ceo_misfiled_delta": -4,
+    "notfound_cells_delta": 77,
+    "notfound_cells_note": "40->117 NOT FOUND cells. Inflation is INTENTIONAL audit documentation (v5.10 +7, v5.11 +19 confirmed-absent), not data loss. Recommend reclassify as 'verified_absent' not 'populated'.",
+    "role_true_delta": cur["delta_vs_v58"]["role_true_delta"],
+    "role_true_delta_note": "CISO +12 (biggest real gain, AIA Berhad HIGH-85 + PNB Group + others), Compliance +5, GRC +4, IA +2, CFO +1, CRO +1, CIO -1 (minor regression).",
+    "new_true_full_likely": "v5.9 +5 Dev FIs (Agrobank, BPMB, EXIM, SME Bank, Lembaga Tabung Haji) + v5.10 +3 PNB Group (Permodalan Nasional Berhad, PNB Capital Berhad, PNB Equity Fund Berhad). CAVEAT: PNB Capital & PNB Equity Fund flagged non-existent since v5.5 - up to 2 of +8 may be non-existent entities, real new sales-ready ~+6."
+  },
+  "data_quality_flags": {
+    "phantom_row_persists": "Sun Life unescaped-quote fragment row (file line 184) persists. raw 206, real 205. UNFIXED since v4.7.",
+    "not_found_placeholders": "117 cells across 65 institutions contain 'NOT FOUND [...]' placeholder text (up from 40/39 at v5.8 - +77 from active audit-trail documentation). Worst: CISO 58, GRC 17, IA 17. Inflates nominal full-7/7 (104) and CISO nominal (152 vs 71 true). RECOMMEND: move to 'verified_absent' column; exclude from 'populated' metric.",
+    "ceo_misfiled_in_ciso": "23 institutions have CEO in CISO column (IMPROVED -4 from 27 at v5.8). T1: Bank Muamalat, ICBC, Mizuho. Others: AEON Bank x3, KAF Digital x2, MARA x2, Zurich x2, GX Bank/GXBank, ASNB, CIMB(Khazanah), Cradle, Kurnia, LPPSA, MIDF, PhillipSec, Sun Life, Tekun.",
+    "defunct_or_rebranded_entities": "Razer Pay Malaysia (DEFUNCT), SeaBank Malaysia (rebranded to Ryt Bank Berhad). Recommend removal/flag.",
+    "non_existent_entities_persist": "PNB Capital Berhad, PNB Equity Fund Berhad, Manulife Takaful Malaysia Berhad - confirmed non-existent since v5.5, STILL in DB. CAVEAT: PNB Capital & PNB Equity Fund now appear TRUE-full-7/7 after v5.10 CISO enrichment - non-existent entities inflated true-full count by ~2.",
+    "product_brand_inheritance_inflation": "10 T4 product rows (CIMB Petronas Visa, Maybank Cash&Go, MAE x2, RHB Shell Visa, StanChart Shopee Visa, UOB Lazada Visa, CIMB OctoPay, HL AirMiles, Maybank SIA Enrich) now TRUE-full-7/7 via parent-bank exec copy. NOT new sales targets - treat as outreach duplicates of parent bank.",
+    "duplicates_persist": "GX Bank Berhad / GXBank Berhad (2 rows same entity); MARA in T3 Dev FIs AND T5 GLC-Linked; Tabung Haji (T3) vs Lembaga Tabung Haji (T5) possibly same entity; KWSP Investment Division x3 sub-rows share 7 execs (7 distinct people not 21)."
+  },
+  "next_priority_targets": [
+    "READY NOW (T1 true-full 17/29 UNCHANGED): Maybank, CIMB, RHB, AmBank, Alliance, Hong Leong, Bank Islam, OCBC, StanChart, Bank of China, UOB (+Islamic subs) - launch full multi-thread 7-role outreach. These have been ready since v5.8 - if not yet contacted, DO NOW.",
+    "HIGHEST-ROI CISO GAP-FILL (T1, 6/7 missing ONLY real CISO): Public Bank, Public Islamic Bank (CISO=NOT FOUND - need real CISO research), Bank Muamalat (fix CEO-misfiled -> find real CISO). ONE real CISO each away from full 7/7.",
+    "NEWLY READY THIS CYCLE (T2/T3, +8 true-full since v5.8): INSURERS - Etiqa x3 (General/Life/Takaful), Prudential, Great Eastern, Hong Leong Assurance, Liberty, Lonpac, Family Takaful. DEV FIs (v5.9) - Agrobank, BPMB, EXIM, SME Bank, Tabung Haji. INVESTMENT BANKS - Alliance/AmInvestment/BIMB/CIMB/Kenanga/RHB Investment Bank. GREEN-LIGHT outreach.",
+    "T1 FOREIGN BANK CISO GAP (persistent): BNP(4/7), Citibank(4/7), HSBC(5/7), ICBC(3/7), Deutsche(3/7), SMBC(3/7), Credit Suisse/JPM(1/7), Mizuho(0/7 real). CISO globally rare for foreign-bank MY subsids - use CIO/Compliance as entry points.",
+    "DATA HYGIENE BLOCKERS (before next outreach wave): (1) reclassify 117 'NOT FOUND' as 'verified_absent' not 'populated' - nominal 88.3% overstates TRUE 76.1% by 12pp; (2) fix remaining 23 CEO-misfiled-in-CISO (improving, -4 this cycle); (3) remove/flag 2 defunct (Razer Pay, SeaBank->Ryt) + 3 non-existent (PNB Capital, PNB Equity Fund, Manulife Takaful) - PNB Capital/Equity falsely inflate true-full by 2; (4) fix Sun Life phantom row (line 184); (5) dedup GX Bank/GXBank + MARA + Tabung Haji/Lembaga Tabung Haji."
+  ],
+  "previous": {
+    "last_check": prev_v58["last_check"], "git_commit": prev_v58["git_commit"], "total": prev_v58["total"],
+    "with_contacts_nominal": prev_v58["with_contacts_nominal"], "enrichment_rate_nominal": prev_v58["enrichment_rate_nominal"],
+    "with_contacts_true": prev_v58["with_contacts_true"], "enrichment_rate_true": prev_v58["enrichment_rate_true"],
+    "total_cells_nominal": prev_v58["total_cells_nominal"], "cell_fill_rate_nominal": prev_v58["cell_fill_rate_nominal"],
+    "total_cells_true": prev_v58["total_cells_true"], "cell_fill_rate_true": prev_v58["cell_fill_rate_true"],
+    "full_all_nominal": prev_v58["full_all_nominal"], "full_all_true": prev_v58["full_all_true"],
+    "t1_full_nominal": prev_v58["t1_full_nominal"], "t1_full_true": prev_v58["t1_full_true"],
+    "ceo_misfiled_count": 27, "notfound_cells": 40, "notfound_insts": 39
+  },
+  "last_change_commit": "7c4941f",
+  "last_change_at": "2026-07-19T12:56:53Z",
+  "runs_since_last_change": 0
+}
+json.dump(mem, open('/home/p62operator/.hermes/memories/voron-prospect-monitor.json','w'), indent=2, ensure_ascii=False)
+print("Memory updated to v5.13. Size:", len(json.dumps(mem)), "bytes")
+print("TRUE full 7/7:", mem["full_all_true"], "| T1 true full:", mem["t1_full_true"], "| Enrichment TRUE:", mem["enrichment_rate_true"],"%")

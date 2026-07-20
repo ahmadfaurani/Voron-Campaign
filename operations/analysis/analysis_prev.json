@@ -1,0 +1,53 @@
+{
+  "label": "PREVIOUS(v2.9/baseline)",
+  "path": "current.csv",
+  "total_prospects": 205,
+  "prospects_with_contacts": 80,
+  "empty_prospects": 125,
+  "fully_enriched": 6,
+  "enrichment_rate": 39.0,
+  "total_contact_cells": 322,
+  "total_possible_cells": 1435,
+  "role_fill_rate": 22.4,
+  "tier_counts": {
+    "3": 49,
+    "6": 15,
+    "4": 35,
+    "2": 53,
+    "5": 24,
+    "1": 29
+  },
+  "segment_counts": {
+    "MSBs": 17,
+    "Fintech Sandbox": 13,
+    "E-Money": 19,
+    "Insurers": 26,
+    "Takaful": 12,
+    "Investment Banks": 15,
+    "GLC-Linked": 24,
+    "Development FIs": 11,
+    "Licensed Banks": 29,
+    "Card Schemes": 10,
+    "Payment Operators": 6,
+    "Cooperatives": 21,
+    "Fintech Registered": 2
+  },
+  "stakeholder_populated": {
+    "Chief Information Security Officer": 28,
+    "Head of Governance Risk & Compliance": 24,
+    "Chief Financial Officer": 73,
+    "Chief Risk Officer": 53,
+    "Head of Compliance": 51,
+    "Chief Information Officer": 52,
+    "Head of Internal Audit": 41
+  },
+  "role_completion": {
+    "Chief Information Security Officer": 13.7,
+    "Head of Governance Risk & Compliance": 11.7,
+    "Chief Financial Officer": 35.6,
+    "Chief Risk Officer": 25.9,
+    "Head of Compliance": 24.9,
+    "Chief Information Officer": 25.4,
+    "Head of Internal Audit": 20.0
+  }
+}
