@@ -1,15 +1,9 @@
 Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governance Risk & Compliance,Chief Financial Officer,Chief Risk Officer,Head of Compliance,Chief Information Officer,Head of Internal Audit
-3,MSBs,2C2P (Malaysia) Sdn Bhd,NOT FOUND,,,,,,
-6,Fintech Sandbox,AEON Bank (M) Berhad,NOT FOUND,,,,,,
-6,Fintech Sandbox,AEON Bank Berhad,NOT FOUND,,,,,,
-4,E-Money,AEON Wallet (AEON Credit),NOT FOUND,,,,,,
-2,Insurers,AIA Berhad,Chee Lung Yuen,Datin Veronica Selvanayagy,Edwin Peh,Tan Teoh Guan,Tan Teoh Guan,Sherlly Yuan Xiaoli,
-2,Insurers,AIA General Berhad,,Datin Veronica Selvanayagy,Edwin Peh,Tan Teoh Guan,Nanthini Kandasamy,Sherlly Yuan Xiaoli,
-2,Takaful,AIA Public Takaful Berhad,,Datin Veronica Selvanayagy,Edwin Peh,Tan Teoh Guan,Ahmad Faisal Ahamad Nawawi,Sherlly Yuan Xiaoli,
+2,Insurers,AIA Berhad,Chee Lung Yuen,Veronica Selvanayagy,Edwin Peh,Tan Teoh Guan,Tan Teoh Guan,Sherlly Yuan Xiaoli,
+2,Insurers,AIA General Berhad,,Veronica Selvanayagy,Edwin Peh,Tan Teoh Guan,Nanthini Kandasamy,Sherlly Yuan Xiaoli,
+2,Takaful,AIA Public Takaful Berhad,,Veronica Selvanayagy,Edwin Peh,Tan Teoh Guan,Ahmad Faisal Ahamad Nawawi,Sherlly Yuan Xiaoli,
 2,Investment Banks,Affin Investment Bank Berhad,Teng Wei Lim,"Cheong Dang, Adzamimah Adzmi",Joanne Rodrigues,Cheong Dang,Adzamimah Adzmi,"Wan Razly Bin Wan Ali, Risham Kamaruzaman",Wahdania Binti Mohd Khir
-5,GLC-Linked,Agensi Jaminan Kredit Mikro (AKM),NOT FOUND,,,,,,
-3,Development FIs,Agrobank Malaysia,Nolan Jeffrey A/L Abdul Hai,"Encik Hussien Mullar, Encik Fairoshawal Idrus",Encik Zulkeefli Mad Karim,Encik Hussien Mullar,Encik Fairoshawal Idrus,Nolan Jeffrey A/L Abdul Hai,Encik Kamarudin Samsudin
-4,E-Money,Alipay+ Malaysia (Ant Group),,,,,,,
+3,Development FIs,Agrobank Malaysia,Nolan Jeffrey A/L Abdul Hai,"Hussien Mullar, Fairoshawal Idrus",Zulkeefli Mad Karim,Hussien Mullar,Fairoshawal Idrus,Nolan Jeffrey A/L Abdul Hai,Kamarudin Samsudin
 1,Licensed Banks,Alliance Bank Malaysia Berhad,William Song,Jacob Abraham,Ronnie Royston Fernandiz,Jacob Abraham,Jacob Abraham,Nantha Kumar Subramanian,Andrew Ng Yin Min
 2,Investment Banks,Alliance Investment Bank Berhad,William Song,Jacob Abraham,Ronnie Royston Fernandiz,Jacob Abraham,Jacob Abraham,Nantha Kumar Subramanian,Andrew Ng Yin Min
 1,Licensed Banks,Alliance Islamic Bank Berhad,William Song,Jacob Abraham,Ronnie Royston Fernandiz,Jacob Abraham,Jacob Abraham,Nantha Kumar Subramanian,Andrew Ng Yin Min
@@ -21,33 +15,29 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,AmBank Islamic Berhad,Malini Kanesamoorthy,"Shamsul Bahrom, Faradina Ghouse",Phuah Shok Cheng,Shamsul Bahrom Bin Mohamed Ibrahim,Faradina Binti Mohammad Ghouse,Wong Eng Teng,Ng Ek Leong
 2,Investment Banks,AmInvestment Bank Berhad,Malini Kanesamoorthy,"Shamsul Bahrom Bin Mohamed Ibrahim, Faradina Binti Mohammad Ghouse",Phuah Shok Cheng,Shamsul Bahrom Bin Mohamed Ibrahim,Faradina Binti Mohammad Ghouse,Wong Eng Teng,Ng Ek Leong
 2,Insurers,AmMetLife Insurance Berhad,,,Michelle Cheang,Low Siew Mooi,,Loh Tian Hu,
-5,GLC-Linked,Amanah Saham Nasional Berhad (ASNB),NOT FOUND,"Mohd Azmir Mohd Jani, Sahlawati Mustafa",Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,"Ts Izzat Aziz — Chief Technology Officer, PNB Group [Official: PNB Integrated Report 2024, pnb.com.my/en/leadership-en]",Noramly Bachok
+5,GLC-Linked,Amanah Saham Nasional Berhad (ASNB),NOT FOUND,"Mohd Azmir Mohd Jani, Sahlawati Mustafa",Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Izzat Aziz,Noramly Bachok
 4,E-Money,Axiata Digital Services Sdn Bhd (Boost),,Abid Abdul Adam,Komathi Balakrishnan,Abid Abdul Adam,Abid Abdul Adam,Thomas Hundt,
-2,Investment Banks,BIMB Investment Bank Berhad,Anthony Tai,"Nik Azmir Nik Anis, GRC Officer, Bank Islam",Siti Nur Huda Sufian,Alina Sylvia Appoo,Nik Azmir Nik Anis,Zulkanain Kassim,Zalfitri Abd Mutalip
-1,Licensed Banks,BNP Paribas Malaysia Berhad,NOT FOUND,"Anthony Lo Chiang Loong, Dato' Mohamed Khadar bin Merican",Kevin Wong,Khoo Lian Kim,Chan Mui Pin / Mrs. Lau Mui Pin,NOT FOUND,Faisal bin Ismail
+2,Investment Banks,BIMB Investment Bank Berhad,Anthony Tai,"Nik Azmir Nik Anis, Bank Islam",Siti Nur Huda Sufian,Alina Sylvia Appoo,Nik Azmir Nik Anis,Zulkanain Kassim,Zalfitri Abd Mutalip
+1,Licensed Banks,BNP Paribas Malaysia Berhad,NOT FOUND,Anthony Lo Chiang Loong,Kevin Wong,Khoo Lian Kim,"Chan Mui Pin, Lau Mui Pin",NOT FOUND,Faisal bin Ismail
 1,Licensed Banks,Bank Islam Malaysia Berhad,Anthony Tai,Nik Azmir Nik Anis,Siti Nur Huda Sufian,Alina Sylvia Appoo,Nik Azmir Nik Anis,Zulkanain Kassim,Zalfitri Abd Mutalip
 2,Investment Banks,Bank Rakyat Investment Bank Berhad,NOT FOUND,,Nor Haimee Zakaria,Azni Azaddin,Jufree Soaidin,Ismat Nazarul Mat Isa,Fuhaizad Asmar Omar
-3,Development FIs,Bank Rakyat Malaysia,Ts. Tahrizi Tahreb,"Azni Azaddin, Jufree Soaidin",Nor Haimee Zakaria,Azni Azaddin,Jufree Soaidin,Zulkanain Kassim,NOT FOUND
+3,Development FIs,Bank Rakyat Malaysia,Tahrizi Tahreb,"Azni Azaddin, Jufree Soaidin",Nor Haimee Zakaria,Azni Azaddin,Jufree Soaidin,Zulkanain Kassim,NOT FOUND
 3,Development FIs,Bank Simpanan Nasional (BSN),NOT FOUND,"Muizz Aiman Farid, Sujit Guha Thakurta",Norhafizah Md Shariff,Muizz Aiman Farid,Sujit Guha Thakurta,Asrul Kamaruddin,NOT FOUND
-1,Licensed Banks,Bank of China (Malaysia) Berhad,Willy Neo,"Anysia Yeung, Ker Yong",Datuk Alvin Tay,Anysia Yeung,Ker Yong,K.W.C.,Chen Thien Yin
+1,Licensed Banks,Bank of China (Malaysia) Berhad,Willy Neo,"Anysia Yeung, Ker Yong",Alvin Tay,Anysia Yeung,Ker Yong,K.W.C.,Chen Thien Yin
 3,Development FIs,Bank Pembangunan Malaysia Berhad (BPMB),Hairil Izwar Abd Rahman,"Mohammad Azam Ahmad, Rohayati Talha",Hee Wei Jean,Mohammad Azam Ahmad,Rohayati Talha,Hairil Izwar Abd Rahman,Hasrul Farid Hasnan
 2,Insurers,Berjaya Sompo Insurance Berhad,Mohamad Azman bin Soaed,Tricia Mallika Appaduray,Rina Aprila Afianty,Samson Liew Zyun Fung,Tricia Mallika Appaduray,NOT FOUND,Kesavan Raj A/L Krishnan
 4,E-Money,BigPay (Capital A),,,Mun Hui Teh,,,,
 3,MSBs,BigPay Malaysia Sdn Bhd,NOT FOUND,,Mun Hui Teh,,,,
-3,MSBs,Billplz Sdn Bhd,NOT FOUND,,,,,,
-4,E-Money,Boost (Axiata + RHB),,Abid Abdul Adam,Steven Lim,Puteri Syurga,Dr Mohanamerry Vedamanikam,Shankar Krishnan,
-6,Fintech Sandbox,Boost Bank Berhad,NOT FOUND,NOT FOUND,Steven Lim,Puteri Syurga,Dr Mohanamerry Vedamanikam,Shankar Krishnan,NOT FOUND
+4,E-Money,Boost (Axiata + RHB),,Abid Abdul Adam,Steven Lim,Puteri Syurga,Mohanamerry Vedamanikam,Shankar Krishnan,
+6,Fintech Sandbox,Boost Bank Berhad,NOT FOUND,NOT FOUND,Steven Lim,Puteri Syurga,Mohanamerry Vedamanikam,Shankar Krishnan,NOT FOUND
 5,GLC-Linked,CIMB (Khazanah-linked),NOT FOUND,"Vera Handajani, Kwan Keen Yew",Khairul Rifaie,Vera Handajani,Kwan Keen Yew,Ros Aziah Mohd Yusoff,Amran Mohamad
 1,Licensed Banks,CIMB Bank Berhad,Charles Samuel,Kwan Keen Yew,Khairul Rifaie,Vera Handajani,Kwan Keen Yew,Ros Aziah Mohd Yusoff,Amran Mohamad
 2,Investment Banks,CIMB Investment Bank Berhad,Charles Samuel,Kwan Keen Yew,Khairul Rifaie,Vera Handajani,Kwan Keen Yew,Ros Aziah Mohd Yusoff,Amran Mohamad
 1,Licensed Banks,CIMB Islamic Bank Berhad,Charles Samuel,Kwan Keen Yew,Khairul Rifaie,Vera Handajani,Kwan Keen Yew,Ros Aziah Mohd Yusoff,Amran Mohamad
 4,E-Money,CIMB OctoPay (CIMB Bank),Charles Samuel,Kwan Keen Yew,Khairul Rifaie,Vera Handajani,Kwan Keen Yew,Ros Aziah Mohd Yusoff,Amran Mohamad
 4,Card Schemes,CIMB Petronas Visa Card,Charles Samuel,Kwan Keen Yew,Khairul Rifaie,Vera Handajani,Kwan Keen Yew,Ros Aziah Mohd Yusoff,Amran Mohamad
-2,Insurers,Chubb Insurance Malaysia Berhad,NOT FOUND,Dato' Mohzani Bin Abdul Wahab,Olivier Bouchard,Ng Khai Yan,NOT FOUND,Kenny W. K. Tan,Chong Keh Bin
-1,Licensed Banks,Citibank Berhad,NOT FOUND,"Vikram Singh, Country Lead: Divya Nair, Head of Commercial Bank: Shawn Khong",Tan Alyse,Mark Fordyce Hart,NOT FOUND,"Abhijit Dattanand Kumta, MD Singapore O&T, Citi Solution Center Head ASEAN",Puan Norazilla binti Md Tahir
-5,GLC-Linked,Cradle Fund Sdn Bhd,NOT FOUND,,,,,,
-1,Licensed Banks,Credit Suisse (Malaysia) Berhad,NOT FOUND,,,,,,
-3,MSBs,CurrencyFair (Malaysia) Sdn Bhd,NOT FOUND,,,,,,
+2,Insurers,Chubb Insurance Malaysia Berhad,NOT FOUND,Mohzani Bin Abdul Wahab,Olivier Bouchard,Ng Khai Yan,NOT FOUND,Kenny W. K. Tan,Chong Keh Bin
+1,Licensed Banks,Citibank Berhad,NOT FOUND,"Vikram Singh, Divya Nair, Shawn Khong",Tan Alyse,Mark Fordyce Hart,NOT FOUND,"Abhijit Dattanand Kumta, MD Singapore O&T, Citi Solution Center Head ASEAN",Norazilla binti Md Tahir
 1,Licensed Banks,Deutsche Bank (Malaysia) Berhad,Jeng Yean Won,,Liew Yeh Yin,Surabhi Agarwal,,,
 4,Payment Operators,DuitNow (by PayNet),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
 3,Development FIs,EXIM Bank Malaysia,Hairil Izwar Abd Rahman,"Wan Noorazli Maula Wan Suleiman, Mohammad Azam Ahmad, Rohayati Talha",Hee Wei Jean,"Abdul Hadi Jusoh, Mohammad Azam Ahmad","Nizam Samad, Rohayati Talha",Hairil Izwar Abd Rahman,"Shahrul Farelli Zulkiffli, Hasrul Farid Hasnan"
@@ -57,76 +47,46 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 4,Payment Operators,FPX (by PayNet),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
 2,Insurers,FWD Insurance Berhad,NOT FOUND,Anita Menon,Yeoh Eng Hun,Anita Menon,Anita Menon,NOT FOUND,Cheryl Lim
 2,Takaful,Family Takaful Berhad,Nazaruddin Adha bin Md Noor,Shizal Fisham bin Ramli,New Kheng Chee,Shizal Fisham Ramli,Redzuan bin Abu,Nazaruddin Adha bin Md Noor,Zuhairi bin Ismail
-3,MSBs,G2G Online (Malaysia) Sdn Bhd,NOT FOUND,,,,,,
 6,Fintech Sandbox,GX Bank Berhad,NOT FOUND,"Kiyoka Thaam, Nadia Farhan Noordin",Kenneth Leong,Kiyoka Thaam,Nadia Farhan Noordin,Nishant Sharma,Karina Sivam
 6,Fintech Sandbox,GXBank Berhad,NOT FOUND,"Kiyoka Thaam, Nadia Farhan Noordin",Kenneth Leong,Kiyoka Thaam,Nadia Farhan Noordin,Nishant Sharma,Karina Sivam
 2,Takaful,General Takaful Berhad,,Shizal Fisham bin Ramli,New Kheng Chee,,Redzuan bin Abu,Nazaruddin Adha bin Md Noor,Zuhairi bin Ismail
 2,Insurers,Generali Insurance Malaysia Berhad,NOT FOUND,NOT FOUND,Tony Lin,Vincent Fong,Nor Hakimah Abdul Latiff,Laurent Crouet,Vivian Ho
 2,Insurers,Generali Life Insurance Malaysia Berhad,,"Vincent Fong, Aw Teck Yee",Tony Lin,Vincent Fong,Aw Teck Yee,,George Tan
 4,E-Money,GrabPay (Grab Malaysia),NOT FOUND,NOT FOUND,Peter Oey,NOT FOUND,NOT FOUND,Suthen Thomas Paradatheth,NOT FOUND
-3,MSBs,GrabPay Malaysia Sdn Bhd,NOT FOUND,,,,,,
 2,Insurers,Great Eastern General Insurance (Malaysia) Berhad,NOT FOUND,"Liza Hanim Zainal Abidin, Audra Chung Kit Li",Cheng Chuen Chee,Teo Chun Seng,Liza Hanim Zainal Abidin,Vincent Chin,Audra Chung Kit Li
-2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,"Vincent Chin — Division Head, Information Technology (CISO-equivalent: handles technology risk management & IT governance) [Official: greateasternlife.com/my/en/about-us/company-profile/our-leaders/key-executive.html]",Liza Hanim Zainal Abidin,Loke Chang Yueh,Teo Chun Seng,Helen Quat Li Huang,Vincent Chin,Audra Chung Kit Li
+2,Insurers,Great Eastern Life Assurance (Malaysia) Berhad,Vincent Chin,Liza Hanim Zainal Abidin,Loke Chang Yueh,Teo Chun Seng,Helen Quat Li Huang,Vincent Chin,Audra Chung Kit Li
 2,Takaful,HSBC Amanah Takaful (Malaysia) Berhad,NOT FOUND,NOT FOUND,Muhammad Afiq bin Hamzah,NOT FOUND,Lim Weng Leong,NOT FOUND,NOT FOUND
-1,Licensed Banks,HSBC Bank Malaysia Berhad,NOT FOUND,"Brian McGuire, Dato Omar Siddiq",Elly Neoh,Brian McGuire,Brian McGuire,Mei Ling Soo,NOT FOUND
-2,Insurers,Hong Leong Assurance Berhad,Low Tek Chee — Chief Technology Officer (CISO-equivalent) [Official: hla.com.my/en/know-us/leadership.html],"Lim Mei Gie, Lee Noushi",Ong Kheng Heng,Lim Mei Gie,Lee Noushi,Low Tek Chee,Chua Yew Lim
-4,Card Schemes,Hong Leong Bank AirMiles Card,Dr. Simon Hoh,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
-1,Licensed Banks,Hong Leong Bank Berhad,Dr. Simon Hoh,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
+1,Licensed Banks,HSBC Bank Malaysia Berhad,NOT FOUND,"Brian McGuire, Omar Siddiq",Elly Neoh,Brian McGuire,Brian McGuire,Mei Ling Soo,NOT FOUND
+2,Insurers,Hong Leong Assurance Berhad,Low Tek Chee,"Lim Mei Gie, Lee Noushi",Ong Kheng Heng,Lim Mei Gie,Lee Noushi,Low Tek Chee,Chua Yew Lim
+4,Card Schemes,Hong Leong Bank AirMiles Card,Simon Hoh,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
+1,Licensed Banks,Hong Leong Bank Berhad,Simon Hoh,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
 2,Investment Banks,Hong Leong Investment Bank Berhad,NOT FOUND,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
-1,Licensed Banks,Hong Leong Islamic Bank Berhad,Dr. Simon Hoh,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
-3,MSBs,I.Destinasi Sdn Bhd (IDSB),NOT FOUND,,,,,,
+1,Licensed Banks,Hong Leong Islamic Bank Berhad,Simon Hoh,"Justin Soong, Jack Babani",Malkit Singh,Justin Soong,Jack Babani,William Streitberg,Chua Yew Lim
 1,Licensed Banks,ICBC (Malaysia) Berhad,NOT FOUND,NOT FOUND,NOT FOUND,Sum Leng Kuang,Liau Cheek,NOT FOUND,Chin Chee Kong
 3,MSBs,Instarem Sdn Bhd,NOT FOUND,NOT FOUND,Andre Mancl,Amaresh Mohan,Amaresh Mohan,Sekhar Cidambi,NOT FOUND
-5,GLC-Linked,Iskandar Waterfront City,NOT FOUND,,,,,,
 1,Licensed Banks,J.P. Morgan Chase Bank Malaysia Berhad,,,,,"Gail Koh De Josselin, CCO SE Asia",,
 2,Investment Banks,JCL Corporation Sdn Bhd,ENTITY NON-EXISTENT,,,,,,
-6,Fintech Sandbox,Jirnexu (M) Sdn Bhd,NOT FOUND,,,,,,
 5,GLC-Linked,Johor Corporation (JCorp),,Mohd Azmi Hitam,Rozaini Mohd Sani,,,Ahmad Yusri Mohamed,
 4,Payment Operators,JomPAY (by PayNet),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
-6,Fintech Sandbox,KAF Digital Bank,NOT FOUND,,,,,,
-6,Fintech Sandbox,KAF Digital Bank Berhad,NOT FOUND,,,,,,
-6,Fintech Sandbox,KDI Save Sdn Bhd,NOT FOUND,,,,,,
 5,GLC-Linked,KWSP Investment Division (Alternative Assets),Jasmine Goh,Nora Badaruddin,Ahmad Rizal Omar,Rozlina Abdul Samad,Chong Yee Leng,Afhzal Abdul Rahman,Mohammad Nasir Ismail
 5,GLC-Linked,KWSP Investment Division (Direct Investments),Jasmine Goh,Nora Badaruddin,Ahmad Rizal Omar,Rozlina Abdul Samad,Chong Yee Leng,Afhzal Abdul Rahman,Mohammad Nasir Ismail
 5,GLC-Linked,KWSP Investment Division (Real Estate),Jasmine Goh,Nora Badaruddin,Ahmad Rizal Omar,Rozlina Abdul Samad,Chong Yee Leng,Afhzal Abdul Rahman,Mohammad Nasir Ismail
-2,Investment Banks,Kenanga Investment Bank Berhad,Low Jia Yee — Chief Technology Officer (CISO-equivalent) [Official: kenanga.com.my/who-we-are/our-people/company/kenanga-investment-bank-berhad/],"Tai Yan Fee, Choo Siew Fun",Cheong Boon Kak,Tai Yan Fee,Choo Siew Fun,Low Jia Yee,Terence Tan Kian Meng
-5,GLC-Linked,Khazanah Nasional Berhad,NOT FOUND,Dato' Suhana Dewi Selamat,Faridah Bakar Ali,Dato' Suhana Dewi Selamat,Dato' Suhana Dewi Selamat,Datuk Hisham Hamdan,NOT FOUND
-3,Cooperatives,Koperasi Angkatan Tentera,,,,,,,
-3,Cooperatives,Koperasi Guru Malaysia,,,,,,,
-3,Cooperatives,Koperasi Johor,,,,,,,
-3,Cooperatives,Koperasi KL,,,,,,,
-3,Cooperatives,Koperasi Kakitangan Kerajaan,,,,,,,
-3,Cooperatives,Koperasi Kedah,,,,,,,
-3,Cooperatives,Koperasi Kelantan,,,,,,,
-3,Cooperatives,Koperasi Labuan,,,,,,,
-3,Cooperatives,Koperasi Melaka,,,,,,,
-3,Cooperatives,Koperasi Negeri Sembilan,,,,,,,
-3,Cooperatives,Koperasi Pahang,,,,,,,
-3,Cooperatives,Koperasi Perak,,,,,,,
-3,Cooperatives,Koperasi Perlis,,,,,,,
-3,Cooperatives,Koperasi Polis Diraja Malaysia,,,,,,,
-3,Cooperatives,Koperasi Pulau Pinang,,,,,,,
-3,Cooperatives,Koperasi Putrajaya,,,,,,,
-3,Cooperatives,Koperasi Sabah,,,,,,,
-3,Cooperatives,Koperasi Sarawak,,,,,,,
-3,Cooperatives,Koperasi Selangor,,,,,,,
-3,Cooperatives,Koperasi Tentera Malaysia,,,,,,,
-3,Cooperatives,Koperasi Terengganu,,,,,,,
+2,Investment Banks,Kenanga Investment Bank Berhad,Low Jia Yee,"Tai Yan Fee, Choo Siew Fun",Cheong Boon Kak,Tai Yan Fee,Choo Siew Fun,Low Jia Yee,Terence Tan Kian Meng
+5,GLC-Linked,Khazanah Nasional Berhad,NOT FOUND,Suhana Dewi Selamat,Faridah Bakar Ali,Suhana Dewi Selamat,Suhana Dewi Selamat,Hisham Hamdan,NOT FOUND
 5,GLC-Linked,Kumpulan Wang Simpanan Pekerja (KWSP),Jasmine Goh,Mohd Dali Jasmin,Mohamad Hafiz Kassim,Rozlina Abd Samad,Chong Yee Leng,Afhzal Abdul Rahman,Mohammad Nasir Ismail
 2,Insurers,Kurnia Insurans (Malaysia) Berhad,NOT FOUND,rebranded as Zurich General Insurance Malaysia Berhad,,,Peter Ong,"Ganesan Vaithilingam, Puneet Pasricha",Tan Bee Chuan
-3,Development FIs,LPPSA,NOT FOUND,,,,,,
 5,GLC-Linked,Lembaga Tabung Haji,Shamsul Kamal Hussein Kamal,"Syahril Nizam Abu Hasan, Mohd Hasraff Hashim","Shamsul Bahar Shamsudin, Mustakim Mohamad",Syahril Nizam Abu Hasan,Syahril Nizam Abu Hasan,Shamsul Kamal Hussein Kamal,Abu Bakar Baba
-2,Insurers,Liberty General Insurance Berhad,"Ganesan Vaithilingam — Chief Information Officer (CISO-equivalent: responsibilities include ""information security"" and ""Secure IT environment development"") [Official: libertyinsurance.com.my/corporate/management-team]","Jonathan Chong, Suffian bin Abdul Rahman",Suppiah Poongavanam,Jonathan Chong,Suffian bin Abdul Rahman,Ganesan Vaithilingam,Tan Bee Chuan
-2,Insurers,Lonpac Insurance Bhd,Lai Geng Farn,"Lee Chiew Lai, Mahinder Kaur a/p Kapal Singh","Ng Seng Khin, CFO of Lonpac since 2019",Lee Chiew Lai,Mahinder Kaur a/p Kapal Singh,Cynthia Ng Boon Howe,"Irene Hwang Siew Ling, Chief Internal Auditor of Lonpac since 1998, MIA CA, CPA Malaysia"
+2,Insurers,Liberty General Insurance Berhad,Ganesan Vaithilingam,"Jonathan Chong, Suffian bin Abdul Rahman",Suppiah Poongavanam,Jonathan Chong,Suffian bin Abdul Rahman,Ganesan Vaithilingam,Tan Bee Chuan
+2,Insurers,Lonpac Insurance Bhd,Lai Geng Farn,"Lee Chiew Lai, Mahinder Kaur a/p Kapal Singh",Ng Seng Khin,Lee Chiew Lai,Mahinder Kaur a/p Kapal Singh,Cynthia Ng Boon Howe,Irene Hwang Siew Ling
 4,E-Money,MAE by Maybank (Maybank Islamic),Devinder Singh,Mohamed Rezwan Abdullah Ismail,Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,Inn Yiow,Giorgio Migliarina,Malique Firdauz Ahmad Sidique
 4,E-Money,MAE by Maybank (Maybank2u),Devinder Singh,"Mohamed Rezwan Abdullah Ismail, Inn Yiow",Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,Inn Yiow,Giorgio Migliarina,Azian Ismail
-3,Development FIs,MARA,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,"Dr. Azmi bin Amat Murjan, portfolio includes cybersecurity action plan coordination",NOT FOUND
-5,GLC-Linked,MARA (Majlis Amanah Rakyat),NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,"Dr. Azmi bin Amat Murjan, portfolio includes cybersecurity action plan coordination",NOT FOUND
+3,Development FIs,MARA,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,"Azmi bin Amat Murjan, portfolio includes cybersecurity action plan coordination",NOT FOUND
+5,GLC-Linked,MARA (Majlis Amanah Rakyat),NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,"Azmi bin Amat Murjan, portfolio includes cybersecurity action plan coordination",NOT FOUND
 2,Insurers,MCIS Insurance Berhad,NOT FOUND,NOT FOUND,Susan Conradie,Nurliana binti Mat Lazim,Norlin Fatima Albakri,Ng Chee Sang,Noor Hayati binti Abu Yaziz
 2,Investment Banks,MIDF Amanah Investment Bank Berhad,NOT FOUND,Nor Azita Binti Sarip,Shahnaz Jammal,Laurence Ong Wooi Keat,Meor Ibrahim Othman,Noor Azman Bin Abdul Karim,Zanariah Daud
 2,Insurers,MSIG Insurance (Malaysia) Bhd,,,Soh Lai Sim,Kelvin Hii Chee Yun,,Chin Jee Gwan,
 2,Investment Banks,Malaysia International Islamic Bank IB,ENTITY NON-EXISTENT,,,,,,
-2,Insurers,Manulife Insurance Berhad,NOT FOUND,NOT FOUND,Ng Chun Nam,Mohd Naim Mohd Arsad,"Senthil Woon, Vibha Hamsi Coburn, Board Risk Cmte Chair: Arthur Jay Belfer, Audit Cmte Chair: Vijayam Nadarajah",Bernard Sia,NOT FOUND
+2,Insurers,Manulife Insurance Berhad,NOT FOUND,NOT FOUND,Ng Chun Nam,Mohd Naim Mohd Arsad,"Senthil Woon, Vibha Hamsi Coburn, Arthur Jay Belfer, Vijayam Nadarajah",Bernard Sia,NOT FOUND
 2,Takaful,Manulife Takaful Malaysia Berhad,NOT FOUND,NOT FOUND,Ng Chun Nam,Mohd Naim Bin Mohd Arsad,Senthil Woon Wai Keong,Bernard Sia,Krishna Rajaa Ramalingam
 5,GLC-Linked,Maybank (Khazanah-linked),DUPLICATE OF MAYBANK BERHAD,,,,,,
 1,Licensed Banks,Maybank Berhad,Devinder Singh,"Mohamed Rezwan Abdullah Ismail, Inn Yiow",Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,Inn Yiow,Giorgio Migliarina,Azian Ismail
@@ -135,20 +95,18 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,Maybank Islamic Berhad,Devinder Singh,Mohamed Rezwan Abdullah Ismail,Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,Inn Yiow,Giorgio Migliarina,Malique Firdauz Ahmad Sidique
 4,Card Schemes,Maybank Singapore Airlines Enrich Card,Devinder Singh,"Mohamed Rezwan Abdullah Ismail, Inn Yiow",Shafiq Abdul Jabbar,Mohamed Rezwan Abdullah Ismail,Inn Yiow,Giorgio Migliarina,Azian Ismail
 4,Payment Operators,Me2U (by PayNet),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
-1,Licensed Banks,Mizuho Bank (Malaysia) Berhad,NOT FOUND,NOT FOUND,NOT FOUND,,,NOT FOUND,
 3,MSBs,Money Match Sdn Bhd,DUPLICATE OF MONEYMATCH SDN BHD,,,,,,
 3,MSBs,MoneyMatch Sdn Bhd,Poorya,NOT FOUND,Anees Aisyah,NOT FOUND,Thavalogan,Jerry Chee,NOT FOUND
-1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Dominic Yew,"Dr Priya Ranjan Sharma, Doreen Keng Chun Ching",Ms Teoh Yin Meng,Dr Priya Ranjan Sharma,Ms Doreen Keng Chun Ching,Mr Hong Hee Loon,Mr Victor Ong Hock Seng
-5,GLC-Linked,PNB Capital Berhad,"Ts. Muhammad Izzat bin Hj Abdul Aziz, IT security leadership inherited from PNB Group CTO function",Sahlawati Mustafa,Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Ts Izzat Aziz,Noramly Bachok @ Abdul Aziz
-5,GLC-Linked,PNB Equity Fund Berhad,"Ts. Muhammad Izzat bin Hj Abdul Aziz, IT security leadership inherited from PNB Group CTO function",Sahlawati Mustafa,Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Ts Izzat Aziz,Noramly Bachok @ Abdul Aziz
+1,Licensed Banks,OCBC Bank (Malaysia) Berhad,Dominic Yew,"Priya Ranjan Sharma, Doreen Keng Chun Ching",Teoh Yin Meng,Priya Ranjan Sharma,Doreen Keng Chun Ching,Hong Hee Loon,Victor Ong Hock Seng
+5,GLC-Linked,PNB Capital Berhad,Muhammad Izzat bin Hj Abdul Aziz,Sahlawati Mustafa,Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Izzat Aziz,Noramly Bachok @ Abdul Aziz
+5,GLC-Linked,PNB Equity Fund Berhad,Muhammad Izzat bin Hj Abdul Aziz,Sahlawati Mustafa,Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Izzat Aziz,Noramly Bachok @ Abdul Aziz
 5,GLC-Linked,PNB Income Fund Berhad,ENTITY LIKELY NON-EXISTENT,,,,,,
 3,Development FIs,PUNB,,Ahmad Faisal Mohd Basir,Azman Abdullah,Mohd Sulaiman Khazali,Norasyikin Mansor,,Mohd Sulaiman Khazali
 4,Payment Operators,PayDirect (by PayNet),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
 4,Payment Operators,PayNet (PayNet Malaysia Sdn Bhd),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
 4,Card Schemes,PayNet Card (by PayNet),Meling Mudin,NOT FOUND,Tan Wei Tze,NOT FOUND,NOT FOUND,Teh Lip Guan,NOT FOUND
-5,GLC-Linked,Penang State Development Corporation (PSDC),NOT FOUND,,,,,,
 5,GLC-Linked,Permodalan BSN Berhad (PBSNB),,,Suzylah Mohamed Noor,Wong Ching Fai @ Christopher,Wong Ching Fai @ Christopher,,
-5,GLC-Linked,Permodalan Nasional Berhad (PNB),"Ts. Muhammad Izzat bin Hj Abdul Aziz, led PNB SuperApp, GLIC AI Roundtable. ⚠️ Possible departure late 2025",Sahlawati Mustafa,Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Ts Izzat Aziz,Noramly Bachok @ Abdul Aziz
+5,GLC-Linked,Permodalan Nasional Berhad (PNB),"Muhammad Izzat bin Hj Abdul Aziz, led PNB SuperApp, GLIC AI Roundtable. ⚠️ Possible departure late 2025",Sahlawati Mustafa,Mohd Irwan Ahmad Mustafa,Mohd Azmir Mohd Jani,Sahlawati Mustafa,Izzat Aziz,Noramly Bachok @ Abdul Aziz
 5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),,Mohammed Hanafi Bin Muhi,Ahmad Zamwawi Bin Ahmad Nazari,,,,Mohammed Hanafi Bin Muhi
 2,Investment Banks,Phillip Securities (Malaysia) Sdn Bhd,NOT FOUND,NOT FOUND,Alina Sim,Ramli Abd Hamid,Ramli Abd Hamid,Yorck Oliver Ago Reuber,Fatin Fitriana Amran
 2,Insurers,Prudential Assurance Malaysia Berhad,Tan Chia Chee,"Kamarul Hisham, Idariah Idris",Ankur Bassi,Kamarul Hisham,Idariah Idris,Chen Liaw,Rohini Maniam
@@ -156,63 +114,43 @@ Tier,Segment,Institution_Name,Chief Information Security Officer,Head of Governa
 1,Licensed Banks,Public Bank Berhad,NOT FOUND,"Loh Jasmine, Tan Shien Doon",Yik Sook Ling,Loh Jasmine,Tan Shien Doon,Public Bank Group,Fam Yoke Fong
 2,Investment Banks,Public Investment Bank Berhad,NOT FOUND,"Jasmine Loh Sook Ling, Tan Shien Doon",Yik Sook Ling,Jasmine Loh Sook Ling,Tan Shien Doon,Fam Yoke Fong,Lim Then Fui
 1,Licensed Banks,Public Islamic Bank Berhad,NOT FOUND,"Loh Jasmine, Tan Shien Doon",Yik Sook Ling,Loh Jasmine,Tan Shien Doon,Fam Yoke Fong,Lim Then Fui
-2,Insurers,QBE Insurance (Malaysia) Sdn Bhd,NOT FOUND,Jeyasakthi Ratnasingam,"Vivien Wong, yrs finance leadership, CPA Australia & MIA","Mohd Farid Bin Othman, yrs internal audit/risk, MIA member","Jaysree Kaliappan, yrs compliance/operational risk, ICA Intl Diploma in GRC",NOT FOUND,NOT FOUND
-1,Licensed Banks,RHB Bank Berhad,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Dr Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
-2,Investment Banks,RHB Investment Bank Berhad,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Dr Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
-1,Licensed Banks,RHB Islamic Bank Berhad,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Dr Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
-4,Card Schemes,RHB Shell Visa Card,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Dr Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
-4,E-Money,Razer Pay (Razer Fintech),NOT FOUND,,,,,,
+2,Insurers,QBE Insurance (Malaysia) Sdn Bhd,NOT FOUND,Jeyasakthi Ratnasingam,Vivien Wong,Mohd Farid Bin Othman,Jaysree Kaliappan,NOT FOUND,NOT FOUND
+1,Licensed Banks,RHB Bank Berhad,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
+2,Investment Banks,RHB Investment Bank Berhad,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
+1,Licensed Banks,RHB Islamic Bank Berhad,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
+4,Card Schemes,RHB Shell Visa Card,Soon Yap,Azman Shah Md Yaman,Mohamed Bin Rastam Shahrom,Chong Han Hwee,Fazlina Mohamed Ghazalli,Wong Kwang Leh,Tan Boon Ching
 4,E-Money,Razer Pay Malaysia Sdn Bhd,ENTITY DEFUNCT,,,,,,
 6,Fintech Sandbox,Ryt Bank Berhad,NOT FOUND,NOT FOUND,Wilson Soon,Yeoh Xin Yi,Muhammad Nasir Bin Hassan,Nic Ngoo,NOT FOUND
 6,Fintech Sandbox,Ryt Bank Berhad (YTL Digital),NOT FOUND,NOT FOUND,Wilson Soon,Yeoh Xin Yi,Muhammad Nasir Bin Hassan,Nic Ngoo,NOT FOUND
 3,Development FIs,SME Bank Berhad,Hairil Izwar Abd Rahman,"Mohammad Azam Ahmad, Rosehamidi Kamaruddin","Hee Wei Jean, Samad Majid Zain",Mohammad Azam Ahmad,Rosehamidi Kamaruddin,Hairil Izwar Abd Rahman,Hasrul Farid Hasnan
-5,GLC-Linked,Sabah State Financial Corporation (SSFC),NOT FOUND,,,,,,
-5,GLC-Linked,Sarawak State Financial Corporation (SSFC),NOT FOUND,Cik Khartini Johari,Encik Leo Lanaiwong,Cik Khartini Johari,Jason Minos,Tuan Haji Nor Azlan Husaini,Encik Yap Yien Chiang
-6,Fintech Sandbox,SeaBank Malaysia Berhad,NOT FOUND,,,,,,
+5,GLC-Linked,Sarawak State Financial Corporation (SSFC),NOT FOUND,Cik Khartini Johari,Leo Lanaiwong,Cik Khartini Johari,Jason Minos,Nor Azlan Husaini,Yap Yien Chiang
 3,MSBs,SenangPay Sdn Bhd,,,Mohd Mutalib,,,,
 4,E-Money,Setel (PETRONAS Dagangan),NOT FOUND,,Mazlie Minhat,,,Sazlina Ahamad,Nik Fariza Nik Hamdan
 4,E-Money,Setel by PETRONAS Dagangan Berhad,NOT FOUND,,Mazlie Minhat,,,Sazlina Ahamad,Nik Fariza Nik Hamdan
 4,E-Money,ShopeePay (Monee Malaysia),NOT FOUND,,Tony Hou,,,,
 4,E-Money,ShopeePay Malaysia Sdn Bhd,NOT FOUND,,Tony Hou,,,,
-6,Fintech Sandbox,Soft Space Sdn Bhd,NOT FOUND,,,,,,
 1,Licensed Banks,Standard Chartered Bank Malaysia Berhad,Sivanathan Subramaniam,"Ong Gaik Ean, Irene Tan",Mushahid Syed,Ong Gaik Ean,Irene Tan,Joy Chowdhury,Praveen Sankaranarayan
 4,Card Schemes,Standard Chartered Shopee Visa Card,Sivanathan Subramaniam,"Ong Gaik Ean, Irene Tan",Mushahid Syed,Ong Gaik Ean,Irene Tan,Joy Chowdhury,Praveen Sankaranarayan
-6,Fintech Registered,Stripe Payments Malaysia Sdn Bhd,NOT FOUND,,,,,,
 1,Licensed Banks,Sumitomo Mitsui Banking Corporation Malaysia Berhad,NOT FOUND,,Norihiro Oyanagi,Lim Tuang Ooi,,,Lo Nyen Khing
-2,Insurers,Sun Life Malaysia Assurance Berhad,NOT FOUND,"Board Chairman: Dato' Noorazman Abd. Aziz, RMC Chair: Nigel Hazell",Lim Chin Har / Chew Lim,Nigel Hazell,,,Wong Ah Kow
-" CEO) [Official: sunlifemalaysia.com]""",,,,,,,,,
+2,Insurers,Sun Life Malaysia Assurance Berhad,NOT FOUND,"Noorazman Abd. Aziz, Nigel Hazell","Lim Chin Har, Chew Lim",Nigel Hazell,,,Wong Ah Kow
 5,GLC-Linked,Syarikat Jaminan Pembiayaan Perniagaan (SJPP),,Juanita Rusmini binti Abdul Jalil,,,,,
 2,Takaful,Syarikat Takaful Malaysia Berhad,NOT FOUND,Shizal Fisham bin Ramli,New Kheng Chee,NOT FOUND,Redzuan bin Abu,Nazaruddin Adha bin Md Noor,Zuhairi bin Ismail
 4,E-Money,TNG Digital Sdn Bhd,,Dunstan Gerald Maurice,Lai Mee Fong,Dunstan Gerald Maurice,Dunstan Gerald Maurice,Desmond Chin Ye Foong,
 3,Development FIs,Tabung Haji,Shamsul Kamal Hussein Kamal,"Syahril Nizam Abu Hasan, Mohd Hasraff Hashim","Shamsul Bahar Shamsudin, Mustakim Mohamad",Syahril Nizam Abu Hasan,Syahril Nizam Abu Hasan,Shamsul Kamal Hussein Kamal,Abu Bakar Baba
 2,Takaful,Takaful Am General Berhad,NOT FOUND,Shizal Fisham bin Ramli,Sharmini Perampalam,NOT FOUND,Abd Ghafur Ahmad,Aaron Loo,Haniza Filzah Hayani Abu Haniffa
 2,Takaful,Takaful IKHLAS Berhad,NOT FOUND,Abd Ghafur Ahmad,Sharmini Perampalam,NOT FOUND,Abd Ghafur Ahmad,Lee Kok Seong,Haniza Filzah Hayani Abu Haniffa
-3,Development FIs,Tekun Nasional,NOT FOUND,NOT FOUND,Hj. Aishamuddin bin Zulkefli,Hj Mohamad Razman bin Razak,Jalilah Che Bidin,Hj. Muhammad Yusman bin Yusoff,Md Rukemi bin Ishak
+3,Development FIs,Tekun Nasional,NOT FOUND,NOT FOUND,Aishamuddin bin Zulkefli,Hj Mohamad Razman bin Razak,Jalilah Che Bidin,Muhammad Yusman bin Yusoff,Md Rukemi bin Ishak
 2,Insurers,Tokio Marine Life Insurance Malaysia Bhd,NOT FOUND,NOT FOUND,Tham Kok Yoke,Andrew Ngou Chee Mun,Loh Chee Hoong,Nicholas Tan Chin Yau,Wong Kah Keong
 4,E-Money,Touch 'n Go eWallet (TNG Digital Sdn Bhd),,Dunstan Gerald Maurice,Lai Mee Fong,Dunstan Gerald Maurice,Dunstan Gerald Maurice,Desmond Chin Ye Foong,
 4,Card Schemes,Touch n Go Visa Prepaid Card,,Dunstan Gerald Maurice,Lai Mee Fong,Dunstan Gerald Maurice,Dunstan Gerald Maurice,Desmond Chin Ye Foong,
 3,MSBs,Touch n Go eWallet Sdn Bhd,,Dunstan Gerald Maurice,Lai Mee Fong,Dunstan Gerald Maurice,Dunstan Gerald Maurice,Desmond Chin Ye Foong,
-3,MSBs,ToyyibPay Sdn Bhd,NOT FOUND,,,,,,
 4,Card Schemes,UOB Lazada Visa Card,Tobias Gondrom,"Tan Tii Lam, Loke Chee Keen Daniel",Chang Yeong Gung,Tan Tii Lam,Loke Chee Keen Daniel,Mohamad Fazli Bin Mohamad Sarujee,Wong See Hong Bill
 1,Licensed Banks,UOB Malaysia Berhad,Tobias Gondrom,"Tan Tii Lam, Loke Chee Keen Daniel",Chang Yeong Gung,Tan Tii Lam,Loke Chee Keen Daniel,Mohamad Fazli Bin Mohamad Sarujee,Wong See Hong Bill
 3,MSBs,Wallex Sdn Bhd,NOT FOUND,,,,"Dee Patria Adithana, GRCP",,
-4,E-Money,WeChat Pay Malaysia (Tencent),,,,,,,
-4,E-Money,WeChat Pay Malaysia Sdn Bhd,,,,,,,
 3,MSBs,Wise (formerly TransferWise) Malaysia Sdn Bhd,,,Emmanuel Thomassin,,Nita Patel,Harsh Sinha,
 3,MSBs,Xendit Technologies (Malaysia) Sdn Bhd,NOT FOUND,,,,,Bo Chen,
 2,Insurers,Zurich Life Insurance Malaysia Berhad,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,NOT FOUND,Onn Kien Hoe
-2,Takaful,Zurich Takaful Malaysia Berhad,NOT FOUND,,,,,,
 6,Fintech Registered,iPay88 (M) Sdn Bhd,Alex Wah,,,,,,
 3,MSBs,iPay88 (Malaysia) Sdn Bhd,Alex Wah,,,,,,
-1,Licensed Banks,Bank Muamalat Malaysia Berhad,NOT FOUND,Nasha Phedra binti Amin,Amirul Nasir Abdul Rahim,Hamidi A Razak,Wan Kamarudin Wan Omar,Ts. Megat Mohammad Faisal Khir Johari,Faidzuel Bin Zain
+1,Licensed Banks,Bank Muamalat Malaysia Berhad,NOT FOUND,Nasha Phedra binti Amin,Amirul Nasir Abdul Rahim,Hamidi A Razak,Wan Kamarudin Wan Omar,Megat Mohammad Faisal Khir Johari,Faidzuel Bin Zain
 1,Licensed Banks,Sumitomo Mitsui Banking Corporation Malaysia Berhad,NOT FOUND,,Norihiro Oyanagi,,,,
-5,GLC-Linked,Permodalan BSN Berhad (PBSNB),,,,,,,
-5,GLC-Linked,Johor Corporation (JCorp),,,,,,,
-5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),,,,,,,
-5,GLC-Linked,Permodalan Negeri Selangor Berhad (PNSB),,,,,,,
-5,GLC-Linked,Johor Corporation (JCorp),,,,,,,
-4,E-Money,Setel (PETRONAS Dagangan),,,,,,,
-4,E-Money,Setel (PETRONAS Dagangan),,,,,,,
-3,MSBs,Wise (formerly TransferWise) Malaysia Sdn Bhd,,,,,,,
-4,E-Money,Setel by PETRONAS Dagangan Berhad,,,,,,,
-4,E-Money,Setel by PETRONAS Dagangan Berhad,,,,,,,
