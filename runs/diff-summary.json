@@ -1,0 +1,1858 @@
+{
+  "old_total": 217,
+  "new_total": 155,
+  "removed_count": 52,
+  "added_count": 0,
+  "removed_with_contacts": 0,
+  "removed_empty_only": 52,
+  "tu_old": 749,
+  "tu_new": 749,
+  "tu_delta": 0,
+  "old_with_contact": 155,
+  "new_with_contact": 155,
+  "removed_names": [
+    "",
+    "2C2P (Malaysia) Sdn Bhd",
+    "AEON Bank (M) Berhad",
+    "AEON Bank Berhad",
+    "AEON Wallet (AEON Credit)",
+    "Agensi Jaminan Kredit Mikro (AKM)",
+    "Alipay+ Malaysia (Ant Group)",
+    "Billplz Sdn Bhd",
+    "Cradle Fund Sdn Bhd",
+    "Credit Suisse (Malaysia) Berhad",
+    "CurrencyFair (Malaysia) Sdn Bhd",
+    "G2G Online (Malaysia) Sdn Bhd",
+    "GrabPay Malaysia Sdn Bhd",
+    "I.Destinasi Sdn Bhd (IDSB)",
+    "Iskandar Waterfront City",
+    "Jirnexu (M) Sdn Bhd",
+    "KAF Digital Bank",
+    "KAF Digital Bank Berhad",
+    "KDI Save Sdn Bhd",
+    "Koperasi Angkatan Tentera",
+    "Koperasi Guru Malaysia",
+    "Koperasi Johor",
+    "Koperasi KL",
+    "Koperasi Kakitangan Kerajaan",
+    "Koperasi Kedah",
+    "Koperasi Kelantan",
+    "Koperasi Labuan",
+    "Koperasi Melaka",
+    "Koperasi Negeri Sembilan",
+    "Koperasi Pahang",
+    "Koperasi Perak",
+    "Koperasi Perlis",
+    "Koperasi Polis Diraja Malaysia",
+    "Koperasi Pulau Pinang",
+    "Koperasi Putrajaya",
+    "Koperasi Sabah",
+    "Koperasi Sarawak",
+    "Koperasi Selangor",
+    "Koperasi Tentera Malaysia",
+    "Koperasi Terengganu",
+    "LPPSA",
+    "Mizuho Bank (Malaysia) Berhad",
+    "Penang State Development Corporation (PSDC)",
+    "Razer Pay (Razer Fintech)",
+    "Sabah State Financial Corporation (SSFC)",
+    "SeaBank Malaysia Berhad",
+    "Soft Space Sdn Bhd",
+    "Stripe Payments Malaysia Sdn Bhd",
+    "ToyyibPay Sdn Bhd",
+    "WeChat Pay Malaysia (Tencent)",
+    "WeChat Pay Malaysia Sdn Bhd",
+    "Zurich Takaful Malaysia Berhad"
+  ],
+  "added_names": [],
+  "lost_real_in_retained": [
+    [
+      "MARA (Majlis Amanah Rakyat)",
+      [
+        "conf 80 - title corrected from cio to cdo per wikipedia verification]",
+        "dr. azmi bin amat murjan (timbalan ketua pengarah mara (khidmat pengurusan) / ketua pegawai digital (cdo) - title is cdo not strictly cio; portfolio includes cybersecurity action plan coordination) [official: mara.gov.my"
+      ]
+    ],
+    [
+      "GX Bank Berhad",
+      [
+        "karina sivam (head of internal audit) [official: gxbank.my/our-leadership]",
+        "kenneth leong (chief financial officer) [official: gxbank.my/our-leadership]",
+        "kiyoka thaam (chief risk officer) [official: gxbank.my/our-leadership]",
+        "kiyoka thaam (cro) + nadia farhan noordin (head of compliance) [official: gxbank.my]",
+        "nadia farhan noordin (head of compliance) [official: gxbank.my/our-leadership]",
+        "nishant sharma (chief technology officer) [official: gxbank.my/our-leadership]"
+      ]
+    ],
+    [
+      "SenangPay Sdn Bhd",
+      [
+        "conf 70]",
+        "mohd mutalib (vp finance and account) [linkedin"
+      ]
+    ],
+    [
+      "Great Eastern Life Assurance (Malaysia) Berhad",
+      [
+        "appointed 1 jan 2023) [official: greateasternlife.com]",
+        "audra chung kit li (chief internal auditor",
+        "company secretary and legal) [official: greateasternlife.com]",
+        "helen quat li huang (division head of compliance",
+        "information technology (ciso-equivalent: handles technology risk management & it governance) [official: greateasternlife.com/my/en/about-us/company-profile/our-leaders/key-executive.html] | conf 75 | no dedicated ciso role listed; it division covers infosec function.",
+        "joined 2005) [official: greateasternlife.com]",
+        "joined 2007) [official: greateasternlife.com]",
+        "joined 2013) [official: greateasternlife.com]",
+        "liza hanim zainal abidin (division head",
+        "loke chang yueh (cfo",
+        "teo chun seng (division head of risk management",
+        "vincent chin (head of it",
+        "vincent chin \u2014 division head"
+      ]
+    ],
+    [
+      "Xendit Technologies (Malaysia) Sdn Bhd",
+      [
+        "bo chen (chief technology officer",
+        "conf 80 - inherited to malaysia entity. xendit acquired payex (bnm-licensed) 2023",
+        "conf 98",
+        "coo: tessa wijaya (non-target).]",
+        "full acquisition 2025. malaysia country manager: jayson poon (official press release oct 2025",
+        "non-target). gm malaysia: jason siew (press release sep 2025",
+        "non-target). parent ceo: moses lo",
+        "xendit - parent) [official: xendit.co/en/company/"
+      ]
+    ],
+    [
+      "BigPay Malaysia Sdn Bhd",
+      [
+        "bnm-licensed e-money issuer. bigpayme.com has no leadership page. capital a deputy ceo effendy shahul hamid oversees financial services portfolio (non-target). no bigpay-specific c-suite publicly published.]",
+        "capital a berhad - parent) [official: capitala.com/corporate_leadership.html",
+        "conf 80 - inherited to bigpay. bigpay = capital a (formerly airasia) fintech subsidiary",
+        "mun hui teh (chief financial officer"
+      ]
+    ],
+    [
+      "RHB Islamic Bank Berhad",
+      [
+        "azman shah md yaman (group chief legal & governance officer) [group-level: rhb bank]",
+        "dr chong han hwee (group cro) [group-level: rhb bank]",
+        "fazlina mohamed ghazalli (group cco) [group-level: rhb bank]",
+        "mohamed bin rastam shahrom (group cfo) [group-level: rhb bank]",
+        "soon yap (ciso) [group-level: rhb bank]",
+        "tan boon ching (group chief internal auditor) [group-level: rhb bank]",
+        "wong kwang leh (group cto) [group-level: rhb bank]"
+      ]
+    ],
+    [
+      "Syarikat Takaful Malaysia Berhad",
+      [
+        "nazaruddin adha bin md noor (cto) [official: takaful-malaysia.com.my]",
+        "new kheng chee (group cfo) [official: takaful-malaysia.com.my]",
+        "redzuan bin abu (head of compliance) [official: takaful-malaysia.com.my]",
+        "shizal fisham bin ramli (chief governance officer) [official: takaful-malaysia.com.my]",
+        "zuhairi bin ismail (chief internal audit) [official: takaful-malaysia.com.my]"
+      ]
+    ],
+    [
+      "JCL Corporation Sdn Bhd",
+      [
+        "affin hwang",
+        "aminvestment",
+        "entity non-existent as licensed investment bank [no match on bnm licensed investment banks list (cimb ib",
+        "hong leong ib",
+        "kaf ib). no bursa/ssm record. likely mislabel or placeholder.]",
+        "kenanga ib",
+        "m&a securities",
+        "maybank ib",
+        "public ib",
+        "rhb ib"
+      ]
+    ],
+    [
+      "Alliance Islamic Bank Berhad",
+      [
+        "also responsible for compliance) [official: alliancebank.com.my]",
+        "andrew ng yin min (group chief internal auditor) [official: alliancebank.com.my]",
+        "jacob abraham (group chief risk officer) [official: alliancebank.com.my]",
+        "jacob abraham (group cro",
+        "jacob abraham (group cro + compliance oversight) [group-level: alliance bank]",
+        "nantha kumar subramanian (group chief digital & information officer) [official: alliancebank.com.my]",
+        "ronnie royston fernandiz (group cfo) [official: alliancebank.com.my]",
+        "william song (group ciso) [group-level: alliance bank]"
+      ]
+    ],
+    [
+      "QBE Insurance (Malaysia) Sdn Bhd",
+      [
+        "14+ yrs compliance/operational risk",
+        "20+ yrs internal audit/risk",
+        "25+ yrs finance leadership",
+        "conf 90]",
+        "cpa australia & mia) [official: qbe.com/my/about-qbe/executive-team]",
+        "ica intl diploma in grc) [official: qbe.com/my/about-qbe/executive-team]",
+        "intl diploma in grc) [official: qbe annual report 2024",
+        "jaysree kaliappan (head of compliance",
+        "jeyasakthi ratnasingam (head of risk & compliance for asia",
+        "joined dec 2018",
+        "joined jul 2025",
+        "joined may 2026",
+        "mia member) [official: qbe.com/my/about-qbe/executive-team]",
+        "mohd farid bin othman (head of risk",
+        "since nov 2024",
+        "vivien wong (head of finance"
+      ]
+    ],
+    [
+      "FPX (by PayNet)",
+      [
+        "conf 85]",
+        "inherited",
+        "meling mudin (chief information security officer",
+        "paynet group) [inherited from paynet parent per v5.5 leadership-inheritance precedent. source: star cybersecurity summit 2025 speaker page + linkedin + zoominfo; conf 95]",
+        "paynet) [paynet leadership - fpx is a paynet product",
+        "tan wei tze (chief financial officer",
+        "teh lip guan (chief technology officer"
+      ]
+    ],
+    [
+      "Public Islamic Bank Berhad",
+      [
+        "fam yoke fong (senior gm",
+        "it) [group-level: public bank]",
+        "lim then fui (group chief internal auditor) [group-level: public bank]",
+        "loh jasmine (cro) + tan shien doon (compliance) [group-level composite]",
+        "loh jasmine (cro) [group-level: public bank]",
+        "tan shien doon (cco) [group-level: public bank]",
+        "yik sook ling (cfo) [group-level: public bank]"
+      ]
+    ],
+    [
+      "RHB Bank Berhad",
+      [
+        "azman shah md yaman (group chief legal & governance officer)",
+        "dr chong han hwee (group cro)",
+        "fazlina mohamed ghazalli (group cco)",
+        "mohamed bin rastam shahrom (group cfo)",
+        "soon yap (ciso) [linkedin]",
+        "tan boon ching (group chief internal auditor)",
+        "wong kwang leh (group cto)"
+      ]
+    ],
+    [
+      "Bank Muamalat Malaysia Berhad",
+      [
+        "amirul nasir abdul rahim (chief financial officer) [official: muamalat.com.my]",
+        "faidzuel bin zain (chief internal auditor) [official: muamalat.com.my]",
+        "hamidi a razak (chief risk officer) [official: muamalat.com.my]",
+        "legal & secretarial) [official: muamalat.com.my]",
+        "nasha phedra binti amin (head",
+        "ts. megat mohammad faisal khir johari (chief technology officer) [official: muamalat.com.my]",
+        "wan kamarudin wan omar (chief compliance officer) [official: muamalat.com.my]"
+      ]
+    ],
+    [
+      "Boost (Axiata + RHB)",
+      [
+        "abid abdul adam (group chief risk and compliance officer",
+        "axiata group) [official: axiata.com/about-us/our-people",
+        "conf 85 - grc inherited from axiata group parent] [inherited from axiata digital services - parent]",
+        "dr mohanamerry vedamanikam|chief compliance officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank chief compliance officer [inherited from boost bank berhad - product brand governance]",
+        "puteri syurga|chief risk officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank cro [inherited from boost bank berhad - product brand governance]",
+        "shankar krishnan|chief technology officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank cto (maps to cio/cto role) [inherited from boost bank berhad - product brand governance]",
+        "steven lim|chief financial officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank cfo [inherited from boost bank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "Deutsche Bank (Malaysia) Berhad",
+      [
+        "conf 65]",
+        "conf 90]",
+        "jeng yean won (ciso malaysia",
+        "liew yeh yin (officer primarily responsible for financial management) [official: country.db.com/malaysia fy2025 financial statements cg statement",
+        "surabhi agarwal (chief risk officer) [linkedin",
+        "thailand & vietnam) [linkedin: my.linkedin.com/in/jengyeanwon"
+      ]
+    ],
+    [
+      "Touch 'n Go eWallet (TNG Digital Sdn Bhd)",
+      [
+        "compliance & governance officer|95|https://www.touchngo.com.my/about-us/leadership/|combined cro/compliance/grc role",
+        "desmond chin ye foong|chief technology officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cto (maps to cio/cto role)",
+        "dunstan gerald maurice|chief risk",
+        "lai mee fong|chief financial officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cfo"
+      ]
+    ],
+    [
+      "Maybank Cash & Go Prepaid Card",
+      [
+        "azian ismail (chief audit executive) [theorg] [inherited from maybank berhad - product brand governance]",
+        "devinder singh (group ciso) [linkedin/the org] [inherited from maybank berhad - product brand governance]",
+        "giorgio migliarina (group chief technology & digital officer) [inherited from maybank berhad - product brand governance]",
+        "inn yiow (group chief compliance officer) [rocketreach/zoominfo] [inherited from maybank berhad - product brand governance]",
+        "mohamed rezwan abdullah ismail (group cro) + inn yiow (group cco) [group-level: maybank] [inherited from maybank berhad - product brand governance]",
+        "mohamed rezwan abdullah ismail [inherited from maybank berhad - product brand governance]",
+        "shafiq abdul jabbar [inherited from maybank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "Bank Pembangunan Malaysia Berhad (BPMB)",
+      [
+        "ciso-equivalent) [official: bpmb.com.my/about-us/leadership/",
+        "conf 80]",
+        "hairil izwar abd rahman (group chief digital & technology officer",
+        "hairil izwar abd rahman (group chief digital & technology officer) [official: bpmb.com.my]",
+        "hasrul farid hasnan (group chief internal auditor) [official: bpmb.com.my]",
+        "hee wei jean (group cfo) [official: bpmb.com.my]",
+        "mohammad azam ahmad (group cro) + rohayati talha (group cco) [composite] [official: bpmb.com.my]",
+        "mohammad azam ahmad (group cro) [official: bpmb.com.my]",
+        "rohayati talha (group cco) [official: bpmb.com.my]"
+      ]
+    ],
+    [
+      "Takaful Am General Berhad",
+      [
+        "aaron loo (svp & group chief transformation officer) [mnrb.com.my",
+        "abd ghafur ahmad (svp & group chief compliance officer) [mnrb.com.my",
+        "conf 60 - covers governance component of grc; compliance separately headed by redzuan bin abu]",
+        "haniza filzah hayani abu haniffa (svp & group chief internal auditor) [mnrb.com.my",
+        "high-90]",
+        "medium-65]",
+        "sharmini perampalam (evp & group cfo) [mnrb.com.my",
+        "shizal fisham bin ramli (ketua pegawai tadbir urus / chief governance officer",
+        "takaful malaysia group) [official: takaful-malaysia.com.my/tentang-kami/barisan-kepimpinan/"
+      ]
+    ],
+    [
+      "Tokio Marine Life Insurance Malaysia Bhd",
+      [
+        "andrew ngou chee mun (chief risk officer) [malaysian insurance directory 2025/2026",
+        "conf 90]",
+        "conf 95]",
+        "loh chee hoong (head of compliance) [malaysian insurance directory 2025/2026",
+        "nicholas tan chin yau (chief information officer) [malaysian insurance directory 2025/2026",
+        "tham kok yoke (chief financial officer) [official: tokiomarine.com/my/en/life/about-us/our-board-of-directors-and-management-team.html",
+        "wong kah keong (head of internal audit) [malaysian insurance directory 2025/2026"
+      ]
+    ],
+    [
+      "Wallex Sdn Bhd",
+      [
+        "conf 80 - indonesia-based",
+        "grcp (legal & compliance counsel",
+        "inherited to wallex malaysia entity. wallex.com dns-fails; correct domain wallex.asia. m-daq hq singapore",
+        "m-daq global - parent) [official: wallex.asia/en-sg/about-us + linkedin id.linkedin.com/in/dee-patria-adithana",
+        "pj malaysia office.]"
+      ]
+    ],
+    [
+      "Bank Simpanan Nasional (BSN)",
+      [
+        "asrul kamaruddin (chief information officer) [theorg - unverified]",
+        "muizz aiman farid (cro) + sujit guha thakurta (compliance) [composite]",
+        "muizz aiman farid (svp / chief risk officer) [official: bsn.com.my]",
+        "norhafizah md shariff (chief financial officer) [official: bsn.com.my]",
+        "sujit guha thakurta (svp / chief compliance officer) [official: bsn.com.my]"
+      ]
+    ],
+    [
+      "Tekun Nasional",
+      [
+        "conf 90]",
+        "hj mohamad razman bin razak (ketua jabatan pengurusan risiko / head of risk management) [official: tekun.gov.my pdf org chart",
+        "hj. aishamuddin bin zulkefli (timbalan ketua pegawai eksekutif (kewangan) / deputy ceo finance) [official: tekun.gov.my pdf org chart",
+        "hj. muhammad yusman bin yusoff (ketua jabatan teknologi maklumat / head of it) [official: tekun.gov.my pdf org chart",
+        "jalilah che bidin (ketua jabatan integriti & tadbir urus / head of integrity & governance) [official: tekun.gov.my pdf org chart",
+        "md rukemi bin ishak (ketua jabatan audit dalam / head of internal audit) [official: tekun.gov.my pdf org chart"
+      ]
+    ],
+    [
+      "CIMB Islamic Bank Berhad",
+      [
+        "amran mohamad (group chief internal auditor) [group-level: cimb bank]",
+        "charles samuel (group ciso) [group-level: cimb bank]",
+        "khairul rifaie (group chief financial & strategy officer) [group-level: cimb bank]",
+        "kwan keen yew (group chief integrity & governance officer) [group-level: cimb bank]",
+        "kwan keen yew (group chief legal & compliance officer) [group-level: cimb bank]",
+        "ros aziah mohd yusoff (group cto) [group-level: cimb bank]",
+        "vera handajani (group cro) [group-level: cimb bank]"
+      ]
+    ],
+    [
+      "Kumpulan Wang Simpanan Pekerja (KWSP)",
+      [
+        "afhzal abdul rahman (chief digital technology officer) [kwsp.gov.my via wayback",
+        "chong yee leng (head of operational compliance) [kwsp.gov.my via wayback",
+        "jasmine goh (head of digital security) [kwsp.gov.my via wayback",
+        "medium-75]",
+        "mohamad hafiz kassim (chief finance officer) [kwsp.gov.my via wayback",
+        "mohammad nasir ismail (head of internal audit) [kwsp.gov.my via wayback",
+        "mohd dali jasmin (head of integrity & corporate governance) [kwsp.gov.my via wayback",
+        "rozlina abd samad (head of risk management) [kwsp.gov.my via wayback"
+      ]
+    ],
+    [
+      "OCBC Bank (Malaysia) Berhad",
+      [
+        "dr priya ranjan sharma",
+        "dr priya ranjan sharma (cro) + doreen keng chun ching (compliance) [group-level: ocbc]",
+        "mr hong hee loon (head of technology)",
+        "mr victor ong hock seng",
+        "ms doreen keng chun ching",
+        "ms teoh yin meng"
+      ]
+    ],
+    [
+      "CIMB Petronas Visa Card",
+      [
+        "amran mohamad (group chief internal auditor) [inherited from cimb bank berhad - product brand governance]",
+        "charles samuel (group ciso) [inherited from cimb bank berhad - product brand governance]",
+        "khairul rifaie (group chief financial & strategy officer) [inherited from cimb bank berhad - product brand governance]",
+        "kwan keen yew (group chief integrity & governance officer) [inherited from cimb bank berhad - product brand governance]",
+        "kwan keen yew (group chief legal & compliance officer) [inherited from cimb bank berhad - product brand governance]",
+        "ros aziah mohd yusoff (group cto) [inherited from cimb bank berhad - product brand governance]",
+        "vera handajani (group cro) [inherited from cimb bank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "PUNB",
+      [
+        "ahmad faisal mohd basir (head",
+        "azman abdullah (general manager",
+        "company secretary & governance) [official: punb.com.my]",
+        "finance & transformation division) [official: punb.com.my]",
+        "internal audit & risk management) [official: punb.com.my]",
+        "legal affairs) [official: punb.com.my]",
+        "mohd sulaiman khazali (head",
+        "norasyikin mansor (head"
+      ]
+    ],
+    [
+      "Prudential BSN Takaful Berhad",
+      [
+        "anita menon (chief risk officer) [malaysian insurance directory 2025/2026",
+        "anita menon not among them). may refer to different prudential entity or below exco level. recommend verification via prudential assurance malaysia berhad ar or linkedin.]",
+        "conf 85 - stale warning: not on current prubsn exco as of jul 2026 scrape (prubsn.com.my our-leaders lists 8 exco members",
+        "conf 95]",
+        "kelvin wong (chief financial officer) [official: prubsn.com.my/en/about-us/about-prubsn/our-leaders"
+      ]
+    ],
+    [
+      "Maybank Singapore Airlines Enrich Card",
+      [
+        "azian ismail (chief audit executive) [theorg] [inherited from maybank berhad - product brand governance]",
+        "devinder singh (group ciso) [linkedin/the org] [inherited from maybank berhad - product brand governance]",
+        "giorgio migliarina (group chief technology & digital officer) [inherited from maybank berhad - product brand governance]",
+        "inn yiow (group chief compliance officer) [rocketreach/zoominfo] [inherited from maybank berhad - product brand governance]",
+        "mohamed rezwan abdullah ismail (group cro) + inn yiow (group cco) [group-level: maybank] [inherited from maybank berhad - product brand governance]",
+        "mohamed rezwan abdullah ismail [inherited from maybank berhad - product brand governance]",
+        "shafiq abdul jabbar [inherited from maybank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "PNB Equity Fund Berhad",
+      [
+        "ciso-equivalent",
+        "compliance & integrity) [pnb.com.my",
+        "conf 90 - pnb group cto",
+        "high-90] [inherited from pnb - product brand governance]",
+        "inherited) [source: pnb.com.my/en/leadership-en; conf 80]. pnb equity fund has no dedicated it/security executive; it security leadership inherited from pnb group cto function.",
+        "internal audit) [pnb.com.my",
+        "mohd azmir mohd jani (chief risk officer) [pnb.com.my",
+        "mohd irwan ahmad mustafa (group chief strategy & financial officer) [pnb.com.my",
+        "noramly bachok @ abdul aziz (group head",
+        "pnb group) [pnb integrated report 2024 / pnb.com.my/en/leadership-en",
+        "sahlawati mustafa (group head",
+        "ts izzat aziz (group chief technology officer",
+        "ts. muhammad izzat bin hj abdul aziz (pnb group cto",
+        "won pikom cio of the year award for ai adoption] [inherited from pnb - product brand governance]"
+      ]
+    ],
+    [
+      "MAE by Maybank (Maybank2u)",
+      [
+        "azian ismail (chief audit executive) [theorg] [inherited from maybank berhad - product brand governance]",
+        "devinder singh (group ciso) [linkedin/the org] [inherited from maybank berhad - product brand governance]",
+        "giorgio migliarina (group chief technology & digital officer) [inherited from maybank berhad - product brand governance]",
+        "inn yiow (group chief compliance officer) [rocketreach/zoominfo] [inherited from maybank berhad - product brand governance]",
+        "mohamed rezwan abdullah ismail (group cro) + inn yiow (group cco) [group-level: maybank] [inherited from maybank berhad - product brand governance]",
+        "mohamed rezwan abdullah ismail [inherited from maybank berhad - product brand governance]",
+        "shafiq abdul jabbar [inherited from maybank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "Manulife Takaful Malaysia Berhad",
+      [
+        "bernard sia (chief information officer",
+        "conf 85]",
+        "conf 90 - cia",
+        "faia. scope covers all manulife malaysia entities including takaful]",
+        "krishna rajaa ramalingam (head of audit services - malaysia) [official: manulife holdings berhad annual report 2025",
+        "manulife insurance berhad - management shared) [official: manulife annual report 2024",
+        "manulife insurance berhad - management shared) [official: manulife holdings berhad annual report 2025",
+        "mohd naim bin mohd arsad (chief risk officer",
+        "ng chun nam (chief financial officer",
+        "p.13 key senior management's profile",
+        "p.91 group audit committee report",
+        "senthil woon wai keong (chief compliance officer"
+      ]
+    ],
+    [
+      "Hong Leong Islamic Bank Berhad",
+      [
+        "chua yew lim (chief internal auditor) [group-level: hong leong bank]",
+        "conf 60]",
+        "dr. simon hoh (ciso) [group-level: hong leong bank",
+        "jack babani (cco) [group-level: hong leong bank]",
+        "justin soong (cro) + jack babani (compliance) [group-level composite]",
+        "justin soong (group cro) [group-level: hong leong bank]",
+        "malkit singh (cfo) [group-level: hong leong bank]",
+        "theorg",
+        "william streitberg (chief info & tech officer) [group-level: hong leong bank]"
+      ]
+    ],
+    [
+      "HSBC Amanah Takaful (Malaysia) Berhad",
+      [
+        "conf 95]",
+        "lim weng leong (head of compliance) [official: fwd.com.my/about-us/tkfl/meet-our-team",
+        "muhammad afiq bin hamzah (acting chief financial officer) [official: fwd.com.my/about-us/tkfl/meet-our-team"
+      ]
+    ],
+    [
+      "Manulife Insurance Berhad",
+      [
+        "bernard sia (chief information officer) [official: manulife annual report 2024",
+        "conf 50]; ceo: vibha hamsi coburn (confirmed [official: manulife.com.my board page",
+        "conf 85]",
+        "conf 90]",
+        "conf 95]); board risk cmte chair: arthur jay belfer; audit cmte chair: vijayam nadarajah [official: manulife.com.my]",
+        "mohd naim mohd arsad (chief risk officer) [malaysian insurance directory 2025/2026",
+        "ng chun nam (chief financial officer) [official: manulife annual report 2024",
+        "senthil woon (chief compliance officer) [rocketreach"
+      ]
+    ],
+    [
+      "AmMetLife Insurance Berhad",
+      [
+        "loh tian hu (chief information officer) [official: ammetlife.com]",
+        "low siew mooi (chief risk officer) [official: ammetlife.com]",
+        "michelle cheang (chief financial officer) [official: ammetlife.com]"
+      ]
+    ],
+    [
+      "AIA Berhad",
+      [
+        "chee lung yuen (director",
+        "conf 85]. ciso of aia bhd (malaysia) since 2020. not on aia public exco leadership page (only top execs listed). verified via credible regional risk-management industry body.",
+        "datin veronica selvanayagy (general counsel) [official: aia.com.my]",
+        "edwin peh (cfo) [official: aia.com.my]",
+        "sherlly yuan xiaoli (cto) [official: aia.com.my]",
+        "tan teoh guan (cro - oversees compliance monitoring) [official: aia.com.my]",
+        "tan teoh guan (cro) [official: aia.com.my]",
+        "technology risk management & business continuity management - ciso) [asean risk awards industry profile: aseanriskawards.com/chee-lung-yuen/"
+      ]
+    ],
+    [
+      "Takaful IKHLAS Berhad",
+      [
+        "abd ghafur ahmad (senior vp & group chief compliance officer",
+        "conf 75 - group chief compliance officer functionally covers grc; same person as head of compliance column]",
+        "conf 75 - group-level]",
+        "conf 90]",
+        "haniza filzah hayani abu haniffa (senior vp and group chief internal auditor",
+        "lee kok seong (senior vp & chief information officer) [malaysian insurance directory 2025/2026",
+        "mnrb group) [official: mnrb.com.my",
+        "mnrb group) [official: mnrb.com.my/about-us/our-leadership",
+        "sharmini perampalam (executive vp and group cfo"
+      ]
+    ],
+    [
+      "Money Match Sdn Bhd",
+      [
+        "duplicate of moneymatch sdn bhd [correct spelling \"moneymatch sdn bhd\" already in db at 4/7. this entry (with space) is the same entity. recommend removing row or marking as duplicate. founders: adrian tan",
+        "nikki yeo (moneymatch.co/about-us).]"
+      ]
+    ],
+    [
+      "Etiqa Life Insurance Berhad",
+      [
+        "azian ismail (chief audit executive",
+        "dennis liu (cto) [official: etiqa.com]",
+        "devinder singh sardool singh (ciso) [official: etiqa.com]",
+        "lee hin sze (cfo) [official: etiqa.com]",
+        "maybank group) [group-level: maybank]",
+        "nurliana mat lazim (chief risk & compliance officer) [official: etiqa.com]",
+        "nurliana mat lazim (cro/compliance - grc) [official: etiqa.com]",
+        "roslina mohd ramza (cco) [official: etiqa.com]"
+      ]
+    ],
+    [
+      "SME Bank Berhad",
+      [
+        "bpmb group",
+        "bpmb) [official: bpmb.com.my/about-us/leadership",
+        "bpmb) [official: bpmb.com.my]; samad majid zain (was cfo nov 2021 - jun 2026",
+        "ciso-equivalent) [official: bpmb.com.my/about-us/leadership/",
+        "conf 70 - bpmb group-level]",
+        "conf 80]",
+        "hairil izwar abd rahman (group chief digital & technology officer",
+        "hasrul farid hasnan (group chief internal auditor",
+        "hee wei jean (group cfo",
+        "mohammad azam ahmad (cro) + rosehamidi kamaruddin (compliance) [group-level composite]",
+        "mohammad azam ahmad (group chief risk officer",
+        "now ceo as of 1 jul 2026) [official: smebank.com.my]",
+        "rosehamidi kamaruddin (per rocketreach)"
+      ]
+    ],
+    [
+      "PayNet (PayNet Malaysia Sdn Bhd)",
+      [
+        "conf 95]",
+        "may 2025) + linkedin (my.linkedin.com/in/spoonfork) + zoominfo + datanyze; conf 95 \u2014 not on official leadership page but confirmed via 5 independent secondary sources including industry conference bio]",
+        "meling mudin (chief information security officer",
+        "payments network malaysia sdn. bhd.) [source: star cybersecurity summit 2025 speaker page (conference.thestar.com.my/cybersecuritysummit/speaker/meling-mudin",
+        "tan wei tze (chief financial officer) [official: paynet.my/about-us/corporate-profile/leadership.html",
+        "teh lip guan (chief technology officer) [official: paynet.my/about-us/corporate-profile/leadership.html"
+      ]
+    ],
+    [
+      "PayNet Card (by PayNet)",
+      [
+        "conf 85]",
+        "inherited",
+        "meling mudin (chief information security officer",
+        "paynet group) [inherited from paynet parent per v5.5 leadership-inheritance precedent. source: star cybersecurity summit 2025 speaker page + linkedin + zoominfo; conf 95]",
+        "paynet) [paynet leadership - paynet card = paynet \"mydebit\" domestic debit card scheme",
+        "tan wei tze (chief financial officer",
+        "teh lip guan (chief technology officer"
+      ]
+    ],
+    [
+      "Lembaga Tabung Haji",
+      [
+        "abu bakar baba (group chief internal auditor) [official: tabunghaji.gov.my/peneraju-th]",
+        "ciso-equivalent) [official: tabunghaji.gov.my/peneraju-th",
+        "conf 75]",
+        "finance) [official: tabunghaji.gov.my/peneraju-th]; mustakim mohamad (was group exec dir finance",
+        "now ceo since 6 may 2025) [news: bharian.com.my]",
+        "shamsul bahar shamsudin (group executive director",
+        "shamsul kamal hussein kamal (chief information technology officer",
+        "shamsul kamal hussein kamal (chief information technology officer) [official: tabunghaji.gov.my/peneraju-th]",
+        "syahril nizam abu hasan (chief risk & compliance officer) + mohd hasraff hashim (head of integrity & governance) [composite] [official: tabunghaji.gov.my/peneraju-th]",
+        "syahril nizam abu hasan (chief risk & compliance officer) [official: tabunghaji.gov.my/peneraju-th]"
+      ]
+    ],
+    [
+      "Maybank Islamic Berhad",
+      [
+        "conf 85 - group-level",
+        "devinder singh (group ciso) [group-level: maybank]",
+        "effective oct 2025]",
+        "giorgio migliarina (group chief technology & digital officer) [group-level: maybank]",
+        "inn yiow (group chief compliance officer) [group-level: maybank]",
+        "malique firdauz ahmad sidique (group chief audit executive",
+        "maybank group) [official: freemalaysiatoday.com",
+        "mohamed rezwan abdullah ismail (group cro) [group-level: maybank]",
+        "shafiq abdul jabbar (group cfo) [group-level: maybank]"
+      ]
+    ],
+    [
+      "ShopeePay Malaysia Sdn Bhd",
+      [
+        "conf 80 - inherited to shopeepay malaysia. shopeepay = monee (formerly seamoney",
+        "conf 85",
+        "linkedin linkedin.com/company/shopeepay",
+        "non-target). no my-specific ciso/cro/cto/compliance/ia/grc found.]",
+        "rebranded may 2025) digital financial services arm of sea limited. malaysia head: alain yee (head of shopeepay malaysia + president aemi 2026/27-2027/28",
+        "sea limited - parent) [official: sea.com/aboutus/leadership",
+        "tony hou (chief financial officer"
+      ]
+    ],
+    [
+      "Ryt Bank Berhad (YTL Digital)",
+      [
+        "muhammad nasir bin hassan|chief compliance officer|95|https://www.rytbank.my/about-us/|ryt bank chief compliance officer",
+        "nic ngoo|chief technology officer|95|https://www.rytbank.my/about-us/|ryt bank cto (maps to cio/cto role)",
+        "wilson soon|chief financial officer (acting ceo)|95|https://www.rytbank.my/about-us/|ryt bank cfo; acting ceo after melvin ooi departure",
+        "yeoh xin yi|chief risk officer|95|https://www.rytbank.my/about-us/|ryt bank cro"
+      ]
+    ],
+    [
+      "Hong Leong Investment Bank Berhad",
+      [
+        "chua yew lim (chief internal auditor) [group-level: hong leong bank]",
+        "jack babani (cco) [group-level: hong leong bank]",
+        "justin soong (cro) + jack babani (compliance) [group-level composite]",
+        "justin soong (group cro) [group-level: hong leong bank]",
+        "malkit singh (cfo) [group-level: hong leong bank]",
+        "william streitberg (chief info & tech officer) [group-level: hong leong bank]"
+      ]
+    ],
+    [
+      "EXIM Bank Malaysia",
+      [
+        "abdul hadi jusoh (chief risk officer) [official: exim.com.my]; mohammad azam ahmad (group cro",
+        "bpmb group",
+        "bpmb group] [official: bpmb.com.my]",
+        "bpmb) [official: bpmb.com.my/about-us/leadership]",
+        "bpmb) [official: bpmb.com.my]",
+        "ciso-equivalent) [official: bpmb.com.my/about-us/leadership/",
+        "conf 80]",
+        "governance & recovery) [official: exim.com.my]; mohammad azam ahmad (group cro) + rohayati talha (group cco) [composite",
+        "hairil izwar abd rahman (group chief digital & technology officer",
+        "hee wei jean (group cfo",
+        "nizam samad (chief compliance officer) [official: exim.com.my]; rohayati talha (group cco",
+        "shahrul farelli zulkiffli (chief internal auditor) [official: exim.com.my]; hasrul farid hasnan (group chief internal auditor",
+        "wan noorazli maula wan suleiman (head of legal"
+      ]
+    ],
+    [
+      "Maybank (Khazanah-linked)",
+      [
+        "duplicate of maybank berhad [already at 7/7 in db. this \"khazanah-linked\" entry is the same entity (khazanah holds ~11.5% of maybank). recommend removing row or marking as duplicate. do not re-research.]"
+      ]
+    ],
+    [
+      "Prudential Assurance Malaysia Berhad",
+      [
+        "ankur bassi (chief financial officer) [linkedin + theofficialboard]",
+        "chen liaw (chief technology officer) [rocketreach: rocketreach.co]",
+        "conf 40 - unverified lead]. linkedin profile title shows \"prudential plc\" (uk parent). title may be group-level rather than entity-specific (prudential assurance malaysia berhad). official prudential malaysia leadership page does not list executives below board. requires official source confirmation.",
+        "conf 45 - unverified lead]. listed as \"head",
+        "group audits) [linkedin: my.linkedin.com/in/rohini-maniam-71852027",
+        "idariah idris (head of compliance) [rocketreach]",
+        "information security officer at prudential assurance malaysia berhad",
+        "information security officer) [contactout aggregator: contactout.com/tan-chia-chee-99124",
+        "kamarul hisham (chief risk officer) [rocketreach]",
+        "kamarul hisham (cro) + idariah idris (compliance) [composite]",
+        "may 2024 to present\". could not verify via prudential official leadership page (only lists board",
+        "not executives). contactout page blocked by cloudflare on re-verification. requires linkedin / official confirmation.",
+        "rohini maniam (country head of audit malaysia / senior director",
+        "tan chia chee (head"
+      ]
+    ],
+    [
+      "MoneyMatch Sdn Bhd",
+      [
+        "anees aisyah (chief financial officer) [official: moneymatch.co/about-us",
+        "conf 88 - note: first name only displayed]",
+        "conf 90 - note: first name only displayed]",
+        "conf 92]",
+        "jerry chee (chief technology officer) [official: moneymatch.co/about-us",
+        "poorya (chief information & security officer) [official: moneymatch.co/about-us",
+        "thavalogan (head of compliance) [official: moneymatch.co/about-us"
+      ]
+    ],
+    [
+      "J.P. Morgan Chase Bank Malaysia Berhad",
+      [
+        "conf 85]",
+        "gail koh de josselin (executive director; cco se asia) [official cg statement fy2024"
+      ]
+    ],
+    [
+      "MSIG Insurance (Malaysia) Bhd",
+      [
+        "also officer primarily responsible for financial management) [official: msig annual report 2025]",
+        "bancassurance & branding) [official: msig annual report 2025]",
+        "chin jee gwan (evp it",
+        "digital",
+        "enterprise risk management) [official: msig annual report 2025]",
+        "kelvin hii chee yun (svp",
+        "soh lai sim (coo"
+      ]
+    ],
+    [
+      "MAE by Maybank (Maybank Islamic)",
+      [
+        "conf 85 - group-level",
+        "devinder singh (group ciso) [group-level: maybank] [inherited from maybank islamic berhad - product brand governance]",
+        "effective oct 2025] [inherited from maybank islamic berhad - product brand governance]",
+        "giorgio migliarina (group chief technology & digital officer) [group-level: maybank] [inherited from maybank islamic berhad - product brand governance]",
+        "inn yiow (group chief compliance officer) [group-level: maybank] [inherited from maybank islamic berhad - product brand governance]",
+        "malique firdauz ahmad sidique (group chief audit executive",
+        "maybank group) [official: freemalaysiatoday.com",
+        "mohamed rezwan abdullah ismail (group cro) [group-level: maybank] [inherited from maybank islamic berhad - product brand governance]",
+        "shafiq abdul jabbar (group cfo) [group-level: maybank] [inherited from maybank islamic berhad - product brand governance]"
+      ]
+    ],
+    [
+      "Razer Pay Malaysia Sdn Bhd",
+      [
+        "entity defunct [razer pay (beta) e-wallet shut down in malaysia and singapore in 2021 per wikipedia. both razerfintech.com and razerpay.com.my domains expired (dns resolution fails). razer inc. delisted from hkex may 2022 (now private). only known razer inc. execs: min-liang tan (ceo)",
+        "khaw kheng joo (coo) - all non-target. recommend removal from active campaign list - entity non-operational.]",
+        "patricia liu (exec dir)"
+      ]
+    ],
+    [
+      "ShopeePay (Monee Malaysia)",
+      [
+        "conf 80 - inherited to shopeepay malaysia. shopeepay = monee (formerly seamoney",
+        "rebranded may 2025) digital financial services arm of sea limited. malaysia head: alain yee (head of shopeepay malaysia + p",
+        "sea limited - parent) [official: sea.com/aboutus/leadership",
+        "tony hou (chief financial officer"
+      ]
+    ],
+    [
+      "Alliance Bank Malaysia Berhad",
+      [
+        "also oversees group compliance) [official: alliancebank.com.my]",
+        "andrew ng yin min (group chief internal auditor) [official: alliancebank.com.my]",
+        "jacob abraham (group chief risk officer) [official: alliancebank.com.my]",
+        "jacob abraham (group cro",
+        "jacob abraham (group cro + compliance oversight) [official: alliancebank.com.my]",
+        "nantha kumar subramanian (group chief digital & information officer) [official: alliancebank.com.my]",
+        "ronnie royston fernandiz (group chief financial officer) [official: alliancebank.com.my]",
+        "william song (group ciso) [linkedin]"
+      ]
+    ],
+    [
+      "Instarem Sdn Bhd",
+      [
+        "amaresh mohan (chief risk and compliance officer",
+        "andre mancl (chief financial officer",
+        "conf 95]",
+        "nium global) [official: nium.com/about-us",
+        "sekhar cidambi (chief technology officer"
+      ]
+    ],
+    [
+      "Ryt Bank Berhad",
+      [
+        "muhammad nasir bin hassan|chief compliance officer|95|https://www.rytbank.my/about-us/|ryt bank chief compliance officer",
+        "nic ngoo|chief technology officer|95|https://www.rytbank.my/about-us/|ryt bank cto (maps to cio/cto role)",
+        "wilson soon|chief financial officer (acting ceo)|95|https://www.rytbank.my/about-us/|ryt bank cfo; acting ceo after melvin ooi departure",
+        "yeoh xin yi|chief risk officer|95|https://www.rytbank.my/about-us/|ryt bank cro"
+      ]
+    ],
+    [
+      "RHB Shell Visa Card",
+      [
+        "azman shah md yaman (group chief legal & governance officer) [inherited from rhb bank berhad - product brand governance]",
+        "dr chong han hwee (group cro) [inherited from rhb bank berhad - product brand governance]",
+        "fazlina mohamed ghazalli (group cco) [inherited from rhb bank berhad - product brand governance]",
+        "mohamed bin rastam shahrom (group cfo) [inherited from rhb bank berhad - product brand governance]",
+        "soon yap (ciso) [linkedin] [inherited from rhb bank berhad - product brand governance]",
+        "tan boon ching (group chief internal auditor) [inherited from rhb bank berhad - product brand governance]",
+        "wong kwang leh (group cto) [inherited from rhb bank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "RHB Investment Bank Berhad",
+      [
+        "azman shah md yaman (group chief legal & governance officer) [official: rhbgroup.com]",
+        "dr chong han hwee (group cro) [official: rhbgroup.com]",
+        "fazlina mohamed ghazalli (group cco) [official: rhbgroup.com]",
+        "mohamed bin rastam shahrom (group cfo) [official: rhbgroup.com]",
+        "soon yap (ciso) [group-level: rhb]",
+        "tan boon ching (group chief internal auditor) [official: rhbgroup.com]",
+        "wong kwang leh (group cto) [official: rhbgroup.com]"
+      ]
+    ],
+    [
+      "Maybank Berhad",
+      [
+        "azian ismail (chief audit executive) [theorg]",
+        "devinder singh (group ciso) [linkedin/the org]",
+        "giorgio migliarina (group chief technology & digital officer)",
+        "inn yiow (group chief compliance officer) [rocketreach/zoominfo]",
+        "mohamed rezwan abdullah ismail (group cro) + inn yiow (group cco) [group-level: maybank]"
+      ]
+    ],
+    [
+      "Bank of China (Malaysia) Berhad",
+      [
+        "anysia yeung (cro) + ker yong (compliance) [group-level composite]",
+        "chen thien yin (board audit committee chair)",
+        "datuk alvin tay (dceo/acting cfo)",
+        "head of it) [leadiq",
+        "k.w.c. (senior vp",
+        "ker yong (director - head of legal and compliance)",
+        "medium-65]"
+      ]
+    ],
+    [
+      "Hong Leong Bank AirMiles Card",
+      [
+        "chua yew lim (chief internal auditor) [official cg report] [inherited from hong leong bank berhad - product brand governance]",
+        "conf 65] [inherited from hong leong bank berhad - product brand governance]",
+        "dr. simon hoh (ciso) [theorg: theorg.com/org/hong-leong-bank/org-chart/dr-simon-hoh",
+        "jack babani (cco) [the org - unverified] [inherited from hong leong bank berhad - product brand governance]",
+        "justin soong (cro) + jack babani (compliance) [group-level composite] [inherited from hong leong bank berhad - product brand governance]",
+        "justin soong (group cro) [rocketreach] [inherited from hong leong bank berhad - product brand governance]",
+        "malkit singh (cfo) [the org - unverified] [inherited from hong leong bank berhad - product brand governance]",
+        "william streitberg (chief info & tech officer) [the org] [inherited from hong leong bank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "CIMB Investment Bank Berhad",
+      [
+        "amran mohamad (group chief internal auditor) [group-level: cimb]",
+        "charles samuel (group ciso) [group-level: cimb]",
+        "khairul rifaie (group cfo & strategy officer) [official: cimb.com]",
+        "kwan keen yew (group chief integrity & governance officer) [official: cimb.com]",
+        "kwan keen yew (group chief legal & compliance officer) [official: cimb.com]",
+        "ros aziah mohd yusoff (group cto) [official: cimb.com]",
+        "vera handajani (group cro) [official: cimb.com]"
+      ]
+    ],
+    [
+      "Citibank Berhad",
+      [
+        "abhijit dattanand kumta (executive director; md singapore o&t",
+        "ceo: vikram singh (ceo citi malaysia",
+        "citi solution center head asean) [official: citigroup.com board pdf",
+        "conf 85]",
+        "conf 90]; country lead: divya nair; head of commercial bank: shawn khong [theofficialboard]",
+        "effective 1 may 2023) [official: theasianbanker.com",
+        "mark fordyce hart (chairman risk mgmt cmte) [official: citigroup.com board pdf conf 80]",
+        "puan norazilla binti md tahir (audit cmte chair former cfo cagamas) [official: citigroup.com board pdf conf 85]",
+        "tan alyse (chief financial officer/controller) [linkedin: my.linkedin.com/in/tan-alyse-2658791a0]"
+      ]
+    ],
+    [
+      "iPay88 (Malaysia) Sdn Bhd",
+      [
+        "alex wah|head of it cum ciso|70|https://rocketreach.co/ipay88-management_b5e52ecdf42e67ac|ipay88 ciso (rocketreach source - medium confidence)"
+      ]
+    ],
+    [
+      "Public Bank Berhad",
+      [
+        "fam yoke fong (senior gm",
+        "loh jasmine (cro)",
+        "loh jasmine (cro) + tan shien doon (compliance) [group-level composite]",
+        "public bank group) [official: publicbankgroup.com]",
+        "tan shien doon (cco",
+        "yik sook ling (cfo)"
+      ]
+    ],
+    [
+      "AmBank (M) Berhad",
+      [
+        "faradina binti mohammad ghouse (group cco)",
+        "malini kanesamoorthy (ciso) [cybersec malaysia 2023]",
+        "ng ek leong (group chief internal auditor)",
+        "phuah shok cheng (group cfo)",
+        "shamsul bahrom (group cro) + faradina ghouse (group cco) [group-level: ambank]",
+        "shamsul bahrom bin mohamed ibrahim (group cro)",
+        "wong eng teng (group chief fintech & technology officer)"
+      ]
+    ],
+    [
+      "AIA Public Takaful Berhad",
+      [
+        "ahmad faisal ahamad nawawi (associate director",
+        "compliance) [official: aia.com.my",
+        "conf 90]",
+        "datin veronica selvanayagy (general counsel) [official: aia.com.my]",
+        "edwin peh (cfo) [official: aia.com.my]",
+        "sherlly yuan xiaoli (cto) [official: aia.com.my]",
+        "tan teoh guan (cro) [official: aia.com.my]"
+      ]
+    ],
+    [
+      "BNP Paribas Malaysia Berhad",
+      [
+        "appointed 1 mar 2021) [conf 95]",
+        "appointed 1 oct 2024) [official: bnp paribas cg statement fy2024",
+        "ceo & head of territory",
+        "ceo: anthony lo chiang loong (executive director",
+        "chairman",
+        "chan mui pin / mrs. lau mui pin (exec director",
+        "conf 65]",
+        "conf 80]",
+        "conf 85]",
+        "conf 95]; chairman: dato' mohamed khadar bin merican (ind. non-exec director",
+        "faisal bin ismail (audit committee chairman",
+        "former cro rhb banking group) [cg statement fy2024",
+        "former head of compliance bnp paribas singapore & sea) [cg statement fy2024",
+        "ind. non-exec director) [cg statement fy2024",
+        "kevin wong (cfo) [linkedin/zoominfo",
+        "khoo lian kim (brmc chairman"
+      ]
+    ],
+    [
+      "Allianz Takaful Berhad",
+      [
+        "david brandl (cio) [simplywallst]",
+        "xiao chin (cfo) [simplywallst]"
+      ]
+    ],
+    [
+      "CIMB (Khazanah-linked)",
+      [
+        "5.9yrs tenure) [simplywall.st + official: cimb.com]",
+        "7.5yrs tenure) [simplywall.st + official: cimb.com]",
+        "7.7yrs tenure) [simplywall.st]",
+        "amran mohamad (group chief internal auditor",
+        "khairul rifaie (group chief financial and strategy officer",
+        "kwan keen yew (group chief legal and compliance officer) [group-level: cimb]",
+        "ros aziah mohd yusoff (group chief technology and data officer",
+        "vera handajani (cro) + kwan keen yew (compliance) [group-level: cimb]",
+        "vera handajani (group cro) [group-level: cimb]"
+      ]
+    ],
+    [
+      "Etiqa Takaful Berhad",
+      [
+        "azian ismail (chief audit executive",
+        "dennis liu (cto) [official: etiqa.com]",
+        "devinder singh sardool singh (ciso) [official: etiqa.com]",
+        "lee hin sze (cfo) [official: etiqa.com]",
+        "maybank group) [group-level: maybank]",
+        "nurliana mat lazim (chief risk & compliance officer) [official: etiqa.com]",
+        "nurliana mat lazim (cro/compliance - grc) [official: etiqa.com]",
+        "roslina mohd ramza (cco) [official: etiqa.com]"
+      ]
+    ],
+    [
+      "Sun Life Malaysia Assurance Berhad",
+      [
+        "appointed 13 may 2022) [official: sunlifemalaysia.com",
+        "appointed 13 may 2022) [official: sunlifemalaysia.com/about-us/leadership/board-of-directors-assurance/",
+        "appointed 22 sep 2022) [official: sunlifemalaysia.com/about-us/leadership/board-of-directors-assurance/",
+        "board chairman: dato' noorazman abd. aziz (ind. director",
+        "conf 65; cross-ref official mgmt page image: sunlifemalaysia.com/about-us/leadership/management-team]",
+        "conf 95]",
+        "conf 95]; rmc chair: nigel hazell (ind. director",
+        "ind. director",
+        "lim chin har / chew lim (chief financial officer) [linkedin: my.linkedin.com/in/chew-lim-209a05397",
+        "nigel hazell (board risk management committee chairman",
+        "risk mgmt cmte chairman) [official: sunlifemalaysia.com",
+        "wong ah kow (board audit committee chairman"
+      ]
+    ],
+    [
+      "ICBC (Malaysia) Berhad",
+      [
+        "board risk management committee) [official: malaysia.icbc.com.cn",
+        "chin chee kong (audit committee chair)",
+        "conf 65]",
+        "conf 85]",
+        "liau cheek (chief compliance officer) [rocketreach",
+        "sum leng kuang (chairman"
+      ]
+    ],
+    [
+      "MCIS Insurance Berhad",
+      [
+        "conf 90]",
+        "ng chee sang (chief technology officer) [official: mcis.my]",
+        "noor hayati binti abu yaziz (chief internal auditor) [official: mcis.my]",
+        "norlin fatima albakri (chief compliance officer) [official: mcis.my]",
+        "nurliana binti mat lazim (chief risk officer) [malaysian insurance directory 2025/2026",
+        "susan conradie (chief financial officer) [official: mcis.my]"
+      ]
+    ],
+    [
+      "Amanah Saham Nasional Berhad (ASNB)",
+      [
+        "mohd azmir mohd jani (cro) + sahlawati mustafa (compliance) [group-level composite]",
+        "mohd azmir mohd jani (group chief risk officer",
+        "mohd irwan ahmad mustafa (group chief strategy and finance officer",
+        "noramly bachok (group head internal audit pnb) [official: pnb.com.my]",
+        "pnb group [official: pnb integrated report 2024",
+        "pnb) [official: pnb.com.my]",
+        "pnb.com.my/en/leadership-en] | conf 90 | asnb is \"managed by pnb\"; no separate asnb cio/cto. ts izzat aziz won pikom cio of the year award for ai adoption. inherited from pnb group.",
+        "sahlawati mustafa (group head of compliance pnb) [official: pnb.com.my]",
+        "ts izzat aziz \u2014 chief technology officer"
+      ]
+    ],
+    [
+      "UOB Malaysia Berhad",
+      [
+        "chang yeong gung (cfo)",
+        "conf 75]",
+        "loke chee keen daniel (head compliance)",
+        "mohamad fazli bin mohamad sarujee (head technology & operations)",
+        "tan tii lam (cro)",
+        "tan tii lam (cro) + loke chee keen daniel (compliance) [group-level composite]",
+        "tobias gondrom (group ciso",
+        "uob group) [web search",
+        "wong see hong bill (head internal audit)"
+      ]
+    ],
+    [
+      "FWD Insurance Berhad",
+      [
+        "anita menon (acting head of risk",
+        "anita menon (acting head of risk) [official: fwd.com.my/about-us/ins/meet-our-team",
+        "anita menon (chief governance officer",
+        "cheryl lim (head of internal audit) [official: fwd.com.my",
+        "conf 65 - same person as head of grc; chief governance officer title covers compliance function]",
+        "conf 75 - not on current leadership page]",
+        "conf 80]",
+        "conf 95]",
+        "oversees compliance) [official: fwd.com.my/about-us/fmh/meet-our-team",
+        "oversees governance) [official: fwd.com.my/about-us/ins/meet-our-team",
+        "yeoh eng hun (chief financial officer) [official: fwd.com.my/about-us/ins/meet-our-team"
+      ]
+    ],
+    [
+      "Liberty General Insurance Berhad",
+      [
+        "ganesan vaithilingam (chief information officer) [wayback machine: libertyinsurance.com.my]",
+        "ganesan vaithilingam \u2014 chief information officer (ciso-equivalent: responsibilities include \"information security\" and \"secure it environment development\") [official: libertyinsurance.com.my/corporate/management-team] | conf 72 | no dedicated ciso role; cio handles infosec.",
+        "jonathan chong (chief risk officer) [wayback machine: libertyinsurance.com.my]",
+        "jonathan chong (cro) + suffian bin abdul rahman (compliance) [group-level composite]",
+        "suffian bin abdul rahman (chief compliance officer) [wayback machine: libertyinsurance.com.my]",
+        "suppiah poongavanam (chief financial officer) [wayback machine: libertyinsurance.com.my]",
+        "tan bee chuan (chief internal auditor) [wayback machine: libertyinsurance.com.my]"
+      ]
+    ],
+    [
+      "Allianz Life Insurance Malaysia Berhad",
+      [
+        "conf 70 - shared across allianz entities]",
+        "conf 90]",
+        "david brandl (cit officer) [official: allianz malaysia iar 2024",
+        "giulio slavich (cfo amb & allianz life) [official: allianz malaysia iar 2024"
+      ]
+    ],
+    [
+      "Public Investment Bank Berhad",
+      [
+        "fam yoke fong (senior gm",
+        "it",
+        "jasmine loh sook ling (cro",
+        "jasmine loh sook ling (cro) + tan shien doon (compliance) [group-level composite]",
+        "lim then fui (group chief internal auditor",
+        "public bank group) [official: publicbankgroup.com]",
+        "tan shien doon (cco",
+        "yik sook ling (cfo"
+      ]
+    ],
+    [
+      "UOB Lazada Visa Card",
+      [
+        "chang yeong gung (cfo) [inherited from uob malaysia berhad - product brand governance]",
+        "conf 75] [inherited from uob malaysia berhad - product brand governance]",
+        "loke chee keen daniel (head compliance) [inherited from uob malaysia berhad - product brand governance]",
+        "mohamad fazli bin mohamad sarujee (head technology & operations) [inherited from uob malaysia berhad - product brand governance]",
+        "tan tii lam (cro) + loke chee keen daniel (compliance) [group-level composite] [inherited from uob malaysia berhad - product brand governance]",
+        "tan tii lam (cro) [inherited from uob malaysia berhad - product brand governance]",
+        "tobias gondrom (group ciso",
+        "uob group) [web search",
+        "wong see hong bill (head internal audit) [inherited from uob malaysia berhad - product brand governance]"
+      ]
+    ],
+    [
+      "Boost Bank Berhad",
+      [
+        "dr mohanamerry vedamanikam|chief compliance officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank chief compliance officer",
+        "puteri syurga|chief risk officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank cro",
+        "shankar krishnan|chief technology officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank cto (maps to cio/cto role)",
+        "steven lim|chief financial officer|95|https://myboostbank.co/our-leadership-boost-bank|boost bank cfo"
+      ]
+    ],
+    [
+      "PayDirect (by PayNet)",
+      [
+        "conf 85]",
+        "inherited",
+        "meling mudin (chief information security officer",
+        "paynet group) [inherited from paynet parent per v5.5 leadership-inheritance precedent. source: star cybersecurity summit 2025 speaker page + linkedin + zoominfo; conf 95]",
+        "paynet) [paynet leadership - paydirect = paynet \"directdebit\" service",
+        "tan wei tze (chief financial officer",
+        "teh lip guan (chief technology officer"
+      ]
+    ],
+    [
+      "Zurich Life Insurance Malaysia Berhad",
+      [
+        "conf 85 - board-level oversight]",
+        "onn kien hoe (audit committee chair) [zurich life insurance malaysia berhad ar 2025"
+      ]
+    ],
+    [
+      "Sarawak State Financial Corporation (SSFC)",
+      [
+        "cik khartini johari (head",
+        "conf 90 - entity maps to development bank of sarawak berhad (dbos)",
+        "conf 95]",
+        "encik leo lanaiwong (group chief financial officer) [official: sedc.com.my/leadership-team/",
+        "encik yap yien chiang (head",
+        "group digital & technology) [official: sedc.com.my/management-team/",
+        "group integrity and risk management) [official: sedc.com.my/management-team/",
+        "group internal audit) [official: sedc.com.my/management-team/",
+        "jason minos (head",
+        "legal and compliance / chief integrity and governance officer) [official: dbos.gov.my/the-bank/our-leaders",
+        "tuan haji nor azlan husaini (acting head",
+        "wholly sarawak-owned dfi]"
+      ]
+    ],
+    [
+      "Permodalan Nasional Berhad (PNB)",
+      [
+        "ciso-equivalent) [official: pnb linkedin/facebook + etcio sea transformative cios 2024 + global cio forum top 100; conf 85]. cto since june 2023; led pnb superapp + glic ai roundtable. \u26a0\ufe0f possible departure late 2025 (linkedin shows jlg investment holdings) \u2014 verify before contact.",
+        "compliance & integrity) [pnb.com.my",
+        "conf 90 - pnb group cto",
+        "high-90]",
+        "internal audit) [pnb.com.my",
+        "mohd azmir mohd jani (chief risk officer) [pnb.com.my",
+        "mohd irwan ahmad mustafa (group chief strategy & financial officer) [pnb.com.my",
+        "noramly bachok @ abdul aziz (group head",
+        "pnb group) [pnb integrated report 2024 / pnb.com.my/en/leadership-en",
+        "sahlawati mustafa (group head",
+        "ts izzat aziz (group chief technology officer",
+        "ts. muhammad izzat bin hj abdul aziz (chief technology officer",
+        "won pikom cio of the year award for ai adoption]"
+      ]
+    ],
+    [
+      "Khazanah Nasional Berhad",
+      [
+        "2026-07-13]",
+        "conf 95 - combined grc+cro+compliance role]",
+        "conf 95 - combined role]",
+        "conf 95]",
+        "dato' suhana dewi selamat (head",
+        "datuk hisham hamdan (chief investment officer) [official: khazanah.com.my/responsible-stewardship/leadership/executive-management",
+        "faridah bakar ali (chief financial officer) [official: khazanah.com.my/who-we-are/leadership",
+        "governance",
+        "risk & compliance) [official: khazanah.com.my",
+        "risk & compliance) [official: khazanah.com.my/who-we-are/leadership"
+      ]
+    ],
+    [
+      "KWSP Investment Division (Real Estate)",
+      [
+        "afhzal abdul rahman (chief digital technology officer) [official: kwsp.gov.my",
+        "ahmad rizal omar (chief financial officer) [official: kwsp.gov.my",
+        "chong yee leng (head of department \u2013 operations compliance) [official: kwsp.gov.my",
+        "conf 98]",
+        "jasmine goh (head of department \u2013 digital security) [official: kwsp.gov.my/corporate/about-us/organisation-structure",
+        "mohammad nasir ismail (head of department \u2013 internal audit) [official: kwsp.gov.my",
+        "nora badaruddin (head of department \u2013 integrity & corporate governance) [official: kwsp.gov.my",
+        "rozlina abdul samad (head of department \u2013 risk management) [official: kwsp.gov.my"
+      ]
+    ],
+    [
+      "Bank Rakyat Malaysia",
+      [
+        "azni azaddin (cro) + jufree soaidin (compliance) [composite]",
+        "azni azaddin (group chief risk officer) [official: bankrakyat.com.my]",
+        "conf 40 - title not explicitly ciso]",
+        "jufree soaidin (group chief compliance officer) [official: bankrakyat.com.my]",
+        "nor haimee zakaria (chief finance officer) [official: bankrakyat.com.my]",
+        "ts. tahrizi tahreb (cybersecurity professional) [linkedin: my.linkedin.com/in/ts-tahrizi-tahreb",
+        "zulkanain kassim (chief information technology officer) [linkedin/theofficialboard]"
+      ]
+    ],
+    [
+      "Standard Chartered Shopee Visa Card",
+      [
+        "conf 75] [inherited from standard chartered bank malaysia - product brand governance]",
+        "irene tan (chief compliance officer) [inherited from standard chartered bank malaysia - product brand governance]",
+        "joy chowdhury (chief technology & operations officer) [inherited from standard chartered bank malaysia - product brand governance]",
+        "mushahid syed (interim ceo & cfo) [inherited from standard chartered bank malaysia - product brand governance]",
+        "ong gaik ean (cro) + irene tan (compliance) [group-level composite] [inherited from standard chartered bank malaysia - product brand governance]",
+        "ong gaik ean (cro) [inherited from standard chartered bank malaysia - product brand governance]",
+        "praveen sankaranarayan (head of audit) [inherited from standard chartered bank malaysia - product brand governance]",
+        "sivanathan subramaniam (ciso malaysia) [linkedin: linkedin.com/posts/sivanathansubramaniam"
+      ]
+    ],
+    [
+      "AIA General Berhad",
+      [
+        "conf 90]",
+        "datin veronica selvanayagy (general counsel) [official: aia.com.my]",
+        "edwin peh (cfo) [official: aia.com.my]",
+        "nanthini kandasamy (director",
+        "risk & compliance) [official: aia.com.my",
+        "sherlly yuan xiaoli (cto) [official: aia.com.my]",
+        "tan teoh guan (cro) [official: aia.com.my]"
+      ]
+    ],
+    [
+      "Bank Islam Malaysia Berhad",
+      [
+        "alina sylvia appoo (group cro) [bloomberg]",
+        "anthony tai (group chief information security officer) [official: bankislam.com]",
+        "nik azmir nik anis (group chief compliance officer and group chief integrity and governance officer) [official: bankislam.com]",
+        "nik azmir nik anis (group chief compliance officer) [official: bankislam.com]",
+        "siti nur huda sufian (group chief financial officer) [official: bankislam.com]",
+        "zalfitri abd mutalip (group chief internal auditor) [official: bankislam.com]",
+        "zulkanain kassim (cito) [linkedin]"
+      ]
+    ],
+    [
+      "MARA",
+      [
+        "conf 80 - title corrected from cio to cdo per wikipedia verification]",
+        "dr. azmi bin amat murjan (timbalan ketua pengarah mara (khidmat pengurusan) / ketua pegawai digital (cdo) - title is cdo not strictly cio; portfolio includes cybersecurity action plan coordination) [official: mara.gov.my"
+      ]
+    ],
+    [
+      "BIMB Investment Bank Berhad",
+      [
+        "alina sylvia appoo (group cro) [group-level: bank islam]",
+        "anthony tai (group ciso",
+        "bank islam) [official: bankislam.com]",
+        "nik azmir nik anis (group cco",
+        "nik azmir nik anis (group cco + grc officer",
+        "siti nur huda sufian (group cfo",
+        "zalfitri abd mutalip (group chief internal auditor",
+        "zulkanain kassim (cito) [group-level: bank islam]"
+      ]
+    ],
+    [
+      "BigPay (Capital A)",
+      [
+        "bigpay = capital a fintech subsidiary]",
+        "capital a berhad) [official: capitala.com/corporate_leadership.html",
+        "conf 80 - inherited from capital a parent",
+        "mun hui teh (chief financial officer"
+      ]
+    ],
+    [
+      "Generali Insurance Malaysia Berhad",
+      [
+        "laurent crouet (chief transformation officer) [official: generali.com.my conf 90]",
+        "nor hakimah abdul latiff (chief compliance officer) [official: generali.com.my]",
+        "tony lin (chief financial officer) [official: generali.com.my conf 90]",
+        "vincent fong (chief risk officer) [official: generali.com.my conf 90]",
+        "vivian ho (chief internal auditor) [official: generali.com.my]"
+      ]
+    ],
+    [
+      "Sumitomo Mitsui Banking Corporation Malaysia Berhad",
+      [
+        "conf 78 \u2014 statutory cfo-equivalent; document prints statutory role description not literal \"cfo\" title]",
+        "norihiro oyanagi (officer primarily responsible for financial management per section 251(1)(b) companies act 2016 statutory declaration) [official: smbc my audited financial statements fy2024 & fy2025 (smbc.co.jp/asia/malaysia/financial-statement-31mar2025.pdf)"
+      ]
+    ],
+    [
+      "Family Takaful Berhad",
+      [
+        "conf 75 - ciso-equivalent",
+        "conf 85 - note: same name appears at takaful malaysia grc; cross-entity role]",
+        "high-90]",
+        "nazaruddin adha bin md noor (chief technology officer - ciso-equivalent) [official: takaful-malaysia.com.my/en/about-us/our-leaders",
+        "nazaruddin adha bin md noor (cto) [takaful-malaysia.com.my",
+        "new kheng chee (group cfo) [takaful-malaysia.com.my",
+        "no dedicated ciso published]",
+        "redzuan bin abu [takaful-malaysia.com.my",
+        "shizal fisham bin ramli (chief governance officer) [takaful-malaysia.com.my",
+        "shizal fisham ramli (chief risk officer) [malaysian insurance directory 2025/2026",
+        "zuhairi bin ismail (chief internal auditor) [takaful-malaysia.com.my"
+      ]
+    ],
+    [
+      "Tabung Haji",
+      [
+        "abu bakar baba (group chief internal auditor) [official: tabunghaji.gov.my/peneraju-th]",
+        "conf 75 - ciso-equivalent",
+        "finance) [official: tabunghaji.gov.my/peneraju-th]; mustakim mohamad (was group exec dir finance",
+        "no dedicated ciso in management team]",
+        "now ceo since 6 may 2025) [news: bharian.com.my]",
+        "shamsul bahar shamsudin (group executive director",
+        "shamsul kamal hussein kamal (chief information technology officer - ciso-equivalent) [official: tabunghaji.gov.my/peneraju-th",
+        "shamsul kamal hussein kamal (chief information technology officer) [official: tabunghaji.gov.my/peneraju-th]",
+        "syahril nizam abu hasan (chief risk & compliance officer) + mohd hasraff hashim (head of integrity & governance) [composite] [official: tabunghaji.gov.my/peneraju-th]",
+        "syahril nizam abu hasan (chief risk & compliance officer) [official: tabunghaji.gov.my/peneraju-th]"
+      ]
+    ],
+    [
+      "AmInvestment Bank Berhad",
+      [
+        "ambank group) [official: ambankgroup.com]",
+        "faradina binti mohammad ghouse (group cco) [official: ambankgroup.com]",
+        "malini kanesamoorthy (ciso) [group-level: ambank]",
+        "ng ek leong (group chief internal auditor) [official: ambankgroup.com]",
+        "phuah shok cheng (group cfo",
+        "shamsul bahrom bin mohamed ibrahim (cro) + faradina binti mohammad ghouse (compliance) [group-level composite]",
+        "shamsul bahrom bin mohamed ibrahim (group cro) [official: ambankgroup.com]",
+        "wong eng teng (group chief fintech & technology officer) [official: ambankgroup.com]"
+      ]
+    ],
+    [
+      "Bank Rakyat Investment Bank Berhad",
+      [
+        "azni azaddin (group chief risk officer) [group-level: bank rakyat]",
+        "combined audit+compliance+governance role]",
+        "combined finance & it role]",
+        "compliance & governance) [official: rmanagement.com.my/en/leadership",
+        "conf 82 - note: subsidiary-level",
+        "conf 85 - note: subsidiary-level",
+        "fuhaizad asmar omar (senior manager audit",
+        "ismat nazarul mat isa (senior manager finance & it) [official: rmanagement.com.my/en/leadership",
+        "jufree soaidin (group chief compliance officer) [group-level: bank rakyat]",
+        "nor haimee zakaria (chief finance officer) [group-level: bank rakyat]"
+      ]
+    ],
+    [
+      "General Takaful Berhad",
+      [
+        "high-90]",
+        "nazaruddin adha bin md noor (cto) [takaful-malaysia.com.my",
+        "new kheng chee (group cfo) [takaful-malaysia.com.my",
+        "redzuan bin abu [takaful-malaysia.com.my",
+        "shizal fisham bin ramli (chief governance officer) [takaful-malaysia.com.my",
+        "zuhairi bin ismail (chief internal auditor) [takaful-malaysia.com.my"
+      ]
+    ],
+    [
+      "AmBank Islamic Berhad",
+      [
+        "faradina binti mohammad ghouse (group cco) [group-level: ambank]",
+        "malini kanesamoorthy (ciso) [group-level: ambank]",
+        "ng ek leong (group chief internal auditor) [group-level: ambank]",
+        "phuah shok cheng (group cfo) [group-level: ambank]",
+        "shamsul bahrom (group cro) + faradina ghouse (group cco) [group-level: ambank]",
+        "shamsul bahrom bin mohamed ibrahim (group cro) [group-level: ambank]",
+        "wong eng teng (group chief fintech & technology officer) [group-level: ambank]"
+      ]
+    ],
+    [
+      "Generali Life Insurance Malaysia Berhad",
+      [
+        "aw teck yee (head of compliance & aml) [official: generali.com.my]",
+        "george tan (head of internal audit) [official: generali.com.my]",
+        "tony lin (chief financial officer) [official: generali.com.my]",
+        "vincent fong (chief risk officer) [official: generali.com.my]",
+        "vincent fong (cro) + aw teck yee (compliance) [composite]"
+      ]
+    ],
+    [
+      "TNG Digital Sdn Bhd",
+      [
+        "compliance & governance officer|95|https://www.touchngo.com.my/about-us/leadership/|combined cro/compliance/grc role",
+        "desmond chin ye foong|chief technology officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cto (maps to cio/cto role)",
+        "dunstan gerald maurice|chief risk",
+        "lai mee fong|chief financial officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cfo"
+      ]
+    ],
+    [
+      "CIMB Bank Berhad",
+      [
+        "amran mohamad (group chief internal auditor)",
+        "charles samuel (group ciso)",
+        "khairul rifaie (group chief financial & strategy officer)",
+        "kwan keen yew (group chief integrity & governance officer)",
+        "kwan keen yew (group chief legal & compliance officer)",
+        "ros aziah mohd yusoff (group cto)",
+        "vera handajani (group cro)"
+      ]
+    ],
+    [
+      "JomPAY (by PayNet)",
+      [
+        "conf 85]",
+        "inherited",
+        "meling mudin (chief information security officer",
+        "paynet group) [inherited from paynet parent per v5.5 leadership-inheritance precedent. source: star cybersecurity summit 2025 speaker page + linkedin + zoominfo; conf 95]",
+        "paynet) [paynet leadership - jompay is a paynet product",
+        "tan wei tze (chief financial officer",
+        "teh lip guan (chief technology officer"
+      ]
+    ],
+    [
+      "DuitNow (by PayNet)",
+      [
+        "conf 85]",
+        "inherited",
+        "meling mudin (chief information security officer",
+        "paynet group) [inherited from paynet parent per v5.5 leadership-inheritance precedent. source: star cybersecurity summit 2025 speaker page + linkedin + zoominfo; conf 95]",
+        "paynet) [paynet leadership - duitnow is a paynet product",
+        "tan wei tze (chief financial officer",
+        "teh lip guan (chief technology officer"
+      ]
+    ],
+    [
+      "AmBank AirAsia Visa Card",
+      [
+        "shamsul bahrom (group cro) + faradina ghouse (group cco) [group-level: ambank]"
+      ]
+    ],
+    [
+      "Berjaya Sompo Insurance Berhad",
+      [
+        "conf 70]",
+        "conf 75 - grc-equivalent",
+        "conf 90]",
+        "conf 95]",
+        "kesavan raj a/l krishnan (head of internal audit) [malaysian insurance directory 2025/2026",
+        "mohamad azman bin soaed (senior manager - information security) [malaysian insurance directory 2025/2026",
+        "rina aprila afianty (chief financial officer) [official: berjayasompo.com.my/leadership-team",
+        "same person as head of compliance]",
+        "samson liew zyun fung (head of risk management) [malaysian insurance directory 2025/2026",
+        "tricia mallika appaduray (chief compliance and legal officer - grc-equivalent) [official: berjayasompo.com.my/leadership-team",
+        "tricia mallika appaduray (chief compliance and legal officer) [official: berjayasompo.com.my/leadership-team"
+      ]
+    ],
+    [
+      "Maybank Investment Bank Berhad",
+      [
+        "adrian tan kai thern (head of it",
+        "appointed 1 apr 2021) [official: maybank2u.com.my]",
+        "appointed 1 jan 2021) [official: maybank2u.com.my]",
+        "cheryl cheng siew ying (cro",
+        "ezrina mahadzir (cfo",
+        "joined 25 apr 2022) [official: maybank2u.com.my]"
+      ]
+    ],
+    [
+      "Chubb Insurance Malaysia Berhad",
+      [
+        "chong keh bin (head of internal audit) [malaysian insurance directory 2025/2026",
+        "conf 90]",
+        "dato' mohzani bin abdul wahab (director) [official: chubb.com/my-en conf 85]",
+        "kenny w. k. tan (chief operating officer) [linkedin: my.linkedin.com/in/kennytwk]",
+        "ng khai yan (chief risk officer) [malaysian insurance directory 2025/2026",
+        "olivier bouchard (executive director cfo asia pacific) [official: chubb.com/my-en]"
+      ]
+    ],
+    [
+      "Hong Leong Bank Berhad",
+      [
+        "chua yew lim (chief internal auditor) [official cg report]",
+        "conf 65]",
+        "dr. simon hoh (ciso) [theorg: theorg.com/org/hong-leong-bank/org-chart/dr-simon-hoh",
+        "jack babani (cco) [the org - unverified]",
+        "justin soong (cro) + jack babani (compliance) [group-level composite]",
+        "justin soong (group cro) [rocketreach]",
+        "malkit singh (cfo) [the org - unverified]",
+        "william streitberg (chief info & tech officer) [the org]"
+      ]
+    ],
+    [
+      "KWSP Investment Division (Direct Investments)",
+      [
+        "afhzal abdul rahman (chief digital technology officer) [official: kwsp.gov.my",
+        "ahmad rizal omar (chief financial officer) [official: kwsp.gov.my",
+        "chong yee leng (head of department \u2013 operations compliance) [official: kwsp.gov.my",
+        "conf 98]",
+        "jasmine goh (head of department \u2013 digital security) [official: kwsp.gov.my/corporate/about-us/organisation-structure",
+        "mohammad nasir ismail (head of department \u2013 internal audit) [official: kwsp.gov.my",
+        "nora badaruddin (head of department \u2013 integrity & corporate governance) [official: kwsp.gov.my",
+        "rozlina abdul samad (head of department \u2013 risk management) [official: kwsp.gov.my"
+      ]
+    ],
+    [
+      "Malaysia International Islamic Bank IB",
+      [
+        "affin islamic",
+        "agrobank). no bnm/bursa/ssm record. likely mislabel or placeholder.]",
+        "amislamic",
+        "bank muamalat",
+        "bank rakyat",
+        "cimb islamic",
+        "entity non-existent [no match on bnm licensed islamic banks list (bank islam",
+        "hong leong islamic",
+        "kfh",
+        "maybank islamic",
+        "public bank islamic",
+        "rhb islamic"
+      ]
+    ],
+    [
+      "Phillip Securities (Malaysia) Sdn Bhd",
+      [
+        "alina sim (hod finance / cfo) [official: phillipinvest.com.my/the-management-team/",
+        "compliance & risk management) [official: phillipinvest.com.my/the-management-team/",
+        "conf 95 - combined legal/compliance/risk role]",
+        "conf 95 - combined role]",
+        "conf 95]",
+        "fatin fitriana amran (head of internal audit) [official: phillipinvest.com.my/the-management-team/",
+        "ramli abd hamid (head of legal",
+        "yorck oliver ago reuber (it director) [official: phillipinvest.com.my/the-management-team/"
+      ]
+    ],
+    [
+      "PNB Capital Berhad",
+      [
+        "ciso-equivalent",
+        "compliance & integrity) [pnb.com.my",
+        "conf 90 - pnb group cto",
+        "high-90] [inherited from pnb - product brand governance]",
+        "inherited) [source: pnb.com.my/en/leadership-en; conf 80]. pnb capital has no dedicated it/security executive; it security leadership inherited from pnb group cto function.",
+        "internal audit) [pnb.com.my",
+        "mohd azmir mohd jani (chief risk officer) [pnb.com.my",
+        "mohd irwan ahmad mustafa (group chief strategy & financial officer) [pnb.com.my",
+        "noramly bachok @ abdul aziz (group head",
+        "pnb group) [pnb integrated report 2024 / pnb.com.my/en/leadership-en",
+        "sahlawati mustafa (group head",
+        "ts izzat aziz (group chief technology officer",
+        "ts. muhammad izzat bin hj abdul aziz (pnb group cto",
+        "won pikom cio of the year award for ai adoption] [inherited from pnb - product brand governance]"
+      ]
+    ],
+    [
+      "CIMB OctoPay (CIMB Bank)",
+      [
+        "amran mohamad (group chief internal auditor) [inherited from cimb bank berhad - product brand governance]",
+        "charles samuel (group ciso) [inherited from cimb bank berhad - product brand governance]",
+        "khairul rifaie (group chief financial & strategy officer) [inherited from cimb bank berhad - product brand governance]",
+        "kwan keen yew (group chief integrity & governance officer) [inherited from cimb bank berhad - product brand governance]",
+        "kwan keen yew (group chief legal & compliance officer) [inherited from cimb bank berhad - product brand governance]",
+        "ros aziah mohd yusoff (group cto) [inherited from cimb bank berhad - product brand governance]",
+        "vera handajani (group cro) [inherited from cimb bank berhad - product brand governance]"
+      ]
+    ],
+    [
+      "Axiata Digital Services Sdn Bhd (Boost)",
+      [
+        "abid abdul adam (group chief risk and compliance officer",
+        "axiata group) [official: axiata.com/about-us/our-people",
+        "conf 85 - grc inherited from axiata group parent]",
+        "conf 90 - inherited from axiata group parent]",
+        "komathi balakrishnan (acting group cfo",
+        "thomas hundt (group chief business and technology officer"
+      ]
+    ],
+    [
+      "GXBank Berhad",
+      [
+        "karina sivam (head of internal audit) [official: gxbank.my/our-leadership]",
+        "kenneth leong (chief financial officer) [official: gxbank.my/our-leadership]",
+        "kiyoka thaam (chief risk officer) [official: gxbank.my/our-leadership]",
+        "kiyoka thaam (cro) + nadia farhan noordin (head of compliance) [official: gxbank.my]",
+        "nadia farhan noordin (head of compliance) [official: gxbank.my/our-leadership]",
+        "nishant sharma (chief technology officer) [official: gxbank.my/our-leadership]"
+      ]
+    ],
+    [
+      "Kurnia Insurans (Malaysia) Berhad",
+      [
+        "amgeneral insurance berhad) [official: amassurance.com.my",
+        "conf 60 - marked unverified]",
+        "conf 60 - marked unverified]; ceo: puneet pasricha (ceo",
+        "conf 90]",
+        "ganesan vaithilingam (cio) [the org: theorg.com/org/amgeneral-insurance-berhad",
+        "peter ong (chief compliance officer) [the org: theorg.com/org/amgeneral-insurance-berhad",
+        "tan bee chuan (chief internal auditor) [the org: theorg.com/org/amgeneral-insurance-berhad"
+      ]
+    ],
+    [
+      "Kenanga Investment Bank Berhad",
+      [
+        "cheong boon kak (group chief financial & operations officer) [official: kenanga.com.my]",
+        "choo siew fun (group chief compliance & ethics officer) [official: kenanga.com.my]",
+        "low jia yee (chief technology officer) [official: kenanga.com.my]",
+        "low jia yee \u2014 chief technology officer (ciso-equivalent) [official: kenanga.com.my/who-we-are/our-people/company/kenanga-investment-bank-berhad/] | conf 75 | no dedicated ciso/head of it security among 25+ executives. cto is closest equivalent.",
+        "tai yan fee (cro) + choo siew fun (compliance) [group-level composite]",
+        "tai yan fee (group chief risk officer) [official: kenanga.com.my]",
+        "terence tan kian meng (group chief internal auditor) [official: kenanga.com.my]"
+      ]
+    ],
+    [
+      "KWSP Investment Division (Alternative Assets)",
+      [
+        "afhzal abdul rahman (chief digital technology officer) [official: kwsp.gov.my",
+        "ahmad rizal omar (chief financial officer) [official: kwsp.gov.my",
+        "chong yee leng (head of department \u2013 operations compliance) [official: kwsp.gov.my",
+        "conf 98]",
+        "jasmine goh (head of department \u2013 digital security) [official: kwsp.gov.my/corporate/about-us/organisation-structure",
+        "mohammad nasir ismail (head of department \u2013 internal audit) [official: kwsp.gov.my",
+        "nora badaruddin (head of department \u2013 integrity & corporate governance) [official: kwsp.gov.my",
+        "rozlina abdul samad (head of department \u2013 risk management) [official: kwsp.gov.my"
+      ]
+    ],
+    [
+      "MIDF Amanah Investment Bank Berhad",
+      [
+        "conf 80 - group-level]",
+        "laurence ong wooi keat (group chief risk officer",
+        "mbsb bank) [official: mbsb.com/corporate_about_team.html",
+        "meor ibrahim othman (svp/head group compliance) [official: midf.com.my]",
+        "noor azman bin abdul karim (group chief technology officer",
+        "nor azita binti sarip (svp/head group secretarial & legal) [official: midf.com.my]",
+        "shahnaz jammal (group chief financial officer",
+        "zanariah daud (svp/head group control assurance) [official: midf.com.my]"
+      ]
+    ],
+    [
+      "Syarikat Jaminan Pembiayaan Perniagaan (SJPP)",
+      [
+        "high-80]",
+        "juanita rusmini binti abdul jalil (acting principal officer) [sjpp.com.my"
+      ]
+    ],
+    [
+      "Hong Leong Assurance Berhad",
+      [
+        "chua yew lim (chief internal auditor) [group-level: hong leong]",
+        "conf 95]",
+        "lee noushi (head of legal and chief compliance officer) [official: hla.com.my/en/know-us/leadership.html",
+        "lim mei gie (chief risk officer) [official: hla.com.my/en/know-us/leadership.html",
+        "lim mei gie (cro) + lee noushi (compliance) [composite]",
+        "low tek chee (chief technology officer) [official: hla.com.my/en/know-us/leadership.html",
+        "low tek chee \u2014 chief technology officer (ciso-equivalent) [official: hla.com.my/en/know-us/leadership.html] | conf 75 | no dedicated ciso/head of information security role among 13 executives. cto is closest equivalent.",
+        "ong kheng heng (chief financial officer) [official: hla.com.my/en/know-us/leadership.html"
+      ]
+    ],
+    [
+      "iPay88 (M) Sdn Bhd",
+      [
+        "alex wah|head of it cum ciso|70|https://rocketreach.co/ipay88-management_b5e52ecdf42e67ac|ipay88 ciso (rocketreach source - medium confidence)"
+      ]
+    ],
+    [
+      "Etiqa General Insurance Berhad",
+      [
+        "azian ismail (chief audit executive",
+        "dennis liu (cto) [official: etiqa.com]",
+        "devinder singh sardool singh (ciso) [official: etiqa.com]",
+        "lee hin sze (cfo) [official: etiqa.com]",
+        "maybank group) [group-level: maybank]",
+        "nurliana mat lazim (chief risk & compliance officer) [official: etiqa.com]",
+        "nurliana mat lazim (cro/compliance - grc) [official: etiqa.com]",
+        "roslina mohd ramza (cco) [official: etiqa.com]"
+      ]
+    ],
+    [
+      "Me2U (by PayNet)",
+      [
+        "conf 80 caveat: me2u not listed on official paynet 10 named services; may be maybank2u feature mislabeled.]",
+        "inherited",
+        "meling mudin (chief information security officer",
+        "paynet group) [inherited from paynet parent per v5.5 leadership-inheritance precedent. source: star cybersecurity summit 2025 speaker page + linkedin + zoominfo; conf 95]",
+        "paynet) [paynet leadership - me2u is a paynet product",
+        "tan wei tze (chief financial officer",
+        "teh lip guan (chief technology officer"
+      ]
+    ],
+    [
+      "Allianz General Insurance Company (Malaysia) Berhad",
+      [
+        "chin xiao wei (cfo allianz general) [official: allianz malaysia iar 2024",
+        "conf 70 - shared across allianz entities]",
+        "conf 90]",
+        "david brandl (cit officer) [official: allianz malaysia iar 2024"
+      ]
+    ],
+    [
+      "Standard Chartered Bank Malaysia Berhad",
+      [
+        "conf 75]",
+        "irene tan (chief compliance officer)",
+        "joy chowdhury (chief technology & operations officer)",
+        "mushahid syed (interim ceo & cfo)",
+        "ong gaik ean (cro)",
+        "ong gaik ean (cro) + irene tan (compliance) [group-level composite]",
+        "praveen sankaranarayan (head of audit)",
+        "sivanathan subramaniam (ciso malaysia) [linkedin: linkedin.com/posts/sivanathansubramaniam"
+      ]
+    ],
+    [
+      "GrabPay (Grab Malaysia)",
+      [
+        "conf 75 - singapore hq group-level",
+        "grab holdings) [wikipedia/grab holdings",
+        "no malaysia-specific cfo published]",
+        "no malaysia-specific cto published]",
+        "peter oey (group cfo",
+        "suthen thomas paradatheth (group cto"
+      ]
+    ],
+    [
+      "Agrobank Malaysia",
+      [
+        "ciso-equivalent) [official: agrobank.com.my/my/home/corporate-info/senior-leadership/",
+        "conf 85]",
+        "conf 95]",
+        "encik fairoshawal idrus",
+        "encik hussien mullar",
+        "encik hussien mullar (cro) + encik fairoshawal idrus (compliance)",
+        "encik kamarudin samsudin",
+        "encik zulkeefli mad karim",
+        "nolan jeffrey a/l abdul hai (group chief information technology officer) [official: agrobank.com.my/home/corporate-info/senior-leadership/",
+        "nolan jeffrey a/l abdul hai (group cio"
+      ]
+    ],
+    [
+      "Lonpac Insurance Bhd",
+      [
+        "conf 90]",
+        "cpa malaysia) [official: lpicapital.com/about-us/management-team",
+        "cynthia ng boon howe (chief information officer) [official: lonpac.com]",
+        "designated 24 jan 2025; cfo of lonpac since 2019) [official: lpicapital.com/about-us/management-team",
+        "designated 24 jan 2025; chief internal auditor of lonpac since 1998; mia ca",
+        "irene hwang siew ling (group chief internal auditor",
+        "lai geng farn (chief information security officer) [official: lonpac.com]",
+        "lee chiew lai (chief risk officer) [official: lonpac.com]",
+        "lee chiew lai (cro) + mahinder kaur a/p kapal singh (compliance) [composite]",
+        "mahinder kaur a/p kapal singh (chief compliance officer) [official: lonpac.com]",
+        "ng seng khin (group chief financial officer"
+      ]
+    ],
+    [
+      "Touch n Go Visa Prepaid Card",
+      [
+        "compliance & governance officer|95|https://www.touchngo.com.my/about-us/leadership/|combined cro/compliance/grc role [inherited from tng digital sdn bhd - product brand governance]",
+        "desmond chin ye foong|chief technology officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cto (maps to cio/cto role) [inherited from tng digital sdn bhd - product brand governance]",
+        "dunstan gerald maurice|chief risk",
+        "lai mee fong|chief financial officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cfo [inherited from tng digital sdn bhd - product brand governance]"
+      ]
+    ],
+    [
+      "Great Eastern General Insurance (Malaysia) Berhad",
+      [
+        "assumed role jul 2024) [official: greateasternlife.com",
+        "cheng chuen chee (chief financial officer",
+        "conf 95]",
+        "liza hanim zainal abidin (legal/compliance) + audra chung kit li (audit)",
+        "risk management) [group role - official: greateasternlife.com]",
+        "teo chun seng (division head"
+      ]
+    ],
+    [
+      "PNB Income Fund Berhad",
+      [
+        "entity likely non-existent [no evidence on pnb.com.my or asnb fund listing (18 unit trust funds",
+        "none named \"pnb income fund\"). pnb capital and pnb equity fund previously confirmed non-existent. recommend removal or marking as non-existent.]"
+      ]
+    ],
+    [
+      "Affin Investment Bank Berhad",
+      [
+        "4.3yrs) [simplywall.st]",
+        "6.1yrs tenure) [simplywall.st]",
+        "6.2yrs) [simplywall.st]",
+        "8yrs) [simplywall.st]",
+        "adzamimah adzmi (group chief compliance officer",
+        "ceo: wan razly bin wan ali (president and group ceo); coo: risham kamaruzaman [simplywall.st]",
+        "cheong dang (group chief risk officer",
+        "cheong dang (group cro) + adzamimah adzmi (group cco) [group-level: affin bank]",
+        "joanne rodrigues (group cfo",
+        "teng wei lim (thomas) (group ciso/gciso) [linkedin: my.linkedin.com/in/thomaslim]",
+        "wahdania binti mohd khir (group chief internal auditor"
+      ]
+    ],
+    [
+      "Touch n Go eWallet Sdn Bhd",
+      [
+        "compliance & governance officer|95|https://www.touchngo.com.my/about-us/leadership/|combined cro/compliance/grc role",
+        "desmond chin ye foong|chief technology officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cto (maps to cio/cto role)",
+        "dunstan gerald maurice|chief risk",
+        "lai mee fong|chief financial officer|95|https://www.touchngo.com.my/about-us/leadership/|tng digital cfo"
+      ]
+    ],
+    [
+      "Alliance Investment Bank Berhad",
+      [
+        "also responsible for group compliance) [official: alliancebank.com.my]",
+        "andrew ng yin min (group chief internal auditor) [official: alliancebank.com.my]",
+        "jacob abraham (group chief risk officer) [official: alliancebank.com.my]",
+        "jacob abraham (group cro",
+        "jacob abraham (group cro + compliance oversight) [group-level: alliance bank]",
+        "nantha kumar subramanian (group chief digital & information officer) [official: alliancebank.com.my]",
+        "ronnie royston fernandiz (group cfo) [official: alliancebank.com.my]",
+        "william song (group ciso) [group-level: alliance bank]"
+      ]
+    ],
+    [
+      "HSBC Bank Malaysia Berhad",
+      [
+        "brian mcguire (chief compliance officer) [theofficialboard]",
+        "brian mcguire (chief risk & compliance officer) [theofficialboard]",
+        "brian mcguire (chief risk & compliance officer) [theofficialboard]; ceo: dato omar siddiq (ceo and head of banking) [official: hsbc.com.my",
+        "conf 95]",
+        "elly neoh (cfo)",
+        "mei ling soo (cio)"
+      ]
+    ]
+  ]
+}
