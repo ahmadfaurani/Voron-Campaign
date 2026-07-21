@@ -1,9 +1,6 @@
 # Sentiment Analysis Report
 
 **Classification:** TLP:AMBER
-**Generated:** 2026-07-21 16:04 +08 (MYT / UTC+8)
-**Report Date:** 2026-07-21
-**Report Timestamp (MYT):** 2026-07-21 16:04 +08
 **Report Timestamp:** 20260721T080415Z
 **Extraction ID:** ext_20260721_1400_phase1
 **Extraction Source:** 2026-07-21T14:00:00+08:00
