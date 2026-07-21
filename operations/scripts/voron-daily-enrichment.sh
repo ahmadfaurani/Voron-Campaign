@@ -124,8 +124,14 @@ for domain in "${DOMAINS[@]}"; do
         # Run email scan
         EMAIL_RESULT=$(run_with_retry openosint --provider openai --parallel email "$email")
         
-        # Check if email is used
-        if echo "$EMAIL_RESULT" | grep -q "\[+\] Email used"; then
+        # Check if email is used on any site.
+        # NOTE: holehe ALWAYS prints a legend line "[+] Email used, [-] Email
+        # not used, [x] Rate limit"; a REAL positive is a line "[+] <domain>"
+        # (which never contains the phrase "Email used"). The previous check
+        # `grep "\[+\] Email used"` matched the legend every time, falsely
+        # marking every email as verified. Strip ANSI color codes, keep only
+        # "[+]" result lines, then exclude the legend to detect true positives.
+        if echo "$EMAIL_RESULT" | sed 's/\x1b\[[0-9;]*m//g' | grep -E '^\[\+\]' | grep -qv 'Email used'; then
             VERIFIED="true"
             VERIFIED_EMAILS=$((VERIFIED_EMAILS + 1))
         else
