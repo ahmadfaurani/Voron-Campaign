@@ -1,118 +1,151 @@
 #!/usr/bin/env python3
+"""Update prospect database CSV with new findings from research session."""
 import csv
-import io
 
-# Read the current enriched CSV
-with open('/home/p62operator/.openclaw/workspace-hoi/voron-stakeholders/prospect-database-enriched-v3.7.csv', 'r', encoding='utf-8') as f:
-    content = f.read()
+# Read the current CSV
+with open('prospect-database-enriched-v5.28.csv', encoding='utf-8-sig') as f:
+    reader = csv.DictReader(f)
+    fieldnames = reader.fieldnames
+    rows = list(reader)
 
-# Parse CSV
-reader = csv.DictReader(io.StringIO(content))
-fieldnames = [f for f in reader.fieldnames if f is not None]
-rows = []
-for row in reader:
-    # Remove None keys
-    clean_row = {k: v for k, v in row.items() if k is not None}
-    rows.append(clean_row)
+print(f"Loaded {len(rows)} rows, columns: {fieldnames}")
 
-print(f"Total rows: {len(rows)}")
+# Track updates
 updates = []
 
-# Update 1: Hong Leong Bank Berhad - CISO = Dr. Simon Hoh
-for row in rows:
-    if row.get('Institution_Name') == 'Hong Leong Bank Berhad':
-        old_ciso = row.get('Chief Information Security Officer', '')
-        row['Chief Information Security Officer'] = 'Dr. Simon Hoh (CISO) [TheOrg: theorg.com/org/hong-leong-bank/org-chart/dr-simon-hoh, conf 65]'
-        updates.append(f"HLB CISO updated")
-        break
+# 1. Update iPay88 (both rows) with CRO from NTT DATA Payment Services
+for idx, row in enumerate(rows):
+    name = row['Institution_Name']
+    
+    if 'iPay88' in name and row['Chief Risk Officer'].startswith('NOT FOUND'):
+        old_val = row['Chief Risk Officer']
+        new_val = ("Khushwant Singh (Group Chief Risk & Credit Officer, NTT DATA Payment Services - parent co formerly GHL Systems)"
+                   " [Source: LinkedIn linkedin.com/company/nttdataps/, conf 85 - confirmed via CRO Summit 2026 panel & eKYC webinar]")
+        row['Chief Risk Officer'] = new_val
+        updates.append((idx, name, 'Chief Risk Officer', old_val[:50], new_val[:80]))
+    
+    # Update CISO context for iPay88 to note parent company change
+    if 'iPay88' in name and 'Alex Wah' in row.get('Chief Information Security Officer', ''):
+        old_val = row['Chief Information Security Officer']
+        if 'NTT DATA' not in old_val and 'GHL' not in old_val:
+            row['Chief Information Security Officer'] = old_val + " [Parent: NTT DATA Payment Services (formerly GHL Systems Berhad), acquired by NTT DATA Japan]"
+            updates.append((idx, name, 'Chief Information Security Officer', '[context update]', '[added NTT DATA parent context]'))
 
-# Update 2: Hong Leong Islamic Bank Berhad - CISO = Dr. Simon Hoh (group-level)
-for row in rows:
-    if row.get('Institution_Name') == 'Hong Leong Islamic Bank Berhad':
-        row['Chief Information Security Officer'] = 'Dr. Simon Hoh (CISO) [Group-level: Hong Leong Bank, TheOrg, conf 60]'
-        updates.append(f"HLB Islamic CISO updated")
-        break
+# 2. Update senangPay with DOKU acquisition context
+for idx, row in enumerate(rows):
+    if 'SenangPay' in row['Institution_Name'] or 'senangPay' in row['Institution_Name']:
+        name = row['Institution_Name']
+        for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance', 
+                     'Chief Risk Officer', 'Head of Compliance', 'Chief Information Officer', 'Head of Internal Audit']:
+            if row[col].startswith('NOT FOUND') and 'DOKU' not in row[col]:
+                old_val = row[col]
+                row[col] = ("NOT FOUND [senangPay acquired by DOKU (Indonesia) in 2022; LinkedIn shows 51-200 employees;"
+                           " key employees: Joshua Abraham, Kenneth Kuan, Muhammad Hasni Madzaki, Paulina Vina - roles unconfirmed."
+                           " Source: linkedin.com/company/senangpay/]")
+                updates.append((idx, name, col, old_val[:50], '[DOKU context added]'))
+        # Update CFO context
+        if 'Mohd Mutalib' in row.get('Chief Financial Officer', ''):
+            row['Chief Financial Officer'] = row['Chief Financial Officer'] + " [senangPay is now a DOKU Company (acquired 2022)]"
+            updates.append((idx, name, 'Chief Financial Officer', '[context update]', '[DOKU context added]'))
 
-# Update 3: Mizuho Bank Malaysia - Add CEO info as context
-for row in rows:
-    if row.get('Institution_Name') == 'Mizuho Bank (Malaysia) Berhad':
-        row['Chief Information Security Officer'] = 'CEO: Daisuke Ihara (Executive Director/CEO, appointed 1 Jul 2026, Certified AML Specialist) [Official: mizuhogroup.com Profile of Directors PDF, conf 95]; Chairman: Dato Dr Zaha Rina binti Zahari'
-        updates.append("Mizuho: added CEO Daisuke Ihara (context)")
-        break
+# 3. Update Billplz with LinkedIn employee context
+for idx, row in enumerate(rows):
+    if 'Billplz' in row['Institution_Name']:
+        name = row['Institution_Name']
+        for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
+                     'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
+                     'Chief Information Officer', 'Head of Internal Audit']:
+            if row[col].startswith('NOT FOUND') and 'Arzumy' not in row[col] and 'LinkedIn' not in row[col]:
+                old_val = row[col]
+                row[col] = ("NOT FOUND [Billplz: 11-50 employees, Shah Alam. LinkedIn key employees: Arzumy MD (likely CEO/founder),"
+                           " Azril Azmi, Muhammad Fariduddin Fauzi, Nazroof Hakim - role titles unconfirmed."
+                           " Source: linkedin.com/company/billplz/]")
+                updates.append((idx, name, col, old_val[:50], '[Billplz LinkedIn context added]'))
 
-# Update 4: HSBC Malaysia - Add CEO confirmation to GRC field
-for row in rows:
-    if row.get('Institution_Name') == 'HSBC Bank Malaysia Berhad':
-        row['Head of Governance Risk & Compliance'] = "Brian McGuire (Chief Risk & Compliance Officer) [TheOfficialBoard]; CEO: Dato Omar Siddiq (CEO and Head of Banking) [Official: hsbc.com.my, conf 95]"
-        updates.append("HSBC: added CEO Dato Omar Siddiq to GRC field")
-        break
+# 4. Update Jirnexu with LinkedIn context
+for idx, row in enumerate(rows):
+    if 'Jirnexu' in row['Institution_Name']:
+        name = row['Institution_Name']
+        for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
+                     'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
+                     'Chief Information Officer', 'Head of Internal Audit']:
+            if row[col].startswith('NOT FOUND') and ('Jirnexu' not in row[col] or 'LinkedIn' not in row[col]):
+                old_val = row[col]
+                row[col] = ("NOT FOUND [Jirnexu: 51-200 employees, Bangsar South KL. Behind RinggitPlus.com & CompareHero."
+                           " LinkedIn notable employee: Ali Fancy - role unconfirmed. Founded 2012."
+                           " Source: linkedin.com/company/jirnexu/]")
+                updates.append((idx, name, col, old_val[:50], '[Jirnexu LinkedIn context added]'))
 
-# Update 5: Citibank Berhad - Add CEO info to GRC field
-for row in rows:
-    if row.get('Institution_Name') == 'Citibank Berhad':
-        row['Head of Governance Risk & Compliance'] = 'CEO: Vikram Singh (CEO Citi Malaysia, effective 1 May 2023) [Official: theasianbanker.com, conf 90]; Country Lead: Divya Nair; Head of Commercial Bank: Shawn Khong [TheOfficialBoard]'
-        updates.append("Citibank: added CEO Vikram Singh to GRC field")
-        break
+# 5. Update Soft Space with additional context
+for idx, row in enumerate(rows):
+    if 'Soft Space' in row['Institution_Name']:
+        name = row['Institution_Name']
+        for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
+                     'Chief Risk Officer', 'Head of Compliance', 'Head of Internal Audit']:
+            if row[col].startswith('NOT FOUND') and 'LinkedIn' not in row[col]:
+                old_val = row[col]
+                row[col] = ("NOT FOUND [Soft Space: No LinkedIn company page (tried 5 URL variants, all 404)."
+                           " Existing fills: Rick Leong (Acting CFO), Nicholas Lim (CTO)."
+                           " Source: softspace.com.my, theorg.com]")
+                updates.append((idx, name, col, old_val[:50], '[Soft Space context added]'))
 
-# Update 6: Credit Suisse Malaysia - Note about UBS merger
-for row in rows:
-    if row.get('Institution_Name') == 'Credit Suisse (Malaysia) Berhad':
-        row['Chief Information Security Officer'] = 'ENTITY STATUS: Credit Suisse acquired by UBS; parent banks merged 31 May 2024. Entity likely absorbed/restructured. [Source: ubs.com press release, conf 85]'
-        updates.append("Credit Suisse: added UBS merger status note")
-        break
+# 6. Update KDI Save with research context
+for idx, row in enumerate(rows):
+    if 'KDI Save' in row['Institution_Name']:
+        name = row['Institution_Name']
+        for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
+                     'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
+                     'Chief Information Officer', 'Head of Internal Audit']:
+            if row[col].startswith('NOT FOUND') and ('KDI' not in row[col] or 'search' not in row[col].lower()):
+                old_val = row[col]
+                row[col] = ("NOT FOUND [KDI Save: No LinkedIn company page (404). No public website found."
+                           " Web search returned only Korean Development Institute results. Likely early-stage digital bank.]")
+                updates.append((idx, name, col, old_val[:50], '[KDI Save context added]'))
+
+# 7. Update PayNet NOT FOUND entries with anti-bot context
+for idx, row in enumerate(rows):
+    name = row['Institution_Name']
+    if name == 'PayNet (PayNet Malaysia Sdn Bhd)':
+        for col in ['Head of Governance Risk & Compliance', 'Chief Risk Officer', 'Head of Compliance', 'Head of Internal Audit']:
+            if row[col].startswith('NOT FOUND') and 'anti-bot' not in row[col].lower():
+                old_val = row[col]
+                row[col] = ("NOT FOUND [PayNet website anti-bot protected - Firecrawl stealth/enhanced proxy failed."
+                           " No LinkedIn page (tried 2 URLs, both 404). Existing fills: Meling Mudin (CISO),"
+                           " Tan Wei Tze (CFO), Teh Lip Guan (CTO).]")
+                updates.append((idx, name, col, old_val[:50], '[PayNet anti-bot context added]'))
 
 # Write updated CSV
-output = io.StringIO()
-writer = csv.DictWriter(output, fieldnames=fieldnames, extrasaction='ignore')
-writer.writeheader()
-writer.writerows(rows)
-updated_content = output.getvalue()
+output_file = 'prospect-database-enriched-v5.29.csv'
+with open(output_file, 'w', encoding='utf-8-sig', newline='') as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(rows)
 
-# Write to v3.8
-new_path = '/home/p62operator/.openclaw/workspace-hoi/voron-stakeholders/prospect-database-enriched-v3.8.csv'
-with open(new_path, 'w', encoding='utf-8', newline='') as f:
-    f.write(updated_content)
+print(f"\nTotal updates made: {len(updates)}")
+print(f"Output file: {output_file}")
 
-print(f"\nUpdates made:")
-for u in updates:
-    print(f"  - {u}")
-print(f"\nWritten to: {new_path}")
-print(f"File size: {len(updated_content)} chars")
+# Print summary of updates
+for idx, name, col, old, new in updates:
+    print(f"  Row {idx}: {name} | {col}: {new}")
 
-# Coverage stats for T1 banks
-t1_banks = [
-    'Maybank Berhad', 'CIMB Bank Berhad', 'Public Bank Berhad', 'RHB Bank Berhad',
-    'Hong Leong Bank Berhad', 'AmBank (M) Berhad', 'Bank Islam Malaysia Berhad',
-    'Bank Rakyat Malaysia', 'OCBC Bank (Malaysia) Berhad', 'UOB Malaysia Berhad',
-    'HSBC Bank Malaysia Berhad', 'Standard Chartered Bank Malaysia Berhad',
-    'Citibank Berhad', 'Bank of China (Malaysia) Berhad', 'ICBC (Malaysia) Berhad',
-    'Credit Suisse (Malaysia) Berhad', 'Mizuho Bank (Malaysia) Berhad',
-    'Sumitomo Mitsui Banking Corporation Malaysia Berhad', 'Deutsche Bank (Malaysia) Berhad',
-    'BNP Paribas Malaysia Berhad', 'Bank Muamalat Malaysia Berhad',
-    'Maybank Investment Bank Berhad', 'CIMB Investment Bank Berhad',
-    'RHB Investment Bank Berhad', 'Hong Leong Investment Bank Berhad',
-    'Public Investment Bank Berhad', 'Maybank Islamic Berhad',
-    'CIMB Islamic Bank Berhad', 'RHB Islamic Bank Berhad',
-    'AmBank Islamic Berhad', 'Hong Leong Islamic Bank Berhad', 'Public Islamic Bank Berhad'
-]
+# Count fills before and after
+leadership_cols = ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
+                    'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
+                    'Chief Information Officer', 'Head of Internal Audit']
 
-print(f"\n--- T1 Bank Coverage (7 target roles) ---")
-total_found = 0
-total_target = 0
-for bank in t1_banks:
-    for row in rows:
-        if row.get('Institution_Name') == bank:
-            found = 0
-            for col in ['Chief Information Security Officer', 'Head of Governance Risk & Compliance',
-                       'Chief Financial Officer', 'Chief Risk Officer', 'Head of Compliance',
-                       'Chief Information Officer', 'Head of Internal Audit']:
-                val = row.get(col, '').strip()
-                if val and not val.startswith('ENTITY STATUS') and not val.startswith('CEO:'):
-                    found += 1
-            total_found += found
-            total_target += 7
-            pct = round(found/7*100)
-            print(f"  {bank}: {found}/7 ({pct}%)")
-            break
+actual_fills = 0
+for col in leadership_cols:
+    for r in rows:
+        val = r[col].strip()
+        if not val.startswith('NOT FOUND'):
+            actual_fills += 1
 
-print(f"\nTotal T1 coverage: {total_found}/{total_target} ({round(total_found/total_target*100)}%)")
+total_cells = len(rows) * 7
+print(f"\nActual name fills: {actual_fills}/{total_cells} ({actual_fills*100/total_cells:.1f}%)")
+print(f"NOT FOUND: {total_cells - actual_fills}/{total_cells} ({(total_cells - actual_fills)*100/total_cells:.1f}%)")
+
+# Per-column breakdown
+print("\n=== Per-column fill rates ===")
+for col in leadership_cols:
+    filled = sum(1 for r in rows if not r[col].strip().startswith('NOT FOUND'))
+    print(f"  {col}: {filled}/{len(rows)} ({filled*100/len(rows):.1f}%)")
