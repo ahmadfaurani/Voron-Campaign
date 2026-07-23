@@ -1,0 +1,2469 @@
+{
+  "file": "operations/prospect-databases/prospect-database-enriched-v5.22.csv",
+  "md5": "66f4570458382e7e152f4b7a382cd176",
+  "total": 205,
+  "n_roles": 7,
+  "total_cells": 1435,
+  "tier_counts": {
+    "3": 49,
+    "6": 15,
+    "4": 35,
+    "2": 53,
+    "5": 24,
+    "1": 29
+  },
+  "seg_counts": {
+    "MSBs": 17,
+    "Fintech Sandbox": 13,
+    "E-Money": 19,
+    "Insurers": 26,
+    "Takaful": 12,
+    "Investment Banks": 15,
+    "GLC-Linked": 24,
+    "Development FIs": 11,
+    "Licensed Banks": 29,
+    "Card Schemes": 10,
+    "Payment Operators": 6,
+    "Cooperatives": 21,
+    "Fintech Registered": 2
+  },
+  "cell_classification": {
+    "NOT_FOUND": 609,
+    "NAMED": 806,
+    "NONEXISTENT": 20
+  },
+  "role_named": {
+    "CISO": 88,
+    "GRC": 108,
+    "CFO": 142,
+    "CRO": 113,
+    "Compliance": 122,
+    "CIO": 125,
+    "IA": 108
+  },
+  "density": {
+    "0": 44,
+    "3": 16,
+    "6": 15,
+    "7": 68,
+    "1": 23,
+    "5": 23,
+    "2": 5,
+    "4": 11
+  },
+  "with_any": 161,
+  "fully": 68,
+  "zero_named": 44,
+  "tier1": {
+    "count": 29,
+    "with_named": 28,
+    "fully7": 20,
+    "empty": [
+      "Credit Suisse (Malaysia) Berhad"
+    ]
+  },
+  "institutions": [
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "2C2P (Malaysia) Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "AEON Bank (M) Berhad",
+      "named": 3,
+      "contacts": {
+        "GRC": "Kirenjeet Kaur",
+        "CRO": "Kirenjeet Kaur",
+        "Compliance": "Kirenjeet Kaur"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "AEON Bank Berhad",
+      "named": 3,
+      "contacts": {
+        "GRC": "Kirenjeet Kaur",
+        "CRO": "Kirenjeet Kaur",
+        "Compliance": "Kirenjeet Kaur"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "AEON Wallet (AEON Credit)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "AIA Berhad",
+      "named": 6,
+      "contacts": {
+        "CISO": "Chee Lung Yuen (Director, Technology Risk Manageme",
+        "GRC": "Datin Veronica Selvanayagy (General Counsel)",
+        "CFO": "Edwin Peh (CFO)",
+        "CRO": "Tan Teoh Guan (CRO)",
+        "Compliance": "Tan Teoh Guan (CRO - oversees compliance monitorin",
+        "CIO": "Sherlly Yuan Xiaoli (CTO)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "AIA General Berhad",
+      "named": 6,
+      "contacts": {
+        "CISO": "Chee Lung Yuen (Director, Technology Risk Manageme",
+        "GRC": "Datin Veronica Selvanayagy (General Counsel)",
+        "CFO": "Edwin Peh (CFO)",
+        "CRO": "Tan Teoh Guan (CRO)",
+        "Compliance": "Nanthini Kandasamy (Director, Risk & Compliance)",
+        "CIO": "Sherlly Yuan Xiaoli (CTO)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "AIA Public Takaful Berhad",
+      "named": 6,
+      "contacts": {
+        "CISO": "Chee Lung Yuen (Director, Technology Risk Manageme",
+        "GRC": "Datin Veronica Selvanayagy (General Counsel)",
+        "CFO": "Edwin Peh (CFO)",
+        "CRO": "Tan Teoh Guan (CRO)",
+        "Compliance": "Ahmad Faisal Ahamad Nawawi (Associate Director, Co",
+        "CIO": "Sherlly Yuan Xiaoli (CTO)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Affin Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Teng Wei Lim (Thomas) (Group CISO/GCISO)",
+        "GRC": "Cheong Dang (Group CRO) + Adzamimah Adzmi (Group C",
+        "CFO": "Joanne Rodrigues (Group CFO, 6.1yrs tenure)",
+        "CRO": "Cheong Dang (Group Chief Risk Officer, 4.3yrs)",
+        "Compliance": "Adzamimah Adzmi (Group Chief Compliance Officer, 8",
+        "CIO": "CEO: Wan Razly Bin Wan Ali (President and Group CE",
+        "IA": "Wahdania Binti Mohd Khir (Group Chief Internal Aud"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Agensi Jaminan Kredit Mikro (AKM)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "Agrobank Malaysia",
+      "named": 7,
+      "contacts": {
+        "CISO": "Nolan Jeffrey A/L Abdul Hai (Group CIO, CISO-equiv",
+        "GRC": "Encik Hussien Mullar (CRO) + Encik Fairoshawal Idr",
+        "CFO": "Encik Zulkeefli Mad Karim",
+        "CRO": "Encik Hussien Mullar",
+        "Compliance": "Encik Fairoshawal Idrus",
+        "CIO": "Nolan Jeffrey A/L Abdul Hai (Group Chief Informati",
+        "IA": "Encik Kamarudin Samsudin"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Alipay+ Malaysia (Ant Group)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Alliance Bank Malaysia Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "William Song (Group CISO)",
+        "GRC": "Jacob Abraham (Group CRO + Compliance oversight)",
+        "CFO": "Ronnie Royston Fernandiz (Group Chief Financial Of",
+        "CRO": "Jacob Abraham (Group Chief Risk Officer)",
+        "Compliance": "Jacob Abraham (Group CRO, also oversees Group Comp",
+        "CIO": "Nantha Kumar Subramanian (Group Chief Digital & In",
+        "IA": "Andrew Ng Yin Min (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Alliance Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "William Song (Group CISO)",
+        "GRC": "Jacob Abraham (Group CRO + Compliance oversight)",
+        "CFO": "Ronnie Royston Fernandiz (Group CFO)",
+        "CRO": "Jacob Abraham (Group Chief Risk Officer)",
+        "Compliance": "Jacob Abraham (Group CRO, also responsible for Gro",
+        "CIO": "Nantha Kumar Subramanian (Group Chief Digital & In",
+        "IA": "Andrew Ng Yin Min (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Alliance Islamic Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "William Song (Group CISO)",
+        "GRC": "Jacob Abraham (Group CRO + Compliance oversight)",
+        "CFO": "Ronnie Royston Fernandiz (Group CFO)",
+        "CRO": "Jacob Abraham (Group Chief Risk Officer)",
+        "Compliance": "Jacob Abraham (Group CRO, also responsible for Com",
+        "CIO": "Nantha Kumar Subramanian (Group Chief Digital & In",
+        "IA": "Andrew Ng Yin Min (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Allianz General Insurance Company (Malaysia) Berhad",
+      "named": 3,
+      "contacts": {
+        "CFO": "Chin Xiao Wei (CFO Allianz General)",
+        "CIO": "David Brandl (Chief Information Technology Officer",
+        "IA": "Narayana Samy Naidu Renugopal (Group Head of Inter"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Allianz Life Insurance Malaysia Berhad",
+      "named": 3,
+      "contacts": {
+        "CFO": "Giulio Slavich (CFO AMB & Allianz Life)",
+        "CIO": "David Brandl (Chief Information Technology Officer",
+        "IA": "Narayana Samy Naidu Renugopal (Group Head of Inter"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Allianz Takaful Berhad",
+      "named": 3,
+      "contacts": {
+        "CFO": "Chin Xiao Wei (CFO)",
+        "CIO": "David Brandl (Chief Information Technology Officer",
+        "IA": "Narayana Samy Naidu Renugopal (Group Head of Inter"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "AmBank (M) Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Malini Kanesamoorthy (CISO)",
+        "GRC": "Shamsul Bahrom (Group CRO) + Faradina Ghouse (Grou",
+        "CFO": "Phuah Shok Cheng (Group CFO)",
+        "CRO": "Shamsul Bahrom Bin Mohamed Ibrahim (Group CRO)",
+        "Compliance": "Faradina Binti Mohammad Ghouse (Group CCO)",
+        "CIO": "Wong Eng Teng (Group Chief Fintech & Technology Of",
+        "IA": "Ng Ek Leong (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "AmBank AirAsia Visa Card",
+      "named": 1,
+      "contacts": {
+        "GRC": "Shamsul Bahrom (Group CRO) + Faradina Ghouse (Grou"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "AmBank Islamic Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Malini Kanesamoorthy (CISO)",
+        "GRC": "Shamsul Bahrom (Group CRO) + Faradina Ghouse (Grou",
+        "CFO": "Phuah Shok Cheng (Group CFO)",
+        "CRO": "Shamsul Bahrom Bin Mohamed Ibrahim (Group CRO)",
+        "Compliance": "Faradina Binti Mohammad Ghouse (Group CCO)",
+        "CIO": "Wong Eng Teng (Group Chief Fintech & Technology Of",
+        "IA": "Ng Ek Leong (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "AmInvestment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Malini Kanesamoorthy (CISO)",
+        "GRC": "Shamsul Bahrom Bin Mohamed Ibrahim (CRO) + Faradin",
+        "CFO": "Phuah Shok Cheng (Group CFO, AmBank Group)",
+        "CRO": "Shamsul Bahrom Bin Mohamed Ibrahim (Group CRO)",
+        "Compliance": "Faradina Binti Mohammad Ghouse (Group CCO)",
+        "CIO": "Wong Eng Teng (Group Chief Fintech & Technology Of",
+        "IA": "Ng Ek Leong (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "AmMetLife Insurance Berhad",
+      "named": 3,
+      "contacts": {
+        "CFO": "Michelle Cheang (Chief Financial Officer)",
+        "CRO": "Low Siew Mooi (Chief Risk Officer)",
+        "CIO": "Loh Tian Hu (Chief Information Officer)"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Amanah Saham Nasional Berhad (ASNB)",
+      "named": 6,
+      "contacts": {
+        "GRC": "Mohd Azmir Mohd Jani (CRO) + Sahlawati Mustafa (Co",
+        "CFO": "Mohd Irwan Ahmad Mustafa (Group Chief Strategy and",
+        "CRO": "Mohd Azmir Mohd Jani (Group Chief Risk Officer, PN",
+        "Compliance": "Sahlawati Mustafa (Group Head of Compliance PNB)",
+        "CIO": "Ts Izzat Aziz \u2014 Chief Technology Officer, PNB Grou",
+        "IA": "Noramly Bachok (Group Head Internal Audit PNB)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Axiata Digital Services Sdn Bhd (Boost)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Shankar Krishnan",
+        "GRC": "Abid Abdul Adam (Group Chief Risk and Compliance O",
+        "CFO": "Komathi Balakrishnan (Acting Group CFO, Axiata Gro",
+        "CRO": "Abid Abdul Adam (Group Chief Risk and Compliance O",
+        "Compliance": "Abid Abdul Adam (Group Chief Risk and Compliance O",
+        "CIO": "Thomas Hundt (Group Chief Business and Technology ",
+        "IA": "Miraz Ahmed"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "BIMB Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Anthony Tai (Group CISO, Bank Islam)",
+        "GRC": "Nik Azmir Nik Anis (Group CCO + GRC Officer, Bank ",
+        "CFO": "Siti Nur Huda Sufian (Group CFO, Bank Islam)",
+        "CRO": "Alina Sylvia Appoo (Group CRO)",
+        "Compliance": "Nik Azmir Nik Anis (Group CCO, Bank Islam)",
+        "CIO": "Zulkanain Kassim (CITO)",
+        "IA": "Zalfitri Abd Mutalip (Group Chief Internal Auditor"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "BNP Paribas Malaysia Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "CEO: Anthony Lo Chiang Loong (Executive Director, ",
+        "CFO": "Kevin Wong (CFO)",
+        "CRO": "Khoo Lian Kim (BRMC Chairman, former CRO RHB Banki",
+        "Compliance": "Chan Mui Pin / Mrs. Lau Mui Pin (Exec Director, fo",
+        "IA": "Faisal bin Ismail (Audit Committee Chairman, Ind. "
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Bank Islam Malaysia Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Anthony Tai (Group Chief Information Security Offi",
+        "GRC": "Nik Azmir Nik Anis (Group Chief Compliance Officer",
+        "CFO": "Siti Nur Huda Sufian (Group Chief Financial Office",
+        "CRO": "Alina Sylvia Appoo (Group CRO)",
+        "Compliance": "Nik Azmir Nik Anis (Group Chief Compliance Officer",
+        "CIO": "Zulkanain Kassim (CITO)",
+        "IA": "Zalfitri Abd Mutalip (Group Chief Internal Auditor"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Bank Rakyat Investment Bank Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Fuhaizad Asmar Omar (Senior Manager Audit, Complia",
+        "CFO": "Nor Haimee Zakaria (Chief Finance Officer)",
+        "CRO": "Azni Azaddin (Group Chief Risk Officer)",
+        "Compliance": "Jufree Soaidin (Group Chief Compliance Officer)",
+        "CIO": "Ismat Nazarul Mat Isa (Senior Manager Finance & IT",
+        "IA": "Fuhaizad Asmar Omar (Senior Manager Audit, Complia"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "Bank Rakyat Malaysia",
+      "named": 6,
+      "contacts": {
+        "CISO": "Ts. Tahrizi Tahreb (Cybersecurity Professional)",
+        "GRC": "Azni Azaddin (CRO) + Jufree Soaidin (Compliance)",
+        "CFO": "Nor Haimee Zakaria (Chief Finance Officer)",
+        "CRO": "Azni Azaddin (Group Chief Risk Officer)",
+        "Compliance": "Jufree Soaidin (Group Chief Compliance Officer)",
+        "CIO": "Zulkanain Kassim (Chief Information Technology Off"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "Bank Simpanan Nasional (BSN)",
+      "named": 5,
+      "contacts": {
+        "GRC": "Muizz Aiman Farid (CRO) + Sujit Guha Thakurta (Com",
+        "CFO": "Norhafizah Md Shariff (Chief Financial Officer)",
+        "CRO": "Muizz Aiman Farid (SVP / Chief Risk Officer)",
+        "Compliance": "Sujit Guha Thakurta (SVP / Chief Compliance Office",
+        "CIO": "Asrul Kamaruddin (Chief Information Officer)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Bank of China (Malaysia) Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Willy Neo",
+        "GRC": "Anysia Yeung (CRO) + Ker Yong (Compliance)",
+        "CFO": "Datuk Alvin Tay (DCEO/acting CFO)",
+        "CRO": "Anysia Yeung",
+        "Compliance": "Ker Yong (Director - Head of Legal and Compliance)",
+        "CIO": "K.W.C. (Senior VP, Head of IT)",
+        "IA": "Chen Thien Yin (Board Audit Committee Chair)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "Bank Pembangunan Malaysia Berhad (BPMB)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Hairil Izwar Abd Rahman (Group Chief Digital & Tec",
+        "GRC": "Mohammad Azam Ahmad (Group CRO) + Rohayati Talha (",
+        "CFO": "Hee Wei Jean (Group CFO)",
+        "CRO": "Mohammad Azam Ahmad (Group CRO)",
+        "Compliance": "Rohayati Talha (Group CCO)",
+        "CIO": "Hairil Izwar Abd Rahman (Group Chief Digital & Tec",
+        "IA": "Hasrul Farid Hasnan (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Berjaya Sompo Insurance Berhad",
+      "named": 6,
+      "contacts": {
+        "CISO": "Mohamad Azman bin Soaed (Senior Manager - Informat",
+        "GRC": "Tricia Mallika Appaduray (Chief Compliance and Leg",
+        "CFO": "Rina Aprila Afianty (Chief Financial Officer)",
+        "CRO": "Samson Liew Zyun Fung (Head of Risk Management)",
+        "Compliance": "Tricia Mallika Appaduray (Chief Compliance and Leg",
+        "IA": "Kesavan Raj A/L Krishnan (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "BigPay (Capital A)",
+      "named": 1,
+      "contacts": {
+        "CFO": "Mun Hui Teh (Chief Financial Officer, Capital A Be"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "BigPay Malaysia Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CFO": "Mun Hui Teh (Chief Financial Officer, Capital A Be"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Billplz Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Boost (Axiata + RHB)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Shankar Krishnan",
+        "GRC": "Abid Abdul Adam (Group Chief Risk and Compliance O",
+        "CFO": "Steven Lim",
+        "CRO": "Puteri Syurga",
+        "Compliance": "Dr Mohanamerry Vedamanikam",
+        "CIO": "Shankar Krishnan",
+        "IA": "Miraz Ahmed"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "Boost Bank Berhad",
+      "named": 6,
+      "contacts": {
+        "CISO": "Shankar Krishnan",
+        "CFO": "Steven Lim",
+        "CRO": "Puteri Syurga",
+        "Compliance": "Dr Mohanamerry Vedamanikam",
+        "CIO": "Shankar Krishnan",
+        "IA": "Miraz Ahmed"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "CIMB (Khazanah-linked)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Charles J. Samuel (Group CISO / Technology Risk Ma",
+        "GRC": "Vera Handajani (CRO) + Kwan Keen Yew (Compliance)",
+        "CFO": "Khairul Rifaie (Group Chief Financial and Strategy",
+        "CRO": "Vera Handajani (Group CRO)",
+        "Compliance": "Kwan Keen Yew (Group Chief Legal and Compliance Of",
+        "CIO": "Ros Aziah Mohd Yusoff (Group Chief Technology and ",
+        "IA": "Amran Mohamad (Group Chief Internal Auditor, 7.7yr"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "CIMB Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Charles Samuel (Group CISO)",
+        "GRC": "Kwan Keen Yew (Group Chief Integrity & Governance ",
+        "CFO": "Khairul Rifaie (Group Chief Financial & Strategy O",
+        "CRO": "Vera Handajani (Group CRO)",
+        "Compliance": "Kwan Keen Yew (Group Chief Legal & Compliance Offi",
+        "CIO": "Ros Aziah Mohd Yusoff (Group CTO)",
+        "IA": "Amran Mohamad (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "CIMB Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Charles Samuel (Group CISO)",
+        "GRC": "Kwan Keen Yew (Group Chief Integrity & Governance ",
+        "CFO": "Khairul Rifaie (Group CFO & Strategy Officer)",
+        "CRO": "Vera Handajani (Group CRO)",
+        "Compliance": "Kwan Keen Yew (Group Chief Legal & Compliance Offi",
+        "CIO": "Ros Aziah Mohd Yusoff (Group CTO)",
+        "IA": "Amran Mohamad (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "CIMB Islamic Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Charles Samuel (Group CISO)",
+        "GRC": "Kwan Keen Yew (Group Chief Integrity & Governance ",
+        "CFO": "Khairul Rifaie (Group Chief Financial & Strategy O",
+        "CRO": "Vera Handajani (Group CRO)",
+        "Compliance": "Kwan Keen Yew (Group Chief Legal & Compliance Offi",
+        "CIO": "Ros Aziah Mohd Yusoff (Group CTO)",
+        "IA": "Amran Mohamad (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "CIMB OctoPay (CIMB Bank)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Charles Samuel (Group CISO)",
+        "GRC": "Kwan Keen Yew (Group Chief Integrity & Governance ",
+        "CFO": "Khairul Rifaie (Group Chief Financial & Strategy O",
+        "CRO": "Vera Handajani (Group CRO)",
+        "Compliance": "Kwan Keen Yew (Group Chief Legal & Compliance Offi",
+        "CIO": "Ros Aziah Mohd Yusoff (Group CTO)",
+        "IA": "Amran Mohamad (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "CIMB Petronas Visa Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Charles Samuel (Group CISO)",
+        "GRC": "Kwan Keen Yew (Group Chief Integrity & Governance ",
+        "CFO": "Khairul Rifaie (Group Chief Financial & Strategy O",
+        "CRO": "Vera Handajani (Group CRO)",
+        "Compliance": "Kwan Keen Yew (Group Chief Legal & Compliance Offi",
+        "CIO": "Ros Aziah Mohd Yusoff (Group CTO)",
+        "IA": "Amran Mohamad (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Chubb Insurance Malaysia Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Dato' Mohzani Bin Abdul Wahab (Director)",
+        "CFO": "Olivier Bouchard (Executive Director CFO Asia Paci",
+        "CRO": "Ng Khai Yan (Chief Risk Officer)",
+        "CIO": "Kenny W. K. Tan (Chief Operating Officer)",
+        "IA": "Chong Keh Bin (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Citibank Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "CEO: Vikram Singh (CEO Citi Malaysia, effective 1 ",
+        "CFO": "Tan Alyse (Chief Financial Officer/Controller)",
+        "CRO": "Mark Fordyce Hart (Chairman Risk Mgmt Cmte)",
+        "CIO": "Abhijit Dattanand Kumta (Executive Director; MD Si",
+        "IA": "Puan Norazilla binti Md Tahir (Audit Cmte Chair fo"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Cradle Fund Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Credit Suisse (Malaysia) Berhad",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "CurrencyFair (Malaysia) Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Deutsche Bank (Malaysia) Berhad",
+      "named": 3,
+      "contacts": {
+        "CISO": "Jeng Yean Won (CISO Malaysia, Thailand & Vietnam)",
+        "CFO": "Liew Yeh Yin (Officer primarily responsible for th",
+        "CRO": "Surabhi Agarwal (Chief Risk Officer)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Payment Operators",
+      "name": "DuitNow (by PayNet)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer, PayNet)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer, PayNet)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "EXIM Bank Malaysia",
+      "named": 7,
+      "contacts": {
+        "CISO": "Hairil Izwar Abd Rahman (Group Chief Digital & Tec",
+        "GRC": "Wan Noorazli Maula Wan Suleiman (Head of Legal, Go",
+        "CFO": "Hee Wei Jean (Group CFO, BPMB)",
+        "CRO": "Abdul Hadi Jusoh (Chief Risk Officer)",
+        "Compliance": "Nizam Samad (Chief Compliance Officer)",
+        "CIO": "Hairil Izwar Abd Rahman (Group Chief Digital & Tec",
+        "IA": "Shahrul Farelli Zulkiffli (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Etiqa General Insurance Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh Sardool Singh (CISO)",
+        "GRC": "Nurliana Mat Lazim (CRO/Compliance - GRC)",
+        "CFO": "Lee Hin Sze (CFO)",
+        "CRO": "Nurliana Mat Lazim (Chief Risk & Compliance Office",
+        "Compliance": "Roslina Mohd Ramza (CCO)",
+        "CIO": "Dennis Liu (CTO)",
+        "IA": "Azian Ismail (Chief Audit Executive, Maybank Group"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Etiqa Life Insurance Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh Sardool Singh (CISO)",
+        "GRC": "Nurliana Mat Lazim (CRO/Compliance - GRC)",
+        "CFO": "Lee Hin Sze (CFO)",
+        "CRO": "Nurliana Mat Lazim (Chief Risk & Compliance Office",
+        "Compliance": "Roslina Mohd Ramza (CCO)",
+        "CIO": "Dennis Liu (CTO)",
+        "IA": "Azian Ismail (Chief Audit Executive, Maybank Group"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Etiqa Takaful Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh Sardool Singh (CISO)",
+        "GRC": "Nurliana Mat Lazim (CRO/Compliance - GRC)",
+        "CFO": "Lee Hin Sze (CFO)",
+        "CRO": "Nurliana Mat Lazim (Chief Risk & Compliance Office",
+        "Compliance": "Roslina Mohd Ramza (CCO)",
+        "CIO": "Dennis Liu (CTO)",
+        "IA": "Azian Ismail (Chief Audit Executive, Maybank Group"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Payment Operators",
+      "name": "FPX (by PayNet)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer, PayNet)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer, PayNet)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "FWD Insurance Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Anita Menon (Acting Head of Risk, oversees governa",
+        "CFO": "Yeoh Eng Hun (Chief Financial Officer)",
+        "CRO": "Anita Menon (Acting Head of Risk)",
+        "Compliance": "Anita Menon (Chief Governance Officer, oversees co",
+        "IA": "Cheryl Lim (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Family Takaful Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Nazaruddin Adha bin Md Noor (Chief Technology Offi",
+        "GRC": "Shizal Fisham bin Ramli (Chief Governance Officer)",
+        "CFO": "New Kheng Chee (Group CFO)",
+        "CRO": "Shizal Fisham Ramli (Chief Risk Officer)",
+        "Compliance": "Redzuan bin Abu",
+        "CIO": "Nazaruddin Adha bin Md Noor (CTO)",
+        "IA": "Zuhairi bin Ismail (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "G2G Online (Malaysia) Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "GX Bank Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Kiyoka Thaam (CRO) + Nadia Farhan Noordin (Head of",
+        "CFO": "Kenneth Leong (Chief Financial Officer)",
+        "CRO": "Kiyoka Thaam (Chief Risk Officer)",
+        "Compliance": "Nadia Farhan Noordin (Head of Compliance)",
+        "CIO": "Nishant Sharma (Chief Technology Officer)",
+        "IA": "Karina Sivam (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "GXBank Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Kiyoka Thaam (CRO) + Nadia Farhan Noordin (Head of",
+        "CFO": "Kenneth Leong (Chief Financial Officer)",
+        "CRO": "Kiyoka Thaam (Chief Risk Officer)",
+        "Compliance": "Nadia Farhan Noordin (Head of Compliance)",
+        "CIO": "Nishant Sharma (Chief Technology Officer)",
+        "IA": "Karina Sivam (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "General Takaful Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Shizal Fisham bin Ramli (Chief Governance Officer)",
+        "CFO": "New Kheng Chee (Group CFO)",
+        "Compliance": "Redzuan bin Abu",
+        "CIO": "Nazaruddin Adha bin Md Noor (CTO)",
+        "IA": "Zuhairi bin Ismail (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Generali Insurance Malaysia Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Haneeza Abdul Kadir (General Counsel)",
+        "CFO": "Tony Lin (Chief Financial Officer)",
+        "CRO": "Vincent Fong (Chief Risk Officer)",
+        "Compliance": "Nor Hakimah Abdul Latiff (Chief Compliance Officer",
+        "CIO": "Laurent Crouet (Chief Transformation Officer)",
+        "IA": "Vivian Ho (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Generali Life Insurance Malaysia Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Vincent Fong (CRO) + Aw Teck Yee (Compliance)",
+        "CFO": "Tony Lin (Chief Financial Officer)",
+        "CRO": "Vincent Fong (Chief Risk Officer)",
+        "Compliance": "Aw Teck Yee (Head of Compliance & AML)",
+        "IA": "George Tan (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "GrabPay (Grab Malaysia)",
+      "named": 2,
+      "contacts": {
+        "CFO": "Peter Oey (Group CFO, Grab Holdings)",
+        "CIO": "Suthen Thomas Paradatheth (Group CTO, Grab Holding"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "GrabPay Malaysia Sdn Bhd",
+      "named": 2,
+      "contacts": {
+        "CFO": "Peter Oey (Group CFO, Grab Holdings)",
+        "CIO": "Suthen Thomas Paradatheth (Group CTO, Grab Holding"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Great Eastern General Insurance (Malaysia) Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Liza Hanim Zainal Abidin (Legal/Compliance) + Audr",
+        "CFO": "Cheng Chuen Chee (Chief Financial Officer, assumed",
+        "CRO": "Teo Chun Seng (Division Head, Risk Management)",
+        "Compliance": "Liza Hanim Zainal Abidin",
+        "CIO": "Vincent Chin",
+        "IA": "Audra Chung Kit Li"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Great Eastern Life Assurance (Malaysia) Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Vincent Chin \u2014 Division Head, Information Technolo",
+        "GRC": "Liza Hanim Zainal Abidin (Division Head, Company S",
+        "CFO": "Loke Chang Yueh (CFO, joined 2013)",
+        "CRO": "Teo Chun Seng (Division Head of Risk Management, a",
+        "Compliance": "Helen Quat Li Huang (Division Head of Compliance, ",
+        "CIO": "Vincent Chin (Head of IT, joined 2007)",
+        "IA": "Audra Chung Kit Li (Chief Internal Auditor, joined"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "HSBC Amanah Takaful (Malaysia) Berhad",
+      "named": 2,
+      "contacts": {
+        "CFO": "Muhammad Afiq bin Hamzah (Acting Chief Financial O",
+        "Compliance": "Lim Weng Leong (Head of Compliance)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "HSBC Bank Malaysia Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Brian McGuire (Chief Risk & Compliance Officer)",
+        "CFO": "Elly Neoh (CFO)",
+        "CRO": "Brian McGuire (Chief Risk & Compliance Officer)",
+        "Compliance": "Brian McGuire (Chief Compliance Officer)",
+        "CIO": "Mei Ling Soo (CIO)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Hong Leong Assurance Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Low Tek Chee \u2014 Chief Technology Officer (CISO-equi",
+        "GRC": "Lim Mei Gie (CRO) + Lee Noushi (Compliance)",
+        "CFO": "Ong Kheng Heng (Chief Financial Officer)",
+        "CRO": "Lim Mei Gie (Chief Risk Officer)",
+        "Compliance": "Lee Noushi (Head of Legal and Chief Compliance Off",
+        "CIO": "Low Tek Chee (Chief Technology Officer)",
+        "IA": "Chua Yew Lim (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "Hong Leong Bank AirMiles Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Dr. Simon Hoh (CISO)",
+        "GRC": "Justin Soong (CRO) + Jack Babani (Compliance)",
+        "CFO": "Malkit Singh (CFO)",
+        "CRO": "Justin Soong (Group CRO)",
+        "Compliance": "Jack Babani (CCO)",
+        "CIO": "William Streitberg (Chief Info & Tech Officer)",
+        "IA": "Chua Yew Lim (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Hong Leong Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Dr. Simon Hoh (CISO)",
+        "GRC": "Justin Soong (CRO) + Jack Babani (Compliance)",
+        "CFO": "Malkit Singh (CFO)",
+        "CRO": "Justin Soong (Group CRO)",
+        "Compliance": "Jack Babani (CCO)",
+        "CIO": "William Streitberg (Chief Info & Tech Officer)",
+        "IA": "Chua Yew Lim (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Hong Leong Investment Bank Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Justin Soong (CRO) + Jack Babani (Compliance)",
+        "CFO": "Malkit Singh (CFO)",
+        "CRO": "Justin Soong (Group CRO)",
+        "Compliance": "Jack Babani (CCO)",
+        "CIO": "William Streitberg (Chief Info & Tech Officer)",
+        "IA": "Chua Yew Lim (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Hong Leong Islamic Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Dr. Simon Hoh (CISO)",
+        "GRC": "Justin Soong (CRO) + Jack Babani (Compliance)",
+        "CFO": "Malkit Singh (CFO)",
+        "CRO": "Justin Soong (Group CRO)",
+        "Compliance": "Jack Babani (CCO)",
+        "CIO": "William Streitberg (Chief Info & Tech Officer)",
+        "IA": "Chua Yew Lim (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "I.Destinasi Sdn Bhd (IDSB)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "ICBC (Malaysia) Berhad",
+      "named": 1,
+      "contacts": {
+        "Compliance": "Liau Cheek"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Instarem Sdn Bhd",
+      "named": 4,
+      "contacts": {
+        "CFO": "Andre Mancl (Chief Financial Officer, Nium global)",
+        "CRO": "Amaresh Mohan (Chief Risk and Compliance Officer, ",
+        "Compliance": "Amaresh Mohan (Chief Risk and Compliance Officer, ",
+        "CIO": "Sekhar Cidambi (Chief Technology Officer, Nium glo"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Iskandar Waterfront City",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "J.P. Morgan Chase Bank Malaysia Berhad",
+      "named": 1,
+      "contacts": {
+        "Compliance": "Gail Koh De Josselin (Executive Director; CCO SE A"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "JCL Corporation Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "Jirnexu (M) Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Johor Corporation (JCorp)",
+      "named": 5,
+      "contacts": {
+        "GRC": "Mohd Azmi Hitam (Chief Governance Officer)",
+        "CFO": "Rozaini Mohd Sani (Chief Financial Officer)",
+        "Compliance": "Mohd Azmi Hitam (Chief Governance Officer, leads G",
+        "CIO": "Ahmad Yusri Mohamed (Chief Digital Officer)",
+        "IA": "Mohd Nordin Jamaludin (Chief Corporate Services Of"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Payment Operators",
+      "name": "JomPAY (by PayNet)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer, PayNet)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer, PayNet)"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "KAF Digital Bank",
+      "named": 1,
+      "contacts": {
+        "CFO": "Mohd Nizaruddin"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "KAF Digital Bank Berhad",
+      "named": 1,
+      "contacts": {
+        "CFO": "Mohd Nizaruddin"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "KDI Save Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "KWSP Investment Division (Alternative Assets)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Jasmine Goh (Head of Department \u2013 Digital Security",
+        "GRC": "Nora Badaruddin (Head of Department \u2013 Integrity & ",
+        "CFO": "Ahmad Rizal Omar (Chief Financial Officer)",
+        "CRO": "Rozlina Abdul Samad (Head of Department \u2013 Risk Man",
+        "Compliance": "Chong Yee Leng (Head of Department \u2013 Operations Co",
+        "CIO": "Afhzal Abdul Rahman (Chief Digital Technology Offi",
+        "IA": "Mohammad Nasir Ismail (Head of Department \u2013 Intern"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "KWSP Investment Division (Direct Investments)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Jasmine Goh (Head of Department \u2013 Digital Security",
+        "GRC": "Nora Badaruddin (Head of Department \u2013 Integrity & ",
+        "CFO": "Ahmad Rizal Omar (Chief Financial Officer)",
+        "CRO": "Rozlina Abdul Samad (Head of Department \u2013 Risk Man",
+        "Compliance": "Chong Yee Leng (Head of Department \u2013 Operations Co",
+        "CIO": "Afhzal Abdul Rahman (Chief Digital Technology Offi",
+        "IA": "Mohammad Nasir Ismail (Head of Department \u2013 Intern"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "KWSP Investment Division (Real Estate)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Jasmine Goh (Head of Department \u2013 Digital Security",
+        "GRC": "Nora Badaruddin (Head of Department \u2013 Integrity & ",
+        "CFO": "Ahmad Rizal Omar (Chief Financial Officer)",
+        "CRO": "Rozlina Abdul Samad (Head of Department \u2013 Risk Man",
+        "Compliance": "Chong Yee Leng (Head of Department \u2013 Operations Co",
+        "CIO": "Afhzal Abdul Rahman (Chief Digital Technology Offi",
+        "IA": "Mohammad Nasir Ismail (Head of Department \u2013 Intern"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Kenanga Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Low Jia Yee \u2014 Chief Technology Officer (CISO-equiv",
+        "GRC": "Tai Yan Fee (CRO) + Choo Siew Fun (Compliance)",
+        "CFO": "Cheong Boon Kak (Group Chief Financial & Operation",
+        "CRO": "Tai Yan Fee (Group Chief Risk Officer)",
+        "Compliance": "Choo Siew Fun (Group Chief Compliance & Ethics Off",
+        "CIO": "Low Jia Yee (Chief Technology Officer)",
+        "IA": "Terence Tan Kian Meng (Group Chief Internal Audito"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Khazanah Nasional Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Dato' Suhana Dewi Selamat (Head, Governance, Risk ",
+        "CFO": "Faridah Bakar Ali (Chief Financial Officer)",
+        "CRO": "Dato' Suhana Dewi Selamat (Head, Governance, Risk ",
+        "Compliance": "Dato' Suhana Dewi Selamat (Head, Governance, Risk ",
+        "CIO": "Datuk Hisham Hamdan (Chief Investment Officer)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Angkatan Tentera",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Guru Malaysia",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Johor",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi KL",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Kakitangan Kerajaan",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Kedah",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Kelantan",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Labuan",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Melaka",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Negeri Sembilan",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Pahang",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Perak",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Perlis",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Polis Diraja Malaysia",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Pulau Pinang",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Putrajaya",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Sabah",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Sarawak",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Selangor",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Tentera Malaysia",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "Cooperatives",
+      "name": "Koperasi Terengganu",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Kumpulan Wang Simpanan Pekerja (KWSP)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Jasmine Goh (Head of Digital Security)",
+        "GRC": "Mohd Dali Jasmin (Head of Integrity & Corporate Go",
+        "CFO": "Mohamad Hafiz Kassim (Chief Finance Officer)",
+        "CRO": "Rozlina Abd Samad (Head of Risk Management)",
+        "Compliance": "Chong Yee Leng (Head of Operational Compliance)",
+        "CIO": "Afhzal Abdul Rahman (Chief Digital Technology Offi",
+        "IA": "Mohammad Nasir Ismail (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Kurnia Insurans (Malaysia) Berhad",
+      "named": 4,
+      "contacts": {
+        "GRC": "rebranded as Zurich General Insurance Malaysia Ber",
+        "Compliance": "Peter Ong (Chief Compliance Officer)",
+        "CIO": "Ganesan Vaithilingam (CIO)",
+        "IA": "Tan Bee Chuan (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "LPPSA",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Lembaga Tabung Haji",
+      "named": 7,
+      "contacts": {
+        "CISO": "Shamsul Kamal Hussein Kamal (Chief Information Tec",
+        "GRC": "Syahril Nizam Abu Hasan (Chief Risk & Compliance O",
+        "CFO": "Shamsul Bahar Shamsudin (Group Executive Director,",
+        "CRO": "Syahril Nizam Abu Hasan (Chief Risk & Compliance O",
+        "Compliance": "Syahril Nizam Abu Hasan (Chief Risk & Compliance O",
+        "CIO": "Shamsul Kamal Hussein Kamal (Chief Information Tec",
+        "IA": "Abu Bakar Baba (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Liberty General Insurance Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Ganesan Vaithilingam \u2014 Chief Information Officer (",
+        "GRC": "Jonathan Chong (CRO) + Suffian bin Abdul Rahman (C",
+        "CFO": "Suppiah Poongavanam (Chief Financial Officer)",
+        "CRO": "Jonathan Chong (Chief Risk Officer)",
+        "Compliance": "Suffian bin Abdul Rahman (Chief Compliance Officer",
+        "CIO": "Ganesan Vaithilingam (Chief Information Officer)",
+        "IA": "Tan Bee Chuan (Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Lonpac Insurance Bhd",
+      "named": 7,
+      "contacts": {
+        "CISO": "Lai Geng Farn (Chief Information Security Officer)",
+        "GRC": "Lee Chiew Lai (CRO) + Mahinder Kaur a/p Kapal Sing",
+        "CFO": "Ng Seng Khin (Group Chief Financial Officer, desig",
+        "CRO": "Lee Chiew Lai (Chief Risk Officer)",
+        "Compliance": "Mahinder Kaur a/p Kapal Singh (Chief Compliance Of",
+        "CIO": "Cynthia Ng Boon Howe (Chief Information Officer)",
+        "IA": "Irene Hwang Siew Ling (Group Chief Internal Audito"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "MAE by Maybank (Maybank Islamic)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh (Group CISO)",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO)",
+        "CFO": "Shafiq Abdul Jabbar (Group CFO)",
+        "CRO": "Mohamed Rezwan Abdullah Ismail (Group CRO)",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Malique Firdauz Ahmad Sidique (Group Chief Audit E"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "MAE by Maybank (Maybank2u)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh (Group CISO)",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO) + Inn Y",
+        "CFO": "Shafiq Abdul Jabbar",
+        "CRO": "Mohamed Rezwan Abdullah Ismail",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Azian Ismail (Chief Audit Executive)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "MARA",
+      "named": 1,
+      "contacts": {
+        "CIO": "Dr. Azmi bin Amat Murjan (Timbalan Ketua Pengarah "
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "MARA (Majlis Amanah Rakyat)",
+      "named": 1,
+      "contacts": {
+        "CIO": "Dr. Azmi bin Amat Murjan (Timbalan Ketua Pengarah "
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "MCIS Insurance Berhad",
+      "named": 5,
+      "contacts": {
+        "CFO": "Susan Conradie (Chief Financial Officer)",
+        "CRO": "Nurliana binti Mat Lazim (Chief Risk Officer)",
+        "Compliance": "Norlin Fatima Albakri (Chief Compliance Officer)",
+        "CIO": "Ng Chee Sang (Chief Technology Officer)",
+        "IA": "Noor Hayati binti Abu Yaziz (Chief Internal Audito"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "MIDF Amanah Investment Bank Berhad",
+      "named": 6,
+      "contacts": {
+        "GRC": "Nor Azita Binti Sarip (SVP/Head Group Secretarial ",
+        "CFO": "Shahnaz Jammal (Group Chief Financial Officer, MBS",
+        "CRO": "Laurence Ong Wooi Keat (Group Chief Risk Officer, ",
+        "Compliance": "Meor Ibrahim Othman (SVP/Head Group Compliance)",
+        "CIO": "Noor Azman Bin Abdul Karim (Group Chief Technology",
+        "IA": "Zanariah Daud (SVP/Head Group Control Assurance)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "MSIG Insurance (Malaysia) Bhd",
+      "named": 3,
+      "contacts": {
+        "CFO": "Soh Lai Sim (COO, also Officer primarily responsib",
+        "CRO": "Kelvin Hii Chee Yun (SVP, Enterprise Risk Manageme",
+        "CIO": "Chin Jee Gwan (EVP IT, Digital, Bancassurance & Br"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Malaysia International Islamic Bank IB",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Manulife Insurance Berhad",
+      "named": 4,
+      "contacts": {
+        "CFO": "Ng Chun Nam (Chief Financial Officer)",
+        "CRO": "Mohd Naim Mohd Arsad (Chief Risk Officer)",
+        "Compliance": "Senthil Woon (Chief Compliance Officer)",
+        "CIO": "Bernard Sia (Chief Information Officer)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Manulife Takaful Malaysia Berhad",
+      "named": 5,
+      "contacts": {
+        "CFO": "Ng Chun Nam (Chief Financial Officer, Manulife Ins",
+        "CRO": "Mohd Naim Bin Mohd Arsad (Chief Risk Officer, Manu",
+        "Compliance": "Senthil Woon Wai Keong (Chief Compliance Officer, ",
+        "CIO": "Bernard Sia (Chief Information Officer, Manulife I",
+        "IA": "Krishna Rajaa Ramalingam (Head of Audit Services -"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Maybank (Khazanah-linked)",
+      "named": 7,
+      "contacts": {
+        "CISO": "DUPLICATE OF MAYBANK BERHAD",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO) + Inn Y",
+        "CFO": "Shafiq Abdul Jabbar",
+        "CRO": "Mohamed Rezwan Abdullah Ismail",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Azian Ismail (Chief Audit Executive)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Maybank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh (Group CISO)",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO) + Inn Y",
+        "CFO": "Shafiq Abdul Jabbar",
+        "CRO": "Mohamed Rezwan Abdullah Ismail",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Azian Ismail (Chief Audit Executive)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "Maybank Cash & Go Prepaid Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh (Group CISO)",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO) + Inn Y",
+        "CFO": "Shafiq Abdul Jabbar",
+        "CRO": "Mohamed Rezwan Abdullah Ismail",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Azian Ismail (Chief Audit Executive)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Maybank Investment Bank Berhad",
+      "named": 5,
+      "contacts": {
+        "CFO": "Ezrina Mahadzir (CFO, appointed 1 Apr 2021)",
+        "CRO": "Cheryl Cheng Siew Ying (CRO, appointed 1 Jan 2021)",
+        "Compliance": "Farhan Nor Diyana Samsudin (Chief Compliance Offic",
+        "CIO": "Adrian Tan Kai Thern (Head of IT, joined 25 Apr 20",
+        "IA": "Rafirah Muhammad Arif (Chief Audit Executive, Mayb"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Maybank Islamic Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh (Group CISO)",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO)",
+        "CFO": "Shafiq Abdul Jabbar (Group CFO)",
+        "CRO": "Mohamed Rezwan Abdullah Ismail (Group CRO)",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Malique Firdauz Ahmad Sidique (Group Chief Audit E"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "Maybank Singapore Airlines Enrich Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Devinder Singh (Group CISO)",
+        "GRC": "Mohamed Rezwan Abdullah Ismail (Group CRO) + Inn Y",
+        "CFO": "Shafiq Abdul Jabbar",
+        "CRO": "Mohamed Rezwan Abdullah Ismail",
+        "Compliance": "Inn Yiow (Group Chief Compliance Officer)",
+        "CIO": "Giorgio Migliarina (Group Chief Technology & Digit",
+        "IA": "Azian Ismail (Chief Audit Executive)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Payment Operators",
+      "name": "Me2U (by PayNet)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer, PayNet)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer, PayNet)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Mizuho Bank (Malaysia) Berhad",
+      "named": 1,
+      "contacts": {
+        "IA": "Lim Kim Seng (Chairman of Board Audit Committee)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Money Match Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CISO": "DUPLICATE OF MONEYMATCH SDN BHD"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "MoneyMatch Sdn Bhd",
+      "named": 4,
+      "contacts": {
+        "CISO": "Poorya (Chief Information & Security Officer)",
+        "CFO": "Anees Aisyah (Chief Financial Officer)",
+        "Compliance": "Thavalogan (Head of Compliance)",
+        "CIO": "Jerry Chee (Chief Technology Officer)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "OCBC Bank (Malaysia) Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Dominic Yew",
+        "GRC": "Dr Priya Ranjan Sharma (CRO) + Doreen Keng Chun Ch",
+        "CFO": "Ms Teoh Yin Meng",
+        "CRO": "Dr Priya Ranjan Sharma",
+        "Compliance": "Ms Doreen Keng Chun Ching",
+        "CIO": "Mr Hong Hee Loon (Head of Technology)",
+        "IA": "Mr Victor Ong Hock Seng"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "PNB Capital Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Aishah Farha Mohd Raih (PNB Group CISO, inherited)",
+        "GRC": "Sahlawati Mustafa (Group Head, Compliance & Integr",
+        "CFO": "Mohd Irwan Ahmad Mustafa (Group Chief Strategy & F",
+        "CRO": "Mohd Azmir Mohd Jani (Chief Risk Officer)",
+        "Compliance": "Sahlawati Mustafa (Group Head, Compliance & Integr",
+        "CIO": "Ts Izzat Aziz (Group Chief Technology Officer, PNB",
+        "IA": "Noramly Bachok @ Abdul Aziz (Group Head, Internal "
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "PNB Equity Fund Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Aishah Farha Mohd Raih (PNB Group CISO, inherited)",
+        "GRC": "Sahlawati Mustafa (Group Head, Compliance & Integr",
+        "CFO": "Mohd Irwan Ahmad Mustafa (Group Chief Strategy & F",
+        "CRO": "Mohd Azmir Mohd Jani (Chief Risk Officer)",
+        "Compliance": "Sahlawati Mustafa (Group Head, Compliance & Integr",
+        "CIO": "Ts Izzat Aziz (Group Chief Technology Officer, PNB",
+        "IA": "Noramly Bachok @ Abdul Aziz (Group Head, Internal "
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "PNB Income Fund Berhad",
+      "named": 1,
+      "contacts": {
+        "CISO": "ENTITY LIKELY NON-EXISTENT"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "PUNB",
+      "named": 5,
+      "contacts": {
+        "GRC": "Ahmad Faisal Mohd Basir (Head, Company Secretary &",
+        "CFO": "Azman Abdullah (General Manager, Finance & Transfo",
+        "CRO": "Mohd Sulaiman Khazali (Head, Internal Audit & Risk",
+        "Compliance": "Norasyikin Mansor (Head, Legal Affairs)",
+        "IA": "Mohd Sulaiman Khazali (Head, Internal Audit & Risk"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Payment Operators",
+      "name": "PayDirect (by PayNet)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer, PayNet)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer, PayNet)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Payment Operators",
+      "name": "PayNet (PayNet Malaysia Sdn Bhd)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "PayNet Card (by PayNet)",
+      "named": 3,
+      "contacts": {
+        "CISO": "Meling Mudin (Chief Information Security Officer, ",
+        "CFO": "Tan Wei Tze (Chief Financial Officer, PayNet)",
+        "CIO": "Teh Lip Guan (Chief Technology Officer, PayNet)"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Penang State Development Corporation (PSDC)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Permodalan BSN Berhad (PBSNB)",
+      "named": 4,
+      "contacts": {
+        "GRC": "Wong Ching Fai @ Christopher (Head of Risk and Com",
+        "CFO": "Suzylah Mohamed Noor (Head of Finance and HR Share",
+        "CRO": "Wong Ching Fai @ Christopher (Head of Risk and Com",
+        "Compliance": "Wong Ching Fai @ Christopher (Head of Risk and Com"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Permodalan Nasional Berhad (PNB)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Aishah Farha Mohd Raih (CISO)",
+        "GRC": "Sahlawati Mustafa (Group Head, Compliance & Integr",
+        "CFO": "Mohd Irwan Ahmad Mustafa (Group Chief Strategy & F",
+        "CRO": "Mohd Azmir Mohd Jani (Chief Risk Officer)",
+        "Compliance": "Sahlawati Mustafa (Group Head, Compliance & Integr",
+        "CIO": "Ts Izzat Aziz (Group Chief Technology Officer, PNB",
+        "IA": "Noramly Bachok @ Abdul Aziz (Group Head, Internal "
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Permodalan Negeri Selangor Berhad (PNSB)",
+      "named": 5,
+      "contacts": {
+        "GRC": "Mohammed Hanafi Bin Muhi (Senior Manager \u2013 Integri",
+        "CFO": "Ahmad Zamwawi Bin Ahmad Nazari (Senior General Man",
+        "CRO": "Mohammed Hanafi Bin Muhi (Senior Manager - Integri",
+        "Compliance": "Mohammed Hanafi Bin Muhi (Senior Manager - Integri",
+        "IA": "Mohammed Hanafi Bin Muhi (Senior Manager \u2013 Integri"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Phillip Securities (Malaysia) Sdn Bhd",
+      "named": 5,
+      "contacts": {
+        "CFO": "Alina Sim (HOD Finance / CFO)",
+        "CRO": "Ramli Abd Hamid (Head of Legal, Compliance & Risk ",
+        "Compliance": "Ramli Abd Hamid (Head of Legal, Compliance & Risk ",
+        "CIO": "Yorck Oliver Ago Reuber (IT Director)",
+        "IA": "Fatin Fitriana Amran (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Prudential Assurance Malaysia Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Tan Chia Chee (Head, Information Security Officer)",
+        "GRC": "Kamarul Hisham (CRO) + Idariah Idris (Compliance)",
+        "CFO": "Ankur Bassi (Chief Financial Officer)",
+        "CRO": "Kamarul Hisham (Chief Risk Officer)",
+        "Compliance": "Idariah Idris (Head of Compliance)",
+        "CIO": "Chen Liaw (Chief Technology Officer)",
+        "IA": "Rohini Maniam (Country Head of Audit Malaysia / Se"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Prudential BSN Takaful Berhad",
+      "named": 1,
+      "contacts": {
+        "CFO": "Kelvin Wong (Chief Financial Officer)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Public Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Irene Deng (CISO)",
+        "GRC": "Loh Jasmine (CRO) + Tan Shien Doon (Compliance)",
+        "CFO": "Yik Sook Ling (CFO)",
+        "CRO": "Loh Jasmine (CRO)",
+        "Compliance": "Tan Shien Doon (CCO",
+        "CIO": "Public Bank Group)",
+        "IA": "Fam Yoke Fong (Senior GM"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "Public Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Irene Deng (Group CISO)",
+        "GRC": "Jasmine Loh Sook Ling (CRO) + Tan Shien Doon (Comp",
+        "CFO": "Yik Sook Ling (CFO, Public Bank Group)",
+        "CRO": "Jasmine Loh Sook Ling (CRO, Public Bank Group)",
+        "Compliance": "Tan Shien Doon (CCO, Public Bank Group)",
+        "CIO": "Fam Yoke Fong (Senior GM, IT, Public Bank Group)",
+        "IA": "Lim Then Fui (Group Chief Internal Auditor, Public"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Public Islamic Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Irene Deng (Group CISO)",
+        "GRC": "Loh Jasmine (CRO) + Tan Shien Doon (Compliance)",
+        "CFO": "Yik Sook Ling (CFO)",
+        "CRO": "Loh Jasmine (CRO)",
+        "Compliance": "Tan Shien Doon (CCO)",
+        "CIO": "Fam Yoke Fong (Senior GM, IT)",
+        "IA": "Lim Then Fui (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "QBE Insurance (Malaysia) Sdn Bhd",
+      "named": 4,
+      "contacts": {
+        "GRC": "Jeyasakthi Ratnasingam (Head of Risk & Compliance ",
+        "CFO": "Vivien Wong (Head of Finance, joined May 2026, 25+",
+        "CRO": "Mohd Farid Bin Othman (Head of Risk, joined Dec 20",
+        "Compliance": "Jaysree Kaliappan (Head of Compliance, joined Jul "
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "RHB Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Soon Yap (CISO)",
+        "GRC": "Azman Shah Md Yaman (Group Chief Legal & Governanc",
+        "CFO": "Mohamed Bin Rastam Shahrom (Group CFO)",
+        "CRO": "Dr Chong Han Hwee (Group CRO)",
+        "Compliance": "Fazlina Mohamed Ghazalli (Group CCO)",
+        "CIO": "Wong Kwang Leh (Group CTO)",
+        "IA": "Tan Boon Ching (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Investment Banks",
+      "name": "RHB Investment Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Soon Yap (CISO)",
+        "GRC": "Azman Shah Md Yaman (Group Chief Legal & Governanc",
+        "CFO": "Mohamed Bin Rastam Shahrom (Group CFO)",
+        "CRO": "Dr Chong Han Hwee (Group CRO)",
+        "Compliance": "Fazlina Mohamed Ghazalli (Group CCO)",
+        "CIO": "Wong Kwang Leh (Group CTO)",
+        "IA": "Tan Boon Ching (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "RHB Islamic Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Soon Yap (CISO)",
+        "GRC": "Azman Shah Md Yaman (Group Chief Legal & Governanc",
+        "CFO": "Mohamed Bin Rastam Shahrom (Group CFO)",
+        "CRO": "Dr Chong Han Hwee (Group CRO)",
+        "Compliance": "Fazlina Mohamed Ghazalli (Group CCO)",
+        "CIO": "Wong Kwang Leh (Group CTO)",
+        "IA": "Tan Boon Ching (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "RHB Shell Visa Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Soon Yap (CISO)",
+        "GRC": "Azman Shah Md Yaman (Group Chief Legal & Governanc",
+        "CFO": "Mohamed Bin Rastam Shahrom (Group CFO)",
+        "CRO": "Dr Chong Han Hwee (Group CRO)",
+        "Compliance": "Fazlina Mohamed Ghazalli (Group CCO)",
+        "CIO": "Wong Kwang Leh (Group CTO)",
+        "IA": "Tan Boon Ching (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Razer Pay (Razer Fintech)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Razer Pay Malaysia Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CISO": "ENTITY DEFUNCT"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "Ryt Bank Berhad",
+      "named": 4,
+      "contacts": {
+        "CFO": "Wilson Soon",
+        "CRO": "Yeoh Xin Yi",
+        "Compliance": "Muhammad Nasir Bin Hassan",
+        "CIO": "Nic Ngoo"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "Ryt Bank Berhad (YTL Digital)",
+      "named": 4,
+      "contacts": {
+        "CFO": "Wilson Soon",
+        "CRO": "Yeoh Xin Yi",
+        "Compliance": "Muhammad Nasir Bin Hassan",
+        "CIO": "Nic Ngoo"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "SME Bank Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Hairil Izwar Abd Rahman (Group Chief Digital & Tec",
+        "GRC": "Mohammad Azam Ahmad (CRO) + Rosehamidi Kamaruddin ",
+        "CFO": "Hee Wei Jean (Group CFO, BPMB)",
+        "CRO": "Mohammad Azam Ahmad (Group Chief Risk Officer, BPM",
+        "Compliance": "Rosehamidi Kamaruddin (per RocketReach)",
+        "CIO": "Hairil Izwar Abd Rahman (Group Chief Digital & Tec",
+        "IA": "Hasrul Farid Hasnan (Group Chief Internal Auditor,"
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Sabah State Financial Corporation (SSFC)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Sarawak State Financial Corporation (SSFC)",
+      "named": 6,
+      "contacts": {
+        "GRC": "Cik Khartini Johari (Head, Group Integrity and Ris",
+        "CFO": "Encik Leo Lanaiwong (Group Chief Financial Officer",
+        "CRO": "Cik Khartini Johari (Head, Group Integrity and Ris",
+        "Compliance": "Jason Minos (Head, Legal and Compliance / Chief In",
+        "CIO": "Tuan Haji Nor Azlan Husaini (Acting Head, Group Di",
+        "IA": "Encik Yap Yien Chiang (Head, Group Internal Audit)"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "SeaBank Malaysia Berhad",
+      "named": 4,
+      "contacts": {
+        "CFO": "Wilson Soon",
+        "CRO": "Yeoh Xin Yi",
+        "Compliance": "Muhammad Nasir Bin Hassan",
+        "CIO": "Nic Ngoo"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "SenangPay Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CFO": "Mohd Mutalib (VP Finance and Account)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Setel (PETRONAS Dagangan)",
+      "named": 5,
+      "contacts": {
+        "GRC": "Fazni Ismail (General Counsel, Legal Retail)",
+        "CFO": "Mazlie Minhat (Chief Financial Officer, PETRONAS D",
+        "Compliance": "Fazni Ismail (General Counsel, Legal Retail)",
+        "CIO": "Sazlina Ahamad (Chief Technology Officer, PETRONAS",
+        "IA": "Nik Fariza Nik Hamdan (Chief Audit Executive, PETR"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Setel by PETRONAS Dagangan Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Fazni Ismail (General Counsel, Legal Retail)",
+        "CFO": "Mazlie Minhat (Chief Financial Officer, PETRONAS D",
+        "Compliance": "Fazni Ismail (General Counsel, Legal Retail)",
+        "CIO": "Sazlina Ahamad (Chief Technology Officer, PETRONAS",
+        "IA": "Nik Fariza Nik Hamdan (Chief Audit Executive, PETR"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "ShopeePay (Monee Malaysia)",
+      "named": 2,
+      "contacts": {
+        "CFO": "Tony Hou (Chief Financial Officer, Sea Limited - p",
+        "Compliance": "Fadhli Azman"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "ShopeePay Malaysia Sdn Bhd",
+      "named": 2,
+      "contacts": {
+        "CFO": "Tony Hou (Chief Financial Officer, Sea Limited - p",
+        "Compliance": "Fadhli Azman"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "name": "Soft Space Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CFO": "Rick Leong"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Standard Chartered Bank Malaysia Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Sivanathan Subramaniam (CISO Malaysia)",
+        "GRC": "Ong Gaik Ean (CRO) + Irene Tan (Compliance)",
+        "CFO": "Mushahid Syed (Interim CEO & CFO)",
+        "CRO": "Ong Gaik Ean (CRO)",
+        "Compliance": "Irene Tan (Chief Compliance Officer)",
+        "CIO": "Joy Chowdhury (Chief Technology & Operations Offic",
+        "IA": "Praveen Sankaranarayan (Head of Audit)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "Standard Chartered Shopee Visa Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Sivanathan Subramaniam (CISO Malaysia)",
+        "GRC": "Ong Gaik Ean (CRO) + Irene Tan (Compliance)",
+        "CFO": "Mushahid Syed (Interim CEO & CFO)",
+        "CRO": "Ong Gaik Ean (CRO)",
+        "Compliance": "Irene Tan (Chief Compliance Officer)",
+        "CIO": "Joy Chowdhury (Chief Technology & Operations Offic",
+        "IA": "Praveen Sankaranarayan (Head of Audit)"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Registered",
+      "name": "Stripe Payments Malaysia Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Sumitomo Mitsui Banking Corporation Malaysia Berhad",
+      "named": 3,
+      "contacts": {
+        "CFO": "Norihiro Oyanagi (officer primarily responsible fo",
+        "CRO": "Lim Tuang Ooi (Board Risk Management Committee Cha",
+        "IA": "Lo Nyen Khing (Board Audit Committee Chairman, Ind"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Sun Life Malaysia Assurance Berhad",
+      "named": 4,
+      "contacts": {
+        "GRC": "Board Chairman: Dato' Noorazman Abd. Aziz (Ind. Di",
+        "CFO": "Lim Chin Har / Chew Lim (Chief Financial Officer)",
+        "CRO": "Nigel Hazell (Board Risk Management Committee Chai",
+        "IA": "Wong Ah Kow (Board Audit Committee Chairman, Ind. "
+      }
+    },
+    {
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "name": "Syarikat Jaminan Pembiayaan Perniagaan (SJPP)",
+      "named": 1,
+      "contacts": {
+        "GRC": "Juanita Rusmini binti Abdul Jalil (Acting Principa"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Syarikat Takaful Malaysia Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Shizal Fisham bin Ramli (Chief Governance Officer)",
+        "CFO": "New Kheng Chee (Group CFO)",
+        "Compliance": "Redzuan bin Abu (Head of Compliance)",
+        "CIO": "Nazaruddin Adha bin Md Noor (CTO)",
+        "IA": "Zuhairi bin Ismail (Chief Internal Audit)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "TNG Digital Sdn Bhd",
+      "named": 7,
+      "contacts": {
+        "CISO": "Suresh Balachandran",
+        "GRC": "Dunstan Gerald Maurice",
+        "CFO": "Lai Mee Fong",
+        "CRO": "Dunstan Gerald Maurice",
+        "Compliance": "Dunstan Gerald Maurice",
+        "CIO": "Desmond Chin Ye Foong",
+        "IA": "Hairul Imran"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "Tabung Haji",
+      "named": 7,
+      "contacts": {
+        "CISO": "Shamsul Kamal Hussein Kamal (Chief Information Tec",
+        "GRC": "Syahril Nizam Abu Hasan (Chief Risk & Compliance O",
+        "CFO": "Shamsul Bahar Shamsudin (Group Executive Director,",
+        "CRO": "Syahril Nizam Abu Hasan (Chief Risk & Compliance O",
+        "Compliance": "Syahril Nizam Abu Hasan (Chief Risk & Compliance O",
+        "CIO": "Shamsul Kamal Hussein Kamal (Chief Information Tec",
+        "IA": "Abu Bakar Baba (Group Chief Internal Auditor)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Takaful Am General Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Shizal Fisham bin Ramli (Ketua Pegawai Tadbir Urus",
+        "CFO": "Sharmini Perampalam (EVP & Group CFO)",
+        "Compliance": "Abd Ghafur Ahmad (SVP & Group Chief Compliance Off",
+        "CIO": "Aaron Loo (SVP & Group Chief Transformation Office",
+        "IA": "Haniza Filzah Hayani Abu Haniffa (SVP & Group Chie"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Takaful IKHLAS Berhad",
+      "named": 5,
+      "contacts": {
+        "GRC": "Abd Ghafur Ahmad (Senior VP & Group Chief Complian",
+        "CFO": "Sharmini Perampalam (Executive VP and Group CFO, M",
+        "Compliance": "Abd Ghafur Ahmad (Senior VP & Group Chief Complian",
+        "CIO": "Lee Kok Seong (Senior VP & Chief Information Offic",
+        "IA": "Haniza Filzah Hayani Abu Haniffa (Senior VP and Gr"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "Development FIs",
+      "name": "Tekun Nasional",
+      "named": 5,
+      "contacts": {
+        "CFO": "Hj. Aishamuddin bin Zulkefli (Timbalan Ketua Pegaw",
+        "CRO": "Hj Mohamad Razman bin Razak (Ketua Jabatan Penguru",
+        "Compliance": "Jalilah Che Bidin (Ketua Jabatan Integriti & Tadbi",
+        "CIO": "Hj. Muhammad Yusman bin Yusoff (Ketua Jabatan Tekn",
+        "IA": "Md Rukemi bin Ishak (Ketua Jabatan Audit Dalam / H"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Tokio Marine Life Insurance Malaysia Bhd",
+      "named": 5,
+      "contacts": {
+        "CFO": "Tham Kok Yoke (Chief Financial Officer)",
+        "CRO": "Andrew Ngou Chee Mun (Chief Risk Officer)",
+        "Compliance": "Loh Chee Hoong (Head of Compliance)",
+        "CIO": "Nicholas Tan Chin Yau (Chief Information Officer)",
+        "IA": "Wong Kah Keong (Head of Internal Audit)"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "Touch 'n Go eWallet (TNG Digital Sdn Bhd)",
+      "named": 7,
+      "contacts": {
+        "CISO": "Suresh Balachandran",
+        "GRC": "Dunstan Gerald Maurice",
+        "CFO": "Lai Mee Fong",
+        "CRO": "Dunstan Gerald Maurice",
+        "Compliance": "Dunstan Gerald Maurice",
+        "CIO": "Desmond Chin Ye Foong",
+        "IA": "Hairul Imran"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "Touch n Go Visa Prepaid Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Suresh Balachandran",
+        "GRC": "Dunstan Gerald Maurice",
+        "CFO": "Lai Mee Fong",
+        "CRO": "Dunstan Gerald Maurice",
+        "Compliance": "Dunstan Gerald Maurice",
+        "CIO": "Desmond Chin Ye Foong",
+        "IA": "Hairul Imran"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Touch n Go eWallet Sdn Bhd",
+      "named": 7,
+      "contacts": {
+        "CISO": "Suresh Balachandran",
+        "GRC": "Dunstan Gerald Maurice",
+        "CFO": "Lai Mee Fong",
+        "CRO": "Dunstan Gerald Maurice",
+        "Compliance": "Dunstan Gerald Maurice",
+        "CIO": "Desmond Chin Ye Foong",
+        "IA": "Hairul Imran"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "ToyyibPay Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "4",
+      "segment": "Card Schemes",
+      "name": "UOB Lazada Visa Card",
+      "named": 7,
+      "contacts": {
+        "CISO": "Tobias Gondrom (Group CISO, UOB Group)",
+        "GRC": "Tan Tii Lam (CRO) + Loke Chee Keen Daniel (Complia",
+        "CFO": "Chang Yeong Gung (CFO)",
+        "CRO": "Tan Tii Lam (CRO)",
+        "Compliance": "Loke Chee Keen Daniel (Head Compliance)",
+        "CIO": "Mohamad Fazli Bin Mohamad Sarujee (Head Technology",
+        "IA": "Wong See Hong Bill (Head Internal Audit)"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "UOB Malaysia Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Tobias Gondrom (Group CISO, UOB Group)",
+        "GRC": "Tan Tii Lam (CRO) + Loke Chee Keen Daniel (Complia",
+        "CFO": "Chang Yeong Gung (CFO)",
+        "CRO": "Tan Tii Lam (CRO)",
+        "Compliance": "Loke Chee Keen Daniel (Head Compliance)",
+        "CIO": "Mohamad Fazli Bin Mohamad Sarujee (Head Technology",
+        "IA": "Wong See Hong Bill (Head Internal Audit)"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Wallex Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "Compliance": "Dee Patria Adithana, GRCP (Legal & Compliance Coun"
+      }
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "WeChat Pay Malaysia (Tencent)",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "4",
+      "segment": "E-Money",
+      "name": "WeChat Pay Malaysia Sdn Bhd",
+      "named": 0,
+      "contacts": {}
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Wise (formerly TransferWise) Malaysia Sdn Bhd",
+      "named": 4,
+      "contacts": {
+        "GRC": "Jessica Winter (Chief Legal Officer / General Coun",
+        "CFO": "Emmanuel Thomassin (Chief Financial Officer, Wise ",
+        "Compliance": "Nita Patel (Group Chief Compliance Officer, Wise P",
+        "CIO": "Harsh Sinha (Chief Technology Officer, Wise Plc gl"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "Xendit Technologies (Malaysia) Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CIO": "Bo Chen (Chief Technology Officer, Xendit - parent"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Insurers",
+      "name": "Zurich Life Insurance Malaysia Berhad",
+      "named": 1,
+      "contacts": {
+        "IA": "Onn Kien Hoe (Chairman of Audit Committee)"
+      }
+    },
+    {
+      "tier": "2",
+      "segment": "Takaful",
+      "name": "Zurich Takaful Malaysia Berhad",
+      "named": 1,
+      "contacts": {
+        "IA": "Jan Yoke Lan (Chairperson of Audit Committee)"
+      }
+    },
+    {
+      "tier": "6",
+      "segment": "Fintech Registered",
+      "name": "iPay88 (M) Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CISO": "Alex Wah"
+      }
+    },
+    {
+      "tier": "3",
+      "segment": "MSBs",
+      "name": "iPay88 (Malaysia) Sdn Bhd",
+      "named": 1,
+      "contacts": {
+        "CISO": "Alex Wah"
+      }
+    },
+    {
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "name": "Bank Muamalat Malaysia Berhad",
+      "named": 7,
+      "contacts": {
+        "CISO": "Ts. Dr. Ismamuradi Abdul Kadir (CISO, CCISO)",
+        "GRC": "Nasha Phedra binti Amin (Head, Legal & Secretarial",
+        "CFO": "Amirul Nasir Abdul Rahim (Chief Financial Officer)",
+        "CRO": "Hamidi A Razak (Chief Risk Officer)",
+        "Compliance": "Wan Kamarudin Wan Omar (Chief Compliance Officer)",
+        "CIO": "Ts. Megat Mohammad Faisal Khir Johari (Chief Techn",
+        "IA": "Faidzuel Bin Zain (Chief Internal Auditor)"
+      }
+    }
+  ]
+}

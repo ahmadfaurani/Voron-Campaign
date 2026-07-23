@@ -1,0 +1,34 @@
+{
+  "version": "canonical (prospect-database-250.csv)",
+  "total": 155,
+  "tier_counts": {
+    "1": 28,
+    "2": 52,
+    "3": 20,
+    "4": 30,
+    "5": 19,
+    "6": 6
+  },
+  "named_cells": 749,
+  "loose_cells": 908,
+  "capacity": 1085,
+  "with_any_named": 155,
+  "with_any_loose": 155,
+  "full_7_7": 56,
+  "full_7_7_loose": 110,
+  "empty_0": 0,
+  "empty_0_loose": 0,
+  "t1_total": 28,
+  "t1_full": 17,
+  "role_named": {
+    "Chief Information Security Officer": 76,
+    "Head of Governance Risk & Compliance": 99,
+    "Chief Financial Officer": 137,
+    "Chief Risk Officer": 110,
+    "Head of Compliance": 111,
+    "Chief Information Officer": 122,
+    "Head of Internal Audit": 94
+  },
+  "md5": "9ed07755707797a8897d6e5beca963da",
+  "captured_utc": "2026-07-22T21:27Z (05:27 MYT 2026-07-23)"
+}

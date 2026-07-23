@@ -78,3 +78,6 @@ openosint-env/
 
 # NOTE: CSV and JSON files ARE tracked in this repo.
 # The repo's primary purpose is the prospect database CSV.
+
+# === Scratch/working data (not for repo) ===
+data/

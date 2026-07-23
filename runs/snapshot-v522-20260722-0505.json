@@ -1,0 +1,1253 @@
+{
+  "brief_id": "VDRQ-MON-20260722-0505",
+  "generated": "2026-07-22 05:05 +08",
+  "source_file": "operations/prospect-databases/prospect-database-enriched-v5.22.csv",
+  "commit": "ffddd8c (2026-07-21 08:24 MYT)",
+  "bom_stripped_md5": "66f4570458382e7e152f4b7a382cd176",
+  "total_institutions": 205,
+  "named_cells": 805,
+  "named_ge1": 160,
+  "empty_0": 45,
+  "full_7": 68,
+  "named_per_role": {
+    "Head of Governance Risk & Compliance": 108,
+    "Chief Risk Officer": 113,
+    "Head of Compliance": 122,
+    "Chief Information Security Officer": 87,
+    "Chief Financial Officer": 142,
+    "Chief Information Officer": 125,
+    "Head of Internal Audit": 108
+  },
+  "institutions": [
+    {
+      "name": "2C2P (Malaysia) Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 0
+    },
+    {
+      "name": "AEON Bank (M) Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 3
+    },
+    {
+      "name": "AEON Bank Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 3
+    },
+    {
+      "name": "AEON Wallet (AEON Credit)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 0
+    },
+    {
+      "name": "AIA Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 6
+    },
+    {
+      "name": "AIA General Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 6
+    },
+    {
+      "name": "AIA Public Takaful Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 6
+    },
+    {
+      "name": "Affin Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "Agensi Jaminan Kredit Mikro (AKM)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 0
+    },
+    {
+      "name": "Agrobank Malaysia",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 7
+    },
+    {
+      "name": "Alipay+ Malaysia (Ant Group)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 0
+    },
+    {
+      "name": "Alliance Bank Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Alliance Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "Alliance Islamic Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Allianz General Insurance Company (Malaysia) Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 3
+    },
+    {
+      "name": "Allianz Life Insurance Malaysia Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 3
+    },
+    {
+      "name": "Allianz Takaful Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 3
+    },
+    {
+      "name": "AmBank (M) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "AmBank AirAsia Visa Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 1
+    },
+    {
+      "name": "AmBank Islamic Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "AmInvestment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "AmMetLife Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 3
+    },
+    {
+      "name": "Amanah Saham Nasional Berhad (ASNB)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 6
+    },
+    {
+      "name": "Axiata Digital Services Sdn Bhd (Boost)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "BIMB Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "BNP Paribas Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 5
+    },
+    {
+      "name": "Bank Islam Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Bank Rakyat Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 6
+    },
+    {
+      "name": "Bank Rakyat Malaysia",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 6
+    },
+    {
+      "name": "Bank Simpanan Nasional (BSN)",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 5
+    },
+    {
+      "name": "Bank of China (Malaysia) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Bank Pembangunan Malaysia Berhad (BPMB)",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 7
+    },
+    {
+      "name": "Berjaya Sompo Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 6
+    },
+    {
+      "name": "BigPay (Capital A)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 1
+    },
+    {
+      "name": "BigPay Malaysia Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 1
+    },
+    {
+      "name": "Billplz Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 0
+    },
+    {
+      "name": "Boost (Axiata + RHB)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "Boost Bank Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 6
+    },
+    {
+      "name": "CIMB (Khazanah-linked)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "CIMB Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "CIMB Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "CIMB Islamic Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "CIMB OctoPay (CIMB Bank)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "CIMB Petronas Visa Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Chubb Insurance Malaysia Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 5
+    },
+    {
+      "name": "Citibank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 5
+    },
+    {
+      "name": "Cradle Fund Sdn Bhd",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 0
+    },
+    {
+      "name": "Credit Suisse (Malaysia) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 0
+    },
+    {
+      "name": "CurrencyFair (Malaysia) Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 0
+    },
+    {
+      "name": "Deutsche Bank (Malaysia) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 3
+    },
+    {
+      "name": "DuitNow (by PayNet)",
+      "tier": "4",
+      "segment": "Payment Operators",
+      "named": 3
+    },
+    {
+      "name": "EXIM Bank Malaysia",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 7
+    },
+    {
+      "name": "Etiqa General Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "Etiqa Life Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "Etiqa Takaful Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 7
+    },
+    {
+      "name": "FPX (by PayNet)",
+      "tier": "4",
+      "segment": "Payment Operators",
+      "named": 3
+    },
+    {
+      "name": "FWD Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 5
+    },
+    {
+      "name": "Family Takaful Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 7
+    },
+    {
+      "name": "G2G Online (Malaysia) Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 0
+    },
+    {
+      "name": "GX Bank Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 6
+    },
+    {
+      "name": "GXBank Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 6
+    },
+    {
+      "name": "General Takaful Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 5
+    },
+    {
+      "name": "Generali Insurance Malaysia Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 6
+    },
+    {
+      "name": "Generali Life Insurance Malaysia Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 5
+    },
+    {
+      "name": "GrabPay (Grab Malaysia)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 2
+    },
+    {
+      "name": "GrabPay Malaysia Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 2
+    },
+    {
+      "name": "Great Eastern General Insurance (Malaysia) Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 6
+    },
+    {
+      "name": "Great Eastern Life Assurance (Malaysia) Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "HSBC Amanah Takaful (Malaysia) Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 2
+    },
+    {
+      "name": "HSBC Bank Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 5
+    },
+    {
+      "name": "Hong Leong Assurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "Hong Leong Bank AirMiles Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Hong Leong Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Hong Leong Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 6
+    },
+    {
+      "name": "Hong Leong Islamic Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "I.Destinasi Sdn Bhd (IDSB)",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 0
+    },
+    {
+      "name": "ICBC (Malaysia) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 1
+    },
+    {
+      "name": "Instarem Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 4
+    },
+    {
+      "name": "Iskandar Waterfront City",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 0
+    },
+    {
+      "name": "J.P. Morgan Chase Bank Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 1
+    },
+    {
+      "name": "JCL Corporation Sdn Bhd",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 0
+    },
+    {
+      "name": "Jirnexu (M) Sdn Bhd",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 0
+    },
+    {
+      "name": "Johor Corporation (JCorp)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 5
+    },
+    {
+      "name": "JomPAY (by PayNet)",
+      "tier": "4",
+      "segment": "Payment Operators",
+      "named": 3
+    },
+    {
+      "name": "KAF Digital Bank",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 1
+    },
+    {
+      "name": "KAF Digital Bank Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 1
+    },
+    {
+      "name": "KDI Save Sdn Bhd",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 0
+    },
+    {
+      "name": "KWSP Investment Division (Alternative Assets)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "KWSP Investment Division (Direct Investments)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "KWSP Investment Division (Real Estate)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "Kenanga Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "Khazanah Nasional Berhad",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 5
+    },
+    {
+      "name": "Koperasi Angkatan Tentera",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Guru Malaysia",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Johor",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi KL",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Kakitangan Kerajaan",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Kedah",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Kelantan",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Labuan",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Melaka",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Negeri Sembilan",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Pahang",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Perak",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Perlis",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Polis Diraja Malaysia",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Pulau Pinang",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Putrajaya",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Sabah",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Sarawak",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Selangor",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Tentera Malaysia",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Koperasi Terengganu",
+      "tier": "3",
+      "segment": "Cooperatives",
+      "named": 0
+    },
+    {
+      "name": "Kumpulan Wang Simpanan Pekerja (KWSP)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "Kurnia Insurans (Malaysia) Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 4
+    },
+    {
+      "name": "LPPSA",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 0
+    },
+    {
+      "name": "Lembaga Tabung Haji",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "Liberty General Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "Lonpac Insurance Bhd",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "MAE by Maybank (Maybank Islamic)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "MAE by Maybank (Maybank2u)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "MARA",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 1
+    },
+    {
+      "name": "MARA (Majlis Amanah Rakyat)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 1
+    },
+    {
+      "name": "MCIS Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 5
+    },
+    {
+      "name": "MIDF Amanah Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 6
+    },
+    {
+      "name": "MSIG Insurance (Malaysia) Bhd",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 3
+    },
+    {
+      "name": "Malaysia International Islamic Bank IB",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 0
+    },
+    {
+      "name": "Manulife Insurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 4
+    },
+    {
+      "name": "Manulife Takaful Malaysia Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 5
+    },
+    {
+      "name": "Maybank (Khazanah-linked)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "Maybank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Maybank Cash & Go Prepaid Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Maybank Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 5
+    },
+    {
+      "name": "Maybank Islamic Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Maybank Singapore Airlines Enrich Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Me2U (by PayNet)",
+      "tier": "4",
+      "segment": "Payment Operators",
+      "named": 3
+    },
+    {
+      "name": "Mizuho Bank (Malaysia) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 1
+    },
+    {
+      "name": "Money Match Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 1
+    },
+    {
+      "name": "MoneyMatch Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 4
+    },
+    {
+      "name": "OCBC Bank (Malaysia) Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "PNB Capital Berhad",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "PNB Equity Fund Berhad",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "PNB Income Fund Berhad",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 0
+    },
+    {
+      "name": "PUNB",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 5
+    },
+    {
+      "name": "PayDirect (by PayNet)",
+      "tier": "4",
+      "segment": "Payment Operators",
+      "named": 3
+    },
+    {
+      "name": "PayNet (PayNet Malaysia Sdn Bhd)",
+      "tier": "4",
+      "segment": "Payment Operators",
+      "named": 3
+    },
+    {
+      "name": "PayNet Card (by PayNet)",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 3
+    },
+    {
+      "name": "Penang State Development Corporation (PSDC)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 0
+    },
+    {
+      "name": "Permodalan BSN Berhad (PBSNB)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 4
+    },
+    {
+      "name": "Permodalan Nasional Berhad (PNB)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 7
+    },
+    {
+      "name": "Permodalan Negeri Selangor Berhad (PNSB)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 5
+    },
+    {
+      "name": "Phillip Securities (Malaysia) Sdn Bhd",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 5
+    },
+    {
+      "name": "Prudential Assurance Malaysia Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 7
+    },
+    {
+      "name": "Prudential BSN Takaful Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 1
+    },
+    {
+      "name": "Public Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Public Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "Public Islamic Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "QBE Insurance (Malaysia) Sdn Bhd",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 4
+    },
+    {
+      "name": "RHB Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "RHB Investment Bank Berhad",
+      "tier": "2",
+      "segment": "Investment Banks",
+      "named": 7
+    },
+    {
+      "name": "RHB Islamic Bank Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "RHB Shell Visa Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Razer Pay (Razer Fintech)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 0
+    },
+    {
+      "name": "Razer Pay Malaysia Sdn Bhd",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 1
+    },
+    {
+      "name": "Ryt Bank Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 4
+    },
+    {
+      "name": "Ryt Bank Berhad (YTL Digital)",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 4
+    },
+    {
+      "name": "SME Bank Berhad",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 7
+    },
+    {
+      "name": "Sabah State Financial Corporation (SSFC)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 0
+    },
+    {
+      "name": "Sarawak State Financial Corporation (SSFC)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 6
+    },
+    {
+      "name": "SeaBank Malaysia Berhad",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 4
+    },
+    {
+      "name": "SenangPay Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 1
+    },
+    {
+      "name": "Setel (PETRONAS Dagangan)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 5
+    },
+    {
+      "name": "Setel by PETRONAS Dagangan Berhad",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 5
+    },
+    {
+      "name": "ShopeePay (Monee Malaysia)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 2
+    },
+    {
+      "name": "ShopeePay Malaysia Sdn Bhd",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 2
+    },
+    {
+      "name": "Soft Space Sdn Bhd",
+      "tier": "6",
+      "segment": "Fintech Sandbox",
+      "named": 1
+    },
+    {
+      "name": "Standard Chartered Bank Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Standard Chartered Shopee Visa Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Stripe Payments Malaysia Sdn Bhd",
+      "tier": "6",
+      "segment": "Fintech Registered",
+      "named": 0
+    },
+    {
+      "name": "Sumitomo Mitsui Banking Corporation Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 3
+    },
+    {
+      "name": "Sun Life Malaysia Assurance Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 4
+    },
+    {
+      "name": "Syarikat Jaminan Pembiayaan Perniagaan (SJPP)",
+      "tier": "5",
+      "segment": "GLC-Linked",
+      "named": 1
+    },
+    {
+      "name": "Syarikat Takaful Malaysia Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 5
+    },
+    {
+      "name": "TNG Digital Sdn Bhd",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "Tabung Haji",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 7
+    },
+    {
+      "name": "Takaful Am General Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 5
+    },
+    {
+      "name": "Takaful IKHLAS Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 5
+    },
+    {
+      "name": "Tekun Nasional",
+      "tier": "3",
+      "segment": "Development FIs",
+      "named": 5
+    },
+    {
+      "name": "Tokio Marine Life Insurance Malaysia Bhd",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 5
+    },
+    {
+      "name": "Touch 'n Go eWallet (TNG Digital Sdn Bhd)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 7
+    },
+    {
+      "name": "Touch n Go Visa Prepaid Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "Touch n Go eWallet Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 7
+    },
+    {
+      "name": "ToyyibPay Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 0
+    },
+    {
+      "name": "UOB Lazada Visa Card",
+      "tier": "4",
+      "segment": "Card Schemes",
+      "named": 7
+    },
+    {
+      "name": "UOB Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    },
+    {
+      "name": "Wallex Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 1
+    },
+    {
+      "name": "WeChat Pay Malaysia (Tencent)",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 0
+    },
+    {
+      "name": "WeChat Pay Malaysia Sdn Bhd",
+      "tier": "4",
+      "segment": "E-Money",
+      "named": 0
+    },
+    {
+      "name": "Wise (formerly TransferWise) Malaysia Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 4
+    },
+    {
+      "name": "Xendit Technologies (Malaysia) Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 1
+    },
+    {
+      "name": "Zurich Life Insurance Malaysia Berhad",
+      "tier": "2",
+      "segment": "Insurers",
+      "named": 1
+    },
+    {
+      "name": "Zurich Takaful Malaysia Berhad",
+      "tier": "2",
+      "segment": "Takaful",
+      "named": 1
+    },
+    {
+      "name": "iPay88 (M) Sdn Bhd",
+      "tier": "6",
+      "segment": "Fintech Registered",
+      "named": 1
+    },
+    {
+      "name": "iPay88 (Malaysia) Sdn Bhd",
+      "tier": "3",
+      "segment": "MSBs",
+      "named": 1
+    },
+    {
+      "name": "Bank Muamalat Malaysia Berhad",
+      "tier": "1",
+      "segment": "Licensed Banks",
+      "named": 7
+    }
+  ]
+}

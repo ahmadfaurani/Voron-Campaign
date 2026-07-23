@@ -1,0 +1,28 @@
+{
+  "version": "v5.22",
+  "source": "operations/prospect-databases/prospect-database-enriched-v5.22.csv",
+  "commit": "ffddd8c",
+  "commit_date_utc": "2026-07-21T00:24:32Z (08:24 MYT)",
+  "captured_utc": "2026-07-22T03:14Z (11:14 MYT)",
+  "total": 205,
+  "md5_bomstripped": "66f4570458382e7e152f4b7a382cd176",
+  "byte_identical_to_prior": true,
+  "delta_vs_prior_brief": "ZERO \u2014 no new institutions, no new contacts, no corrections, no losses",
+  "enrichment_stall_h": "~26h46m",
+  "repo_silence_h": "~20h10m",
+  "source_url_404_run": 5,
+  "tier_counts": {
+    "1": 29,
+    "2": 53,
+    "3": 49,
+    "4": 35,
+    "5": 24,
+    "6": 15
+  },
+  "named_cells": 805,
+  "with_any_named": 160,
+  "full_7_7": 68,
+  "empty_0": 45,
+  "t1_full": 20,
+  "notes": "5th consecutive run with source URL 404. Data frozen at v5.22. Enrichment stall now top ops priority across 3 briefs."
+}
