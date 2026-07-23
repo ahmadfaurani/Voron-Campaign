@@ -267,3 +267,31 @@ From the Firecrawl Agent research of the Allianz Malaysia boards-of-directors pa
 *Classification: TLP:AMBER — Handle with care, do not redistribute publicly*  
 *Git: https://github.com/ahmadfaurani/Voron-Campaign*  
 *Git Email: p62operator@proton.me*
+
+---
+
+## Session: 2026-07-24 00:00 MYT — Annual Report and Financial Statement Verification
+
+### Summary
+Continued enrichment pass focused on verifying existing data and finding new KMP information from annual reports and financial statements. Downloaded and parsed multiple PDF documents from official sources.
+
+### Key Findings
+1. **ICBC (Malaysia) Berhad AR 2024**: CFO = Geng Hao (MD/CEO also serves as Director primarily responsible for financial management per Statutory Declaration). CSV UPDATED.
+2. **Manulife AR 2024**: Confirmed CFO, CRO, CIO, Compliance. CISO and GRC not listed in List of Officers.
+3. **Sun Life Malaysia Assurance FS 2025**: Confirmed CFO = Ong Le Keat. Board members confirmed.
+4. **Bank of America Malaysia FS 2024**: CEO = Gautam Padmakar Puntambekar. CFO = Wong Poh Leng (already in CSV). CRO/CCO exist but unnamed.
+5. **HSBC Malaysia FS 2025**: Internal Audit via Global Internal Audit (GIA). CRO = CRCO role confirmed.
+6. **AIA Bhd and AIA Public Takaful**: Official leadership pages scraped, confirmed existing CSV data.
+
+### CSV Updates
+- ICBC (Malaysia) Berhad: CFO updated from "NOT FOUND" to "Geng Hao (MD/CEO, also Director primarily responsible for financial management per AR 2024 Statutory Declaration)"
+
+### Coverage: 847/1,449 (58.5 percent)
+
+### Blockers
+- Allianz Malaysia website blocked by Cloudflare
+- Sun Life Malaysia management team page is image-based (titles not extractable)
+- AmMetLife and Prudential BSN Takaful domains do not resolve
+- Mizuho Bank, SMBC, MUFG Malaysia have no accessible websites
+- LPPSA website is JavaScript-heavy
+- Firecrawl search not matching Malaysia-specific executive queries
