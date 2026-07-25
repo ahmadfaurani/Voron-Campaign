@@ -1,0 +1,93 @@
+T3|MSBs|2C2P (Malaysia) Sdn Bhd
+T4|E-Money|AEON Wallet (AEON Credit)
+T5|GLC-Linked|Agensi Jaminan Kredit Mikro (AKM)
+T4|E-Money|Alipay+ Malaysia (Ant Group)
+T2|Insurers|Allianz General Insurance Company (Malaysia) Berhad
+T2|Insurers|Allianz Life Insurance Malaysia Berhad
+T2|Takaful|Allianz Takaful Berhad
+T2|Insurers|AmMetLife Insurance Berhad
+T4|E-Money|BigPay (Capital A)
+T3|MSBs|BigPay Malaysia Sdn Bhd
+T3|MSBs|Billplz Sdn Bhd
+T6|Fintech Sandbox|Boost Bank Berhad
+T5|GLC-Linked|Cradle Fund Sdn Bhd
+T3|MSBs|CurrencyFair (Malaysia) Sdn Bhd
+T1|Licensed Banks|Deutsche Bank (Malaysia) Berhad
+T4|Payment Operators|DuitNow (by PayNet)
+T4|Payment Operators|FPX (by PayNet)
+T3|MSBs|G2G Online (Malaysia) Sdn Bhd
+T4|E-Money|GrabPay (Grab Malaysia)
+T3|MSBs|GrabPay Malaysia Sdn Bhd
+T3|MSBs|I.Destinasi Sdn Bhd (IDSB)
+T1|Licensed Banks|ICBC (Malaysia) Berhad
+T3|MSBs|Instarem Sdn Bhd
+T5|GLC-Linked|Iskandar Waterfront City
+T1|Licensed Banks|J.P. Morgan Chase Bank Malaysia Berhad
+T6|Fintech Sandbox|Jirnexu (M) Sdn Bhd
+T4|Payment Operators|JomPAY (by PayNet)
+T6|Fintech Sandbox|KAF Digital Bank
+T6|Fintech Sandbox|KAF Digital Bank Berhad
+T6|Fintech Sandbox|KDI Save Sdn Bhd
+T3|Cooperatives|Koperasi Angkatan Tentera
+T3|Cooperatives|Koperasi Guru Malaysia
+T3|Cooperatives|Koperasi Johor
+T3|Cooperatives|Koperasi KL
+T3|Cooperatives|Koperasi Kakitangan Kerajaan
+T3|Cooperatives|Koperasi Kedah
+T3|Cooperatives|Koperasi Kelantan
+T3|Cooperatives|Koperasi Labuan
+T3|Cooperatives|Koperasi Melaka
+T3|Cooperatives|Koperasi Negeri Sembilan
+T3|Cooperatives|Koperasi Pahang
+T3|Cooperatives|Koperasi Perak
+T3|Cooperatives|Koperasi Perlis
+T3|Cooperatives|Koperasi Polis Diraja Malaysia
+T3|Cooperatives|Koperasi Pulau Pinang
+T3|Cooperatives|Koperasi Putrajaya
+T3|Cooperatives|Koperasi Sabah
+T3|Cooperatives|Koperasi Sarawak
+T3|Cooperatives|Koperasi Selangor
+T3|Cooperatives|Koperasi Tentera Malaysia
+T3|Cooperatives|Koperasi Terengganu
+T3|Development FIs|LPPSA
+T3|Development FIs|MARA
+T5|GLC-Linked|MARA (Majlis Amanah Rakyat)
+T2|Insurers|MCIS Insurance Berhad
+T2|Insurers|MSIG Insurance (Malaysia) Bhd
+T2|Insurers|Manulife Insurance Berhad
+T2|Takaful|Manulife Takaful Malaysia Berhad
+T2|Investment Banks|Maybank Investment Bank Berhad
+T4|Payment Operators|Me2U (by PayNet)
+T1|Licensed Banks|Mizuho Bank (Malaysia) Berhad
+T3|MSBs|Money Match Sdn Bhd
+T3|MSBs|MoneyMatch Sdn Bhd
+T5|GLC-Linked|PNB Income Fund Berhad
+T4|Payment Operators|PayDirect (by PayNet)
+T4|Payment Operators|PayNet (PayNet Malaysia Sdn Bhd)
+T4|Card Schemes|PayNet Card (by PayNet)
+T5|GLC-Linked|Penang State Development Corporation (PSDC)
+T2|Investment Banks|Phillip Securities (Malaysia) Sdn Bhd
+T2|Takaful|Prudential BSN Takaful Berhad
+T4|E-Money|Razer Pay (Razer Fintech)
+T4|E-Money|Razer Pay Malaysia Sdn Bhd
+T6|Fintech Sandbox|Ryt Bank Berhad
+T6|Fintech Sandbox|Ryt Bank Berhad (YTL Digital)
+T5|GLC-Linked|Sabah State Financial Corporation (SSFC)
+T6|Fintech Sandbox|SeaBank Malaysia Berhad
+T3|MSBs|SenangPay Sdn Bhd
+T4|E-Money|ShopeePay (Monee Malaysia)
+T4|E-Money|ShopeePay Malaysia Sdn Bhd
+T6|Fintech Sandbox|Soft Space Sdn Bhd
+T6|Fintech Registered|Stripe Payments Malaysia Sdn Bhd
+T1|Licensed Banks|Sumitomo Mitsui Banking Corporation Malaysia Berhad
+T2|Insurers|Sun Life Malaysia Takaful Berhad
+T3|Development FIs|Tekun Nasional
+T2|Insurers|Tokio Marine Life Insurance Malaysia Bhd
+T3|MSBs|ToyyibPay Sdn Bhd
+T3|MSBs|Wallex Sdn Bhd
+T4|E-Money|WeChat Pay Malaysia (Tencent)
+T4|E-Money|WeChat Pay Malaysia Sdn Bhd
+T3|MSBs|Xendit Technologies (Malaysia) Sdn Bhd
+T6|Fintech Registered|iPay88 (M) Sdn Bhd
+T3|MSBs|iPay88 (Malaysia) Sdn Bhd
+T1|Licensed Banks|Bank of America Malaysia Berhad
