@@ -1,0 +1,34 @@
+[*] Live dork search: ServiceNow security incident OR ServiceNow breach OR ServiceNow vulnerability OR ServiceNow outage OR ServiceNow GRC exploit
+============================================================
+======================= SCAN RESULTS =======================
+============================================================
+Scan error: BRIGHTDATA_API_KEY environment variable is not set. A free tier (5,000 requests/month) is available — sign up at https://get.brightdata.com/984ni58s2oad?utm_source=github&utm_medium=cli
+============================================================
+[*] GitHub lookup: servicenow
+============================================================
+======================= SCAN RESULTS =======================
+============================================================
+[GitHub] Login: ServiceNow
+[GitHub] Name: ServiceNow
+[GitHub] Bio: Works for you™
+[GitHub] Location: N/A
+[GitHub] Company: N/A
+[GitHub] Email (profile): N/A
+[GitHub] Followers: 1081  |  Following: 0
+[GitHub] Public repos: 273  |  Gists: 0
+[GitHub] Account type: Organization
+[GitHub] Created: 2014-02-03T18:00:24Z
+[GitHub] Profile URL: https://github.com/ServiceNow
+
+[GitHub] Recent repositories (up to 10):
+  • picard [Haskell] ★377 — PICARD - Parsing Incrementally for Constrained Auto-Regressive Decoding from Lan
+  • GroundCUA [Python] ★131 — GroundCUA
+  • ServiceNowDocs [unknown] ★419 — ServiceNow AI Platform documentation for LLM consumption.
+  • eva [Python] ★188 — A New End-to-end Framework for Evaluating Voice Agents
+  • BrowserGym [Python] ★1291 — 🌎💪 BrowserGym, a Gym environment for web task automation
+  • AgentLab [Python] ★609 — AgentLab: An open-source framework for developing, testing, and benchmarking web
+  • TapeAgents [Python] ★317 — TapeAgents is a framework that facilitates all stages of the LLM Agent developme
+  • servicenow-cli [unknown] ★37 — Alternative download for ServiceNow CLI clients.
+  • PipelineRL [Python] ★430 — A scalable asynchronous reinforcement learning implementation with in-flight wei
+  • sdk [Shell] ★103 — Fluent SDK
+============================================================
