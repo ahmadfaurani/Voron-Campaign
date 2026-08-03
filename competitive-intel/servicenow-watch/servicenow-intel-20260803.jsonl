@@ -1,0 +1,34 @@
+[*] Live dork search: ServiceNow security incident OR ServiceNow breach OR ServiceNow vulnerability OR ServiceNow outage OR ServiceNow GRC exploit
+============================================================
+======================= SCAN RESULTS =======================
+============================================================
+Scan error: BRIGHTDATA_API_KEY environment variable is not set. A free tier (5,000 requests/month) is available — sign up at https://get.brightdata.com/984ni58s2oad?utm_source=github&utm_medium=cli
+============================================================
+[*] GitHub lookup: servicenow
+============================================================
+======================= SCAN RESULTS =======================
+============================================================
+[GitHub] Login: ServiceNow
+[GitHub] Name: ServiceNow
+[GitHub] Bio: Works for you™
+[GitHub] Location: N/A
+[GitHub] Company: N/A
+[GitHub] Email (profile): N/A
+[GitHub] Followers: 1088  |  Following: 0
+[GitHub] Public repos: 275  |  Gists: 0
+[GitHub] Account type: Organization
+[GitHub] Created: 2014-02-03T18:00:24Z
+[GitHub] Profile URL: https://github.com/ServiceNow
+
+[GitHub] Recent repositories (up to 10):
+  • BrowserGym [Python] ★1301 — 🌎💪 BrowserGym, a Gym environment for web task automation
+  • servicenow-devops-change [JavaScript] ★33
+  • geo-bench [Python] ★193 — GEO-Bench: Toward Foundation Models for Earth Monitoring
+  • ServiceNowDocs [unknown] ★430 — ServiceNow AI Platform documentation for LLM consumption.
+  • N-BEATS [Python] ★611 — N-BEATS is a neural-network based model for univariate timeseries forecasting. N
+  • MosaicProject [Python] ★0 — MosaicProject
+  • AgentLab [Python] ★614 — AgentLab: An open-source framework for developing, testing, and benchmarking web
+  • eva [Python] ★191 — A New End-to-end Framework for Evaluating Voice Agents
+  • PipelineRL [Python] ★431 — A scalable asynchronous reinforcement learning implementation with in-flight wei
+  • StarFlow [Python] ★7 — StarFlow converts sketches and diagrams into structured workflows using fine-tun
+============================================================
